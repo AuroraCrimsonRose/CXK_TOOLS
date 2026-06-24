@@ -22,14 +22,9 @@
           "CXEX.CLI": "1.0.0",
           "CXEX.Core": "1.0.0",
           "CXEX.Crypto": "1.0.0",
-          "CXEX.Disk": "1.0.0",
           "CXEX.FileSystem": "1.0.0",
           "CXEX.FileType": "1.0.0",
-          "CXEX.Font": "1.0.0",
           "CXEX.Lang": "1.0.0",
-          "CXEX.Text": "1.0.0",
-          "CXEX.Tools": "1.0.0",
-          "CXEX.UI": "1.0.0",
           "CommunityToolkit.Mvvm": "8.4.2",
           "Dock.Avalonia": "12.0.0.2",
           "Dock.Avalonia.Diagnostics": "12.0.0.2",
@@ -1103,14 +1098,6 @@
           }
         }
       },
-      "CXEX.Disk/1.0.0": {
-        "runtime": {
-          "CXEX.Disk.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "CXEX.FileSystem/1.0.0": {
         "dependencies": {
           "CXEX.Core": "1.0.0",
@@ -1134,41 +1121,9 @@
           }
         }
       },
-      "CXEX.Font/1.0.0": {
-        "runtime": {
-          "CXEX.Font.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "CXEX.Lang/1.0.0": {
         "runtime": {
           "CXEX.Lang.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "CXEX.Text/1.0.0": {
-        "runtime": {
-          "CXEX.Text.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "CXEX.Tools/1.0.0": {
-        "runtime": {
-          "CXEX.Tools.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "CXEX.UI/1.0.0": {
-        "runtime": {
-          "CXEX.UI.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1678,11 +1633,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CXEX.Disk/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CXEX.FileSystem/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1693,27 +1643,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CXEX.Font/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "CXEX.Lang/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CXEX.Text/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CXEX.Tools/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CXEX.UI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
