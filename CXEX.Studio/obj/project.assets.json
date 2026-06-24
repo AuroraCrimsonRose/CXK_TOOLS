@@ -1471,6 +1471,20 @@
         "runtime": {
           "bin/placeholder/CXEX.Lang.dll": {}
         }
+      },
+      "CXEX.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Avalonia": "12.0.4",
+          "Avalonia.Themes.Fluent": "12.0.4"
+        },
+        "compile": {
+          "bin/placeholder/CXEX.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CXEX.UI.dll": {}
+        }
       }
     }
   },
@@ -3343,6 +3357,11 @@
       "type": "project",
       "path": "../CXEX.Lang/CXEX.Lang.csproj",
       "msbuildProject": "../CXEX.Lang/CXEX.Lang.csproj"
+    },
+    "CXEX.UI/1.0.0": {
+      "type": "project",
+      "path": "../CXEX.UI/CXEX.UI.csproj",
+      "msbuildProject": "../CXEX.UI/CXEX.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3364,6 +3383,7 @@
       "CXEX.FileSystem >= 1.0.0",
       "CXEX.FileType >= 1.0.0",
       "CXEX.Lang >= 1.0.0",
+      "CXEX.UI >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.4.2",
       "Dock.Avalonia >= 12.0.0.2",
       "Dock.Avalonia.Diagnostics >= 12.0.0.2",
@@ -3445,6 +3465,9 @@
             },
             "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Lang\\CXEX.Lang.csproj": {
               "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Lang\\CXEX.Lang.csproj"
+            },
+            "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.UI\\CXEX.UI.csproj": {
+              "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.UI\\CXEX.UI.csproj"
             }
           }
         }

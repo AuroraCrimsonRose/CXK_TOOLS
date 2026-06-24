@@ -159,3 +159,5 @@ C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Studio\obj\Debug\net10.0\refint\CXEX
 C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Studio\obj\Debug\net10.0\CXEX.Studio.pdb
 C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Studio\obj\Debug\net10.0\CXEX.Studio.genruntimeconfig.cache
 C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Studio\obj\Debug\net10.0\ref\CXEX.Studio.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Studio\bin\Debug\net10.0\CXEX.UI.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Studio\bin\Debug\net10.0\CXEX.UI.pdb

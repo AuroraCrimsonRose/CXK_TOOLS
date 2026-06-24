@@ -25,6 +25,7 @@
           "CXEX.FileSystem": "1.0.0",
           "CXEX.FileType": "1.0.0",
           "CXEX.Lang": "1.0.0",
+          "CXEX.UI": "1.0.0",
           "CommunityToolkit.Mvvm": "8.4.2",
           "Dock.Avalonia": "12.0.0.2",
           "Dock.Avalonia.Diagnostics": "12.0.0.2",
@@ -1128,6 +1129,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "CXEX.UI/1.0.0": {
+        "dependencies": {
+          "Avalonia": "12.0.4",
+          "Avalonia.Themes.Fluent": "12.0.4"
+        },
+        "runtime": {
+          "CXEX.UI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1644,6 +1657,11 @@
       "sha512": ""
     },
     "CXEX.Lang/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CXEX.UI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
