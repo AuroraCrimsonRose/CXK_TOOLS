@@ -1435,6 +1435,16 @@
           "bin/placeholder/CXEX.Crypto.dll": {}
         }
       },
+      "CXEX.Disk/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CXEX.Disk.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CXEX.Disk.dll": {}
+        }
+      },
       "CXEX.FileSystem/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1462,6 +1472,16 @@
           "bin/placeholder/CXEX.FileType.dll": {}
         }
       },
+      "CXEX.Font/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CXEX.Font.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CXEX.Font.dll": {}
+        }
+      },
       "CXEX.Lang/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -1470,6 +1490,36 @@
         },
         "runtime": {
           "bin/placeholder/CXEX.Lang.dll": {}
+        }
+      },
+      "CXEX.Text/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CXEX.Text.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CXEX.Text.dll": {}
+        }
+      },
+      "CXEX.Tools/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CXEX.Tools.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CXEX.Tools.dll": {}
+        }
+      },
+      "CXEX.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CXEX.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CXEX.UI.dll": {}
         }
       }
     }
@@ -3329,6 +3379,11 @@
       "path": "../CXEX.Crypto/CXEX.Crypto.csproj",
       "msbuildProject": "../CXEX.Crypto/CXEX.Crypto.csproj"
     },
+    "CXEX.Disk/1.0.0": {
+      "type": "project",
+      "path": "../CXEX.Disk/CXEX.Disk.csproj",
+      "msbuildProject": "../CXEX.Disk/CXEX.Disk.csproj"
+    },
     "CXEX.FileSystem/1.0.0": {
       "type": "project",
       "path": "../CXEX.FileSystem/CXEX.FileSystem.csproj",
@@ -3339,10 +3394,30 @@
       "path": "../CXEX.FileType/CXEX.FileType.csproj",
       "msbuildProject": "../CXEX.FileType/CXEX.FileType.csproj"
     },
+    "CXEX.Font/1.0.0": {
+      "type": "project",
+      "path": "../CXEX.Font/CXEX.Font.csproj",
+      "msbuildProject": "../CXEX.Font/CXEX.Font.csproj"
+    },
     "CXEX.Lang/1.0.0": {
       "type": "project",
       "path": "../CXEX.Lang/CXEX.Lang.csproj",
       "msbuildProject": "../CXEX.Lang/CXEX.Lang.csproj"
+    },
+    "CXEX.Text/1.0.0": {
+      "type": "project",
+      "path": "../CXEX.Text/CXEX.Text.csproj",
+      "msbuildProject": "../CXEX.Text/CXEX.Text.csproj"
+    },
+    "CXEX.Tools/1.0.0": {
+      "type": "project",
+      "path": "../CXEX.Tools/CXEX.Tools.csproj",
+      "msbuildProject": "../CXEX.Tools/CXEX.Tools.csproj"
+    },
+    "CXEX.UI/1.0.0": {
+      "type": "project",
+      "path": "../CXEX.UI/CXEX.UI.csproj",
+      "msbuildProject": "../CXEX.UI/CXEX.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3361,9 +3436,14 @@
       "CXEX.CLI >= 1.0.0",
       "CXEX.Core >= 1.0.0",
       "CXEX.Crypto >= 1.0.0",
+      "CXEX.Disk >= 1.0.0",
       "CXEX.FileSystem >= 1.0.0",
       "CXEX.FileType >= 1.0.0",
+      "CXEX.Font >= 1.0.0",
       "CXEX.Lang >= 1.0.0",
+      "CXEX.Text >= 1.0.0",
+      "CXEX.Tools >= 1.0.0",
+      "CXEX.UI >= 1.0.0",
       "CommunityToolkit.Mvvm >= 8.4.2",
       "Dock.Avalonia >= 12.0.0.2",
       "Dock.Avalonia.Diagnostics >= 12.0.0.2",
@@ -3437,14 +3517,29 @@
             "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Crypto\\CXEX.Crypto.csproj": {
               "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Crypto\\CXEX.Crypto.csproj"
             },
+            "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Disk\\CXEX.Disk.csproj": {
+              "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Disk\\CXEX.Disk.csproj"
+            },
             "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.FileSystem\\CXEX.FileSystem.csproj": {
               "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.FileSystem\\CXEX.FileSystem.csproj"
             },
             "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.FileType\\CXEX.FileType.csproj": {
               "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.FileType\\CXEX.FileType.csproj"
             },
+            "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Font\\CXEX.Font.csproj": {
+              "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Font\\CXEX.Font.csproj"
+            },
             "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Lang\\CXEX.Lang.csproj": {
               "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Lang\\CXEX.Lang.csproj"
+            },
+            "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Text\\CXEX.Text.csproj": {
+              "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Text\\CXEX.Text.csproj"
+            },
+            "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Tools\\CXEX.Tools.csproj": {
+              "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.Tools\\CXEX.Tools.csproj"
+            },
+            "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.UI\\CXEX.UI.csproj": {
+              "projectPath": "C:\\Users\\Aurora\\source\\repos\\CXK_TOOLS\\CXEX.UI\\CXEX.UI.csproj"
             }
           }
         }
