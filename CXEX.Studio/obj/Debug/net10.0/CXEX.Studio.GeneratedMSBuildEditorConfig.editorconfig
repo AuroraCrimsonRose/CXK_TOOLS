@@ -71,6 +71,9 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/Aurora/source/repos/CXK_TOOLS/CXEX.Studio/Views/ImageView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/Aurora/source/repos/CXK_TOOLS/CXEX.Studio/Views/ImageViewerView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/Aurora/source/repos/CXK_TOOLS/CXEX.Studio/Views/KeyManagerView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
@@ -81,4 +84,7 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/Aurora/source/repos/CXK_TOOLS/CXEX.Studio/Views/ProjectExplorerView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Aurora/source/repos/CXK_TOOLS/CXEX.Studio/Views/TextEditorView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

@@ -28,6 +28,13 @@ C:\Users\Aurora\.nuget\packages\avalonia.avaloniaedit\12.0.0\lib\net10.0\Avaloni
 C:\Users\Aurora\.nuget\packages\avaloniaui.diagnosticssupport\2.2.3\lib\net10.0\AvaloniaUI.DiagnosticsSupport.Avalonia.dll
 C:\Users\Aurora\.nuget\packages\caliburn.micro.core\5.0.258\lib\netstandard2.0\Caliburn.Micro.Core.dll
 C:\Users\Aurora\.nuget\packages\communitytoolkit.mvvm\8.4.2\lib\net8.0\CommunityToolkit.Mvvm.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Build\obj\Debug\net10.0\ref\CXEX.Build.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.CLI\obj\Debug\net10.0\ref\CXEX.CLI.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Core\obj\Debug\net10.0\ref\CXEX.Core.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Crypto\obj\Debug\net10.0\ref\CXEX.Crypto.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.FileSystem\obj\Debug\net10.0\ref\CXEX.FileSystem.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.FileType\obj\Debug\net10.0\ref\CXEX.FileType.dll
+C:\Users\Aurora\source\repos\CXK_TOOLS\CXEX.Lang\obj\Debug\net10.0\ref\CXEX.Lang.dll
 C:\Users\Aurora\.nuget\packages\dock.avalonia.diagnostics\12.0.0.2\lib\net10.0\Dock.Avalonia.Diagnostics.dll
 C:\Users\Aurora\.nuget\packages\dock.avalonia\12.0.0.2\lib\net10.0\Dock.Avalonia.dll
 C:\Users\Aurora\.nuget\packages\dock.avalonia.themes.browser\12.0.0.2\lib\net10.0\Dock.Avalonia.Themes.Browser.dll
@@ -70,6 +77,10 @@ C:\Users\Aurora\.nuget\packages\protobuf-net\3.2.56\lib\net8.0\protobuf-net.dll
 C:\Users\Aurora\.nuget\packages\reactiveproperty.core\9.8.0\lib\net9.0\ReactiveProperty.Core.dll
 C:\Users\Aurora\.nuget\packages\reactiveproperty\9.8.0\lib\net9.0\ReactiveProperty.dll
 C:\Users\Aurora\.nuget\packages\skiasharp\3.119.4\ref\net10.0\SkiaSharp.dll
+C:\Users\Aurora\.nuget\packages\spectre.console.ansi\0.57.0\lib\net10.0\Spectre.Console.Ansi.dll
+C:\Users\Aurora\.nuget\packages\spectre.console.cli\0.55.0\lib\net10.0\Spectre.Console.Cli.dll
+C:\Users\Aurora\.nuget\packages\spectre.console\0.57.0\lib\net10.0\Spectre.Console.dll
+C:\Users\Aurora\.nuget\packages\spectre.console.testing\0.57.0\lib\net10.0\Spectre.Console.Testing.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.9\ref\net10.0\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.9\ref\net10.0\System.Buffers.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\10.0.9\ref\net10.0\System.Collections.Concurrent.dll

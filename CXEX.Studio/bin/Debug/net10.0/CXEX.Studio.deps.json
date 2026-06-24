@@ -18,6 +18,13 @@
           "Avalonia.Themes.Fluent": "12.0.4",
           "Avalonia.Themes.Simple": "12.0.4",
           "AvaloniaUI.DiagnosticsSupport": "2.2.3",
+          "CXEX.Build": "1.0.0",
+          "CXEX.CLI": "1.0.0",
+          "CXEX.Core": "1.0.0",
+          "CXEX.Crypto": "1.0.0",
+          "CXEX.FileSystem": "1.0.0",
+          "CXEX.FileType": "1.0.0",
+          "CXEX.Lang": "1.0.0",
           "CommunityToolkit.Mvvm": "8.4.2",
           "Dock.Avalonia": "12.0.0.2",
           "Dock.Avalonia.Diagnostics": "12.0.0.2",
@@ -943,6 +950,79 @@
           }
         }
       },
+      "Spectre.Console/0.57.0": {
+        "dependencies": {
+          "Spectre.Console.Ansi": "0.57.0"
+        },
+        "runtime": {
+          "lib/net10.0/Spectre.Console.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.57.0.0"
+          }
+        }
+      },
+      "Spectre.Console.Ansi/0.57.0": {
+        "runtime": {
+          "lib/net10.0/Spectre.Console.Ansi.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.57.0.0"
+          }
+        }
+      },
+      "Spectre.Console.Cli/0.55.0": {
+        "dependencies": {
+          "Spectre.Console": "0.57.0"
+        },
+        "runtime": {
+          "lib/net10.0/Spectre.Console.Cli.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.55.0.0"
+          }
+        },
+        "resources": {
+          "lib/net10.0/de/Spectre.Console.Cli.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net10.0/es/Spectre.Console.Cli.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net10.0/fr/Spectre.Console.Cli.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net10.0/it/Spectre.Console.Cli.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net10.0/ja/Spectre.Console.Cli.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net10.0/ko/Spectre.Console.Cli.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net10.0/pt/Spectre.Console.Cli.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net10.0/ru/Spectre.Console.Cli.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net10.0/sv/Spectre.Console.Cli.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net10.0/zh-Hans/Spectre.Console.Cli.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Spectre.Console.Testing/0.57.0": {
+        "dependencies": {
+          "Spectre.Console": "0.57.0"
+        },
+        "runtime": {
+          "lib/net10.0/Spectre.Console.Testing.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.57.0.0"
+          }
+        }
+      },
       "System.Reactive/6.1.0": {
         "runtime": {
           "lib/net6.0/System.Reactive.dll": {
@@ -964,6 +1044,88 @@
           "lib/net8.0/YamlDotNet.dll": {
             "assemblyVersion": "16.0.0.0",
             "fileVersion": "16.3.0.0"
+          }
+        }
+      },
+      "CXEX.Build/1.0.0": {
+        "dependencies": {
+          "CXEX.Core": "1.0.0",
+          "CXEX.FileType": "1.0.0"
+        },
+        "runtime": {
+          "CXEX.Build.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CXEX.CLI/1.0.0": {
+        "dependencies": {
+          "CXEX.Build": "1.0.0",
+          "CXEX.Core": "1.0.0",
+          "CXEX.Crypto": "1.0.0",
+          "CXEX.FileSystem": "1.0.0",
+          "CXEX.FileType": "1.0.0",
+          "CXEX.Lang": "1.0.0",
+          "Spectre.Console": "0.57.0",
+          "Spectre.Console.Cli": "0.55.0",
+          "Spectre.Console.Testing": "0.57.0"
+        },
+        "runtime": {
+          "CXEX.CLI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CXEX.Core/1.0.0": {
+        "runtime": {
+          "CXEX.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CXEX.Crypto/1.0.0": {
+        "dependencies": {
+          "CXEX.Core": "1.0.0",
+          "CXEX.FileType": "1.0.0"
+        },
+        "runtime": {
+          "CXEX.Crypto.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CXEX.FileSystem/1.0.0": {
+        "dependencies": {
+          "CXEX.Core": "1.0.0",
+          "CXEX.FileType": "1.0.0"
+        },
+        "runtime": {
+          "CXEX.FileSystem.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CXEX.FileType/1.0.0": {
+        "dependencies": {
+          "CXEX.Core": "1.0.0"
+        },
+        "runtime": {
+          "CXEX.FileType.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CXEX.Lang/1.0.0": {
+        "runtime": {
+          "CXEX.Lang.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -1402,6 +1564,34 @@
       "path": "skiasharp.nativeassets.win32/3.119.4",
       "hashPath": "skiasharp.nativeassets.win32.3.119.4.nupkg.sha512"
     },
+    "Spectre.Console/0.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X5+4ZsUYTPlTs5PEoKRlxUuKOa1AkEoAGM34pUeJPjsBdtOnvnaVb31hqewhooomihl1i9fEBid1fz8XxZTacQ==",
+      "path": "spectre.console/0.57.0",
+      "hashPath": "spectre.console.0.57.0.nupkg.sha512"
+    },
+    "Spectre.Console.Ansi/0.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DGeYljyWAIHSeUAoUGqyzyOqS8WlsHKW+y4zOZ0OO61oqrhx90jHS+XG5Kpq/wWz6ovIs2VL/0CTKpUVa7tdWg==",
+      "path": "spectre.console.ansi/0.57.0",
+      "hashPath": "spectre.console.ansi.0.57.0.nupkg.sha512"
+    },
+    "Spectre.Console.Cli/0.55.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cFJTB1te4eaAICd4Zp+8T/kiRn1ikQxgGqmoNarb1qoQ/7LzHAvVQ62x5U9GW3E0QI7sZLcXIIoq4CpqgTx42Q==",
+      "path": "spectre.console.cli/0.55.0",
+      "hashPath": "spectre.console.cli.0.55.0.nupkg.sha512"
+    },
+    "Spectre.Console.Testing/0.57.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rGzTq+6SBsn7irqzKEdSrcGX69kBDGinEEwkIaS71iOtPrZOIAqLobwWx9G1ljkqVpsc/TkTYSW/2rgwyNHciQ==",
+      "path": "spectre.console.testing/0.57.0",
+      "hashPath": "spectre.console.testing.0.57.0.nupkg.sha512"
+    },
     "System.Reactive/6.1.0": {
       "type": "package",
       "serviceable": true,
@@ -1422,6 +1612,41 @@
       "sha512": "sha512-SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
       "path": "yamldotnet/16.3.0",
       "hashPath": "yamldotnet.16.3.0.nupkg.sha512"
+    },
+    "CXEX.Build/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CXEX.CLI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CXEX.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CXEX.Crypto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CXEX.FileSystem/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CXEX.FileType/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CXEX.Lang/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
