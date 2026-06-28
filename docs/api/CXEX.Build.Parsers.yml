@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Build.Parsers
+  commentId: N:CXEX.Build.Parsers
+  id: CXEX.Build.Parsers
+  children:
+  - CXEX.Build.Parsers.ElfParser
+  - CXEX.Build.Parsers.ElfSegment
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Build.Parsers
+  nameWithType: CXEX.Build.Parsers
+  fullName: CXEX.Build.Parsers
+  type: Namespace
+  assemblies:
+  - CXEX.Build
+references:
+- uid: CXEX.Build.Parsers.ElfSegment
+  commentId: T:CXEX.Build.Parsers.ElfSegment
+  href: CXEX.Build.Parsers.ElfSegment.html
+  name: ElfSegment
+  nameWithType: ElfSegment
+  fullName: CXEX.Build.Parsers.ElfSegment
+- uid: CXEX.Build.Parsers.ElfParser
+  commentId: T:CXEX.Build.Parsers.ElfParser
+  href: CXEX.Build.Parsers.ElfParser.html
+  name: ElfParser
+  nameWithType: ElfParser
+  fullName: CXEX.Build.Parsers.ElfParser

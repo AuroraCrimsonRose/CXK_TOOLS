@@ -1,0 +1,843 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Core.Constants.CXFlags
+  commentId: T:CXEX.Core.Constants.CXFlags
+  id: CXFlags
+  parent: CXEX.Core.Constants
+  children:
+  - CXEX.Core.Constants.CXFlags.FLAG_EXECUTABLE
+  - CXEX.Core.Constants.CXFlags.FLAG_KERNEL_PRIV
+  - CXEX.Core.Constants.CXFlags.FLAG_RELOCATABLE
+  - CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ABI_MATCH
+  - CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ARCH_MATCH
+  - CXEX.Core.Constants.CXFlags.FLAG_SIGNED
+  - CXEX.Core.Constants.CXFlags.PART_CXBOOT
+  - CXEX.Core.Constants.CXFlags.PART_CXFS
+  - CXEX.Core.Constants.CXFlags.PART_CXSTAGE
+  - CXEX.Core.Constants.CXFlags.PART_FLAG_BOOTABLE
+  - CXEX.Core.Constants.CXFlags.SEC_EXEC
+  - CXEX.Core.Constants.CXFlags.SEC_NOBITS
+  - CXEX.Core.Constants.CXFlags.SEC_READ
+  - CXEX.Core.Constants.CXFlags.SEC_WRITE
+  - CXEX.Core.Constants.CXFlags.TYPE_BOOT
+  - CXEX.Core.Constants.CXFlags.TYPE_KERNEL
+  - CXEX.Core.Constants.CXFlags.TYPE_OS
+  - CXEX.Core.Constants.CXFlags.TYPE_USER
+  langs:
+  - csharp
+  - vb
+  name: CXFlags
+  nameWithType: CXFlags
+  fullName: CXEX.Core.Constants.CXFlags
+  type: Class
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: CXFlags
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 4
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public static class CXFlags
+    content.vb: Public Module CXFlags
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Core.Constants.CXFlags.TYPE_KERNEL
+  commentId: F:CXEX.Core.Constants.CXFlags.TYPE_KERNEL
+  id: TYPE_KERNEL
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: TYPE_KERNEL
+  nameWithType: CXFlags.TYPE_KERNEL
+  fullName: CXEX.Core.Constants.CXFlags.TYPE_KERNEL
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TYPE_KERNEL
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const ushort TYPE_KERNEL = 19269
+    return:
+      type: System.UInt16
+    content.vb: Public Const TYPE_KERNEL As UShort = 19269
+- uid: CXEX.Core.Constants.CXFlags.TYPE_BOOT
+  commentId: F:CXEX.Core.Constants.CXFlags.TYPE_BOOT
+  id: TYPE_BOOT
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: TYPE_BOOT
+  nameWithType: CXFlags.TYPE_BOOT
+  fullName: CXEX.Core.Constants.CXFlags.TYPE_BOOT
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TYPE_BOOT
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 8
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const ushort TYPE_BOOT = 16965
+    return:
+      type: System.UInt16
+    content.vb: Public Const TYPE_BOOT As UShort = 16965
+- uid: CXEX.Core.Constants.CXFlags.TYPE_USER
+  commentId: F:CXEX.Core.Constants.CXFlags.TYPE_USER
+  id: TYPE_USER
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: TYPE_USER
+  nameWithType: CXFlags.TYPE_USER
+  fullName: CXEX.Core.Constants.CXFlags.TYPE_USER
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TYPE_USER
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const ushort TYPE_USER = 17221
+    return:
+      type: System.UInt16
+    content.vb: Public Const TYPE_USER As UShort = 17221
+- uid: CXEX.Core.Constants.CXFlags.TYPE_OS
+  commentId: F:CXEX.Core.Constants.CXFlags.TYPE_OS
+  id: TYPE_OS
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: TYPE_OS
+  nameWithType: CXFlags.TYPE_OS
+  fullName: CXEX.Core.Constants.CXFlags.TYPE_OS
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TYPE_OS
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const ushort TYPE_OS = 20293
+    return:
+      type: System.UInt16
+    content.vb: Public Const TYPE_OS As UShort = 20293
+- uid: CXEX.Core.Constants.CXFlags.FLAG_EXECUTABLE
+  commentId: F:CXEX.Core.Constants.CXFlags.FLAG_EXECUTABLE
+  id: FLAG_EXECUTABLE
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: FLAG_EXECUTABLE
+  nameWithType: CXFlags.FLAG_EXECUTABLE
+  fullName: CXEX.Core.Constants.CXFlags.FLAG_EXECUTABLE
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FLAG_EXECUTABLE
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint FLAG_EXECUTABLE = 1
+    return:
+      type: System.UInt32
+    content.vb: Public Const FLAG_EXECUTABLE As UInteger = 1
+- uid: CXEX.Core.Constants.CXFlags.FLAG_RELOCATABLE
+  commentId: F:CXEX.Core.Constants.CXFlags.FLAG_RELOCATABLE
+  id: FLAG_RELOCATABLE
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: FLAG_RELOCATABLE
+  nameWithType: CXFlags.FLAG_RELOCATABLE
+  fullName: CXEX.Core.Constants.CXFlags.FLAG_RELOCATABLE
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FLAG_RELOCATABLE
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint FLAG_RELOCATABLE = 2
+    return:
+      type: System.UInt32
+    content.vb: Public Const FLAG_RELOCATABLE As UInteger = 2
+- uid: CXEX.Core.Constants.CXFlags.FLAG_SIGNED
+  commentId: F:CXEX.Core.Constants.CXFlags.FLAG_SIGNED
+  id: FLAG_SIGNED
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: FLAG_SIGNED
+  nameWithType: CXFlags.FLAG_SIGNED
+  fullName: CXEX.Core.Constants.CXFlags.FLAG_SIGNED
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FLAG_SIGNED
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 15
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint FLAG_SIGNED = 4
+    return:
+      type: System.UInt32
+    content.vb: Public Const FLAG_SIGNED As UInteger = 4
+- uid: CXEX.Core.Constants.CXFlags.FLAG_KERNEL_PRIV
+  commentId: F:CXEX.Core.Constants.CXFlags.FLAG_KERNEL_PRIV
+  id: FLAG_KERNEL_PRIV
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: FLAG_KERNEL_PRIV
+  nameWithType: CXFlags.FLAG_KERNEL_PRIV
+  fullName: CXEX.Core.Constants.CXFlags.FLAG_KERNEL_PRIV
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FLAG_KERNEL_PRIV
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 16
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint FLAG_KERNEL_PRIV = 8
+    return:
+      type: System.UInt32
+    content.vb: Public Const FLAG_KERNEL_PRIV As UInteger = 8
+- uid: CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ABI_MATCH
+  commentId: F:CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ABI_MATCH
+  id: FLAG_REQUIRE_ABI_MATCH
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: FLAG_REQUIRE_ABI_MATCH
+  nameWithType: CXFlags.FLAG_REQUIRE_ABI_MATCH
+  fullName: CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ABI_MATCH
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FLAG_REQUIRE_ABI_MATCH
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 17
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint FLAG_REQUIRE_ABI_MATCH = 16
+    return:
+      type: System.UInt32
+    content.vb: Public Const FLAG_REQUIRE_ABI_MATCH As UInteger = 16
+- uid: CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ARCH_MATCH
+  commentId: F:CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ARCH_MATCH
+  id: FLAG_REQUIRE_ARCH_MATCH
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: FLAG_REQUIRE_ARCH_MATCH
+  nameWithType: CXFlags.FLAG_REQUIRE_ARCH_MATCH
+  fullName: CXEX.Core.Constants.CXFlags.FLAG_REQUIRE_ARCH_MATCH
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FLAG_REQUIRE_ARCH_MATCH
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 18
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint FLAG_REQUIRE_ARCH_MATCH = 32
+    return:
+      type: System.UInt32
+    content.vb: Public Const FLAG_REQUIRE_ARCH_MATCH As UInteger = 32
+- uid: CXEX.Core.Constants.CXFlags.SEC_READ
+  commentId: F:CXEX.Core.Constants.CXFlags.SEC_READ
+  id: SEC_READ
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: SEC_READ
+  nameWithType: CXFlags.SEC_READ
+  fullName: CXEX.Core.Constants.CXFlags.SEC_READ
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SEC_READ
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 21
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint SEC_READ = 1
+    return:
+      type: System.UInt32
+    content.vb: Public Const SEC_READ As UInteger = 1
+- uid: CXEX.Core.Constants.CXFlags.SEC_WRITE
+  commentId: F:CXEX.Core.Constants.CXFlags.SEC_WRITE
+  id: SEC_WRITE
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: SEC_WRITE
+  nameWithType: CXFlags.SEC_WRITE
+  fullName: CXEX.Core.Constants.CXFlags.SEC_WRITE
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SEC_WRITE
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 22
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint SEC_WRITE = 2
+    return:
+      type: System.UInt32
+    content.vb: Public Const SEC_WRITE As UInteger = 2
+- uid: CXEX.Core.Constants.CXFlags.SEC_EXEC
+  commentId: F:CXEX.Core.Constants.CXFlags.SEC_EXEC
+  id: SEC_EXEC
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: SEC_EXEC
+  nameWithType: CXFlags.SEC_EXEC
+  fullName: CXEX.Core.Constants.CXFlags.SEC_EXEC
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SEC_EXEC
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 23
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint SEC_EXEC = 4
+    return:
+      type: System.UInt32
+    content.vb: Public Const SEC_EXEC As UInteger = 4
+- uid: CXEX.Core.Constants.CXFlags.SEC_NOBITS
+  commentId: F:CXEX.Core.Constants.CXFlags.SEC_NOBITS
+  id: SEC_NOBITS
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: SEC_NOBITS
+  nameWithType: CXFlags.SEC_NOBITS
+  fullName: CXEX.Core.Constants.CXFlags.SEC_NOBITS
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SEC_NOBITS
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 24
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const uint SEC_NOBITS = 8
+    return:
+      type: System.UInt32
+    content.vb: Public Const SEC_NOBITS As UInteger = 8
+- uid: CXEX.Core.Constants.CXFlags.PART_CXBOOT
+  commentId: F:CXEX.Core.Constants.CXFlags.PART_CXBOOT
+  id: PART_CXBOOT
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: PART_CXBOOT
+  nameWithType: CXFlags.PART_CXBOOT
+  fullName: CXEX.Core.Constants.CXFlags.PART_CXBOOT
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: PART_CXBOOT
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 27
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const byte PART_CXBOOT = 203
+    return:
+      type: System.Byte
+    content.vb: Public Const PART_CXBOOT As Byte = 203
+- uid: CXEX.Core.Constants.CXFlags.PART_CXSTAGE
+  commentId: F:CXEX.Core.Constants.CXFlags.PART_CXSTAGE
+  id: PART_CXSTAGE
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: PART_CXSTAGE
+  nameWithType: CXFlags.PART_CXSTAGE
+  fullName: CXEX.Core.Constants.CXFlags.PART_CXSTAGE
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: PART_CXSTAGE
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 28
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const byte PART_CXSTAGE = 202
+    return:
+      type: System.Byte
+    content.vb: Public Const PART_CXSTAGE As Byte = 202
+- uid: CXEX.Core.Constants.CXFlags.PART_CXFS
+  commentId: F:CXEX.Core.Constants.CXFlags.PART_CXFS
+  id: PART_CXFS
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: PART_CXFS
+  nameWithType: CXFlags.PART_CXFS
+  fullName: CXEX.Core.Constants.CXFlags.PART_CXFS
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: PART_CXFS
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 29
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const byte PART_CXFS = 197
+    return:
+      type: System.Byte
+    content.vb: Public Const PART_CXFS As Byte = 197
+- uid: CXEX.Core.Constants.CXFlags.PART_FLAG_BOOTABLE
+  commentId: F:CXEX.Core.Constants.CXFlags.PART_FLAG_BOOTABLE
+  id: PART_FLAG_BOOTABLE
+  parent: CXEX.Core.Constants.CXFlags
+  langs:
+  - csharp
+  - vb
+  name: PART_FLAG_BOOTABLE
+  nameWithType: CXFlags.PART_FLAG_BOOTABLE
+  fullName: CXEX.Core.Constants.CXFlags.PART_FLAG_BOOTABLE
+  type: Field
+  source:
+    remote:
+      path: CXEX.Core/Constants/CXFlags.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: PART_FLAG_BOOTABLE
+    path: ../CXEX.Core/Constants/CXFlags.cs
+    startLine: 32
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Constants
+  syntax:
+    content: public const byte PART_FLAG_BOOTABLE = 1
+    return:
+      type: System.Byte
+    content.vb: Public Const PART_FLAG_BOOTABLE As Byte = 1
+references:
+- uid: CXEX.Core.Constants
+  commentId: N:CXEX.Core.Constants
+  href: CXEX.html
+  name: CXEX.Core.Constants
+  nameWithType: CXEX.Core.Constants
+  fullName: CXEX.Core.Constants
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Constants
+    name: Constants
+    href: CXEX.Core.Constants.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Constants
+    name: Constants
+    href: CXEX.Core.Constants.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte

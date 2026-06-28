@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.SDK.ViewModels
+  commentId: N:CXEX.SDK.ViewModels
+  id: CXEX.SDK.ViewModels
+  children:
+  - CXEX.SDK.ViewModels.MainWindowViewModel
+  - CXEX.SDK.ViewModels.ViewModelBase
+  langs:
+  - csharp
+  - vb
+  name: CXEX.SDK.ViewModels
+  nameWithType: CXEX.SDK.ViewModels
+  fullName: CXEX.SDK.ViewModels
+  type: Namespace
+  assemblies:
+  - CXEX.SDK
+references:
+- uid: CXEX.SDK.ViewModels.MainWindowViewModel
+  commentId: T:CXEX.SDK.ViewModels.MainWindowViewModel
+  href: CXEX.SDK.ViewModels.MainWindowViewModel.html
+  name: MainWindowViewModel
+  nameWithType: MainWindowViewModel
+  fullName: CXEX.SDK.ViewModels.MainWindowViewModel
+- uid: CXEX.SDK.ViewModels.ViewModelBase
+  commentId: T:CXEX.SDK.ViewModels.ViewModelBase
+  parent: CXEX.SDK.ViewModels
+  href: CXEX.SDK.ViewModels.ViewModelBase.html
+  name: ViewModelBase
+  nameWithType: ViewModelBase
+  fullName: CXEX.SDK.ViewModels.ViewModelBase
+- uid: CXEX.SDK.ViewModels
+  commentId: N:CXEX.SDK.ViewModels
+  href: CXEX.html
+  name: CXEX.SDK.ViewModels
+  nameWithType: CXEX.SDK.ViewModels
+  fullName: CXEX.SDK.ViewModels
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.SDK
+    name: SDK
+    href: CXEX.SDK.html
+  - name: .
+  - uid: CXEX.SDK.ViewModels
+    name: ViewModels
+    href: CXEX.SDK.ViewModels.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.SDK
+    name: SDK
+    href: CXEX.SDK.html
+  - name: .
+  - uid: CXEX.SDK.ViewModels
+    name: ViewModels
+    href: CXEX.SDK.ViewModels.html

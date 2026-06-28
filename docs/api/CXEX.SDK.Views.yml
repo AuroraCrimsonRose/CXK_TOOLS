@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.SDK.Views
+  commentId: N:CXEX.SDK.Views
+  id: CXEX.SDK.Views
+  children:
+  - CXEX.SDK.Views.MainWindow
+  langs:
+  - csharp
+  - vb
+  name: CXEX.SDK.Views
+  nameWithType: CXEX.SDK.Views
+  fullName: CXEX.SDK.Views
+  type: Namespace
+  assemblies:
+  - CXEX.SDK
+references:
+- uid: CXEX.SDK.Views.MainWindow
+  commentId: T:CXEX.SDK.Views.MainWindow
+  href: CXEX.SDK.Views.MainWindow.html
+  name: MainWindow
+  nameWithType: MainWindow
+  fullName: CXEX.SDK.Views.MainWindow

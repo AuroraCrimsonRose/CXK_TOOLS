@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Build.Layout
+  commentId: N:CXEX.Build.Layout
+  id: CXEX.Build.Layout
+  children:
+  - CXEX.Build.Layout.CxexMemoryLayout
+  - CXEX.Build.Layout.DiskGeometryMap
+  - CXEX.Build.Layout.PartitionLayout
+  - CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Build.Layout
+  nameWithType: CXEX.Build.Layout
+  fullName: CXEX.Build.Layout
+  type: Namespace
+  assemblies:
+  - CXEX.Build
+references:
+- uid: CXEX.Build.Layout.CxexMemoryLayout
+  commentId: T:CXEX.Build.Layout.CxexMemoryLayout
+  parent: CXEX.Build.Layout
+  href: CXEX.Build.Layout.CxexMemoryLayout.html
+  name: CxexMemoryLayout
+  nameWithType: CxexMemoryLayout
+  fullName: CXEX.Build.Layout.CxexMemoryLayout
+- uid: CXEX.Build.Layout.SectionLayout
+  commentId: T:CXEX.Build.Layout.SectionLayout
+  href: CXEX.Build.Layout.SectionLayout.html
+  name: SectionLayout
+  nameWithType: SectionLayout
+  fullName: CXEX.Build.Layout.SectionLayout
+- uid: CXEX.Build.Layout.DiskGeometryMap
+  commentId: T:CXEX.Build.Layout.DiskGeometryMap
+  parent: CXEX.Build.Layout
+  href: CXEX.Build.Layout.DiskGeometryMap.html
+  name: DiskGeometryMap
+  nameWithType: DiskGeometryMap
+  fullName: CXEX.Build.Layout.DiskGeometryMap
+- uid: CXEX.Build.Layout.PartitionLayout
+  commentId: T:CXEX.Build.Layout.PartitionLayout
+  href: CXEX.Build.Layout.PartitionLayout.html
+  name: PartitionLayout
+  nameWithType: PartitionLayout
+  fullName: CXEX.Build.Layout.PartitionLayout
+- uid: CXEX.Build.Layout
+  commentId: N:CXEX.Build.Layout
+  href: CXEX.html
+  name: CXEX.Build.Layout
+  nameWithType: CXEX.Build.Layout
+  fullName: CXEX.Build.Layout
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Layout
+    name: Layout
+    href: CXEX.Build.Layout.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Layout
+    name: Layout
+    href: CXEX.Build.Layout.html

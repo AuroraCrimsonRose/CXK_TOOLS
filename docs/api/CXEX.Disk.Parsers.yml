@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Disk.Parsers
+  commentId: N:CXEX.Disk.Parsers
+  id: CXEX.Disk.Parsers
+  children:
+  - CXEX.Disk.Parsers.GptParser
+  - CXEX.Disk.Parsers.MbrParser
+  - CXEX.Disk.Parsers.XbptParser
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Disk.Parsers
+  nameWithType: CXEX.Disk.Parsers
+  fullName: CXEX.Disk.Parsers
+  type: Namespace
+  assemblies:
+  - CXEX.Disk
+references:
+- uid: CXEX.Disk.Parsers.GptParser
+  commentId: T:CXEX.Disk.Parsers.GptParser
+  href: CXEX.Disk.Parsers.GptParser.html
+  name: GptParser
+  nameWithType: GptParser
+  fullName: CXEX.Disk.Parsers.GptParser
+- uid: CXEX.Disk.Parsers.MbrParser
+  commentId: T:CXEX.Disk.Parsers.MbrParser
+  href: CXEX.Disk.Parsers.MbrParser.html
+  name: MbrParser
+  nameWithType: MbrParser
+  fullName: CXEX.Disk.Parsers.MbrParser
+- uid: CXEX.Disk.Parsers.XbptParser
+  commentId: T:CXEX.Disk.Parsers.XbptParser
+  href: CXEX.Disk.Parsers.XbptParser.html
+  name: XbptParser
+  nameWithType: XbptParser
+  fullName: CXEX.Disk.Parsers.XbptParser

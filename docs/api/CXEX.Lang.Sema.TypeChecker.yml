@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Sema.TypeChecker
+  commentId: T:CXEX.Lang.Sema.TypeChecker
+  id: TypeChecker
+  parent: CXEX.Lang.Sema
+  children:
+  - CXEX.Lang.Sema.TypeChecker.#ctor(CXEX.Lang.Sema.SemaContext,CXEX.Lang.Diagnostics.DiagnosticBag)
+  - CXEX.Lang.Sema.TypeChecker.Check(CXEX.Lang.Ast.CompilationUnit)
+  - CXEX.Lang.Sema.TypeChecker.LocalTypes
+  langs:
+  - csharp
+  - vb
+  name: TypeChecker
+  nameWithType: TypeChecker
+  fullName: CXEX.Lang.Sema.TypeChecker
+  type: Class
+  source:
+    remote:
+      path: CXEX.Lang/Sema/TypeChecker.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TypeChecker
+    path: ../CXEX.Lang/Sema/TypeChecker.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  summary: >-
+    Pass 2: assign a type to every expression and check statements. v0.1 is
+
+    deliberately lenient on integer width (any int coerces to any int) so the
+
+    language is usable before a full numeric-conversion policy exists; pointers,
+
+    bools, structs, and arrays are checked strictly. Records each expr's type in
+
+    ctx.Types for CodeGen. The __syscall intrinsic is the one effect primitive.
+  example: []
+  syntax:
+    content: public sealed class TypeChecker
+    content.vb: Public NotInheritable Class TypeChecker
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Lang.Sema.TypeChecker.#ctor(CXEX.Lang.Sema.SemaContext,CXEX.Lang.Diagnostics.DiagnosticBag)
+  commentId: M:CXEX.Lang.Sema.TypeChecker.#ctor(CXEX.Lang.Sema.SemaContext,CXEX.Lang.Diagnostics.DiagnosticBag)
+  id: '#ctor(CXEX.Lang.Sema.SemaContext,CXEX.Lang.Diagnostics.DiagnosticBag)'
+  parent: CXEX.Lang.Sema.TypeChecker
+  langs:
+  - csharp
+  - vb
+  name: TypeChecker(SemaContext, DiagnosticBag)
+  nameWithType: TypeChecker.TypeChecker(SemaContext, DiagnosticBag)
+  fullName: CXEX.Lang.Sema.TypeChecker.TypeChecker(CXEX.Lang.Sema.SemaContext, CXEX.Lang.Diagnostics.DiagnosticBag)
+  type: Constructor
+  source:
+    remote:
+      path: CXEX.Lang/Sema/TypeChecker.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: .ctor
+    path: ../CXEX.Lang/Sema/TypeChecker.cs
+    startLine: 25
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public TypeChecker(SemaContext ctx, DiagnosticBag diag)
+    parameters:
+    - id: ctx
+      type: CXEX.Lang.Sema.SemaContext
+    - id: diag
+      type: CXEX.Lang.Diagnostics.DiagnosticBag
+    content.vb: Public Sub New(ctx As SemaContext, diag As DiagnosticBag)
+  overload: CXEX.Lang.Sema.TypeChecker.#ctor*
+  nameWithType.vb: TypeChecker.New(SemaContext, DiagnosticBag)
+  fullName.vb: CXEX.Lang.Sema.TypeChecker.New(CXEX.Lang.Sema.SemaContext, CXEX.Lang.Diagnostics.DiagnosticBag)
+  name.vb: New(SemaContext, DiagnosticBag)
+- uid: CXEX.Lang.Sema.TypeChecker.Check(CXEX.Lang.Ast.CompilationUnit)
+  commentId: M:CXEX.Lang.Sema.TypeChecker.Check(CXEX.Lang.Ast.CompilationUnit)
+  id: Check(CXEX.Lang.Ast.CompilationUnit)
+  parent: CXEX.Lang.Sema.TypeChecker
+  langs:
+  - csharp
+  - vb
+  name: Check(CompilationUnit)
+  nameWithType: TypeChecker.Check(CompilationUnit)
+  fullName: CXEX.Lang.Sema.TypeChecker.Check(CXEX.Lang.Ast.CompilationUnit)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Lang/Sema/TypeChecker.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Check
+    path: ../CXEX.Lang/Sema/TypeChecker.cs
+    startLine: 28
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public void Check(CompilationUnit unit)
+    parameters:
+    - id: unit
+      type: CXEX.Lang.Ast.CompilationUnit
+    content.vb: Public Sub Check(unit As CompilationUnit)
+  overload: CXEX.Lang.Sema.TypeChecker.Check*
+- uid: CXEX.Lang.Sema.TypeChecker.LocalTypes
+  commentId: P:CXEX.Lang.Sema.TypeChecker.LocalTypes
+  id: LocalTypes
+  parent: CXEX.Lang.Sema.TypeChecker
+  langs:
+  - csharp
+  - vb
+  name: LocalTypes
+  nameWithType: TypeChecker.LocalTypes
+  fullName: CXEX.Lang.Sema.TypeChecker.LocalTypes
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Sema/TypeChecker.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: LocalTypes
+    path: ../CXEX.Lang/Sema/TypeChecker.cs
+    startLine: 114
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public IReadOnlyDictionary<LetStmt, TypeRef> LocalTypes { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyDictionary{CXEX.Lang.Ast.LetStmt,CXEX.Lang.Ast.TypeRef}
+    content.vb: Public ReadOnly Property LocalTypes As IReadOnlyDictionary(Of LetStmt, TypeRef)
+  overload: CXEX.Lang.Sema.TypeChecker.LocalTypes*
+references:
+- uid: CXEX.Lang.Sema
+  commentId: N:CXEX.Lang.Sema
+  href: CXEX.html
+  name: CXEX.Lang.Sema
+  nameWithType: CXEX.Lang.Sema
+  fullName: CXEX.Lang.Sema
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Lang.Sema.TypeChecker.#ctor*
+  commentId: Overload:CXEX.Lang.Sema.TypeChecker.#ctor
+  href: CXEX.Lang.Sema.TypeChecker.html#CXEX_Lang_Sema_TypeChecker__ctor_CXEX_Lang_Sema_SemaContext_CXEX_Lang_Diagnostics_DiagnosticBag_
+  name: TypeChecker
+  nameWithType: TypeChecker.TypeChecker
+  fullName: CXEX.Lang.Sema.TypeChecker.TypeChecker
+  nameWithType.vb: TypeChecker.New
+  fullName.vb: CXEX.Lang.Sema.TypeChecker.New
+  name.vb: New
+- uid: CXEX.Lang.Sema.SemaContext
+  commentId: T:CXEX.Lang.Sema.SemaContext
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.SemaContext.html
+  name: SemaContext
+  nameWithType: SemaContext
+  fullName: CXEX.Lang.Sema.SemaContext
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag
+  commentId: T:CXEX.Lang.Diagnostics.DiagnosticBag
+  parent: CXEX.Lang.Diagnostics
+  href: CXEX.Lang.Diagnostics.DiagnosticBag.html
+  name: DiagnosticBag
+  nameWithType: DiagnosticBag
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag
+- uid: CXEX.Lang.Diagnostics
+  commentId: N:CXEX.Lang.Diagnostics
+  href: CXEX.html
+  name: CXEX.Lang.Diagnostics
+  nameWithType: CXEX.Lang.Diagnostics
+  fullName: CXEX.Lang.Diagnostics
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+- uid: CXEX.Lang.Sema.TypeChecker.Check*
+  commentId: Overload:CXEX.Lang.Sema.TypeChecker.Check
+  href: CXEX.Lang.Sema.TypeChecker.html#CXEX_Lang_Sema_TypeChecker_Check_CXEX_Lang_Ast_CompilationUnit_
+  name: Check
+  nameWithType: TypeChecker.Check
+  fullName: CXEX.Lang.Sema.TypeChecker.Check
+- uid: CXEX.Lang.Ast.CompilationUnit
+  commentId: T:CXEX.Lang.Ast.CompilationUnit
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.CompilationUnit.html
+  name: CompilationUnit
+  nameWithType: CompilationUnit
+  fullName: CXEX.Lang.Ast.CompilationUnit
+- uid: CXEX.Lang.Ast
+  commentId: N:CXEX.Lang.Ast
+  href: CXEX.html
+  name: CXEX.Lang.Ast
+  nameWithType: CXEX.Lang.Ast
+  fullName: CXEX.Lang.Ast
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+- uid: CXEX.Lang.Sema.TypeChecker.LocalTypes*
+  commentId: Overload:CXEX.Lang.Sema.TypeChecker.LocalTypes
+  href: CXEX.Lang.Sema.TypeChecker.html#CXEX_Lang_Sema_TypeChecker_LocalTypes
+  name: LocalTypes
+  nameWithType: TypeChecker.LocalTypes
+  fullName: CXEX.Lang.Sema.TypeChecker.LocalTypes
+- uid: System.Collections.Generic.IReadOnlyDictionary{CXEX.Lang.Ast.LetStmt,CXEX.Lang.Ast.TypeRef}
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary{CXEX.Lang.Ast.LetStmt,CXEX.Lang.Ast.TypeRef}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyDictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<LetStmt, TypeRef>
+  nameWithType: IReadOnlyDictionary<LetStmt, TypeRef>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<CXEX.Lang.Ast.LetStmt, CXEX.Lang.Ast.TypeRef>
+  nameWithType.vb: IReadOnlyDictionary(Of LetStmt, TypeRef)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of CXEX.Lang.Ast.LetStmt, CXEX.Lang.Ast.TypeRef)
+  name.vb: IReadOnlyDictionary(Of LetStmt, TypeRef)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - uid: CXEX.Lang.Ast.LetStmt
+    name: LetStmt
+    href: CXEX.Lang.Ast.LetStmt.html
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Ast.TypeRef
+    name: TypeRef
+    href: CXEX.Lang.Ast.TypeRef.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.LetStmt
+    name: LetStmt
+    href: CXEX.Lang.Ast.LetStmt.html
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Ast.TypeRef
+    name: TypeRef
+    href: CXEX.Lang.Ast.TypeRef.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyDictionary`2
+  commentId: T:System.Collections.Generic.IReadOnlyDictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  name: IReadOnlyDictionary<TKey, TValue>
+  nameWithType: IReadOnlyDictionary<TKey, TValue>
+  fullName: System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>
+  nameWithType.vb: IReadOnlyDictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue)
+  name.vb: IReadOnlyDictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyDictionary`2
+    name: IReadOnlyDictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

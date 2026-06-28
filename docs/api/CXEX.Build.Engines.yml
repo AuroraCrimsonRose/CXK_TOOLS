@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Build.Engines
+  commentId: N:CXEX.Build.Engines
+  id: CXEX.Build.Engines
+  children:
+  - CXEX.Build.Engines.CXEXLayoutEngine
+  - CXEX.Build.Engines.DiskGeometryEngine
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Build.Engines
+  nameWithType: CXEX.Build.Engines
+  fullName: CXEX.Build.Engines
+  type: Namespace
+  assemblies:
+  - CXEX.Build
+references:
+- uid: CXEX.Build.Engines.CXEXLayoutEngine
+  commentId: T:CXEX.Build.Engines.CXEXLayoutEngine
+  href: CXEX.Build.Engines.CXEXLayoutEngine.html
+  name: CXEXLayoutEngine
+  nameWithType: CXEXLayoutEngine
+  fullName: CXEX.Build.Engines.CXEXLayoutEngine
+- uid: CXEX.Build.Engines.DiskGeometryEngine
+  commentId: T:CXEX.Build.Engines.DiskGeometryEngine
+  href: CXEX.Build.Engines.DiskGeometryEngine.html
+  name: DiskGeometryEngine
+  nameWithType: DiskGeometryEngine
+  fullName: CXEX.Build.Engines.DiskGeometryEngine

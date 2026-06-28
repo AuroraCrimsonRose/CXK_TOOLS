@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Infrastructure
+  commentId: N:CXEX.CLI.Infrastructure
+  id: CXEX.CLI.Infrastructure
+  children:
+  - CXEX.CLI.Infrastructure.ProcessRunner
+  langs:
+  - csharp
+  - vb
+  name: CXEX.CLI.Infrastructure
+  nameWithType: CXEX.CLI.Infrastructure
+  fullName: CXEX.CLI.Infrastructure
+  type: Namespace
+  assemblies:
+  - CXEX.CLI
+references:
+- uid: CXEX.CLI.Infrastructure.ProcessRunner
+  commentId: T:CXEX.CLI.Infrastructure.ProcessRunner
+  href: CXEX.CLI.Infrastructure.ProcessRunner.html
+  name: ProcessRunner
+  nameWithType: ProcessRunner
+  fullName: CXEX.CLI.Infrastructure.ProcessRunner

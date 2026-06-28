@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Lexer
+  commentId: N:CXEX.Lang.Lexer
+  id: CXEX.Lang.Lexer
+  children:
+  - CXEX.Lang.Lexer.Lexer
+  - CXEX.Lang.Lexer.Token
+  - CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Lang.Lexer
+  nameWithType: CXEX.Lang.Lexer
+  fullName: CXEX.Lang.Lexer
+  type: Namespace
+  assemblies:
+  - CXEX.Lang
+references:
+- uid: CXEX.Lang.Lexer.Lexer
+  commentId: T:CXEX.Lang.Lexer.Lexer
+  href: CXEX.Lang.Lexer.Lexer.html
+  name: Lexer
+  nameWithType: Lexer
+  fullName: CXEX.Lang.Lexer.Lexer
+- uid: CXEX.Lang.Lexer.Token
+  commentId: T:CXEX.Lang.Lexer.Token
+  href: CXEX.Lang.Lexer.Token.html
+  name: Token
+  nameWithType: Token
+  fullName: CXEX.Lang.Lexer.Token
+- uid: CXEX.Lang.Lexer.TokenKind
+  commentId: T:CXEX.Lang.Lexer.TokenKind
+  parent: CXEX.Lang.Lexer
+  href: CXEX.Lang.Lexer.TokenKind.html
+  name: TokenKind
+  nameWithType: TokenKind
+  fullName: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer
+  commentId: N:CXEX.Lang.Lexer
+  href: CXEX.html
+  name: CXEX.Lang.Lexer
+  nameWithType: CXEX.Lang.Lexer
+  fullName: CXEX.Lang.Lexer
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Lexer
+    name: Lexer
+    href: CXEX.Lang.Lexer.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Lexer
+    name: Lexer
+    href: CXEX.Lang.Lexer.html

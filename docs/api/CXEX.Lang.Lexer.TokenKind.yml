@@ -1,0 +1,1254 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Lexer.TokenKind
+  commentId: T:CXEX.Lang.Lexer.TokenKind
+  id: TokenKind
+  parent: CXEX.Lang.Lexer
+  children:
+  - CXEX.Lang.Lexer.TokenKind.Amp
+  - CXEX.Lang.Lexer.TokenKind.AndAnd
+  - CXEX.Lang.Lexer.TokenKind.Arrow
+  - CXEX.Lang.Lexer.TokenKind.As
+  - CXEX.Lang.Lexer.TokenKind.Assign
+  - CXEX.Lang.Lexer.TokenKind.Colon
+  - CXEX.Lang.Lexer.TokenKind.Comma
+  - CXEX.Lang.Lexer.TokenKind.Const
+  - CXEX.Lang.Lexer.TokenKind.Dot
+  - CXEX.Lang.Lexer.TokenKind.Else
+  - CXEX.Lang.Lexer.TokenKind.Eof
+  - CXEX.Lang.Lexer.TokenKind.Eq
+  - CXEX.Lang.Lexer.TokenKind.Error
+  - CXEX.Lang.Lexer.TokenKind.Extern
+  - CXEX.Lang.Lexer.TokenKind.False
+  - CXEX.Lang.Lexer.TokenKind.Fn
+  - CXEX.Lang.Lexer.TokenKind.Ge
+  - CXEX.Lang.Lexer.TokenKind.Global
+  - CXEX.Lang.Lexer.TokenKind.Gt
+  - CXEX.Lang.Lexer.TokenKind.Identifier
+  - CXEX.Lang.Lexer.TokenKind.If
+  - CXEX.Lang.Lexer.TokenKind.IntLiteral
+  - CXEX.Lang.Lexer.TokenKind.LBrace
+  - CXEX.Lang.Lexer.TokenKind.LBracket
+  - CXEX.Lang.Lexer.TokenKind.LParen
+  - CXEX.Lang.Lexer.TokenKind.Le
+  - CXEX.Lang.Lexer.TokenKind.Let
+  - CXEX.Lang.Lexer.TokenKind.Lt
+  - CXEX.Lang.Lexer.TokenKind.Minus
+  - CXEX.Lang.Lexer.TokenKind.Ne
+  - CXEX.Lang.Lexer.TokenKind.Not
+  - CXEX.Lang.Lexer.TokenKind.OrOr
+  - CXEX.Lang.Lexer.TokenKind.Percent
+  - CXEX.Lang.Lexer.TokenKind.Plus
+  - CXEX.Lang.Lexer.TokenKind.RBrace
+  - CXEX.Lang.Lexer.TokenKind.RBracket
+  - CXEX.Lang.Lexer.TokenKind.RParen
+  - CXEX.Lang.Lexer.TokenKind.Return
+  - CXEX.Lang.Lexer.TokenKind.Semicolon
+  - CXEX.Lang.Lexer.TokenKind.Slash
+  - CXEX.Lang.Lexer.TokenKind.Star
+  - CXEX.Lang.Lexer.TokenKind.Struct
+  - CXEX.Lang.Lexer.TokenKind.True
+  - CXEX.Lang.Lexer.TokenKind.While
+  langs:
+  - csharp
+  - vb
+  name: TokenKind
+  nameWithType: TokenKind
+  fullName: CXEX.Lang.Lexer.TokenKind
+  type: Enum
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TokenKind
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 2
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: public enum TokenKind
+    content.vb: Public Enum TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Identifier
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Identifier
+  id: Identifier
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Identifier
+  nameWithType: TokenKind.Identifier
+  fullName: CXEX.Lang.Lexer.TokenKind.Identifier
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Identifier
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Identifier = 0
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.IntLiteral
+  commentId: F:CXEX.Lang.Lexer.TokenKind.IntLiteral
+  id: IntLiteral
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: IntLiteral
+  nameWithType: TokenKind.IntLiteral
+  fullName: CXEX.Lang.Lexer.TokenKind.IntLiteral
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: IntLiteral
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: IntLiteral = 1
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.True
+  commentId: F:CXEX.Lang.Lexer.TokenKind.True
+  id: "True"
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: "True"
+  nameWithType: TokenKind.True
+  fullName: CXEX.Lang.Lexer.TokenKind.True
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: "True"
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: True = 2
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.False
+  commentId: F:CXEX.Lang.Lexer.TokenKind.False
+  id: "False"
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: "False"
+  nameWithType: TokenKind.False
+  fullName: CXEX.Lang.Lexer.TokenKind.False
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: "False"
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: False = 3
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Fn
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Fn
+  id: Fn
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Fn
+  nameWithType: TokenKind.Fn
+  fullName: CXEX.Lang.Lexer.TokenKind.Fn
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Fn
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Fn = 4
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Struct
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Struct
+  id: Struct
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Struct
+  nameWithType: TokenKind.Struct
+  fullName: CXEX.Lang.Lexer.TokenKind.Struct
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Struct
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Struct = 5
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Global
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Global
+  id: Global
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Global
+  nameWithType: TokenKind.Global
+  fullName: CXEX.Lang.Lexer.TokenKind.Global
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Global
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Global = 6
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Const
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Const
+  id: Const
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Const
+  nameWithType: TokenKind.Const
+  fullName: CXEX.Lang.Lexer.TokenKind.Const
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Const
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Const = 7
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Extern
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Extern
+  id: Extern
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Extern
+  nameWithType: TokenKind.Extern
+  fullName: CXEX.Lang.Lexer.TokenKind.Extern
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Extern
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Extern = 8
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Let
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Let
+  id: Let
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Let
+  nameWithType: TokenKind.Let
+  fullName: CXEX.Lang.Lexer.TokenKind.Let
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Let
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Let = 9
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.If
+  commentId: F:CXEX.Lang.Lexer.TokenKind.If
+  id: If
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: If
+  nameWithType: TokenKind.If
+  fullName: CXEX.Lang.Lexer.TokenKind.If
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: If
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: If = 10
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Else
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Else
+  id: Else
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Else
+  nameWithType: TokenKind.Else
+  fullName: CXEX.Lang.Lexer.TokenKind.Else
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Else
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Else = 11
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.While
+  commentId: F:CXEX.Lang.Lexer.TokenKind.While
+  id: While
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: While
+  nameWithType: TokenKind.While
+  fullName: CXEX.Lang.Lexer.TokenKind.While
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: While
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: While = 12
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Return
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Return
+  id: Return
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Return
+  nameWithType: TokenKind.Return
+  fullName: CXEX.Lang.Lexer.TokenKind.Return
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Return
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Return = 13
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.As
+  commentId: F:CXEX.Lang.Lexer.TokenKind.As
+  id: As
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: As
+  nameWithType: TokenKind.As
+  fullName: CXEX.Lang.Lexer.TokenKind.As
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: As
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: As = 14
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.LParen
+  commentId: F:CXEX.Lang.Lexer.TokenKind.LParen
+  id: LParen
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: LParen
+  nameWithType: TokenKind.LParen
+  fullName: CXEX.Lang.Lexer.TokenKind.LParen
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: LParen
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: LParen = 15
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.RParen
+  commentId: F:CXEX.Lang.Lexer.TokenKind.RParen
+  id: RParen
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: RParen
+  nameWithType: TokenKind.RParen
+  fullName: CXEX.Lang.Lexer.TokenKind.RParen
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: RParen
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: RParen = 16
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.LBrace
+  commentId: F:CXEX.Lang.Lexer.TokenKind.LBrace
+  id: LBrace
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: LBrace
+  nameWithType: TokenKind.LBrace
+  fullName: CXEX.Lang.Lexer.TokenKind.LBrace
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: LBrace
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: LBrace = 17
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.RBrace
+  commentId: F:CXEX.Lang.Lexer.TokenKind.RBrace
+  id: RBrace
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: RBrace
+  nameWithType: TokenKind.RBrace
+  fullName: CXEX.Lang.Lexer.TokenKind.RBrace
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: RBrace
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: RBrace = 18
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.LBracket
+  commentId: F:CXEX.Lang.Lexer.TokenKind.LBracket
+  id: LBracket
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: LBracket
+  nameWithType: TokenKind.LBracket
+  fullName: CXEX.Lang.Lexer.TokenKind.LBracket
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: LBracket
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: LBracket = 19
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.RBracket
+  commentId: F:CXEX.Lang.Lexer.TokenKind.RBracket
+  id: RBracket
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: RBracket
+  nameWithType: TokenKind.RBracket
+  fullName: CXEX.Lang.Lexer.TokenKind.RBracket
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: RBracket
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: RBracket = 20
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Comma
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Comma
+  id: Comma
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Comma
+  nameWithType: TokenKind.Comma
+  fullName: CXEX.Lang.Lexer.TokenKind.Comma
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Comma
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Comma = 21
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Semicolon
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Semicolon
+  id: Semicolon
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Semicolon
+  nameWithType: TokenKind.Semicolon
+  fullName: CXEX.Lang.Lexer.TokenKind.Semicolon
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Semicolon
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Semicolon = 22
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Colon
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Colon
+  id: Colon
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Colon
+  nameWithType: TokenKind.Colon
+  fullName: CXEX.Lang.Lexer.TokenKind.Colon
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Colon
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Colon = 23
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Arrow
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Arrow
+  id: Arrow
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Arrow
+  nameWithType: TokenKind.Arrow
+  fullName: CXEX.Lang.Lexer.TokenKind.Arrow
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Arrow
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Arrow = 24
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Assign
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Assign
+  id: Assign
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Assign
+  nameWithType: TokenKind.Assign
+  fullName: CXEX.Lang.Lexer.TokenKind.Assign
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Assign
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Assign = 25
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Plus
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Plus
+  id: Plus
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Plus
+  nameWithType: TokenKind.Plus
+  fullName: CXEX.Lang.Lexer.TokenKind.Plus
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Plus
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Plus = 26
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Minus
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Minus
+  id: Minus
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Minus
+  nameWithType: TokenKind.Minus
+  fullName: CXEX.Lang.Lexer.TokenKind.Minus
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Minus
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Minus = 27
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Star
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Star
+  id: Star
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Star
+  nameWithType: TokenKind.Star
+  fullName: CXEX.Lang.Lexer.TokenKind.Star
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Star
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Star = 28
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Slash
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Slash
+  id: Slash
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Slash
+  nameWithType: TokenKind.Slash
+  fullName: CXEX.Lang.Lexer.TokenKind.Slash
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Slash
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Slash = 29
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Percent
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Percent
+  id: Percent
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Percent
+  nameWithType: TokenKind.Percent
+  fullName: CXEX.Lang.Lexer.TokenKind.Percent
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Percent
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Percent = 30
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Amp
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Amp
+  id: Amp
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Amp
+  nameWithType: TokenKind.Amp
+  fullName: CXEX.Lang.Lexer.TokenKind.Amp
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Amp
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Amp = 31
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Eq
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Eq
+  id: Eq
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Eq
+  nameWithType: TokenKind.Eq
+  fullName: CXEX.Lang.Lexer.TokenKind.Eq
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Eq
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Eq = 32
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Ne
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Ne
+  id: Ne
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Ne
+  nameWithType: TokenKind.Ne
+  fullName: CXEX.Lang.Lexer.TokenKind.Ne
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Ne
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Ne = 33
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Lt
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Lt
+  id: Lt
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Lt
+  nameWithType: TokenKind.Lt
+  fullName: CXEX.Lang.Lexer.TokenKind.Lt
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Lt
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Lt = 34
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Le
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Le
+  id: Le
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Le
+  nameWithType: TokenKind.Le
+  fullName: CXEX.Lang.Lexer.TokenKind.Le
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Le
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Le = 35
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Gt
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Gt
+  id: Gt
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Gt
+  nameWithType: TokenKind.Gt
+  fullName: CXEX.Lang.Lexer.TokenKind.Gt
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Gt
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Gt = 36
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Ge
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Ge
+  id: Ge
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Ge
+  nameWithType: TokenKind.Ge
+  fullName: CXEX.Lang.Lexer.TokenKind.Ge
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Ge
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Ge = 37
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.AndAnd
+  commentId: F:CXEX.Lang.Lexer.TokenKind.AndAnd
+  id: AndAnd
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: AndAnd
+  nameWithType: TokenKind.AndAnd
+  fullName: CXEX.Lang.Lexer.TokenKind.AndAnd
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: AndAnd
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: AndAnd = 38
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.OrOr
+  commentId: F:CXEX.Lang.Lexer.TokenKind.OrOr
+  id: OrOr
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: OrOr
+  nameWithType: TokenKind.OrOr
+  fullName: CXEX.Lang.Lexer.TokenKind.OrOr
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: OrOr
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: OrOr = 39
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Not
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Not
+  id: Not
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Not
+  nameWithType: TokenKind.Not
+  fullName: CXEX.Lang.Lexer.TokenKind.Not
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Not
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Not = 40
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Dot
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Dot
+  id: Dot
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Dot
+  nameWithType: TokenKind.Dot
+  fullName: CXEX.Lang.Lexer.TokenKind.Dot
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Dot
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 15
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Dot = 41
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Eof
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Eof
+  id: Eof
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Eof
+  nameWithType: TokenKind.Eof
+  fullName: CXEX.Lang.Lexer.TokenKind.Eof
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Eof
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 17
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Eof = 42
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+- uid: CXEX.Lang.Lexer.TokenKind.Error
+  commentId: F:CXEX.Lang.Lexer.TokenKind.Error
+  id: Error
+  parent: CXEX.Lang.Lexer.TokenKind
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: TokenKind.Error
+  fullName: CXEX.Lang.Lexer.TokenKind.Error
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/TokenKind.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Error
+    path: ../CXEX.Lang/Lexer/TokenKind.cs
+    startLine: 17
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: Error = 43
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+references:
+- uid: CXEX.Lang.Lexer
+  commentId: N:CXEX.Lang.Lexer
+  href: CXEX.html
+  name: CXEX.Lang.Lexer
+  nameWithType: CXEX.Lang.Lexer
+  fullName: CXEX.Lang.Lexer
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Lexer
+    name: Lexer
+    href: CXEX.Lang.Lexer.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Lexer
+    name: Lexer
+    href: CXEX.Lang.Lexer.html
+- uid: CXEX.Lang.Lexer.TokenKind
+  commentId: T:CXEX.Lang.Lexer.TokenKind
+  parent: CXEX.Lang.Lexer
+  href: CXEX.Lang.Lexer.TokenKind.html
+  name: TokenKind
+  nameWithType: TokenKind
+  fullName: CXEX.Lang.Lexer.TokenKind

@@ -1,0 +1,544 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Wrappers.BochsConfig
+  commentId: T:CXEX.CLI.Wrappers.BochsConfig
+  id: BochsConfig
+  parent: CXEX.CLI.Wrappers
+  children:
+  - CXEX.CLI.Wrappers.BochsConfig.BiosRomPath
+  - CXEX.CLI.Wrappers.BochsConfig.BootDisk
+  - CXEX.CLI.Wrappers.BochsConfig.FsDisk
+  - CXEX.CLI.Wrappers.BochsConfig.MemoryMb
+  - CXEX.CLI.Wrappers.BochsConfig.UsbDisk
+  - CXEX.CLI.Wrappers.BochsConfig.VgaRomPath
+  langs:
+  - csharp
+  - vb
+  name: BochsConfig
+  nameWithType: BochsConfig
+  fullName: CXEX.CLI.Wrappers.BochsConfig
+  type: Class
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/BochsTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BochsConfig
+    path: ../CXEX.CLI/Wrappers/BochsTool.cs
+    startLine: 7
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public class BochsConfig
+    content.vb: Public Class BochsConfig
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.CLI.Wrappers.BochsConfig.MemoryMb
+  commentId: P:CXEX.CLI.Wrappers.BochsConfig.MemoryMb
+  id: MemoryMb
+  parent: CXEX.CLI.Wrappers.BochsConfig
+  langs:
+  - csharp
+  - vb
+  name: MemoryMb
+  nameWithType: BochsConfig.MemoryMb
+  fullName: CXEX.CLI.Wrappers.BochsConfig.MemoryMb
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/BochsTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: MemoryMb
+    path: ../CXEX.CLI/Wrappers/BochsTool.cs
+    startLine: 9
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public int MemoryMb { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MemoryMb As Integer
+  overload: CXEX.CLI.Wrappers.BochsConfig.MemoryMb*
+- uid: CXEX.CLI.Wrappers.BochsConfig.BiosRomPath
+  commentId: P:CXEX.CLI.Wrappers.BochsConfig.BiosRomPath
+  id: BiosRomPath
+  parent: CXEX.CLI.Wrappers.BochsConfig
+  langs:
+  - csharp
+  - vb
+  name: BiosRomPath
+  nameWithType: BochsConfig.BiosRomPath
+  fullName: CXEX.CLI.Wrappers.BochsConfig.BiosRomPath
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/BochsTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BiosRomPath
+    path: ../CXEX.CLI/Wrappers/BochsTool.cs
+    startLine: 10
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string BiosRomPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BiosRomPath As String
+  overload: CXEX.CLI.Wrappers.BochsConfig.BiosRomPath*
+- uid: CXEX.CLI.Wrappers.BochsConfig.VgaRomPath
+  commentId: P:CXEX.CLI.Wrappers.BochsConfig.VgaRomPath
+  id: VgaRomPath
+  parent: CXEX.CLI.Wrappers.BochsConfig
+  langs:
+  - csharp
+  - vb
+  name: VgaRomPath
+  nameWithType: BochsConfig.VgaRomPath
+  fullName: CXEX.CLI.Wrappers.BochsConfig.VgaRomPath
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/BochsTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: VgaRomPath
+    path: ../CXEX.CLI/Wrappers/BochsTool.cs
+    startLine: 11
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string VgaRomPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VgaRomPath As String
+  overload: CXEX.CLI.Wrappers.BochsConfig.VgaRomPath*
+- uid: CXEX.CLI.Wrappers.BochsConfig.BootDisk
+  commentId: P:CXEX.CLI.Wrappers.BochsConfig.BootDisk
+  id: BootDisk
+  parent: CXEX.CLI.Wrappers.BochsConfig
+  langs:
+  - csharp
+  - vb
+  name: BootDisk
+  nameWithType: BochsConfig.BootDisk
+  fullName: CXEX.CLI.Wrappers.BochsConfig.BootDisk
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/BochsTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BootDisk
+    path: ../CXEX.CLI/Wrappers/BochsTool.cs
+    startLine: 12
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string BootDisk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BootDisk As String
+  overload: CXEX.CLI.Wrappers.BochsConfig.BootDisk*
+- uid: CXEX.CLI.Wrappers.BochsConfig.FsDisk
+  commentId: P:CXEX.CLI.Wrappers.BochsConfig.FsDisk
+  id: FsDisk
+  parent: CXEX.CLI.Wrappers.BochsConfig
+  langs:
+  - csharp
+  - vb
+  name: FsDisk
+  nameWithType: BochsConfig.FsDisk
+  fullName: CXEX.CLI.Wrappers.BochsConfig.FsDisk
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/BochsTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FsDisk
+    path: ../CXEX.CLI/Wrappers/BochsTool.cs
+    startLine: 13
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string? FsDisk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FsDisk As String
+  overload: CXEX.CLI.Wrappers.BochsConfig.FsDisk*
+- uid: CXEX.CLI.Wrappers.BochsConfig.UsbDisk
+  commentId: P:CXEX.CLI.Wrappers.BochsConfig.UsbDisk
+  id: UsbDisk
+  parent: CXEX.CLI.Wrappers.BochsConfig
+  langs:
+  - csharp
+  - vb
+  name: UsbDisk
+  nameWithType: BochsConfig.UsbDisk
+  fullName: CXEX.CLI.Wrappers.BochsConfig.UsbDisk
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/BochsTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: UsbDisk
+    path: ../CXEX.CLI/Wrappers/BochsTool.cs
+    startLine: 14
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string? UsbDisk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UsbDisk As String
+  overload: CXEX.CLI.Wrappers.BochsConfig.UsbDisk*
+references:
+- uid: CXEX.CLI.Wrappers
+  commentId: N:CXEX.CLI.Wrappers
+  href: CXEX.html
+  name: CXEX.CLI.Wrappers
+  nameWithType: CXEX.CLI.Wrappers
+  fullName: CXEX.CLI.Wrappers
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Wrappers
+    name: Wrappers
+    href: CXEX.CLI.Wrappers.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Wrappers
+    name: Wrappers
+    href: CXEX.CLI.Wrappers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.CLI.Wrappers.BochsConfig.MemoryMb*
+  commentId: Overload:CXEX.CLI.Wrappers.BochsConfig.MemoryMb
+  href: CXEX.CLI.Wrappers.BochsConfig.html#CXEX_CLI_Wrappers_BochsConfig_MemoryMb
+  name: MemoryMb
+  nameWithType: BochsConfig.MemoryMb
+  fullName: CXEX.CLI.Wrappers.BochsConfig.MemoryMb
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CXEX.CLI.Wrappers.BochsConfig.BiosRomPath*
+  commentId: Overload:CXEX.CLI.Wrappers.BochsConfig.BiosRomPath
+  href: CXEX.CLI.Wrappers.BochsConfig.html#CXEX_CLI_Wrappers_BochsConfig_BiosRomPath
+  name: BiosRomPath
+  nameWithType: BochsConfig.BiosRomPath
+  fullName: CXEX.CLI.Wrappers.BochsConfig.BiosRomPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.CLI.Wrappers.BochsConfig.VgaRomPath*
+  commentId: Overload:CXEX.CLI.Wrappers.BochsConfig.VgaRomPath
+  href: CXEX.CLI.Wrappers.BochsConfig.html#CXEX_CLI_Wrappers_BochsConfig_VgaRomPath
+  name: VgaRomPath
+  nameWithType: BochsConfig.VgaRomPath
+  fullName: CXEX.CLI.Wrappers.BochsConfig.VgaRomPath
+- uid: CXEX.CLI.Wrappers.BochsConfig.BootDisk*
+  commentId: Overload:CXEX.CLI.Wrappers.BochsConfig.BootDisk
+  href: CXEX.CLI.Wrappers.BochsConfig.html#CXEX_CLI_Wrappers_BochsConfig_BootDisk
+  name: BootDisk
+  nameWithType: BochsConfig.BootDisk
+  fullName: CXEX.CLI.Wrappers.BochsConfig.BootDisk
+- uid: CXEX.CLI.Wrappers.BochsConfig.FsDisk*
+  commentId: Overload:CXEX.CLI.Wrappers.BochsConfig.FsDisk
+  href: CXEX.CLI.Wrappers.BochsConfig.html#CXEX_CLI_Wrappers_BochsConfig_FsDisk
+  name: FsDisk
+  nameWithType: BochsConfig.FsDisk
+  fullName: CXEX.CLI.Wrappers.BochsConfig.FsDisk
+- uid: CXEX.CLI.Wrappers.BochsConfig.UsbDisk*
+  commentId: Overload:CXEX.CLI.Wrappers.BochsConfig.UsbDisk
+  href: CXEX.CLI.Wrappers.BochsConfig.html#CXEX_CLI_Wrappers_BochsConfig_UsbDisk
+  name: UsbDisk
+  nameWithType: BochsConfig.UsbDisk
+  fullName: CXEX.CLI.Wrappers.BochsConfig.UsbDisk

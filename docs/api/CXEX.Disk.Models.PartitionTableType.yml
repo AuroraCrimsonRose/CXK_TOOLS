@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Disk.Models.PartitionTableType
+  commentId: T:CXEX.Disk.Models.PartitionTableType
+  id: PartitionTableType
+  parent: CXEX.Disk.Models
+  children:
+  - CXEX.Disk.Models.PartitionTableType.GPT
+  - CXEX.Disk.Models.PartitionTableType.MBR
+  - CXEX.Disk.Models.PartitionTableType.Unknown
+  - CXEX.Disk.Models.PartitionTableType.XBPT
+  langs:
+  - csharp
+  - vb
+  name: PartitionTableType
+  nameWithType: PartitionTableType
+  fullName: CXEX.Disk.Models.PartitionTableType
+  type: Enum
+  source:
+    remote:
+      path: CXEX.Disk/Models/PartitionTableType.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: PartitionTableType
+    path: ../CXEX.Disk/Models/PartitionTableType.cs
+    startLine: 2
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk.Models
+  syntax:
+    content: public enum PartitionTableType
+    content.vb: Public Enum PartitionTableType
+- uid: CXEX.Disk.Models.PartitionTableType.Unknown
+  commentId: F:CXEX.Disk.Models.PartitionTableType.Unknown
+  id: Unknown
+  parent: CXEX.Disk.Models.PartitionTableType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: PartitionTableType.Unknown
+  fullName: CXEX.Disk.Models.PartitionTableType.Unknown
+  type: Field
+  source:
+    remote:
+      path: CXEX.Disk/Models/PartitionTableType.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Unknown
+    path: ../CXEX.Disk/Models/PartitionTableType.cs
+    startLine: 2
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk.Models
+  syntax:
+    content: Unknown = 0
+    return:
+      type: CXEX.Disk.Models.PartitionTableType
+- uid: CXEX.Disk.Models.PartitionTableType.MBR
+  commentId: F:CXEX.Disk.Models.PartitionTableType.MBR
+  id: MBR
+  parent: CXEX.Disk.Models.PartitionTableType
+  langs:
+  - csharp
+  - vb
+  name: MBR
+  nameWithType: PartitionTableType.MBR
+  fullName: CXEX.Disk.Models.PartitionTableType.MBR
+  type: Field
+  source:
+    remote:
+      path: CXEX.Disk/Models/PartitionTableType.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: MBR
+    path: ../CXEX.Disk/Models/PartitionTableType.cs
+    startLine: 2
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk.Models
+  syntax:
+    content: MBR = 1
+    return:
+      type: CXEX.Disk.Models.PartitionTableType
+- uid: CXEX.Disk.Models.PartitionTableType.GPT
+  commentId: F:CXEX.Disk.Models.PartitionTableType.GPT
+  id: GPT
+  parent: CXEX.Disk.Models.PartitionTableType
+  langs:
+  - csharp
+  - vb
+  name: GPT
+  nameWithType: PartitionTableType.GPT
+  fullName: CXEX.Disk.Models.PartitionTableType.GPT
+  type: Field
+  source:
+    remote:
+      path: CXEX.Disk/Models/PartitionTableType.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: GPT
+    path: ../CXEX.Disk/Models/PartitionTableType.cs
+    startLine: 2
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk.Models
+  syntax:
+    content: GPT = 2
+    return:
+      type: CXEX.Disk.Models.PartitionTableType
+- uid: CXEX.Disk.Models.PartitionTableType.XBPT
+  commentId: F:CXEX.Disk.Models.PartitionTableType.XBPT
+  id: XBPT
+  parent: CXEX.Disk.Models.PartitionTableType
+  langs:
+  - csharp
+  - vb
+  name: XBPT
+  nameWithType: PartitionTableType.XBPT
+  fullName: CXEX.Disk.Models.PartitionTableType.XBPT
+  type: Field
+  source:
+    remote:
+      path: CXEX.Disk/Models/PartitionTableType.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: XBPT
+    path: ../CXEX.Disk/Models/PartitionTableType.cs
+    startLine: 2
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk.Models
+  syntax:
+    content: XBPT = 3
+    return:
+      type: CXEX.Disk.Models.PartitionTableType
+references:
+- uid: CXEX.Disk.Models
+  commentId: N:CXEX.Disk.Models
+  href: CXEX.html
+  name: CXEX.Disk.Models
+  nameWithType: CXEX.Disk.Models
+  fullName: CXEX.Disk.Models
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+  - name: .
+  - uid: CXEX.Disk.Models
+    name: Models
+    href: CXEX.Disk.Models.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+  - name: .
+  - uid: CXEX.Disk.Models
+    name: Models
+    href: CXEX.Disk.Models.html
+- uid: CXEX.Disk.Models.PartitionTableType
+  commentId: T:CXEX.Disk.Models.PartitionTableType
+  parent: CXEX.Disk.Models
+  href: CXEX.Disk.Models.PartitionTableType.html
+  name: PartitionTableType
+  nameWithType: PartitionTableType
+  fullName: CXEX.Disk.Models.PartitionTableType

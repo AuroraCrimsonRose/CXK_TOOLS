@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Diagnostics.Severity
+  commentId: T:CXEX.Lang.Diagnostics.Severity
+  id: Severity
+  parent: CXEX.Lang.Diagnostics
+  children:
+  - CXEX.Lang.Diagnostics.Severity.Error
+  - CXEX.Lang.Diagnostics.Severity.Note
+  - CXEX.Lang.Diagnostics.Severity.Warning
+  langs:
+  - csharp
+  - vb
+  name: Severity
+  nameWithType: Severity
+  fullName: CXEX.Lang.Diagnostics.Severity
+  type: Enum
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Severity
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 4
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public enum Severity
+    content.vb: Public Enum Severity
+- uid: CXEX.Lang.Diagnostics.Severity.Error
+  commentId: F:CXEX.Lang.Diagnostics.Severity.Error
+  id: Error
+  parent: CXEX.Lang.Diagnostics.Severity
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: Severity.Error
+  fullName: CXEX.Lang.Diagnostics.Severity.Error
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Error
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 4
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: Error = 0
+    return:
+      type: CXEX.Lang.Diagnostics.Severity
+- uid: CXEX.Lang.Diagnostics.Severity.Warning
+  commentId: F:CXEX.Lang.Diagnostics.Severity.Warning
+  id: Warning
+  parent: CXEX.Lang.Diagnostics.Severity
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: Severity.Warning
+  fullName: CXEX.Lang.Diagnostics.Severity.Warning
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Warning
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 4
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: Warning = 1
+    return:
+      type: CXEX.Lang.Diagnostics.Severity
+- uid: CXEX.Lang.Diagnostics.Severity.Note
+  commentId: F:CXEX.Lang.Diagnostics.Severity.Note
+  id: Note
+  parent: CXEX.Lang.Diagnostics.Severity
+  langs:
+  - csharp
+  - vb
+  name: Note
+  nameWithType: Severity.Note
+  fullName: CXEX.Lang.Diagnostics.Severity.Note
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Note
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 4
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: Note = 2
+    return:
+      type: CXEX.Lang.Diagnostics.Severity
+references:
+- uid: CXEX.Lang.Diagnostics
+  commentId: N:CXEX.Lang.Diagnostics
+  href: CXEX.html
+  name: CXEX.Lang.Diagnostics
+  nameWithType: CXEX.Lang.Diagnostics
+  fullName: CXEX.Lang.Diagnostics
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+- uid: CXEX.Lang.Diagnostics.Severity
+  commentId: T:CXEX.Lang.Diagnostics.Severity
+  parent: CXEX.Lang.Diagnostics
+  href: CXEX.Lang.Diagnostics.Severity.html
+  name: Severity
+  nameWithType: Severity
+  fullName: CXEX.Lang.Diagnostics.Severity

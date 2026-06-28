@@ -1,0 +1,496 @@
+### YamlMime:TableOfContent
+items:
+- uid: CXEX.Build.Emitters
+  name: CXEX.Build.Emitters
+  type: Namespace
+  items:
+  - uid: CXEX.Build.Emitters.CXEXWriter
+    name: CXEXWriter
+    type: Class
+  - uid: CXEX.Build.Emitters.StagedFile
+    name: StagedFile
+    type: Class
+  - uid: CXEX.Build.Emitters.XBPTImageWriter
+    name: XBPTImageWriter
+    type: Class
+- uid: CXEX.Build.Engines
+  name: CXEX.Build.Engines
+  type: Namespace
+  items:
+  - uid: CXEX.Build.Engines.CXEXLayoutEngine
+    name: CXEXLayoutEngine
+    type: Class
+  - uid: CXEX.Build.Engines.DiskGeometryEngine
+    name: DiskGeometryEngine
+    type: Class
+- uid: CXEX.Build.Layout
+  name: CXEX.Build.Layout
+  type: Namespace
+  items:
+  - uid: CXEX.Build.Layout.CxexMemoryLayout
+    name: CxexMemoryLayout
+    type: Class
+  - uid: CXEX.Build.Layout.DiskGeometryMap
+    name: DiskGeometryMap
+    type: Class
+  - uid: CXEX.Build.Layout.PartitionLayout
+    name: PartitionLayout
+    type: Class
+  - uid: CXEX.Build.Layout.SectionLayout
+    name: SectionLayout
+    type: Class
+- uid: CXEX.Build.Parsers
+  name: CXEX.Build.Parsers
+  type: Namespace
+  items:
+  - uid: CXEX.Build.Parsers.ElfParser
+    name: ElfParser
+    type: Class
+  - uid: CXEX.Build.Parsers.ElfSegment
+    name: ElfSegment
+    type: Class
+- uid: CXEX.CLI.Commands
+  name: CXEX.CLI.Commands
+  type: Namespace
+  items:
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: BuildCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.CheckCommand
+    name: CheckCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.CheckCommand.Settings
+    name: CheckCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.CompileCommand
+    name: CompileCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.CompileCommand.Settings
+    name: CompileCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.EmbedCommand
+    name: EmbedCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.EmbedCommand.Settings
+    name: EmbedCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.ImageCommand
+    name: ImageCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.ImageCommand.Settings
+    name: ImageCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.InspectCommand
+    name: InspectCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.InspectCommand.Settings
+    name: InspectCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.KeygenCommand
+    name: KeygenCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.KeygenCommand.Settings
+    name: KeygenCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.RawImageCommand
+    name: RawImageCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.RawImageCommand.Settings
+    name: RawImageCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.RunCommand
+    name: RunCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.RunCommand.Settings
+    name: RunCommand.Settings
+    type: Class
+  - uid: CXEX.CLI.Commands.SignCommand
+    name: SignCommand
+    type: Class
+  - uid: CXEX.CLI.Commands.SignCommand.Settings
+    name: SignCommand.Settings
+    type: Class
+- uid: CXEX.CLI.Infrastructure
+  name: CXEX.CLI.Infrastructure
+  type: Namespace
+  items:
+  - uid: CXEX.CLI.Infrastructure.ProcessRunner
+    name: ProcessRunner
+    type: Class
+- uid: CXEX.CLI.Wrappers
+  name: CXEX.CLI.Wrappers
+  type: Namespace
+  items:
+  - uid: CXEX.CLI.Wrappers.BochsConfig
+    name: BochsConfig
+    type: Class
+  - uid: CXEX.CLI.Wrappers.BochsTool
+    name: BochsTool
+    type: Class
+  - uid: CXEX.CLI.Wrappers.CMakeTool
+    name: CMakeTool
+    type: Class
+  - uid: CXEX.CLI.Wrappers.GccTool
+    name: GccTool
+    type: Class
+  - uid: CXEX.CLI.Wrappers.NasmTool
+    name: NasmTool
+    type: Class
+  - uid: CXEX.CLI.Wrappers.QemuConfig
+    name: QemuConfig
+    type: Class
+  - uid: CXEX.CLI.Wrappers.QemuTool
+    name: QemuTool
+    type: Class
+- uid: CXEX.Core.Constants
+  name: CXEX.Core.Constants
+  type: Namespace
+  items:
+  - uid: CXEX.Core.Constants.CXFlags
+    name: CXFlags
+    type: Class
+  - uid: CXEX.Core.Constants.CXMagic
+    name: CXMagic
+    type: Class
+- uid: CXEX.Core.Interfaces
+  name: CXEX.Core.Interfaces
+  type: Namespace
+  items:
+  - uid: CXEX.Core.Interfaces.ICXFile
+    name: ICXFile
+    type: Interface
+  - uid: CXEX.Core.Interfaces.ICXFileSystem
+    name: ICXFileSystem
+    type: Interface
+- uid: CXEX.Core.Utilities
+  name: CXEX.Core.Utilities
+  type: Namespace
+  items:
+  - uid: CXEX.Core.Utilities.MemoryPrimitives
+    name: MemoryPrimitives
+    type: Class
+- uid: CXEX.Crypto.Signing
+  name: CXEX.Crypto.Signing
+  type: Namespace
+  items:
+  - uid: CXEX.Crypto.Signing.CXSigner
+    name: CXSigner
+    type: Class
+  - uid: CXEX.Crypto.Signing.CXVerifier
+    name: CXVerifier
+    type: Class
+  - uid: CXEX.Crypto.Signing.CXVerifier.VerifyResult
+    name: CXVerifier.VerifyResult
+    type: Enum
+- uid: CXEX.Crypto.Trust
+  name: CXEX.Crypto.Trust
+  type: Namespace
+  items:
+  - uid: CXEX.Crypto.Trust.CXAuthChain
+    name: CXAuthChain
+    type: Class
+  - uid: CXEX.Crypto.Trust.CXKeyStore
+    name: CXKeyStore
+    type: Class
+- uid: CXEX.Disk
+  name: CXEX.Disk
+  type: Namespace
+  items:
+  - uid: CXEX.Disk.DiskAnalyzer
+    name: DiskAnalyzer
+    type: Class
+- uid: CXEX.Disk.Models
+  name: CXEX.Disk.Models
+  type: Namespace
+  items:
+  - uid: CXEX.Disk.Models.DiskLayout
+    name: DiskLayout
+    type: Class
+  - uid: CXEX.Disk.Models.PartitionEntry
+    name: PartitionEntry
+    type: Class
+  - uid: CXEX.Disk.Models.PartitionTableType
+    name: PartitionTableType
+    type: Enum
+- uid: CXEX.Disk.Parsers
+  name: CXEX.Disk.Parsers
+  type: Namespace
+  items:
+  - uid: CXEX.Disk.Parsers.GptParser
+    name: GptParser
+    type: Class
+  - uid: CXEX.Disk.Parsers.MbrParser
+    name: MbrParser
+    type: Class
+  - uid: CXEX.Disk.Parsers.XbptParser
+    name: XbptParser
+    type: Class
+- uid: CXEX.FileSystem.Mounts
+  name: CXEX.FileSystem.Mounts
+  type: Namespace
+  items:
+  - uid: CXEX.FileSystem.Mounts.CXFSFileSystem
+    name: CXFSFileSystem
+    type: Class
+  - uid: CXEX.FileSystem.Mounts.CXFSImage
+    name: CXFSImage
+    type: Class
+  - uid: CXEX.FileSystem.Mounts.CXMemoryFileSystem
+    name: CXMemoryFileSystem
+    type: Class
+- uid: CXEX.FileSystem.Paths
+  name: CXEX.FileSystem.Paths
+  type: Namespace
+  items:
+  - uid: CXEX.FileSystem.Paths.CXPath
+    name: CXPath
+    type: Class
+- uid: CXEX.FileSystem.Volume
+  name: CXEX.FileSystem.Volume
+  type: Namespace
+  items:
+  - uid: CXEX.FileSystem.Volume.CXFSConstants
+    name: CXFSConstants
+    type: Class
+  - uid: CXEX.FileSystem.Volume.CXFSEntry
+    name: CXFSEntry
+    type: Class
+  - uid: CXEX.FileSystem.Volume.CXFSParser
+    name: CXFSParser
+    type: Class
+  - uid: CXEX.FileSystem.Volume.CXFSSuperblock
+    name: CXFSSuperblock
+    type: Class
+- uid: CXEX.FileType.Parsers
+  name: CXEX.FileType.Parsers
+  type: Namespace
+  items:
+  - uid: CXEX.FileType.Parsers.CXEXParser
+    name: CXEXParser
+    type: Class
+  - uid: CXEX.FileType.Parsers.CXOtherParsers
+    name: CXOtherParsers
+    type: Class
+- uid: CXEX.FileType.Structures
+  name: CXEX.FileType.Structures
+  type: Namespace
+  items:
+  - uid: CXEX.FileType.Structures.CXEXHeader
+    name: CXEXHeader
+    type: Class
+  - uid: CXEX.FileType.Structures.CXEXSection
+    name: CXEXSection
+    type: Class
+  - uid: CXEX.FileType.Structures.CXEXSignatureBlock
+    name: CXEXSignatureBlock
+    type: Class
+  - uid: CXEX.FileType.Structures.CXPKHeader
+    name: CXPKHeader
+    type: Class
+  - uid: CXEX.FileType.Structures.XBPTEntry
+    name: XBPTEntry
+    type: Class
+  - uid: CXEX.FileType.Structures.XBPTHeader
+    name: XBPTHeader
+    type: Class
+- uid: CXEX.FileType.Types
+  name: CXEX.FileType.Types
+  type: Namespace
+  items:
+  - uid: CXEX.FileType.Types.CXEXExecutable
+    name: CXEXExecutable
+    type: Class
+  - uid: CXEX.FileType.Types.XBPTFile
+    name: XBPTFile
+    type: Class
+  - uid: CXEX.FileType.Types.XKPKFile
+    name: XKPKFile
+    type: Class
+  - uid: CXEX.FileType.Types.XKSKFile
+    name: XKSKFile
+    type: Class
+- uid: CXEX.Lang.Abi
+  name: CXEX.Lang.Abi
+  type: Namespace
+  items:
+  - uid: CXEX.Lang.Abi.AbiPrelude
+    name: AbiPrelude
+    type: Class
+- uid: CXEX.Lang.Ast
+  name: CXEX.Lang.Ast
+  type: Namespace
+  items:
+  - uid: CXEX.Lang.Ast.ArrayType
+    name: ArrayType
+    type: Class
+  - uid: CXEX.Lang.Ast.AssignStmt
+    name: AssignStmt
+    type: Class
+  - uid: CXEX.Lang.Ast.BinOp
+    name: BinOp
+    type: Enum
+  - uid: CXEX.Lang.Ast.BinaryExpr
+    name: BinaryExpr
+    type: Class
+  - uid: CXEX.Lang.Ast.Block
+    name: Block
+    type: Class
+  - uid: CXEX.Lang.Ast.BoolLit
+    name: BoolLit
+    type: Class
+  - uid: CXEX.Lang.Ast.CallExpr
+    name: CallExpr
+    type: Class
+  - uid: CXEX.Lang.Ast.CastExpr
+    name: CastExpr
+    type: Class
+  - uid: CXEX.Lang.Ast.CompilationUnit
+    name: CompilationUnit
+    type: Class
+  - uid: CXEX.Lang.Ast.ConstDecl
+    name: ConstDecl
+    type: Class
+  - uid: CXEX.Lang.Ast.Decl
+    name: Decl
+    type: Class
+  - uid: CXEX.Lang.Ast.Expr
+    name: Expr
+    type: Class
+  - uid: CXEX.Lang.Ast.ExprStmt
+    name: ExprStmt
+    type: Class
+  - uid: CXEX.Lang.Ast.FnDecl
+    name: FnDecl
+    type: Class
+  - uid: CXEX.Lang.Ast.GlobalDecl
+    name: GlobalDecl
+    type: Class
+  - uid: CXEX.Lang.Ast.IfStmt
+    name: IfStmt
+    type: Class
+  - uid: CXEX.Lang.Ast.IndexExpr
+    name: IndexExpr
+    type: Class
+  - uid: CXEX.Lang.Ast.IntLit
+    name: IntLit
+    type: Class
+  - uid: CXEX.Lang.Ast.LetStmt
+    name: LetStmt
+    type: Class
+  - uid: CXEX.Lang.Ast.MemberExpr
+    name: MemberExpr
+    type: Class
+  - uid: CXEX.Lang.Ast.NameExpr
+    name: NameExpr
+    type: Class
+  - uid: CXEX.Lang.Ast.NamedType
+    name: NamedType
+    type: Class
+  - uid: CXEX.Lang.Ast.Node
+    name: Node
+    type: Class
+  - uid: CXEX.Lang.Ast.Param
+    name: Param
+    type: Class
+  - uid: CXEX.Lang.Ast.PointerType
+    name: PointerType
+    type: Class
+  - uid: CXEX.Lang.Ast.PrimKind
+    name: PrimKind
+    type: Enum
+  - uid: CXEX.Lang.Ast.PrimType
+    name: PrimType
+    type: Class
+  - uid: CXEX.Lang.Ast.ReturnStmt
+    name: ReturnStmt
+    type: Class
+  - uid: CXEX.Lang.Ast.Stmt
+    name: Stmt
+    type: Class
+  - uid: CXEX.Lang.Ast.StructDecl
+    name: StructDecl
+    type: Class
+  - uid: CXEX.Lang.Ast.TypeRef
+    name: TypeRef
+    type: Class
+  - uid: CXEX.Lang.Ast.UnOp
+    name: UnOp
+    type: Enum
+  - uid: CXEX.Lang.Ast.UnaryExpr
+    name: UnaryExpr
+    type: Class
+  - uid: CXEX.Lang.Ast.WhileStmt
+    name: WhileStmt
+    type: Class
+- uid: CXEX.Lang.CodeGen
+  name: CXEX.Lang.CodeGen
+  type: Namespace
+  items:
+  - uid: CXEX.Lang.CodeGen.X86Emitter
+    name: X86Emitter
+    type: Class
+- uid: CXEX.Lang.Diagnostics
+  name: CXEX.Lang.Diagnostics
+  type: Namespace
+  items:
+  - uid: CXEX.Lang.Diagnostics.Diagnostic
+    name: Diagnostic
+    type: Class
+  - uid: CXEX.Lang.Diagnostics.DiagnosticBag
+    name: DiagnosticBag
+    type: Class
+  - uid: CXEX.Lang.Diagnostics.Severity
+    name: Severity
+    type: Enum
+  - uid: CXEX.Lang.Diagnostics.SourceSpan
+    name: SourceSpan
+    type: Struct
+- uid: CXEX.Lang.Lexer
+  name: CXEX.Lang.Lexer
+  type: Namespace
+  items:
+  - uid: CXEX.Lang.Lexer.Lexer
+    name: Lexer
+    type: Class
+  - uid: CXEX.Lang.Lexer.Token
+    name: Token
+    type: Struct
+  - uid: CXEX.Lang.Lexer.TokenKind
+    name: TokenKind
+    type: Enum
+- uid: CXEX.Lang.Parsing
+  name: CXEX.Lang.Parsing
+  type: Namespace
+  items:
+  - uid: CXEX.Lang.Parsing.Parser
+    name: Parser
+    type: Class
+- uid: CXEX.Lang.Sema
+  name: CXEX.Lang.Sema
+  type: Namespace
+  items:
+  - uid: CXEX.Lang.Sema.ConstFold
+    name: ConstFold
+    type: Class
+  - uid: CXEX.Lang.Sema.Resolver
+    name: Resolver
+    type: Class
+  - uid: CXEX.Lang.Sema.Scope
+    name: Scope
+    type: Class
+  - uid: CXEX.Lang.Sema.SemaContext
+    name: SemaContext
+    type: Class
+  - uid: CXEX.Lang.Sema.SymKind
+    name: SymKind
+    type: Enum
+  - uid: CXEX.Lang.Sema.Symbol
+    name: Symbol
+    type: Class
+  - uid: CXEX.Lang.Sema.TypeChecker
+    name: TypeChecker
+    type: Class
+memberLayout: SamePage

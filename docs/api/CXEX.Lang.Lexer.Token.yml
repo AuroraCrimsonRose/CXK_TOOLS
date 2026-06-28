@@ -1,0 +1,646 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Lexer.Token
+  commentId: T:CXEX.Lang.Lexer.Token
+  id: Token
+  parent: CXEX.Lang.Lexer
+  children:
+  - CXEX.Lang.Lexer.Token.#ctor(CXEX.Lang.Lexer.TokenKind,System.String,CXEX.Lang.Diagnostics.SourceSpan,System.UInt64)
+  - CXEX.Lang.Lexer.Token.Kind
+  - CXEX.Lang.Lexer.Token.Span
+  - CXEX.Lang.Lexer.Token.Text
+  - CXEX.Lang.Lexer.Token.ToString
+  - CXEX.Lang.Lexer.Token.Value
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: Token
+  fullName: CXEX.Lang.Lexer.Token
+  type: Struct
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/Token.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Token
+    path: ../CXEX.Lang/Lexer/Token.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  summary: A lexed token. Text is the exact source slice; for IntLiteral, Value holds the parsed number.
+  example: []
+  syntax:
+    content: 'public readonly record struct Token : IEquatable<Token>'
+    content.vb: Public Structure Token Implements IEquatable(Of Token)
+  implements:
+  - System.IEquatable{CXEX.Lang.Lexer.Token}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: CXEX.Lang.Lexer.Token.#ctor(CXEX.Lang.Lexer.TokenKind,System.String,CXEX.Lang.Diagnostics.SourceSpan,System.UInt64)
+  commentId: M:CXEX.Lang.Lexer.Token.#ctor(CXEX.Lang.Lexer.TokenKind,System.String,CXEX.Lang.Diagnostics.SourceSpan,System.UInt64)
+  id: '#ctor(CXEX.Lang.Lexer.TokenKind,System.String,CXEX.Lang.Diagnostics.SourceSpan,System.UInt64)'
+  parent: CXEX.Lang.Lexer.Token
+  langs:
+  - csharp
+  - vb
+  name: Token(TokenKind, string, SourceSpan, ulong)
+  nameWithType: Token.Token(TokenKind, string, SourceSpan, ulong)
+  fullName: CXEX.Lang.Lexer.Token.Token(CXEX.Lang.Lexer.TokenKind, string, CXEX.Lang.Diagnostics.SourceSpan, ulong)
+  type: Constructor
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/Token.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: .ctor
+    path: ../CXEX.Lang/Lexer/Token.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  summary: A lexed token. Text is the exact source slice; for IntLiteral, Value holds the parsed number.
+  example: []
+  syntax:
+    content: public Token(TokenKind Kind, string Text, SourceSpan Span, ulong Value = 0)
+    parameters:
+    - id: Kind
+      type: CXEX.Lang.Lexer.TokenKind
+    - id: Text
+      type: System.String
+    - id: Span
+      type: CXEX.Lang.Diagnostics.SourceSpan
+    - id: Value
+      type: System.UInt64
+    content.vb: Public Sub New(Kind As TokenKind, Text As String, Span As SourceSpan, Value As ULong = 0)
+  overload: CXEX.Lang.Lexer.Token.#ctor*
+  nameWithType.vb: Token.New(TokenKind, String, SourceSpan, ULong)
+  fullName.vb: CXEX.Lang.Lexer.Token.New(CXEX.Lang.Lexer.TokenKind, String, CXEX.Lang.Diagnostics.SourceSpan, ULong)
+  name.vb: New(TokenKind, String, SourceSpan, ULong)
+- uid: CXEX.Lang.Lexer.Token.Kind
+  commentId: P:CXEX.Lang.Lexer.Token.Kind
+  id: Kind
+  parent: CXEX.Lang.Lexer.Token
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: Token.Kind
+  fullName: CXEX.Lang.Lexer.Token.Kind
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/Token.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Kind
+    path: ../CXEX.Lang/Lexer/Token.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: public TokenKind Kind { get; init; }
+    parameters: []
+    return:
+      type: CXEX.Lang.Lexer.TokenKind
+    content.vb: Public Property Kind As TokenKind
+  overload: CXEX.Lang.Lexer.Token.Kind*
+- uid: CXEX.Lang.Lexer.Token.Text
+  commentId: P:CXEX.Lang.Lexer.Token.Text
+  id: Text
+  parent: CXEX.Lang.Lexer.Token
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: Token.Text
+  fullName: CXEX.Lang.Lexer.Token.Text
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/Token.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Text
+    path: ../CXEX.Lang/Lexer/Token.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: public string Text { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: CXEX.Lang.Lexer.Token.Text*
+- uid: CXEX.Lang.Lexer.Token.Span
+  commentId: P:CXEX.Lang.Lexer.Token.Span
+  id: Span
+  parent: CXEX.Lang.Lexer.Token
+  langs:
+  - csharp
+  - vb
+  name: Span
+  nameWithType: Token.Span
+  fullName: CXEX.Lang.Lexer.Token.Span
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/Token.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Span
+    path: ../CXEX.Lang/Lexer/Token.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: public SourceSpan Span { get; init; }
+    parameters: []
+    return:
+      type: CXEX.Lang.Diagnostics.SourceSpan
+    content.vb: Public Property Span As SourceSpan
+  overload: CXEX.Lang.Lexer.Token.Span*
+- uid: CXEX.Lang.Lexer.Token.Value
+  commentId: P:CXEX.Lang.Lexer.Token.Value
+  id: Value
+  parent: CXEX.Lang.Lexer.Token
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: Token.Value
+  fullName: CXEX.Lang.Lexer.Token.Value
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/Token.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Value
+    path: ../CXEX.Lang/Lexer/Token.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  syntax:
+    content: public ulong Value { get; init; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property Value As ULong
+  overload: CXEX.Lang.Lexer.Token.Value*
+- uid: CXEX.Lang.Lexer.Token.ToString
+  commentId: M:CXEX.Lang.Lexer.Token.ToString
+  id: ToString
+  parent: CXEX.Lang.Lexer.Token
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Token.ToString()
+  fullName: CXEX.Lang.Lexer.Token.ToString()
+  type: Method
+  source:
+    remote:
+      path: CXEX.Lang/Lexer/Token.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ToString
+    path: ../CXEX.Lang/Lexer/Token.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Lexer
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: CXEX.Lang.Lexer.Token.ToString*
+references:
+- uid: CXEX.Lang.Lexer
+  commentId: N:CXEX.Lang.Lexer
+  href: CXEX.html
+  name: CXEX.Lang.Lexer
+  nameWithType: CXEX.Lang.Lexer
+  fullName: CXEX.Lang.Lexer
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Lexer
+    name: Lexer
+    href: CXEX.Lang.Lexer.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Lexer
+    name: Lexer
+    href: CXEX.Lang.Lexer.html
+- uid: System.IEquatable{CXEX.Lang.Lexer.Token}
+  commentId: T:System.IEquatable{CXEX.Lang.Lexer.Token}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Token>
+  nameWithType: IEquatable<Token>
+  fullName: System.IEquatable<CXEX.Lang.Lexer.Token>
+  nameWithType.vb: IEquatable(Of Token)
+  fullName.vb: System.IEquatable(Of CXEX.Lang.Lexer.Token)
+  name.vb: IEquatable(Of Token)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: CXEX.Lang.Lexer.Token
+    name: Token
+    href: CXEX.Lang.Lexer.Token.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Lexer.Token
+    name: Token
+    href: CXEX.Lang.Lexer.Token.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CXEX.Lang.Lexer.Token.#ctor*
+  commentId: Overload:CXEX.Lang.Lexer.Token.#ctor
+  href: CXEX.Lang.Lexer.Token.html#CXEX_Lang_Lexer_Token__ctor_CXEX_Lang_Lexer_TokenKind_System_String_CXEX_Lang_Diagnostics_SourceSpan_System_UInt64_
+  name: Token
+  nameWithType: Token.Token
+  fullName: CXEX.Lang.Lexer.Token.Token
+  nameWithType.vb: Token.New
+  fullName.vb: CXEX.Lang.Lexer.Token.New
+  name.vb: New
+- uid: CXEX.Lang.Lexer.TokenKind
+  commentId: T:CXEX.Lang.Lexer.TokenKind
+  parent: CXEX.Lang.Lexer
+  href: CXEX.Lang.Lexer.TokenKind.html
+  name: TokenKind
+  nameWithType: TokenKind
+  fullName: CXEX.Lang.Lexer.TokenKind
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.Lang.Diagnostics.SourceSpan
+  commentId: T:CXEX.Lang.Diagnostics.SourceSpan
+  parent: CXEX.Lang.Diagnostics
+  href: CXEX.Lang.Diagnostics.SourceSpan.html
+  name: SourceSpan
+  nameWithType: SourceSpan
+  fullName: CXEX.Lang.Diagnostics.SourceSpan
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: CXEX.Lang.Diagnostics
+  commentId: N:CXEX.Lang.Diagnostics
+  href: CXEX.html
+  name: CXEX.Lang.Diagnostics
+  nameWithType: CXEX.Lang.Diagnostics
+  fullName: CXEX.Lang.Diagnostics
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+- uid: CXEX.Lang.Lexer.Token.Kind*
+  commentId: Overload:CXEX.Lang.Lexer.Token.Kind
+  href: CXEX.Lang.Lexer.Token.html#CXEX_Lang_Lexer_Token_Kind
+  name: Kind
+  nameWithType: Token.Kind
+  fullName: CXEX.Lang.Lexer.Token.Kind
+- uid: CXEX.Lang.Lexer.Token.Text*
+  commentId: Overload:CXEX.Lang.Lexer.Token.Text
+  href: CXEX.Lang.Lexer.Token.html#CXEX_Lang_Lexer_Token_Text
+  name: Text
+  nameWithType: Token.Text
+  fullName: CXEX.Lang.Lexer.Token.Text
+- uid: CXEX.Lang.Lexer.Token.Span*
+  commentId: Overload:CXEX.Lang.Lexer.Token.Span
+  href: CXEX.Lang.Lexer.Token.html#CXEX_Lang_Lexer_Token_Span
+  name: Span
+  nameWithType: Token.Span
+  fullName: CXEX.Lang.Lexer.Token.Span
+- uid: CXEX.Lang.Lexer.Token.Value*
+  commentId: Overload:CXEX.Lang.Lexer.Token.Value
+  href: CXEX.Lang.Lexer.Token.html#CXEX_Lang_Lexer_Token_Value
+  name: Value
+  nameWithType: Token.Value
+  fullName: CXEX.Lang.Lexer.Token.Value
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: CXEX.Lang.Lexer.Token.ToString*
+  commentId: Overload:CXEX.Lang.Lexer.Token.ToString
+  href: CXEX.Lang.Lexer.Token.html#CXEX_Lang_Lexer_Token_ToString
+  name: ToString
+  nameWithType: Token.ToString
+  fullName: CXEX.Lang.Lexer.Token.ToString

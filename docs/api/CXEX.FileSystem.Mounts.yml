@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileSystem.Mounts
+  commentId: N:CXEX.FileSystem.Mounts
+  id: CXEX.FileSystem.Mounts
+  children:
+  - CXEX.FileSystem.Mounts.CXFSFileSystem
+  - CXEX.FileSystem.Mounts.CXFSImage
+  - CXEX.FileSystem.Mounts.CXMemoryFileSystem
+  langs:
+  - csharp
+  - vb
+  name: CXEX.FileSystem.Mounts
+  nameWithType: CXEX.FileSystem.Mounts
+  fullName: CXEX.FileSystem.Mounts
+  type: Namespace
+  assemblies:
+  - CXEX.FileSystem
+references:
+- uid: CXEX.FileSystem.Mounts.CXFSFileSystem
+  commentId: T:CXEX.FileSystem.Mounts.CXFSFileSystem
+  href: CXEX.FileSystem.Mounts.CXFSFileSystem.html
+  name: CXFSFileSystem
+  nameWithType: CXFSFileSystem
+  fullName: CXEX.FileSystem.Mounts.CXFSFileSystem
+- uid: CXEX.FileSystem.Mounts.CXFSImage
+  commentId: T:CXEX.FileSystem.Mounts.CXFSImage
+  href: CXEX.FileSystem.Mounts.CXFSImage.html
+  name: CXFSImage
+  nameWithType: CXFSImage
+  fullName: CXEX.FileSystem.Mounts.CXFSImage
+- uid: CXEX.FileSystem.Mounts.CXMemoryFileSystem
+  commentId: T:CXEX.FileSystem.Mounts.CXMemoryFileSystem
+  href: CXEX.FileSystem.Mounts.CXMemoryFileSystem.html
+  name: CXMemoryFileSystem
+  nameWithType: CXMemoryFileSystem
+  fullName: CXEX.FileSystem.Mounts.CXMemoryFileSystem

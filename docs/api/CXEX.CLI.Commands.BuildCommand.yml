@@ -1,0 +1,831 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Commands.BuildCommand
+  commentId: T:CXEX.CLI.Commands.BuildCommand
+  id: BuildCommand
+  parent: CXEX.CLI.Commands
+  children:
+  - CXEX.CLI.Commands.BuildCommand.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: BuildCommand
+  nameWithType: BuildCommand
+  fullName: CXEX.CLI.Commands.BuildCommand
+  type: Class
+  source:
+    remote:
+      path: CXEX.CLI/Commands/BuildCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BuildCommand
+    path: ../CXEX.CLI/Commands/BuildCommand.cs
+    startLine: 12
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: 'public class BuildCommand : Command<BuildCommand.Settings>, ICommand<BuildCommand.Settings>, ICommandLimiter<BuildCommand.Settings>, ICommand'
+    content.vb: Public Class BuildCommand Inherits Command(Of BuildCommand.Settings) Implements ICommand(Of BuildCommand.Settings), ICommandLimiter(Of BuildCommand.Settings), ICommand
+  inheritance:
+  - System.Object
+  - Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}
+  implements:
+  - Spectre.Console.Cli.ICommand{CXEX.CLI.Commands.BuildCommand.Settings}
+  - Spectre.Console.Cli.ICommandLimiter{CXEX.CLI.Commands.BuildCommand.Settings}
+  - Spectre.Console.Cli.ICommand
+  inheritedMembers:
+  - Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Validate(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.CLI.Commands.BuildCommand.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+  commentId: M:CXEX.CLI.Commands.BuildCommand.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+  id: Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+  parent: CXEX.CLI.Commands.BuildCommand
+  langs:
+  - csharp
+  - vb
+  name: Execute(CommandContext, Settings, CancellationToken)
+  nameWithType: BuildCommand.Execute(CommandContext, BuildCommand.Settings, CancellationToken)
+  fullName: CXEX.CLI.Commands.BuildCommand.Execute(Spectre.Console.Cli.CommandContext, CXEX.CLI.Commands.BuildCommand.Settings, System.Threading.CancellationToken)
+  type: Method
+  source:
+    remote:
+      path: CXEX.CLI/Commands/BuildCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Execute
+    path: ../CXEX.CLI/Commands/BuildCommand.cs
+    startLine: 31
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  summary: Executes the command.
+  example: []
+  syntax:
+    content: protected override int Execute(CommandContext context, BuildCommand.Settings settings, CancellationToken cancellationToken)
+    parameters:
+    - id: context
+      type: Spectre.Console.Cli.CommandContext
+      description: The command context.
+    - id: settings
+      type: CXEX.CLI.Commands.BuildCommand.Settings
+      description: The settings.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: A <xref href="System.Threading.CancellationToken" data-throw-if-not-resolved="false"></xref> that can be used to abort the command.
+    return:
+      type: System.Int32
+      description: An integer indicating whether the command executed successfully.
+    content.vb: Protected Overrides Function Execute(context As CommandContext, settings As BuildCommand.Settings, cancellationToken As CancellationToken) As Integer
+  overridden: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+  overload: CXEX.CLI.Commands.BuildCommand.Execute*
+references:
+- uid: CXEX.CLI.Commands
+  commentId: N:CXEX.CLI.Commands
+  href: CXEX.html
+  name: CXEX.CLI.Commands
+  nameWithType: CXEX.CLI.Commands
+  fullName: CXEX.CLI.Commands
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}
+  commentId: T:Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}
+  parent: Spectre.Console.Cli
+  definition: Spectre.Console.Cli.Command`1
+  href: CXEX.CLI.Commands.BuildCommand.html
+  name: Command<BuildCommand.Settings>
+  nameWithType: Command<BuildCommand.Settings>
+  fullName: Spectre.Console.Cli.Command<CXEX.CLI.Commands.BuildCommand.Settings>
+  nameWithType.vb: Command(Of BuildCommand.Settings)
+  fullName.vb: Spectre.Console.Cli.Command(Of CXEX.CLI.Commands.BuildCommand.Settings)
+  name.vb: Command(Of BuildCommand.Settings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.Command`1
+    name: Command
+    isExternal: true
+  - name: <
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: '>'
+  spec.vb:
+  - uid: Spectre.Console.Cli.Command`1
+    name: Command
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: )
+- uid: Spectre.Console.Cli.ICommand{CXEX.CLI.Commands.BuildCommand.Settings}
+  commentId: T:Spectre.Console.Cli.ICommand{CXEX.CLI.Commands.BuildCommand.Settings}
+  parent: Spectre.Console.Cli
+  definition: Spectre.Console.Cli.ICommand`1
+  href: CXEX.CLI.Commands.BuildCommand.html
+  name: ICommand<BuildCommand.Settings>
+  nameWithType: ICommand<BuildCommand.Settings>
+  fullName: Spectre.Console.Cli.ICommand<CXEX.CLI.Commands.BuildCommand.Settings>
+  nameWithType.vb: ICommand(Of BuildCommand.Settings)
+  fullName.vb: Spectre.Console.Cli.ICommand(Of CXEX.CLI.Commands.BuildCommand.Settings)
+  name.vb: ICommand(Of BuildCommand.Settings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.ICommand`1
+    name: ICommand
+    isExternal: true
+  - name: <
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: '>'
+  spec.vb:
+  - uid: Spectre.Console.Cli.ICommand`1
+    name: ICommand
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: )
+- uid: Spectre.Console.Cli.ICommandLimiter{CXEX.CLI.Commands.BuildCommand.Settings}
+  commentId: T:Spectre.Console.Cli.ICommandLimiter{CXEX.CLI.Commands.BuildCommand.Settings}
+  parent: Spectre.Console.Cli
+  definition: Spectre.Console.Cli.ICommandLimiter`1
+  href: CXEX.CLI.Commands.BuildCommand.html
+  name: ICommandLimiter<BuildCommand.Settings>
+  nameWithType: ICommandLimiter<BuildCommand.Settings>
+  fullName: Spectre.Console.Cli.ICommandLimiter<CXEX.CLI.Commands.BuildCommand.Settings>
+  nameWithType.vb: ICommandLimiter(Of BuildCommand.Settings)
+  fullName.vb: Spectre.Console.Cli.ICommandLimiter(Of CXEX.CLI.Commands.BuildCommand.Settings)
+  name.vb: ICommandLimiter(Of BuildCommand.Settings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.ICommandLimiter`1
+    name: ICommandLimiter
+    isExternal: true
+  - name: <
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: '>'
+  spec.vb:
+  - uid: Spectre.Console.Cli.ICommandLimiter`1
+    name: ICommandLimiter
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: )
+- uid: Spectre.Console.Cli.ICommand
+  commentId: T:Spectre.Console.Cli.ICommand
+  parent: Spectre.Console.Cli
+  isExternal: true
+  name: ICommand
+  nameWithType: ICommand
+  fullName: Spectre.Console.Cli.ICommand
+- uid: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Validate(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings)
+  commentId: M:Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Validate(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings)
+  parent: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}
+  definition: Spectre.Console.Cli.Command`1.Validate(Spectre.Console.Cli.CommandContext,`0)
+  href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  name: Validate(CommandContext, Settings)
+  nameWithType: Command<BuildCommand.Settings>.Validate(CommandContext, BuildCommand.Settings)
+  fullName: Spectre.Console.Cli.Command<CXEX.CLI.Commands.BuildCommand.Settings>.Validate(Spectre.Console.Cli.CommandContext, CXEX.CLI.Commands.BuildCommand.Settings)
+  nameWithType.vb: Command(Of BuildCommand.Settings).Validate(CommandContext, BuildCommand.Settings)
+  fullName.vb: Spectre.Console.Cli.Command(Of CXEX.CLI.Commands.BuildCommand.Settings).Validate(Spectre.Console.Cli.CommandContext, CXEX.CLI.Commands.BuildCommand.Settings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Validate(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings)
+    name: Validate
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: )
+  spec.vb:
+  - uid: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Validate(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings)
+    name: Validate
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Spectre.Console.Cli.Command`1
+  commentId: T:Spectre.Console.Cli.Command`1
+  isExternal: true
+  name: Command<TSettings>
+  nameWithType: Command<TSettings>
+  fullName: Spectre.Console.Cli.Command<TSettings>
+  nameWithType.vb: Command(Of TSettings)
+  fullName.vb: Spectre.Console.Cli.Command(Of TSettings)
+  name.vb: Command(Of TSettings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.Command`1
+    name: Command
+    isExternal: true
+  - name: <
+  - name: TSettings
+  - name: '>'
+  spec.vb:
+  - uid: Spectre.Console.Cli.Command`1
+    name: Command
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSettings
+  - name: )
+- uid: Spectre.Console.Cli
+  commentId: N:Spectre.Console.Cli
+  isExternal: true
+  name: Spectre.Console.Cli
+  nameWithType: Spectre.Console.Cli
+  fullName: Spectre.Console.Cli
+  spec.csharp:
+  - uid: Spectre
+    name: Spectre
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console
+    name: Console
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console.Cli
+    name: Cli
+    isExternal: true
+  spec.vb:
+  - uid: Spectre
+    name: Spectre
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console
+    name: Console
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console.Cli
+    name: Cli
+    isExternal: true
+- uid: Spectre.Console.Cli.ICommand`1
+  commentId: T:Spectre.Console.Cli.ICommand`1
+  isExternal: true
+  name: ICommand<TSettings>
+  nameWithType: ICommand<TSettings>
+  fullName: Spectre.Console.Cli.ICommand<TSettings>
+  nameWithType.vb: ICommand(Of TSettings)
+  fullName.vb: Spectre.Console.Cli.ICommand(Of TSettings)
+  name.vb: ICommand(Of TSettings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.ICommand`1
+    name: ICommand
+    isExternal: true
+  - name: <
+  - name: TSettings
+  - name: '>'
+  spec.vb:
+  - uid: Spectre.Console.Cli.ICommand`1
+    name: ICommand
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSettings
+  - name: )
+- uid: Spectre.Console.Cli.ICommandLimiter`1
+  commentId: T:Spectre.Console.Cli.ICommandLimiter`1
+  isExternal: true
+  name: ICommandLimiter<TSettings>
+  nameWithType: ICommandLimiter<TSettings>
+  fullName: Spectre.Console.Cli.ICommandLimiter<TSettings>
+  nameWithType.vb: ICommandLimiter(Of TSettings)
+  fullName.vb: Spectre.Console.Cli.ICommandLimiter(Of TSettings)
+  name.vb: ICommandLimiter(Of TSettings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.ICommandLimiter`1
+    name: ICommandLimiter
+    isExternal: true
+  - name: <
+  - name: TSettings
+  - name: '>'
+  spec.vb:
+  - uid: Spectre.Console.Cli.ICommandLimiter`1
+    name: ICommandLimiter
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TSettings
+  - name: )
+- uid: Spectre.Console.Cli.Command`1.Validate(Spectre.Console.Cli.CommandContext,`0)
+  commentId: M:Spectre.Console.Cli.Command`1.Validate(Spectre.Console.Cli.CommandContext,`0)
+  isExternal: true
+  name: Validate(CommandContext, TSettings)
+  nameWithType: Command<TSettings>.Validate(CommandContext, TSettings)
+  fullName: Spectre.Console.Cli.Command<TSettings>.Validate(Spectre.Console.Cli.CommandContext, TSettings)
+  nameWithType.vb: Command(Of TSettings).Validate(CommandContext, TSettings)
+  fullName.vb: Spectre.Console.Cli.Command(Of TSettings).Validate(Spectre.Console.Cli.CommandContext, TSettings)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.Command`1.Validate(Spectre.Console.Cli.CommandContext,`0)
+    name: Validate
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: TSettings
+  - name: )
+  spec.vb:
+  - uid: Spectre.Console.Cli.Command`1.Validate(Spectre.Console.Cli.CommandContext,`0)
+    name: Validate
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: TSettings
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+  commentId: M:Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+  parent: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}
+  definition: Spectre.Console.Cli.Command`1.Execute(Spectre.Console.Cli.CommandContext,`0,System.Threading.CancellationToken)
+  href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  name: Execute(CommandContext, Settings, CancellationToken)
+  nameWithType: Command<BuildCommand.Settings>.Execute(CommandContext, BuildCommand.Settings, CancellationToken)
+  fullName: Spectre.Console.Cli.Command<CXEX.CLI.Commands.BuildCommand.Settings>.Execute(Spectre.Console.Cli.CommandContext, CXEX.CLI.Commands.BuildCommand.Settings, System.Threading.CancellationToken)
+  nameWithType.vb: Command(Of BuildCommand.Settings).Execute(CommandContext, BuildCommand.Settings, CancellationToken)
+  fullName.vb: Spectre.Console.Cli.Command(Of CXEX.CLI.Commands.BuildCommand.Settings).Execute(Spectre.Console.Cli.CommandContext, CXEX.CLI.Commands.BuildCommand.Settings, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Spectre.Console.Cli.Command{CXEX.CLI.Commands.BuildCommand.Settings}.Execute(Spectre.Console.Cli.CommandContext,CXEX.CLI.Commands.BuildCommand.Settings,System.Threading.CancellationToken)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: CXEX.CLI.Commands.BuildCommand.Execute*
+  commentId: Overload:CXEX.CLI.Commands.BuildCommand.Execute
+  href: CXEX.CLI.Commands.BuildCommand.html#CXEX_CLI_Commands_BuildCommand_Execute_Spectre_Console_Cli_CommandContext_CXEX_CLI_Commands_BuildCommand_Settings_System_Threading_CancellationToken_
+  name: Execute
+  nameWithType: BuildCommand.Execute
+  fullName: CXEX.CLI.Commands.BuildCommand.Execute
+- uid: Spectre.Console.Cli.CommandContext
+  commentId: T:Spectre.Console.Cli.CommandContext
+  parent: Spectre.Console.Cli
+  isExternal: true
+  name: CommandContext
+  nameWithType: CommandContext
+  fullName: Spectre.Console.Cli.CommandContext
+- uid: CXEX.CLI.Commands.BuildCommand.Settings
+  commentId: T:CXEX.CLI.Commands.BuildCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.BuildCommand.html
+  name: BuildCommand.Settings
+  nameWithType: BuildCommand.Settings
+  fullName: CXEX.CLI.Commands.BuildCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: Spectre.Console.Cli.Command`1.Execute(Spectre.Console.Cli.CommandContext,`0,System.Threading.CancellationToken)
+  commentId: M:Spectre.Console.Cli.Command`1.Execute(Spectre.Console.Cli.CommandContext,`0,System.Threading.CancellationToken)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: Execute(CommandContext, TSettings, CancellationToken)
+  nameWithType: Command<TSettings>.Execute(CommandContext, TSettings, CancellationToken)
+  fullName: Spectre.Console.Cli.Command<TSettings>.Execute(Spectre.Console.Cli.CommandContext, TSettings, System.Threading.CancellationToken)
+  nameWithType.vb: Command(Of TSettings).Execute(CommandContext, TSettings, CancellationToken)
+  fullName.vb: Spectre.Console.Cli.Command(Of TSettings).Execute(Spectre.Console.Cli.CommandContext, TSettings, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: Spectre.Console.Cli.Command`1.Execute(Spectre.Console.Cli.CommandContext,`0,System.Threading.CancellationToken)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: TSettings
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: Spectre.Console.Cli.Command`1.Execute(Spectre.Console.Cli.CommandContext,`0,System.Threading.CancellationToken)
+    name: Execute
+    isExternal: true
+  - name: (
+  - uid: Spectre.Console.Cli.CommandContext
+    name: CommandContext
+    isExternal: true
+  - name: ','
+  - name: " "
+  - name: TSettings
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )

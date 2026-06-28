@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Core.Constants
+  commentId: N:CXEX.Core.Constants
+  id: CXEX.Core.Constants
+  children:
+  - CXEX.Core.Constants.CXFlags
+  - CXEX.Core.Constants.CXMagic
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Core.Constants
+  nameWithType: CXEX.Core.Constants
+  fullName: CXEX.Core.Constants
+  type: Namespace
+  assemblies:
+  - CXEX.Core
+references:
+- uid: CXEX.Core.Constants.CXFlags
+  commentId: T:CXEX.Core.Constants.CXFlags
+  href: CXEX.Core.Constants.CXFlags.html
+  name: CXFlags
+  nameWithType: CXFlags
+  fullName: CXEX.Core.Constants.CXFlags
+- uid: CXEX.Core.Constants.CXMagic
+  commentId: T:CXEX.Core.Constants.CXMagic
+  href: CXEX.Core.Constants.CXMagic.html
+  name: CXMagic
+  nameWithType: CXMagic
+  fullName: CXEX.Core.Constants.CXMagic

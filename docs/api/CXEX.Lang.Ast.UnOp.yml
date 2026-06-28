@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Ast.UnOp
+  commentId: T:CXEX.Lang.Ast.UnOp
+  id: UnOp
+  parent: CXEX.Lang.Ast
+  children:
+  - CXEX.Lang.Ast.UnOp.AddrOf
+  - CXEX.Lang.Ast.UnOp.Deref
+  - CXEX.Lang.Ast.UnOp.Neg
+  - CXEX.Lang.Ast.UnOp.Not
+  langs:
+  - csharp
+  - vb
+  name: UnOp
+  nameWithType: UnOp
+  fullName: CXEX.Lang.Ast.UnOp
+  type: Enum
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: UnOp
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 42
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public enum UnOp
+    content.vb: Public Enum UnOp
+- uid: CXEX.Lang.Ast.UnOp.Neg
+  commentId: F:CXEX.Lang.Ast.UnOp.Neg
+  id: Neg
+  parent: CXEX.Lang.Ast.UnOp
+  langs:
+  - csharp
+  - vb
+  name: Neg
+  nameWithType: UnOp.Neg
+  fullName: CXEX.Lang.Ast.UnOp.Neg
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Neg
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 42
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Neg = 0
+    return:
+      type: CXEX.Lang.Ast.UnOp
+- uid: CXEX.Lang.Ast.UnOp.Not
+  commentId: F:CXEX.Lang.Ast.UnOp.Not
+  id: Not
+  parent: CXEX.Lang.Ast.UnOp
+  langs:
+  - csharp
+  - vb
+  name: Not
+  nameWithType: UnOp.Not
+  fullName: CXEX.Lang.Ast.UnOp.Not
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Not
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 42
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Not = 1
+    return:
+      type: CXEX.Lang.Ast.UnOp
+- uid: CXEX.Lang.Ast.UnOp.Deref
+  commentId: F:CXEX.Lang.Ast.UnOp.Deref
+  id: Deref
+  parent: CXEX.Lang.Ast.UnOp
+  langs:
+  - csharp
+  - vb
+  name: Deref
+  nameWithType: UnOp.Deref
+  fullName: CXEX.Lang.Ast.UnOp.Deref
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Deref
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 42
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Deref = 2
+    return:
+      type: CXEX.Lang.Ast.UnOp
+- uid: CXEX.Lang.Ast.UnOp.AddrOf
+  commentId: F:CXEX.Lang.Ast.UnOp.AddrOf
+  id: AddrOf
+  parent: CXEX.Lang.Ast.UnOp
+  langs:
+  - csharp
+  - vb
+  name: AddrOf
+  nameWithType: UnOp.AddrOf
+  fullName: CXEX.Lang.Ast.UnOp.AddrOf
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: AddrOf
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 42
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: AddrOf = 3
+    return:
+      type: CXEX.Lang.Ast.UnOp
+references:
+- uid: CXEX.Lang.Ast
+  commentId: N:CXEX.Lang.Ast
+  href: CXEX.html
+  name: CXEX.Lang.Ast
+  nameWithType: CXEX.Lang.Ast
+  fullName: CXEX.Lang.Ast
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+- uid: CXEX.Lang.Ast.UnOp
+  commentId: T:CXEX.Lang.Ast.UnOp
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.UnOp.html
+  name: UnOp
+  nameWithType: UnOp
+  fullName: CXEX.Lang.Ast.UnOp

@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Build.Parsers.ElfParser
+  commentId: T:CXEX.Build.Parsers.ElfParser
+  id: ElfParser
+  parent: CXEX.Build.Parsers
+  children:
+  - CXEX.Build.Parsers.ElfParser.Parse(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: ElfParser
+  nameWithType: ElfParser
+  fullName: CXEX.Build.Parsers.ElfParser
+  type: Class
+  source:
+    remote:
+      path: CXEX.Build/Parsers/ElfParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ElfParser
+    path: ../CXEX.Build/Parsers/ElfParser.cs
+    startLine: 18
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Parsers
+  syntax:
+    content: public static class ElfParser
+    content.vb: Public Module ElfParser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Build.Parsers.ElfParser.Parse(System.Byte[])
+  commentId: M:CXEX.Build.Parsers.ElfParser.Parse(System.Byte[])
+  id: Parse(System.Byte[])
+  parent: CXEX.Build.Parsers.ElfParser
+  langs:
+  - csharp
+  - vb
+  name: Parse(byte[])
+  nameWithType: ElfParser.Parse(byte[])
+  fullName: CXEX.Build.Parsers.ElfParser.Parse(byte[])
+  type: Method
+  source:
+    remote:
+      path: CXEX.Build/Parsers/ElfParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Parse
+    path: ../CXEX.Build/Parsers/ElfParser.cs
+    startLine: 23
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Parsers
+  syntax:
+    content: public static (uint EntryPoint, List<ElfSegment> Segments) Parse(byte[] elfData)
+    parameters:
+    - id: elfData
+      type: System.Byte[]
+    return:
+      type: System.ValueTuple{System.UInt32,System.Collections.Generic.List{CXEX.Build.Parsers.ElfSegment}}
+    content.vb: Public Shared Function Parse(elfData As Byte()) As (EntryPoint As UInteger, Segments As List(Of ElfSegment))
+  overload: CXEX.Build.Parsers.ElfParser.Parse*
+  nameWithType.vb: ElfParser.Parse(Byte())
+  fullName.vb: CXEX.Build.Parsers.ElfParser.Parse(Byte())
+  name.vb: Parse(Byte())
+references:
+- uid: CXEX.Build.Parsers
+  commentId: N:CXEX.Build.Parsers
+  href: CXEX.html
+  name: CXEX.Build.Parsers
+  nameWithType: CXEX.Build.Parsers
+  fullName: CXEX.Build.Parsers
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Parsers
+    name: Parsers
+    href: CXEX.Build.Parsers.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Parsers
+    name: Parsers
+    href: CXEX.Build.Parsers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Build.Parsers.ElfParser.Parse*
+  commentId: Overload:CXEX.Build.Parsers.ElfParser.Parse
+  href: CXEX.Build.Parsers.ElfParser.html#CXEX_Build_Parsers_ElfParser_Parse_System_Byte___
+  name: Parse
+  nameWithType: ElfParser.Parse
+  fullName: CXEX.Build.Parsers.ElfParser.Parse
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.ValueTuple{System.UInt32,System.Collections.Generic.List{CXEX.Build.Parsers.ElfSegment}}
+  commentId: T:System.ValueTuple{System.UInt32,System.Collections.Generic.List{CXEX.Build.Parsers.ElfSegment}}
+  parent: System
+  definition: System.ValueTuple`2
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: (uint EntryPoint, List<ElfSegment> Segments)
+  nameWithType: (uint EntryPoint, List<ElfSegment> Segments)
+  fullName: (uint EntryPoint, System.Collections.Generic.List<CXEX.Build.Parsers.ElfSegment> Segments)
+  nameWithType.vb: (EntryPoint As UInteger, Segments As List(Of ElfSegment))
+  fullName.vb: (EntryPoint As UInteger, Segments As System.Collections.Generic.List(Of CXEX.Build.Parsers.ElfSegment))
+  name.vb: (EntryPoint As UInteger, Segments As List(Of ElfSegment))
+  spec.csharp:
+  - name: (
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: " "
+  - uid: System.ValueTuple{System.UInt32,System.Collections.Generic.List{CXEX.Build.Parsers.ElfSegment}}.EntryPoint
+    name: EntryPoint
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.uint32,system.collections.generic.list-cxex.build.parsers.elfsegment--.entrypoint
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: CXEX.Build.Parsers.ElfSegment
+    name: ElfSegment
+    href: CXEX.Build.Parsers.ElfSegment.html
+  - name: '>'
+  - name: " "
+  - uid: System.ValueTuple{System.UInt32,System.Collections.Generic.List{CXEX.Build.Parsers.ElfSegment}}.Segments
+    name: Segments
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.uint32,system.collections.generic.list-cxex.build.parsers.elfsegment--.segments
+  - name: )
+  spec.vb:
+  - name: (
+  - uid: System.ValueTuple{System.UInt32,System.Collections.Generic.List{CXEX.Build.Parsers.ElfSegment}}.EntryPoint
+    name: EntryPoint
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.uint32,system.collections.generic.list-cxex.build.parsers.elfsegment--.entrypoint
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: ','
+  - name: " "
+  - uid: System.ValueTuple{System.UInt32,System.Collections.Generic.List{CXEX.Build.Parsers.ElfSegment}}.Segments
+    name: Segments
+    href: https://learn.microsoft.com/dotnet/api/system.valuetuple-system.uint32,system.collections.generic.list-cxex.build.parsers.elfsegment--.segments
+  - name: " "
+  - name: As
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Build.Parsers.ElfSegment
+    name: ElfSegment
+    href: CXEX.Build.Parsers.ElfSegment.html
+  - name: )
+  - name: )
+- uid: System.ValueTuple`2
+  commentId: T:System.ValueTuple`2
+  name: (T1, T2)
+  nameWithType: (T1, T2)
+  fullName: (T1, T2)
+  spec.csharp:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )
+  spec.vb:
+  - name: (
+  - name: T1
+  - name: ','
+  - name: " "
+  - name: T2
+  - name: )

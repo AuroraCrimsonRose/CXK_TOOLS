@@ -1,0 +1,591 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Wrappers.QemuConfig
+  commentId: T:CXEX.CLI.Wrappers.QemuConfig
+  id: QemuConfig
+  parent: CXEX.CLI.Wrappers
+  children:
+  - CXEX.CLI.Wrappers.QemuConfig.BootDisk
+  - CXEX.CLI.Wrappers.QemuConfig.EnableAudio
+  - CXEX.CLI.Wrappers.QemuConfig.EnableNetworking
+  - CXEX.CLI.Wrappers.QemuConfig.FsDisk
+  - CXEX.CLI.Wrappers.QemuConfig.MachineType
+  - CXEX.CLI.Wrappers.QemuConfig.MemoryMb
+  - CXEX.CLI.Wrappers.QemuConfig.UsbDisk
+  langs:
+  - csharp
+  - vb
+  name: QemuConfig
+  nameWithType: QemuConfig
+  fullName: CXEX.CLI.Wrappers.QemuConfig
+  type: Class
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: QemuConfig
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 6
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public class QemuConfig
+    content.vb: Public Class QemuConfig
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.CLI.Wrappers.QemuConfig.MemoryMb
+  commentId: P:CXEX.CLI.Wrappers.QemuConfig.MemoryMb
+  id: MemoryMb
+  parent: CXEX.CLI.Wrappers.QemuConfig
+  langs:
+  - csharp
+  - vb
+  name: MemoryMb
+  nameWithType: QemuConfig.MemoryMb
+  fullName: CXEX.CLI.Wrappers.QemuConfig.MemoryMb
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: MemoryMb
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 8
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public int MemoryMb { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MemoryMb As Integer
+  overload: CXEX.CLI.Wrappers.QemuConfig.MemoryMb*
+- uid: CXEX.CLI.Wrappers.QemuConfig.MachineType
+  commentId: P:CXEX.CLI.Wrappers.QemuConfig.MachineType
+  id: MachineType
+  parent: CXEX.CLI.Wrappers.QemuConfig
+  langs:
+  - csharp
+  - vb
+  name: MachineType
+  nameWithType: QemuConfig.MachineType
+  fullName: CXEX.CLI.Wrappers.QemuConfig.MachineType
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: MachineType
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 9
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string MachineType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MachineType As String
+  overload: CXEX.CLI.Wrappers.QemuConfig.MachineType*
+- uid: CXEX.CLI.Wrappers.QemuConfig.BootDisk
+  commentId: P:CXEX.CLI.Wrappers.QemuConfig.BootDisk
+  id: BootDisk
+  parent: CXEX.CLI.Wrappers.QemuConfig
+  langs:
+  - csharp
+  - vb
+  name: BootDisk
+  nameWithType: QemuConfig.BootDisk
+  fullName: CXEX.CLI.Wrappers.QemuConfig.BootDisk
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BootDisk
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 10
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string BootDisk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BootDisk As String
+  overload: CXEX.CLI.Wrappers.QemuConfig.BootDisk*
+- uid: CXEX.CLI.Wrappers.QemuConfig.FsDisk
+  commentId: P:CXEX.CLI.Wrappers.QemuConfig.FsDisk
+  id: FsDisk
+  parent: CXEX.CLI.Wrappers.QemuConfig
+  langs:
+  - csharp
+  - vb
+  name: FsDisk
+  nameWithType: QemuConfig.FsDisk
+  fullName: CXEX.CLI.Wrappers.QemuConfig.FsDisk
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FsDisk
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 11
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string? FsDisk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FsDisk As String
+  overload: CXEX.CLI.Wrappers.QemuConfig.FsDisk*
+- uid: CXEX.CLI.Wrappers.QemuConfig.UsbDisk
+  commentId: P:CXEX.CLI.Wrappers.QemuConfig.UsbDisk
+  id: UsbDisk
+  parent: CXEX.CLI.Wrappers.QemuConfig
+  langs:
+  - csharp
+  - vb
+  name: UsbDisk
+  nameWithType: QemuConfig.UsbDisk
+  fullName: CXEX.CLI.Wrappers.QemuConfig.UsbDisk
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: UsbDisk
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 12
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public string? UsbDisk { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UsbDisk As String
+  overload: CXEX.CLI.Wrappers.QemuConfig.UsbDisk*
+- uid: CXEX.CLI.Wrappers.QemuConfig.EnableAudio
+  commentId: P:CXEX.CLI.Wrappers.QemuConfig.EnableAudio
+  id: EnableAudio
+  parent: CXEX.CLI.Wrappers.QemuConfig
+  langs:
+  - csharp
+  - vb
+  name: EnableAudio
+  nameWithType: QemuConfig.EnableAudio
+  fullName: CXEX.CLI.Wrappers.QemuConfig.EnableAudio
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: EnableAudio
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 13
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public bool EnableAudio { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableAudio As Boolean
+  overload: CXEX.CLI.Wrappers.QemuConfig.EnableAudio*
+- uid: CXEX.CLI.Wrappers.QemuConfig.EnableNetworking
+  commentId: P:CXEX.CLI.Wrappers.QemuConfig.EnableNetworking
+  id: EnableNetworking
+  parent: CXEX.CLI.Wrappers.QemuConfig
+  langs:
+  - csharp
+  - vb
+  name: EnableNetworking
+  nameWithType: QemuConfig.EnableNetworking
+  fullName: CXEX.CLI.Wrappers.QemuConfig.EnableNetworking
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Wrappers/QemuTool.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: EnableNetworking
+    path: ../CXEX.CLI/Wrappers/QemuTool.cs
+    startLine: 14
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Wrappers
+  syntax:
+    content: public bool EnableNetworking { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EnableNetworking As Boolean
+  overload: CXEX.CLI.Wrappers.QemuConfig.EnableNetworking*
+references:
+- uid: CXEX.CLI.Wrappers
+  commentId: N:CXEX.CLI.Wrappers
+  href: CXEX.html
+  name: CXEX.CLI.Wrappers
+  nameWithType: CXEX.CLI.Wrappers
+  fullName: CXEX.CLI.Wrappers
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Wrappers
+    name: Wrappers
+    href: CXEX.CLI.Wrappers.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Wrappers
+    name: Wrappers
+    href: CXEX.CLI.Wrappers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.CLI.Wrappers.QemuConfig.MemoryMb*
+  commentId: Overload:CXEX.CLI.Wrappers.QemuConfig.MemoryMb
+  href: CXEX.CLI.Wrappers.QemuConfig.html#CXEX_CLI_Wrappers_QemuConfig_MemoryMb
+  name: MemoryMb
+  nameWithType: QemuConfig.MemoryMb
+  fullName: CXEX.CLI.Wrappers.QemuConfig.MemoryMb
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CXEX.CLI.Wrappers.QemuConfig.MachineType*
+  commentId: Overload:CXEX.CLI.Wrappers.QemuConfig.MachineType
+  href: CXEX.CLI.Wrappers.QemuConfig.html#CXEX_CLI_Wrappers_QemuConfig_MachineType
+  name: MachineType
+  nameWithType: QemuConfig.MachineType
+  fullName: CXEX.CLI.Wrappers.QemuConfig.MachineType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.CLI.Wrappers.QemuConfig.BootDisk*
+  commentId: Overload:CXEX.CLI.Wrappers.QemuConfig.BootDisk
+  href: CXEX.CLI.Wrappers.QemuConfig.html#CXEX_CLI_Wrappers_QemuConfig_BootDisk
+  name: BootDisk
+  nameWithType: QemuConfig.BootDisk
+  fullName: CXEX.CLI.Wrappers.QemuConfig.BootDisk
+- uid: CXEX.CLI.Wrappers.QemuConfig.FsDisk*
+  commentId: Overload:CXEX.CLI.Wrappers.QemuConfig.FsDisk
+  href: CXEX.CLI.Wrappers.QemuConfig.html#CXEX_CLI_Wrappers_QemuConfig_FsDisk
+  name: FsDisk
+  nameWithType: QemuConfig.FsDisk
+  fullName: CXEX.CLI.Wrappers.QemuConfig.FsDisk
+- uid: CXEX.CLI.Wrappers.QemuConfig.UsbDisk*
+  commentId: Overload:CXEX.CLI.Wrappers.QemuConfig.UsbDisk
+  href: CXEX.CLI.Wrappers.QemuConfig.html#CXEX_CLI_Wrappers_QemuConfig_UsbDisk
+  name: UsbDisk
+  nameWithType: QemuConfig.UsbDisk
+  fullName: CXEX.CLI.Wrappers.QemuConfig.UsbDisk
+- uid: CXEX.CLI.Wrappers.QemuConfig.EnableAudio*
+  commentId: Overload:CXEX.CLI.Wrappers.QemuConfig.EnableAudio
+  href: CXEX.CLI.Wrappers.QemuConfig.html#CXEX_CLI_Wrappers_QemuConfig_EnableAudio
+  name: EnableAudio
+  nameWithType: QemuConfig.EnableAudio
+  fullName: CXEX.CLI.Wrappers.QemuConfig.EnableAudio
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CXEX.CLI.Wrappers.QemuConfig.EnableNetworking*
+  commentId: Overload:CXEX.CLI.Wrappers.QemuConfig.EnableNetworking
+  href: CXEX.CLI.Wrappers.QemuConfig.html#CXEX_CLI_Wrappers_QemuConfig_EnableNetworking
+  name: EnableNetworking
+  nameWithType: QemuConfig.EnableNetworking
+  fullName: CXEX.CLI.Wrappers.QemuConfig.EnableNetworking

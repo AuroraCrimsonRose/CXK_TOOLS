@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.CodeGen
+  commentId: N:CXEX.Lang.CodeGen
+  id: CXEX.Lang.CodeGen
+  children:
+  - CXEX.Lang.CodeGen.X86Emitter
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Lang.CodeGen
+  nameWithType: CXEX.Lang.CodeGen
+  fullName: CXEX.Lang.CodeGen
+  type: Namespace
+  assemblies:
+  - CXEX.Lang
+references:
+- uid: CXEX.Lang.CodeGen.X86Emitter
+  commentId: T:CXEX.Lang.CodeGen.X86Emitter
+  href: CXEX.Lang.CodeGen.X86Emitter.html
+  name: X86Emitter
+  nameWithType: X86Emitter
+  fullName: CXEX.Lang.CodeGen.X86Emitter

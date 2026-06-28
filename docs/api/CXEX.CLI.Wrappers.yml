@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Wrappers
+  commentId: N:CXEX.CLI.Wrappers
+  id: CXEX.CLI.Wrappers
+  children:
+  - CXEX.CLI.Wrappers.BochsConfig
+  - CXEX.CLI.Wrappers.BochsTool
+  - CXEX.CLI.Wrappers.CMakeTool
+  - CXEX.CLI.Wrappers.GccTool
+  - CXEX.CLI.Wrappers.NasmTool
+  - CXEX.CLI.Wrappers.QemuConfig
+  - CXEX.CLI.Wrappers.QemuTool
+  langs:
+  - csharp
+  - vb
+  name: CXEX.CLI.Wrappers
+  nameWithType: CXEX.CLI.Wrappers
+  fullName: CXEX.CLI.Wrappers
+  type: Namespace
+  assemblies:
+  - CXEX.CLI
+references:
+- uid: CXEX.CLI.Wrappers.BochsConfig
+  commentId: T:CXEX.CLI.Wrappers.BochsConfig
+  parent: CXEX.CLI.Wrappers
+  href: CXEX.CLI.Wrappers.BochsConfig.html
+  name: BochsConfig
+  nameWithType: BochsConfig
+  fullName: CXEX.CLI.Wrappers.BochsConfig
+- uid: CXEX.CLI.Wrappers.BochsTool
+  commentId: T:CXEX.CLI.Wrappers.BochsTool
+  href: CXEX.CLI.Wrappers.BochsTool.html
+  name: BochsTool
+  nameWithType: BochsTool
+  fullName: CXEX.CLI.Wrappers.BochsTool
+- uid: CXEX.CLI.Wrappers.CMakeTool
+  commentId: T:CXEX.CLI.Wrappers.CMakeTool
+  href: CXEX.CLI.Wrappers.CMakeTool.html
+  name: CMakeTool
+  nameWithType: CMakeTool
+  fullName: CXEX.CLI.Wrappers.CMakeTool
+- uid: CXEX.CLI.Wrappers.GccTool
+  commentId: T:CXEX.CLI.Wrappers.GccTool
+  href: CXEX.CLI.Wrappers.GccTool.html
+  name: GccTool
+  nameWithType: GccTool
+  fullName: CXEX.CLI.Wrappers.GccTool
+- uid: CXEX.CLI.Wrappers.NasmTool
+  commentId: T:CXEX.CLI.Wrappers.NasmTool
+  href: CXEX.CLI.Wrappers.NasmTool.html
+  name: NasmTool
+  nameWithType: NasmTool
+  fullName: CXEX.CLI.Wrappers.NasmTool
+- uid: CXEX.CLI.Wrappers.QemuConfig
+  commentId: T:CXEX.CLI.Wrappers.QemuConfig
+  parent: CXEX.CLI.Wrappers
+  href: CXEX.CLI.Wrappers.QemuConfig.html
+  name: QemuConfig
+  nameWithType: QemuConfig
+  fullName: CXEX.CLI.Wrappers.QemuConfig
+- uid: CXEX.CLI.Wrappers.QemuTool
+  commentId: T:CXEX.CLI.Wrappers.QemuTool
+  href: CXEX.CLI.Wrappers.QemuTool.html
+  name: QemuTool
+  nameWithType: QemuTool
+  fullName: CXEX.CLI.Wrappers.QemuTool
+- uid: CXEX.CLI.Wrappers
+  commentId: N:CXEX.CLI.Wrappers
+  href: CXEX.html
+  name: CXEX.CLI.Wrappers
+  nameWithType: CXEX.CLI.Wrappers
+  fullName: CXEX.CLI.Wrappers
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Wrappers
+    name: Wrappers
+    href: CXEX.CLI.Wrappers.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Wrappers
+    name: Wrappers
+    href: CXEX.CLI.Wrappers.html

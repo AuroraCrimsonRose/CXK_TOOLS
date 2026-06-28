@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Abi
+  commentId: N:CXEX.Lang.Abi
+  id: CXEX.Lang.Abi
+  children:
+  - CXEX.Lang.Abi.AbiPrelude
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Lang.Abi
+  nameWithType: CXEX.Lang.Abi
+  fullName: CXEX.Lang.Abi
+  type: Namespace
+  assemblies:
+  - CXEX.Lang
+references:
+- uid: CXEX.Lang.Abi.AbiPrelude
+  commentId: T:CXEX.Lang.Abi.AbiPrelude
+  href: CXEX.Lang.Abi.AbiPrelude.html
+  name: AbiPrelude
+  nameWithType: AbiPrelude
+  fullName: CXEX.Lang.Abi.AbiPrelude

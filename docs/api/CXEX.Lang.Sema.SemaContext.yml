@@ -1,0 +1,607 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Sema.SemaContext
+  commentId: T:CXEX.Lang.Sema.SemaContext
+  id: SemaContext
+  parent: CXEX.Lang.Sema
+  children:
+  - CXEX.Lang.Sema.SemaContext.Globals
+  - CXEX.Lang.Sema.SemaContext.Resolved
+  - CXEX.Lang.Sema.SemaContext.Structs
+  - CXEX.Lang.Sema.SemaContext.Types
+  langs:
+  - csharp
+  - vb
+  name: SemaContext
+  nameWithType: SemaContext
+  fullName: CXEX.Lang.Sema.SemaContext
+  type: Class
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SemaContext
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 37
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  summary: >-
+    Shared semantic state produced by the Resolver and consumed by the TypeChecker:
+
+    top-level symbols, struct decls by name, and per-NameExpr resolution.
+  example: []
+  syntax:
+    content: public sealed class SemaContext
+    content.vb: Public NotInheritable Class SemaContext
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Lang.Sema.SemaContext.Globals
+  commentId: F:CXEX.Lang.Sema.SemaContext.Globals
+  id: Globals
+  parent: CXEX.Lang.Sema.SemaContext
+  langs:
+  - csharp
+  - vb
+  name: Globals
+  nameWithType: SemaContext.Globals
+  fullName: CXEX.Lang.Sema.SemaContext.Globals
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Globals
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 39
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public readonly Scope Globals
+    return:
+      type: CXEX.Lang.Sema.Scope
+    content.vb: Public ReadOnly Globals As Scope
+- uid: CXEX.Lang.Sema.SemaContext.Structs
+  commentId: F:CXEX.Lang.Sema.SemaContext.Structs
+  id: Structs
+  parent: CXEX.Lang.Sema.SemaContext
+  langs:
+  - csharp
+  - vb
+  name: Structs
+  nameWithType: SemaContext.Structs
+  fullName: CXEX.Lang.Sema.SemaContext.Structs
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Structs
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 40
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public readonly Dictionary<string, StructDecl> Structs
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,CXEX.Lang.Ast.StructDecl}
+    content.vb: Public ReadOnly Structs As Dictionary(Of String, StructDecl)
+- uid: CXEX.Lang.Sema.SemaContext.Resolved
+  commentId: F:CXEX.Lang.Sema.SemaContext.Resolved
+  id: Resolved
+  parent: CXEX.Lang.Sema.SemaContext
+  langs:
+  - csharp
+  - vb
+  name: Resolved
+  nameWithType: SemaContext.Resolved
+  fullName: CXEX.Lang.Sema.SemaContext.Resolved
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Resolved
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 41
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public readonly Dictionary<Expr, Symbol> Resolved
+    return:
+      type: System.Collections.Generic.Dictionary{CXEX.Lang.Ast.Expr,CXEX.Lang.Sema.Symbol}
+    content.vb: Public ReadOnly Resolved As Dictionary(Of Expr, Symbol)
+- uid: CXEX.Lang.Sema.SemaContext.Types
+  commentId: F:CXEX.Lang.Sema.SemaContext.Types
+  id: Types
+  parent: CXEX.Lang.Sema.SemaContext
+  langs:
+  - csharp
+  - vb
+  name: Types
+  nameWithType: SemaContext.Types
+  fullName: CXEX.Lang.Sema.SemaContext.Types
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Types
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 42
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public readonly Dictionary<Expr, TypeRef> Types
+    return:
+      type: System.Collections.Generic.Dictionary{CXEX.Lang.Ast.Expr,CXEX.Lang.Ast.TypeRef}
+    content.vb: Public ReadOnly Types As Dictionary(Of Expr, TypeRef)
+references:
+- uid: CXEX.Lang.Sema
+  commentId: N:CXEX.Lang.Sema
+  href: CXEX.html
+  name: CXEX.Lang.Sema
+  nameWithType: CXEX.Lang.Sema
+  fullName: CXEX.Lang.Sema
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Lang.Sema.Scope
+  commentId: T:CXEX.Lang.Sema.Scope
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.Scope.html
+  name: Scope
+  nameWithType: Scope
+  fullName: CXEX.Lang.Sema.Scope
+- uid: System.Collections.Generic.Dictionary{System.String,CXEX.Lang.Ast.StructDecl}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,CXEX.Lang.Ast.StructDecl}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, StructDecl>
+  nameWithType: Dictionary<string, StructDecl>
+  fullName: System.Collections.Generic.Dictionary<string, CXEX.Lang.Ast.StructDecl>
+  nameWithType.vb: Dictionary(Of String, StructDecl)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, CXEX.Lang.Ast.StructDecl)
+  name.vb: Dictionary(Of String, StructDecl)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Ast.StructDecl
+    name: StructDecl
+    href: CXEX.Lang.Ast.StructDecl.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Ast.StructDecl
+    name: StructDecl
+    href: CXEX.Lang.Ast.StructDecl.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.Dictionary{CXEX.Lang.Ast.Expr,CXEX.Lang.Sema.Symbol}
+  commentId: T:System.Collections.Generic.Dictionary{CXEX.Lang.Ast.Expr,CXEX.Lang.Sema.Symbol}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<Expr, Symbol>
+  nameWithType: Dictionary<Expr, Symbol>
+  fullName: System.Collections.Generic.Dictionary<CXEX.Lang.Ast.Expr, CXEX.Lang.Sema.Symbol>
+  nameWithType.vb: Dictionary(Of Expr, Symbol)
+  fullName.vb: System.Collections.Generic.Dictionary(Of CXEX.Lang.Ast.Expr, CXEX.Lang.Sema.Symbol)
+  name.vb: Dictionary(Of Expr, Symbol)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: CXEX.Lang.Ast.Expr
+    name: Expr
+    href: CXEX.Lang.Ast.Expr.html
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Sema.Symbol
+    name: Symbol
+    href: CXEX.Lang.Sema.Symbol.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.Expr
+    name: Expr
+    href: CXEX.Lang.Ast.Expr.html
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Sema.Symbol
+    name: Symbol
+    href: CXEX.Lang.Sema.Symbol.html
+  - name: )
+- uid: System.Collections.Generic.Dictionary{CXEX.Lang.Ast.Expr,CXEX.Lang.Ast.TypeRef}
+  commentId: T:System.Collections.Generic.Dictionary{CXEX.Lang.Ast.Expr,CXEX.Lang.Ast.TypeRef}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<Expr, TypeRef>
+  nameWithType: Dictionary<Expr, TypeRef>
+  fullName: System.Collections.Generic.Dictionary<CXEX.Lang.Ast.Expr, CXEX.Lang.Ast.TypeRef>
+  nameWithType.vb: Dictionary(Of Expr, TypeRef)
+  fullName.vb: System.Collections.Generic.Dictionary(Of CXEX.Lang.Ast.Expr, CXEX.Lang.Ast.TypeRef)
+  name.vb: Dictionary(Of Expr, TypeRef)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: CXEX.Lang.Ast.Expr
+    name: Expr
+    href: CXEX.Lang.Ast.Expr.html
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Ast.TypeRef
+    name: TypeRef
+    href: CXEX.Lang.Ast.TypeRef.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.Expr
+    name: Expr
+    href: CXEX.Lang.Ast.Expr.html
+  - name: ','
+  - name: " "
+  - uid: CXEX.Lang.Ast.TypeRef
+    name: TypeRef
+    href: CXEX.Lang.Ast.TypeRef.html
+  - name: )

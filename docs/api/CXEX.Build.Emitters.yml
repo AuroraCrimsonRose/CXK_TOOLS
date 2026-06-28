@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Build.Emitters
+  commentId: N:CXEX.Build.Emitters
+  id: CXEX.Build.Emitters
+  children:
+  - CXEX.Build.Emitters.CXEXWriter
+  - CXEX.Build.Emitters.StagedFile
+  - CXEX.Build.Emitters.XBPTImageWriter
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Build.Emitters
+  nameWithType: CXEX.Build.Emitters
+  fullName: CXEX.Build.Emitters
+  type: Namespace
+  assemblies:
+  - CXEX.Build
+references:
+- uid: CXEX.Build.Emitters.CXEXWriter
+  commentId: T:CXEX.Build.Emitters.CXEXWriter
+  href: CXEX.Build.Emitters.CXEXWriter.html
+  name: CXEXWriter
+  nameWithType: CXEXWriter
+  fullName: CXEX.Build.Emitters.CXEXWriter
+- uid: CXEX.Build.Emitters.StagedFile
+  commentId: T:CXEX.Build.Emitters.StagedFile
+  href: CXEX.Build.Emitters.StagedFile.html
+  name: StagedFile
+  nameWithType: StagedFile
+  fullName: CXEX.Build.Emitters.StagedFile
+- uid: CXEX.Build.Emitters.XBPTImageWriter
+  commentId: T:CXEX.Build.Emitters.XBPTImageWriter
+  href: CXEX.Build.Emitters.XBPTImageWriter.html
+  name: XBPTImageWriter
+  nameWithType: XBPTImageWriter
+  fullName: CXEX.Build.Emitters.XBPTImageWriter

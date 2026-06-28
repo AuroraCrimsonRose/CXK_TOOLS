@@ -1,0 +1,640 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Diagnostics.SourceSpan
+  commentId: T:CXEX.Lang.Diagnostics.SourceSpan
+  id: SourceSpan
+  parent: CXEX.Lang.Diagnostics
+  children:
+  - CXEX.Lang.Diagnostics.SourceSpan.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  - CXEX.Lang.Diagnostics.SourceSpan.Col
+  - CXEX.Lang.Diagnostics.SourceSpan.End
+  - CXEX.Lang.Diagnostics.SourceSpan.File
+  - CXEX.Lang.Diagnostics.SourceSpan.Line
+  - CXEX.Lang.Diagnostics.SourceSpan.Start
+  - CXEX.Lang.Diagnostics.SourceSpan.ToString
+  langs:
+  - csharp
+  - vb
+  name: SourceSpan
+  nameWithType: SourceSpan
+  fullName: CXEX.Lang.Diagnostics.SourceSpan
+  type: Struct
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SourceSpan
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  summary: A half-open [Start,End) byte range in a source file, with line/col for messages.
+  example: []
+  syntax:
+    content: 'public readonly record struct SourceSpan : IEquatable<SourceSpan>'
+    content.vb: Public Structure SourceSpan Implements IEquatable(Of SourceSpan)
+  implements:
+  - System.IEquatable{CXEX.Lang.Diagnostics.SourceSpan}
+  inheritedMembers:
+  - System.ValueType.Equals(System.Object)
+  - System.ValueType.GetHashCode
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+- uid: CXEX.Lang.Diagnostics.SourceSpan.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:CXEX.Lang.Diagnostics.SourceSpan.#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.String,System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: SourceSpan(string, int, int, int, int)
+  nameWithType: SourceSpan.SourceSpan(string, int, int, int, int)
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.SourceSpan(string, int, int, int, int)
+  type: Constructor
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: .ctor
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  summary: A half-open [Start,End) byte range in a source file, with line/col for messages.
+  example: []
+  syntax:
+    content: public SourceSpan(string File, int Start, int End, int Line, int Col)
+    parameters:
+    - id: File
+      type: System.String
+    - id: Start
+      type: System.Int32
+    - id: End
+      type: System.Int32
+    - id: Line
+      type: System.Int32
+    - id: Col
+      type: System.Int32
+    content.vb: Public Sub New(File As String, Start As Integer, [End] As Integer, Line As Integer, Col As Integer)
+  overload: CXEX.Lang.Diagnostics.SourceSpan.#ctor*
+  nameWithType.vb: SourceSpan.New(String, Integer, Integer, Integer, Integer)
+  fullName.vb: CXEX.Lang.Diagnostics.SourceSpan.New(String, Integer, Integer, Integer, Integer)
+  name.vb: New(String, Integer, Integer, Integer, Integer)
+- uid: CXEX.Lang.Diagnostics.SourceSpan.File
+  commentId: P:CXEX.Lang.Diagnostics.SourceSpan.File
+  id: File
+  parent: CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: SourceSpan.File
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.File
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: File
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public string File { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property File As String
+  overload: CXEX.Lang.Diagnostics.SourceSpan.File*
+- uid: CXEX.Lang.Diagnostics.SourceSpan.Start
+  commentId: P:CXEX.Lang.Diagnostics.SourceSpan.Start
+  id: Start
+  parent: CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: Start
+  nameWithType: SourceSpan.Start
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.Start
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Start
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public int Start { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Start As Integer
+  overload: CXEX.Lang.Diagnostics.SourceSpan.Start*
+- uid: CXEX.Lang.Diagnostics.SourceSpan.End
+  commentId: P:CXEX.Lang.Diagnostics.SourceSpan.End
+  id: End
+  parent: CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: End
+  nameWithType: SourceSpan.End
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.End
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: End
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public int End { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property [End] As Integer
+  overload: CXEX.Lang.Diagnostics.SourceSpan.End*
+- uid: CXEX.Lang.Diagnostics.SourceSpan.Line
+  commentId: P:CXEX.Lang.Diagnostics.SourceSpan.Line
+  id: Line
+  parent: CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: Line
+  nameWithType: SourceSpan.Line
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.Line
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Line
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public int Line { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Line As Integer
+  overload: CXEX.Lang.Diagnostics.SourceSpan.Line*
+- uid: CXEX.Lang.Diagnostics.SourceSpan.Col
+  commentId: P:CXEX.Lang.Diagnostics.SourceSpan.Col
+  id: Col
+  parent: CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: Col
+  nameWithType: SourceSpan.Col
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.Col
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Col
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public int Col { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Col As Integer
+  overload: CXEX.Lang.Diagnostics.SourceSpan.Col*
+- uid: CXEX.Lang.Diagnostics.SourceSpan.ToString
+  commentId: M:CXEX.Lang.Diagnostics.SourceSpan.ToString
+  id: ToString
+  parent: CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SourceSpan.ToString()
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.ToString()
+  type: Method
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/SourceSpan.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ToString
+    path: ../CXEX.Lang/Diagnostics/SourceSpan.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  summary: Returns the fully qualified type name of this instance.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The fully qualified type name.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.ValueType.ToString
+  overload: CXEX.Lang.Diagnostics.SourceSpan.ToString*
+references:
+- uid: CXEX.Lang.Diagnostics
+  commentId: N:CXEX.Lang.Diagnostics
+  href: CXEX.html
+  name: CXEX.Lang.Diagnostics
+  nameWithType: CXEX.Lang.Diagnostics
+  fullName: CXEX.Lang.Diagnostics
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+- uid: System.IEquatable{CXEX.Lang.Diagnostics.SourceSpan}
+  commentId: T:System.IEquatable{CXEX.Lang.Diagnostics.SourceSpan}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<SourceSpan>
+  nameWithType: IEquatable<SourceSpan>
+  fullName: System.IEquatable<CXEX.Lang.Diagnostics.SourceSpan>
+  nameWithType.vb: IEquatable(Of SourceSpan)
+  fullName.vb: System.IEquatable(Of CXEX.Lang.Diagnostics.SourceSpan)
+  name.vb: IEquatable(Of SourceSpan)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: CXEX.Lang.Diagnostics.SourceSpan
+    name: SourceSpan
+    href: CXEX.Lang.Diagnostics.SourceSpan.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Diagnostics.SourceSpan
+    name: SourceSpan
+    href: CXEX.Lang.Diagnostics.SourceSpan.html
+  - name: )
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  name: Equals(object)
+  nameWithType: ValueType.Equals(object)
+  fullName: System.ValueType.Equals(object)
+  nameWithType.vb: ValueType.Equals(Object)
+  fullName.vb: System.ValueType.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.equals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CXEX.Lang.Diagnostics.SourceSpan.#ctor*
+  commentId: Overload:CXEX.Lang.Diagnostics.SourceSpan.#ctor
+  href: CXEX.Lang.Diagnostics.SourceSpan.html#CXEX_Lang_Diagnostics_SourceSpan__ctor_System_String_System_Int32_System_Int32_System_Int32_System_Int32_
+  name: SourceSpan
+  nameWithType: SourceSpan.SourceSpan
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.SourceSpan
+  nameWithType.vb: SourceSpan.New
+  fullName.vb: CXEX.Lang.Diagnostics.SourceSpan.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CXEX.Lang.Diagnostics.SourceSpan.File*
+  commentId: Overload:CXEX.Lang.Diagnostics.SourceSpan.File
+  href: CXEX.Lang.Diagnostics.SourceSpan.html#CXEX_Lang_Diagnostics_SourceSpan_File
+  name: File
+  nameWithType: SourceSpan.File
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.File
+- uid: CXEX.Lang.Diagnostics.SourceSpan.Start*
+  commentId: Overload:CXEX.Lang.Diagnostics.SourceSpan.Start
+  href: CXEX.Lang.Diagnostics.SourceSpan.html#CXEX_Lang_Diagnostics_SourceSpan_Start
+  name: Start
+  nameWithType: SourceSpan.Start
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.Start
+- uid: CXEX.Lang.Diagnostics.SourceSpan.End*
+  commentId: Overload:CXEX.Lang.Diagnostics.SourceSpan.End
+  href: CXEX.Lang.Diagnostics.SourceSpan.html#CXEX_Lang_Diagnostics_SourceSpan_End
+  name: End
+  nameWithType: SourceSpan.End
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.End
+- uid: CXEX.Lang.Diagnostics.SourceSpan.Line*
+  commentId: Overload:CXEX.Lang.Diagnostics.SourceSpan.Line
+  href: CXEX.Lang.Diagnostics.SourceSpan.html#CXEX_Lang_Diagnostics_SourceSpan_Line
+  name: Line
+  nameWithType: SourceSpan.Line
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.Line
+- uid: CXEX.Lang.Diagnostics.SourceSpan.Col*
+  commentId: Overload:CXEX.Lang.Diagnostics.SourceSpan.Col
+  href: CXEX.Lang.Diagnostics.SourceSpan.html#CXEX_Lang_Diagnostics_SourceSpan_Col
+  name: Col
+  nameWithType: SourceSpan.Col
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.Col
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.valuetype.tostring
+  - name: (
+  - name: )
+- uid: CXEX.Lang.Diagnostics.SourceSpan.ToString*
+  commentId: Overload:CXEX.Lang.Diagnostics.SourceSpan.ToString
+  href: CXEX.Lang.Diagnostics.SourceSpan.html#CXEX_Lang_Diagnostics_SourceSpan_ToString
+  name: ToString
+  nameWithType: SourceSpan.ToString
+  fullName: CXEX.Lang.Diagnostics.SourceSpan.ToString

@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileType.Types
+  commentId: N:CXEX.FileType.Types
+  id: CXEX.FileType.Types
+  children:
+  - CXEX.FileType.Types.CXEXExecutable
+  - CXEX.FileType.Types.XBPTFile
+  - CXEX.FileType.Types.XKPKFile
+  - CXEX.FileType.Types.XKSKFile
+  langs:
+  - csharp
+  - vb
+  name: CXEX.FileType.Types
+  nameWithType: CXEX.FileType.Types
+  fullName: CXEX.FileType.Types
+  type: Namespace
+  assemblies:
+  - CXEX.FileType
+references:
+- uid: CXEX.FileType.Types.CXEXExecutable
+  commentId: T:CXEX.FileType.Types.CXEXExecutable
+  parent: CXEX.FileType.Types
+  href: CXEX.FileType.Types.CXEXExecutable.html
+  name: CXEXExecutable
+  nameWithType: CXEXExecutable
+  fullName: CXEX.FileType.Types.CXEXExecutable
+- uid: CXEX.FileType.Types.XBPTFile
+  commentId: T:CXEX.FileType.Types.XBPTFile
+  href: CXEX.FileType.Types.XBPTFile.html
+  name: XBPTFile
+  nameWithType: XBPTFile
+  fullName: CXEX.FileType.Types.XBPTFile
+- uid: CXEX.FileType.Types.XKPKFile
+  commentId: T:CXEX.FileType.Types.XKPKFile
+  parent: CXEX.FileType.Types
+  href: CXEX.FileType.Types.XKPKFile.html
+  name: XKPKFile
+  nameWithType: XKPKFile
+  fullName: CXEX.FileType.Types.XKPKFile
+- uid: CXEX.FileType.Types.XKSKFile
+  commentId: T:CXEX.FileType.Types.XKSKFile
+  href: CXEX.FileType.Types.XKSKFile.html
+  name: XKSKFile
+  nameWithType: XKSKFile
+  fullName: CXEX.FileType.Types.XKSKFile
+- uid: CXEX.FileType.Types
+  commentId: N:CXEX.FileType.Types
+  href: CXEX.html
+  name: CXEX.FileType.Types
+  nameWithType: CXEX.FileType.Types
+  fullName: CXEX.FileType.Types
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Types
+    name: Types
+    href: CXEX.FileType.Types.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Types
+    name: Types
+    href: CXEX.FileType.Types.html

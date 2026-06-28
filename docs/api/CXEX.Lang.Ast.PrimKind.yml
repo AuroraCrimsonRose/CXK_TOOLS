@@ -1,0 +1,282 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Ast.PrimKind
+  commentId: T:CXEX.Lang.Ast.PrimKind
+  id: PrimKind
+  parent: CXEX.Lang.Ast
+  children:
+  - CXEX.Lang.Ast.PrimKind.Bool
+  - CXEX.Lang.Ast.PrimKind.I16
+  - CXEX.Lang.Ast.PrimKind.I32
+  - CXEX.Lang.Ast.PrimKind.I8
+  - CXEX.Lang.Ast.PrimKind.U16
+  - CXEX.Lang.Ast.PrimKind.U32
+  - CXEX.Lang.Ast.PrimKind.U8
+  - CXEX.Lang.Ast.PrimKind.Void
+  langs:
+  - csharp
+  - vb
+  name: PrimKind
+  nameWithType: PrimKind
+  fullName: CXEX.Lang.Ast.PrimKind
+  type: Enum
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: PrimKind
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public enum PrimKind
+    content.vb: Public Enum PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.I8
+  commentId: F:CXEX.Lang.Ast.PrimKind.I8
+  id: I8
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: I8
+  nameWithType: PrimKind.I8
+  fullName: CXEX.Lang.Ast.PrimKind.I8
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: I8
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: I8 = 0
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.I16
+  commentId: F:CXEX.Lang.Ast.PrimKind.I16
+  id: I16
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: I16
+  nameWithType: PrimKind.I16
+  fullName: CXEX.Lang.Ast.PrimKind.I16
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: I16
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: I16 = 1
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.I32
+  commentId: F:CXEX.Lang.Ast.PrimKind.I32
+  id: I32
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: I32
+  nameWithType: PrimKind.I32
+  fullName: CXEX.Lang.Ast.PrimKind.I32
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: I32
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: I32 = 2
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.U8
+  commentId: F:CXEX.Lang.Ast.PrimKind.U8
+  id: U8
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: U8
+  nameWithType: PrimKind.U8
+  fullName: CXEX.Lang.Ast.PrimKind.U8
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: U8
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: U8 = 3
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.U16
+  commentId: F:CXEX.Lang.Ast.PrimKind.U16
+  id: U16
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: U16
+  nameWithType: PrimKind.U16
+  fullName: CXEX.Lang.Ast.PrimKind.U16
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: U16
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: U16 = 4
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.U32
+  commentId: F:CXEX.Lang.Ast.PrimKind.U32
+  id: U32
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: U32
+  nameWithType: PrimKind.U32
+  fullName: CXEX.Lang.Ast.PrimKind.U32
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: U32
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: U32 = 5
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.Bool
+  commentId: F:CXEX.Lang.Ast.PrimKind.Bool
+  id: Bool
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: PrimKind.Bool
+  fullName: CXEX.Lang.Ast.PrimKind.Bool
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Bool
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Bool = 6
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+- uid: CXEX.Lang.Ast.PrimKind.Void
+  commentId: F:CXEX.Lang.Ast.PrimKind.Void
+  id: Void
+  parent: CXEX.Lang.Ast.PrimKind
+  langs:
+  - csharp
+  - vb
+  name: Void
+  nameWithType: PrimKind.Void
+  fullName: CXEX.Lang.Ast.PrimKind.Void
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Void
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Void = 7
+    return:
+      type: CXEX.Lang.Ast.PrimKind
+references:
+- uid: CXEX.Lang.Ast
+  commentId: N:CXEX.Lang.Ast
+  href: CXEX.html
+  name: CXEX.Lang.Ast
+  nameWithType: CXEX.Lang.Ast
+  fullName: CXEX.Lang.Ast
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+- uid: CXEX.Lang.Ast.PrimKind
+  commentId: T:CXEX.Lang.Ast.PrimKind
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.PrimKind.html
+  name: PrimKind
+  nameWithType: PrimKind
+  fullName: CXEX.Lang.Ast.PrimKind

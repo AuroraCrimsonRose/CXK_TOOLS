@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Commands.ImageCommand.Settings
+  commentId: T:CXEX.CLI.Commands.ImageCommand.Settings
+  id: ImageCommand.Settings
+  parent: CXEX.CLI.Commands
+  children:
+  - CXEX.CLI.Commands.ImageCommand.Settings.BootMb
+  - CXEX.CLI.Commands.ImageCommand.Settings.Kernel
+  - CXEX.CLI.Commands.ImageCommand.Settings.OutputPath
+  - CXEX.CLI.Commands.ImageCommand.Settings.SizeMb
+  - CXEX.CLI.Commands.ImageCommand.Settings.Stage1
+  - CXEX.CLI.Commands.ImageCommand.Settings.Stage2
+  - CXEX.CLI.Commands.ImageCommand.Settings.StageFiles
+  langs:
+  - csharp
+  - vb
+  name: ImageCommand.Settings
+  nameWithType: ImageCommand.Settings
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings
+  type: Class
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Settings
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 14
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: 'public class ImageCommand.Settings : CommandSettings'
+    content.vb: Public Class ImageCommand.Settings Inherits CommandSettings
+  inheritance:
+  - System.Object
+  - Spectre.Console.Cli.CommandSettings
+  inheritedMembers:
+  - Spectre.Console.Cli.CommandSettings.Validate
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.OutputPath
+  commentId: P:CXEX.CLI.Commands.ImageCommand.Settings.OutputPath
+  id: OutputPath
+  parent: CXEX.CLI.Commands.ImageCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: OutputPath
+  nameWithType: ImageCommand.Settings.OutputPath
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.OutputPath
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: OutputPath
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 16
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--out <PATH>", false)]
+
+      public string OutputPath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CommandOption("--out <PATH>", False)>
+
+      Public Property OutputPath As String
+  overload: CXEX.CLI.Commands.ImageCommand.Settings.OutputPath*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --out <PATH>
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.SizeMb
+  commentId: P:CXEX.CLI.Commands.ImageCommand.Settings.SizeMb
+  id: SizeMb
+  parent: CXEX.CLI.Commands.ImageCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: SizeMb
+  nameWithType: ImageCommand.Settings.SizeMb
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.SizeMb
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SizeMb
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 20
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--size-mb <SIZE>", false)]
+
+      public int SizeMb { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <CommandOption("--size-mb <SIZE>", False)>
+
+      Public Property SizeMb As Integer
+  overload: CXEX.CLI.Commands.ImageCommand.Settings.SizeMb*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --size-mb <SIZE>
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.Stage1
+  commentId: P:CXEX.CLI.Commands.ImageCommand.Settings.Stage1
+  id: Stage1
+  parent: CXEX.CLI.Commands.ImageCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: Stage1
+  nameWithType: ImageCommand.Settings.Stage1
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.Stage1
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Stage1
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 24
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--stage1 <PATH>", false)]
+
+      public string? Stage1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CommandOption("--stage1 <PATH>", False)>
+
+      Public Property Stage1 As String
+  overload: CXEX.CLI.Commands.ImageCommand.Settings.Stage1*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --stage1 <PATH>
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.Stage2
+  commentId: P:CXEX.CLI.Commands.ImageCommand.Settings.Stage2
+  id: Stage2
+  parent: CXEX.CLI.Commands.ImageCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: Stage2
+  nameWithType: ImageCommand.Settings.Stage2
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.Stage2
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Stage2
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 27
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--stage2 <PATH>", false)]
+
+      public string? Stage2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CommandOption("--stage2 <PATH>", False)>
+
+      Public Property Stage2 As String
+  overload: CXEX.CLI.Commands.ImageCommand.Settings.Stage2*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --stage2 <PATH>
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.Kernel
+  commentId: P:CXEX.CLI.Commands.ImageCommand.Settings.Kernel
+  id: Kernel
+  parent: CXEX.CLI.Commands.ImageCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: Kernel
+  nameWithType: ImageCommand.Settings.Kernel
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.Kernel
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Kernel
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 30
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--kernel <PATH>", false)]
+
+      public string? Kernel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CommandOption("--kernel <PATH>", False)>
+
+      Public Property Kernel As String
+  overload: CXEX.CLI.Commands.ImageCommand.Settings.Kernel*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --kernel <PATH>
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.BootMb
+  commentId: P:CXEX.CLI.Commands.ImageCommand.Settings.BootMb
+  id: BootMb
+  parent: CXEX.CLI.Commands.ImageCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: BootMb
+  nameWithType: ImageCommand.Settings.BootMb
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.BootMb
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BootMb
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 33
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--boot-mb <SIZE>", false)]
+
+      public int BootMb { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <CommandOption("--boot-mb <SIZE>", False)>
+
+      Public Property BootMb As Integer
+  overload: CXEX.CLI.Commands.ImageCommand.Settings.BootMb*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --boot-mb <SIZE>
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.StageFiles
+  commentId: P:CXEX.CLI.Commands.ImageCommand.Settings.StageFiles
+  id: StageFiles
+  parent: CXEX.CLI.Commands.ImageCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: StageFiles
+  nameWithType: ImageCommand.Settings.StageFiles
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.StageFiles
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/ImageCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: StageFiles
+    path: ../CXEX.CLI/Commands/ImageCommand.cs
+    startLine: 37
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--stage <NAME=PATH>", false)]
+
+      public string[]? StageFiles { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: >-
+      <CommandOption("--stage <NAME=PATH>", False)>
+
+      Public Property StageFiles As String()
+  overload: CXEX.CLI.Commands.ImageCommand.Settings.StageFiles*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --stage <NAME=PATH>
+    - type: System.Boolean
+      value: false
+references:
+- uid: CXEX.CLI.Commands
+  commentId: N:CXEX.CLI.Commands
+  href: CXEX.html
+  name: CXEX.CLI.Commands
+  nameWithType: CXEX.CLI.Commands
+  fullName: CXEX.CLI.Commands
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Spectre.Console.Cli.CommandSettings
+  commentId: T:Spectre.Console.Cli.CommandSettings
+  parent: Spectre.Console.Cli
+  isExternal: true
+  name: CommandSettings
+  nameWithType: CommandSettings
+  fullName: Spectre.Console.Cli.CommandSettings
+- uid: Spectre.Console.Cli.CommandSettings.Validate
+  commentId: M:Spectre.Console.Cli.CommandSettings.Validate
+  parent: Spectre.Console.Cli.CommandSettings
+  isExternal: true
+  name: Validate()
+  nameWithType: CommandSettings.Validate()
+  fullName: Spectre.Console.Cli.CommandSettings.Validate()
+  spec.csharp:
+  - uid: Spectre.Console.Cli.CommandSettings.Validate
+    name: Validate
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Spectre.Console.Cli.CommandSettings.Validate
+    name: Validate
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Spectre.Console.Cli
+  commentId: N:Spectre.Console.Cli
+  isExternal: true
+  name: Spectre.Console.Cli
+  nameWithType: Spectre.Console.Cli
+  fullName: Spectre.Console.Cli
+  spec.csharp:
+  - uid: Spectre
+    name: Spectre
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console
+    name: Console
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console.Cli
+    name: Cli
+    isExternal: true
+  spec.vb:
+  - uid: Spectre
+    name: Spectre
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console
+    name: Console
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console.Cli
+    name: Cli
+    isExternal: true
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.OutputPath*
+  commentId: Overload:CXEX.CLI.Commands.ImageCommand.Settings.OutputPath
+  href: CXEX.CLI.Commands.ImageCommand.Settings.html#CXEX_CLI_Commands_ImageCommand_Settings_OutputPath
+  name: OutputPath
+  nameWithType: ImageCommand.Settings.OutputPath
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.OutputPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.SizeMb*
+  commentId: Overload:CXEX.CLI.Commands.ImageCommand.Settings.SizeMb
+  href: CXEX.CLI.Commands.ImageCommand.Settings.html#CXEX_CLI_Commands_ImageCommand_Settings_SizeMb
+  name: SizeMb
+  nameWithType: ImageCommand.Settings.SizeMb
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.SizeMb
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.Stage1*
+  commentId: Overload:CXEX.CLI.Commands.ImageCommand.Settings.Stage1
+  href: CXEX.CLI.Commands.ImageCommand.Settings.html#CXEX_CLI_Commands_ImageCommand_Settings_Stage1
+  name: Stage1
+  nameWithType: ImageCommand.Settings.Stage1
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.Stage1
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.Stage2*
+  commentId: Overload:CXEX.CLI.Commands.ImageCommand.Settings.Stage2
+  href: CXEX.CLI.Commands.ImageCommand.Settings.html#CXEX_CLI_Commands_ImageCommand_Settings_Stage2
+  name: Stage2
+  nameWithType: ImageCommand.Settings.Stage2
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.Stage2
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.Kernel*
+  commentId: Overload:CXEX.CLI.Commands.ImageCommand.Settings.Kernel
+  href: CXEX.CLI.Commands.ImageCommand.Settings.html#CXEX_CLI_Commands_ImageCommand_Settings_Kernel
+  name: Kernel
+  nameWithType: ImageCommand.Settings.Kernel
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.Kernel
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.BootMb*
+  commentId: Overload:CXEX.CLI.Commands.ImageCommand.Settings.BootMb
+  href: CXEX.CLI.Commands.ImageCommand.Settings.html#CXEX_CLI_Commands_ImageCommand_Settings_BootMb
+  name: BootMb
+  nameWithType: ImageCommand.Settings.BootMb
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.BootMb
+- uid: CXEX.CLI.Commands.ImageCommand.Settings.StageFiles*
+  commentId: Overload:CXEX.CLI.Commands.ImageCommand.Settings.StageFiles
+  href: CXEX.CLI.Commands.ImageCommand.Settings.html#CXEX_CLI_Commands_ImageCommand_Settings_StageFiles
+  name: StageFiles
+  nameWithType: ImageCommand.Settings.StageFiles
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings.StageFiles
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

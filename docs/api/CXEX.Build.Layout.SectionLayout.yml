@@ -1,0 +1,603 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Build.Layout.SectionLayout
+  commentId: T:CXEX.Build.Layout.SectionLayout
+  id: SectionLayout
+  parent: CXEX.Build.Layout
+  children:
+  - CXEX.Build.Layout.SectionLayout.FileOffset
+  - CXEX.Build.Layout.SectionLayout.FileSize
+  - CXEX.Build.Layout.SectionLayout.Flags
+  - CXEX.Build.Layout.SectionLayout.MemSize
+  - CXEX.Build.Layout.SectionLayout.Name
+  - CXEX.Build.Layout.SectionLayout.Payload
+  - CXEX.Build.Layout.SectionLayout.VirtualAddress
+  langs:
+  - csharp
+  - vb
+  name: SectionLayout
+  nameWithType: SectionLayout
+  fullName: CXEX.Build.Layout.SectionLayout
+  type: Class
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SectionLayout
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 22
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public class SectionLayout
+    content.vb: Public Class SectionLayout
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Build.Layout.SectionLayout.Name
+  commentId: P:CXEX.Build.Layout.SectionLayout.Name
+  id: Name
+  parent: CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SectionLayout.Name
+  fullName: CXEX.Build.Layout.SectionLayout.Name
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Name
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 24
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CXEX.Build.Layout.SectionLayout.Name*
+- uid: CXEX.Build.Layout.SectionLayout.VirtualAddress
+  commentId: P:CXEX.Build.Layout.SectionLayout.VirtualAddress
+  id: VirtualAddress
+  parent: CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: VirtualAddress
+  nameWithType: SectionLayout.VirtualAddress
+  fullName: CXEX.Build.Layout.SectionLayout.VirtualAddress
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: VirtualAddress
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 25
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public uint VirtualAddress { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property VirtualAddress As UInteger
+  overload: CXEX.Build.Layout.SectionLayout.VirtualAddress*
+- uid: CXEX.Build.Layout.SectionLayout.FileOffset
+  commentId: P:CXEX.Build.Layout.SectionLayout.FileOffset
+  id: FileOffset
+  parent: CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: FileOffset
+  nameWithType: SectionLayout.FileOffset
+  fullName: CXEX.Build.Layout.SectionLayout.FileOffset
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FileOffset
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 26
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public uint FileOffset { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property FileOffset As UInteger
+  overload: CXEX.Build.Layout.SectionLayout.FileOffset*
+- uid: CXEX.Build.Layout.SectionLayout.FileSize
+  commentId: P:CXEX.Build.Layout.SectionLayout.FileSize
+  id: FileSize
+  parent: CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: FileSize
+  nameWithType: SectionLayout.FileSize
+  fullName: CXEX.Build.Layout.SectionLayout.FileSize
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FileSize
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 27
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public uint FileSize { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property FileSize As UInteger
+  overload: CXEX.Build.Layout.SectionLayout.FileSize*
+- uid: CXEX.Build.Layout.SectionLayout.MemSize
+  commentId: P:CXEX.Build.Layout.SectionLayout.MemSize
+  id: MemSize
+  parent: CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: MemSize
+  nameWithType: SectionLayout.MemSize
+  fullName: CXEX.Build.Layout.SectionLayout.MemSize
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: MemSize
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 28
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public uint MemSize { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property MemSize As UInteger
+  overload: CXEX.Build.Layout.SectionLayout.MemSize*
+- uid: CXEX.Build.Layout.SectionLayout.Flags
+  commentId: P:CXEX.Build.Layout.SectionLayout.Flags
+  id: Flags
+  parent: CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: SectionLayout.Flags
+  fullName: CXEX.Build.Layout.SectionLayout.Flags
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Flags
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 29
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public uint Flags { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Flags As UInteger
+  overload: CXEX.Build.Layout.SectionLayout.Flags*
+- uid: CXEX.Build.Layout.SectionLayout.Payload
+  commentId: P:CXEX.Build.Layout.SectionLayout.Payload
+  id: Payload
+  parent: CXEX.Build.Layout.SectionLayout
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: SectionLayout.Payload
+  fullName: CXEX.Build.Layout.SectionLayout.Payload
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Payload
+    path: ../CXEX.Build/Layout/CXEXMemoryLayout.cs.cs
+    startLine: 30
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public byte[] Payload { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Payload As Byte()
+  overload: CXEX.Build.Layout.SectionLayout.Payload*
+references:
+- uid: CXEX.Build.Layout
+  commentId: N:CXEX.Build.Layout
+  href: CXEX.html
+  name: CXEX.Build.Layout
+  nameWithType: CXEX.Build.Layout
+  fullName: CXEX.Build.Layout
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Layout
+    name: Layout
+    href: CXEX.Build.Layout.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Layout
+    name: Layout
+    href: CXEX.Build.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Build.Layout.SectionLayout.Name*
+  commentId: Overload:CXEX.Build.Layout.SectionLayout.Name
+  href: CXEX.Build.Layout.SectionLayout.html#CXEX_Build_Layout_SectionLayout_Name
+  name: Name
+  nameWithType: SectionLayout.Name
+  fullName: CXEX.Build.Layout.SectionLayout.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.Build.Layout.SectionLayout.VirtualAddress*
+  commentId: Overload:CXEX.Build.Layout.SectionLayout.VirtualAddress
+  href: CXEX.Build.Layout.SectionLayout.html#CXEX_Build_Layout_SectionLayout_VirtualAddress
+  name: VirtualAddress
+  nameWithType: SectionLayout.VirtualAddress
+  fullName: CXEX.Build.Layout.SectionLayout.VirtualAddress
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: CXEX.Build.Layout.SectionLayout.FileOffset*
+  commentId: Overload:CXEX.Build.Layout.SectionLayout.FileOffset
+  href: CXEX.Build.Layout.SectionLayout.html#CXEX_Build_Layout_SectionLayout_FileOffset
+  name: FileOffset
+  nameWithType: SectionLayout.FileOffset
+  fullName: CXEX.Build.Layout.SectionLayout.FileOffset
+- uid: CXEX.Build.Layout.SectionLayout.FileSize*
+  commentId: Overload:CXEX.Build.Layout.SectionLayout.FileSize
+  href: CXEX.Build.Layout.SectionLayout.html#CXEX_Build_Layout_SectionLayout_FileSize
+  name: FileSize
+  nameWithType: SectionLayout.FileSize
+  fullName: CXEX.Build.Layout.SectionLayout.FileSize
+- uid: CXEX.Build.Layout.SectionLayout.MemSize*
+  commentId: Overload:CXEX.Build.Layout.SectionLayout.MemSize
+  href: CXEX.Build.Layout.SectionLayout.html#CXEX_Build_Layout_SectionLayout_MemSize
+  name: MemSize
+  nameWithType: SectionLayout.MemSize
+  fullName: CXEX.Build.Layout.SectionLayout.MemSize
+- uid: CXEX.Build.Layout.SectionLayout.Flags*
+  commentId: Overload:CXEX.Build.Layout.SectionLayout.Flags
+  href: CXEX.Build.Layout.SectionLayout.html#CXEX_Build_Layout_SectionLayout_Flags
+  name: Flags
+  nameWithType: SectionLayout.Flags
+  fullName: CXEX.Build.Layout.SectionLayout.Flags
+- uid: CXEX.Build.Layout.SectionLayout.Payload*
+  commentId: Overload:CXEX.Build.Layout.SectionLayout.Payload
+  href: CXEX.Build.Layout.SectionLayout.html#CXEX_Build_Layout_SectionLayout_Payload
+  name: Payload
+  nameWithType: SectionLayout.Payload
+  fullName: CXEX.Build.Layout.SectionLayout.Payload
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )

@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Disk.Models
+  commentId: N:CXEX.Disk.Models
+  id: CXEX.Disk.Models
+  children:
+  - CXEX.Disk.Models.DiskLayout
+  - CXEX.Disk.Models.PartitionEntry
+  - CXEX.Disk.Models.PartitionTableType
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Disk.Models
+  nameWithType: CXEX.Disk.Models
+  fullName: CXEX.Disk.Models
+  type: Namespace
+  assemblies:
+  - CXEX.Disk
+references:
+- uid: CXEX.Disk.Models.DiskLayout
+  commentId: T:CXEX.Disk.Models.DiskLayout
+  parent: CXEX.Disk.Models
+  href: CXEX.Disk.Models.DiskLayout.html
+  name: DiskLayout
+  nameWithType: DiskLayout
+  fullName: CXEX.Disk.Models.DiskLayout
+- uid: CXEX.Disk.Models.PartitionEntry
+  commentId: T:CXEX.Disk.Models.PartitionEntry
+  href: CXEX.Disk.Models.PartitionEntry.html
+  name: PartitionEntry
+  nameWithType: PartitionEntry
+  fullName: CXEX.Disk.Models.PartitionEntry
+- uid: CXEX.Disk.Models.PartitionTableType
+  commentId: T:CXEX.Disk.Models.PartitionTableType
+  parent: CXEX.Disk.Models
+  href: CXEX.Disk.Models.PartitionTableType.html
+  name: PartitionTableType
+  nameWithType: PartitionTableType
+  fullName: CXEX.Disk.Models.PartitionTableType
+- uid: CXEX.Disk.Models
+  commentId: N:CXEX.Disk.Models
+  href: CXEX.html
+  name: CXEX.Disk.Models
+  nameWithType: CXEX.Disk.Models
+  fullName: CXEX.Disk.Models
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+  - name: .
+  - uid: CXEX.Disk.Models
+    name: Models
+    href: CXEX.Disk.Models.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+  - name: .
+  - uid: CXEX.Disk.Models
+    name: Models
+    href: CXEX.Disk.Models.html

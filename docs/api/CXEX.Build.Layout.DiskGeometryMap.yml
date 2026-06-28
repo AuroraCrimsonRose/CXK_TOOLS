@@ -1,0 +1,642 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Build.Layout.DiskGeometryMap
+  commentId: T:CXEX.Build.Layout.DiskGeometryMap
+  id: DiskGeometryMap
+  parent: CXEX.Build.Layout
+  children:
+  - CXEX.Build.Layout.DiskGeometryMap.Partitions
+  - CXEX.Build.Layout.DiskGeometryMap.SectorSize
+  - CXEX.Build.Layout.DiskGeometryMap.Stage1Lba
+  - CXEX.Build.Layout.DiskGeometryMap.Stage2Lba
+  - CXEX.Build.Layout.DiskGeometryMap.TotalSectors
+  - CXEX.Build.Layout.DiskGeometryMap.XbptTableLba
+  langs:
+  - csharp
+  - vb
+  name: DiskGeometryMap
+  nameWithType: DiskGeometryMap
+  fullName: CXEX.Build.Layout.DiskGeometryMap
+  type: Class
+  source:
+    remote:
+      path: CXEX.Build/Layout/DiskGeometryMap.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: DiskGeometryMap
+    path: ../CXEX.Build/Layout/DiskGeometryMap.cs
+    startLine: 3
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public class DiskGeometryMap
+    content.vb: Public Class DiskGeometryMap
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Build.Layout.DiskGeometryMap.TotalSectors
+  commentId: P:CXEX.Build.Layout.DiskGeometryMap.TotalSectors
+  id: TotalSectors
+  parent: CXEX.Build.Layout.DiskGeometryMap
+  langs:
+  - csharp
+  - vb
+  name: TotalSectors
+  nameWithType: DiskGeometryMap.TotalSectors
+  fullName: CXEX.Build.Layout.DiskGeometryMap.TotalSectors
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/DiskGeometryMap.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TotalSectors
+    path: ../CXEX.Build/Layout/DiskGeometryMap.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public ulong TotalSectors { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property TotalSectors As ULong
+  overload: CXEX.Build.Layout.DiskGeometryMap.TotalSectors*
+- uid: CXEX.Build.Layout.DiskGeometryMap.SectorSize
+  commentId: P:CXEX.Build.Layout.DiskGeometryMap.SectorSize
+  id: SectorSize
+  parent: CXEX.Build.Layout.DiskGeometryMap
+  langs:
+  - csharp
+  - vb
+  name: SectorSize
+  nameWithType: DiskGeometryMap.SectorSize
+  fullName: CXEX.Build.Layout.DiskGeometryMap.SectorSize
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/DiskGeometryMap.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SectorSize
+    path: ../CXEX.Build/Layout/DiskGeometryMap.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public uint SectorSize { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property SectorSize As UInteger
+  overload: CXEX.Build.Layout.DiskGeometryMap.SectorSize*
+- uid: CXEX.Build.Layout.DiskGeometryMap.Stage1Lba
+  commentId: P:CXEX.Build.Layout.DiskGeometryMap.Stage1Lba
+  id: Stage1Lba
+  parent: CXEX.Build.Layout.DiskGeometryMap
+  langs:
+  - csharp
+  - vb
+  name: Stage1Lba
+  nameWithType: DiskGeometryMap.Stage1Lba
+  fullName: CXEX.Build.Layout.DiskGeometryMap.Stage1Lba
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/DiskGeometryMap.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Stage1Lba
+    path: ../CXEX.Build/Layout/DiskGeometryMap.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public ulong Stage1Lba { get; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly Property Stage1Lba As ULong
+  overload: CXEX.Build.Layout.DiskGeometryMap.Stage1Lba*
+- uid: CXEX.Build.Layout.DiskGeometryMap.XbptTableLba
+  commentId: P:CXEX.Build.Layout.DiskGeometryMap.XbptTableLba
+  id: XbptTableLba
+  parent: CXEX.Build.Layout.DiskGeometryMap
+  langs:
+  - csharp
+  - vb
+  name: XbptTableLba
+  nameWithType: DiskGeometryMap.XbptTableLba
+  fullName: CXEX.Build.Layout.DiskGeometryMap.XbptTableLba
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/DiskGeometryMap.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: XbptTableLba
+    path: ../CXEX.Build/Layout/DiskGeometryMap.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public ulong XbptTableLba { get; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly Property XbptTableLba As ULong
+  overload: CXEX.Build.Layout.DiskGeometryMap.XbptTableLba*
+- uid: CXEX.Build.Layout.DiskGeometryMap.Stage2Lba
+  commentId: P:CXEX.Build.Layout.DiskGeometryMap.Stage2Lba
+  id: Stage2Lba
+  parent: CXEX.Build.Layout.DiskGeometryMap
+  langs:
+  - csharp
+  - vb
+  name: Stage2Lba
+  nameWithType: DiskGeometryMap.Stage2Lba
+  fullName: CXEX.Build.Layout.DiskGeometryMap.Stage2Lba
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/DiskGeometryMap.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Stage2Lba
+    path: ../CXEX.Build/Layout/DiskGeometryMap.cs
+    startLine: 11
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public ulong Stage2Lba { get; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public ReadOnly Property Stage2Lba As ULong
+  overload: CXEX.Build.Layout.DiskGeometryMap.Stage2Lba*
+- uid: CXEX.Build.Layout.DiskGeometryMap.Partitions
+  commentId: P:CXEX.Build.Layout.DiskGeometryMap.Partitions
+  id: Partitions
+  parent: CXEX.Build.Layout.DiskGeometryMap
+  langs:
+  - csharp
+  - vb
+  name: Partitions
+  nameWithType: DiskGeometryMap.Partitions
+  fullName: CXEX.Build.Layout.DiskGeometryMap.Partitions
+  type: Property
+  source:
+    remote:
+      path: CXEX.Build/Layout/DiskGeometryMap.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Partitions
+    path: ../CXEX.Build/Layout/DiskGeometryMap.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Build
+  namespace: CXEX.Build.Layout
+  syntax:
+    content: public List<PartitionLayout> Partitions { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{CXEX.Build.Layout.PartitionLayout}
+    content.vb: Public Property Partitions As List(Of PartitionLayout)
+  overload: CXEX.Build.Layout.DiskGeometryMap.Partitions*
+references:
+- uid: CXEX.Build.Layout
+  commentId: N:CXEX.Build.Layout
+  href: CXEX.html
+  name: CXEX.Build.Layout
+  nameWithType: CXEX.Build.Layout
+  fullName: CXEX.Build.Layout
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Layout
+    name: Layout
+    href: CXEX.Build.Layout.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Build
+    name: Build
+    href: CXEX.Build.html
+  - name: .
+  - uid: CXEX.Build.Layout
+    name: Layout
+    href: CXEX.Build.Layout.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Build.Layout.DiskGeometryMap.TotalSectors*
+  commentId: Overload:CXEX.Build.Layout.DiskGeometryMap.TotalSectors
+  href: CXEX.Build.Layout.DiskGeometryMap.html#CXEX_Build_Layout_DiskGeometryMap_TotalSectors
+  name: TotalSectors
+  nameWithType: DiskGeometryMap.TotalSectors
+  fullName: CXEX.Build.Layout.DiskGeometryMap.TotalSectors
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: CXEX.Build.Layout.DiskGeometryMap.SectorSize*
+  commentId: Overload:CXEX.Build.Layout.DiskGeometryMap.SectorSize
+  href: CXEX.Build.Layout.DiskGeometryMap.html#CXEX_Build_Layout_DiskGeometryMap_SectorSize
+  name: SectorSize
+  nameWithType: DiskGeometryMap.SectorSize
+  fullName: CXEX.Build.Layout.DiskGeometryMap.SectorSize
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: CXEX.Build.Layout.DiskGeometryMap.Stage1Lba*
+  commentId: Overload:CXEX.Build.Layout.DiskGeometryMap.Stage1Lba
+  href: CXEX.Build.Layout.DiskGeometryMap.html#CXEX_Build_Layout_DiskGeometryMap_Stage1Lba
+  name: Stage1Lba
+  nameWithType: DiskGeometryMap.Stage1Lba
+  fullName: CXEX.Build.Layout.DiskGeometryMap.Stage1Lba
+- uid: CXEX.Build.Layout.DiskGeometryMap.XbptTableLba*
+  commentId: Overload:CXEX.Build.Layout.DiskGeometryMap.XbptTableLba
+  href: CXEX.Build.Layout.DiskGeometryMap.html#CXEX_Build_Layout_DiskGeometryMap_XbptTableLba
+  name: XbptTableLba
+  nameWithType: DiskGeometryMap.XbptTableLba
+  fullName: CXEX.Build.Layout.DiskGeometryMap.XbptTableLba
+- uid: CXEX.Build.Layout.DiskGeometryMap.Stage2Lba*
+  commentId: Overload:CXEX.Build.Layout.DiskGeometryMap.Stage2Lba
+  href: CXEX.Build.Layout.DiskGeometryMap.html#CXEX_Build_Layout_DiskGeometryMap_Stage2Lba
+  name: Stage2Lba
+  nameWithType: DiskGeometryMap.Stage2Lba
+  fullName: CXEX.Build.Layout.DiskGeometryMap.Stage2Lba
+- uid: CXEX.Build.Layout.DiskGeometryMap.Partitions*
+  commentId: Overload:CXEX.Build.Layout.DiskGeometryMap.Partitions
+  href: CXEX.Build.Layout.DiskGeometryMap.html#CXEX_Build_Layout_DiskGeometryMap_Partitions
+  name: Partitions
+  nameWithType: DiskGeometryMap.Partitions
+  fullName: CXEX.Build.Layout.DiskGeometryMap.Partitions
+- uid: System.Collections.Generic.List{CXEX.Build.Layout.PartitionLayout}
+  commentId: T:System.Collections.Generic.List{CXEX.Build.Layout.PartitionLayout}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<PartitionLayout>
+  nameWithType: List<PartitionLayout>
+  fullName: System.Collections.Generic.List<CXEX.Build.Layout.PartitionLayout>
+  nameWithType.vb: List(Of PartitionLayout)
+  fullName.vb: System.Collections.Generic.List(Of CXEX.Build.Layout.PartitionLayout)
+  name.vb: List(Of PartitionLayout)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: CXEX.Build.Layout.PartitionLayout
+    name: PartitionLayout
+    href: CXEX.Build.Layout.PartitionLayout.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Build.Layout.PartitionLayout
+    name: PartitionLayout
+    href: CXEX.Build.Layout.PartitionLayout.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.SDK
+  commentId: N:CXEX.SDK
+  id: CXEX.SDK
+  children:
+  - CXEX.SDK.App
+  - CXEX.SDK.ViewLocator
+  langs:
+  - csharp
+  - vb
+  name: CXEX.SDK
+  nameWithType: CXEX.SDK
+  fullName: CXEX.SDK
+  type: Namespace
+  assemblies:
+  - CXEX.SDK
+references:
+- uid: CXEX.SDK.App
+  commentId: T:CXEX.SDK.App
+  href: CXEX.SDK.App.html
+  name: App
+  nameWithType: App
+  fullName: CXEX.SDK.App
+- uid: CXEX.SDK.ViewLocator
+  commentId: T:CXEX.SDK.ViewLocator
+  href: CXEX.SDK.ViewLocator.html
+  name: ViewLocator
+  nameWithType: ViewLocator
+  fullName: CXEX.SDK.ViewLocator

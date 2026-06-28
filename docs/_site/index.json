@@ -1,0 +1,822 @@
+{
+  "api/CXEX.Build.Emitters.CXEXWriter.html": {
+    "href": "api/CXEX.Build.Emitters.CXEXWriter.html",
+    "title": "Class CXEXWriter | CX DevKit API",
+    "summary": "Class CXEXWriter Namespace CXEX.Build.Emitters Assembly CXEX.Build.dll public static class CXEXWriter Inheritance object CXEXWriter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods WriteExecutable(string, CxexMemoryLayout) public static void WriteExecutable(string outPath, CxexMemoryLayout layout) Parameters outPath string layout CxexMemoryLayout"
+  },
+  "api/CXEX.Build.Emitters.StagedFile.html": {
+    "href": "api/CXEX.Build.Emitters.StagedFile.html",
+    "title": "Class StagedFile | CX DevKit API",
+    "summary": "Class StagedFile Namespace CXEX.Build.Emitters Assembly CXEX.Build.dll public class StagedFile Inheritance object StagedFile Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Data public byte[] Data { get; set; } Property Value byte[] Name public string Name { get; set; } Property Value string"
+  },
+  "api/CXEX.Build.Emitters.XBPTImageWriter.html": {
+    "href": "api/CXEX.Build.Emitters.XBPTImageWriter.html",
+    "title": "Class XBPTImageWriter | CX DevKit API",
+    "summary": "Class XBPTImageWriter Namespace CXEX.Build.Emitters Assembly CXEX.Build.dll public static class XBPTImageWriter Inheritance object XBPTImageWriter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods WriteImage(string, DiskGeometryMap, byte[], byte[], byte[], List<StagedFile>) public static void WriteImage(string outPath, DiskGeometryMap map, byte[] stage1, byte[] stage2, byte[] kernel, List<StagedFile> stagedFiles) Parameters outPath string map DiskGeometryMap stage1 byte[] stage2 byte[] kernel byte[] stagedFiles List<StagedFile>"
+  },
+  "api/CXEX.Build.Emitters.html": {
+    "href": "api/CXEX.Build.Emitters.html",
+    "title": "Namespace CXEX.Build.Emitters | CX DevKit API",
+    "summary": "Namespace CXEX.Build.Emitters Classes CXEXWriter StagedFile XBPTImageWriter"
+  },
+  "api/CXEX.Build.Engines.CXEXLayoutEngine.html": {
+    "href": "api/CXEX.Build.Engines.CXEXLayoutEngine.html",
+    "title": "Class CXEXLayoutEngine | CX DevKit API",
+    "summary": "Class CXEXLayoutEngine Namespace CXEX.Build.Engines Assembly CXEX.Build.dll public static class CXEXLayoutEngine Inheritance object CXEXLayoutEngine Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CreateLayout(uint, List<ElfSegment>, ushort, ushort) public static CxexMemoryLayout CreateLayout(uint entryPoint, List<ElfSegment> loadSegments, ushort typeCode, ushort abiVersion = 1) Parameters entryPoint uint loadSegments List<ElfSegment> typeCode ushort abiVersion ushort Returns CxexMemoryLayout"
+  },
+  "api/CXEX.Build.Engines.DiskGeometryEngine.html": {
+    "href": "api/CXEX.Build.Engines.DiskGeometryEngine.html",
+    "title": "Class DiskGeometryEngine | CX DevKit API",
+    "summary": "Class DiskGeometryEngine Namespace CXEX.Build.Engines Assembly CXEX.Build.dll public static class DiskGeometryEngine Inheritance object DiskGeometryEngine Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods CalculateLayout(int, int, int, int) public static DiskGeometryMap CalculateLayout(int diskSizeMb, int bootSizeMb, int stage2Bytes, int stagedFilesBytes) Parameters diskSizeMb int bootSizeMb int stage2Bytes int stagedFilesBytes int Returns DiskGeometryMap"
+  },
+  "api/CXEX.Build.Engines.html": {
+    "href": "api/CXEX.Build.Engines.html",
+    "title": "Namespace CXEX.Build.Engines | CX DevKit API",
+    "summary": "Namespace CXEX.Build.Engines Classes CXEXLayoutEngine DiskGeometryEngine"
+  },
+  "api/CXEX.Build.Layout.CxexMemoryLayout.html": {
+    "href": "api/CXEX.Build.Layout.CxexMemoryLayout.html",
+    "title": "Class CxexMemoryLayout | CX DevKit API",
+    "summary": "Class CxexMemoryLayout Namespace CXEX.Build.Layout Assembly CXEX.Build.dll public class CxexMemoryLayout Inheritance object CxexMemoryLayout Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties AbiVersion public ushort AbiVersion { get; set; } Property Value ushort ArchTarget public ushort ArchTarget { get; set; } Property Value ushort EntryPoint public uint EntryPoint { get; set; } Property Value uint Flags public uint Flags { get; set; } Property Value uint FormatVersion public ushort FormatVersion { get; set; } Property Value ushort ImageMax public uint ImageMax { get; set; } Property Value uint ImageMin public uint ImageMin { get; set; } Property Value uint LoadBase public uint LoadBase { get; set; } Property Value uint PhysBase public uint PhysBase { get; set; } Property Value uint Sections public List<SectionLayout> Sections { get; set; } Property Value List<SectionLayout> TypeCode public ushort TypeCode { get; set; } Property Value ushort"
+  },
+  "api/CXEX.Build.Layout.DiskGeometryMap.html": {
+    "href": "api/CXEX.Build.Layout.DiskGeometryMap.html",
+    "title": "Class DiskGeometryMap | CX DevKit API",
+    "summary": "Class DiskGeometryMap Namespace CXEX.Build.Layout Assembly CXEX.Build.dll public class DiskGeometryMap Inheritance object DiskGeometryMap Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Partitions public List<PartitionLayout> Partitions { get; set; } Property Value List<PartitionLayout> SectorSize public uint SectorSize { get; set; } Property Value uint Stage1Lba public ulong Stage1Lba { get; } Property Value ulong Stage2Lba public ulong Stage2Lba { get; } Property Value ulong TotalSectors public ulong TotalSectors { get; set; } Property Value ulong XbptTableLba public ulong XbptTableLba { get; } Property Value ulong"
+  },
+  "api/CXEX.Build.Layout.PartitionLayout.html": {
+    "href": "api/CXEX.Build.Layout.PartitionLayout.html",
+    "title": "Class PartitionLayout | CX DevKit API",
+    "summary": "Class PartitionLayout Namespace CXEX.Build.Layout Assembly CXEX.Build.dll public class PartitionLayout Inheritance object PartitionLayout Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties EndLba public ulong EndLba { get; } Property Value ulong Flags public byte Flags { get; set; } Property Value byte Label public string Label { get; set; } Property Value string SectorCount public ulong SectorCount { get; set; } Property Value ulong StartLba public ulong StartLba { get; set; } Property Value ulong TypeCode public byte TypeCode { get; set; } Property Value byte"
+  },
+  "api/CXEX.Build.Layout.SectionLayout.html": {
+    "href": "api/CXEX.Build.Layout.SectionLayout.html",
+    "title": "Class SectionLayout | CX DevKit API",
+    "summary": "Class SectionLayout Namespace CXEX.Build.Layout Assembly CXEX.Build.dll public class SectionLayout Inheritance object SectionLayout Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties FileOffset public uint FileOffset { get; set; } Property Value uint FileSize public uint FileSize { get; set; } Property Value uint Flags public uint Flags { get; set; } Property Value uint MemSize public uint MemSize { get; set; } Property Value uint Name public string Name { get; set; } Property Value string Payload public byte[] Payload { get; set; } Property Value byte[] VirtualAddress public uint VirtualAddress { get; set; } Property Value uint"
+  },
+  "api/CXEX.Build.Layout.html": {
+    "href": "api/CXEX.Build.Layout.html",
+    "title": "Namespace CXEX.Build.Layout | CX DevKit API",
+    "summary": "Namespace CXEX.Build.Layout Classes CxexMemoryLayout DiskGeometryMap PartitionLayout SectionLayout"
+  },
+  "api/CXEX.Build.Parsers.ElfParser.html": {
+    "href": "api/CXEX.Build.Parsers.ElfParser.html",
+    "title": "Class ElfParser | CX DevKit API",
+    "summary": "Class ElfParser Namespace CXEX.Build.Parsers Assembly CXEX.Build.dll public static class ElfParser Inheritance object ElfParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Parse(byte[]) public static (uint EntryPoint, List<ElfSegment> Segments) Parse(byte[] elfData) Parameters elfData byte[] Returns (uint EntryPoint, List<ElfSegment> Segments)"
+  },
+  "api/CXEX.Build.Parsers.ElfSegment.html": {
+    "href": "api/CXEX.Build.Parsers.ElfSegment.html",
+    "title": "Class ElfSegment | CX DevKit API",
+    "summary": "Class ElfSegment Namespace CXEX.Build.Parsers Assembly CXEX.Build.dll public class ElfSegment Inheritance object ElfSegment Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Data public byte[] Data { get; set; } Property Value byte[] FileSize public uint FileSize { get; set; } Property Value uint Flags public uint Flags { get; set; } Property Value uint MemSize public uint MemSize { get; set; } Property Value uint Offset public uint Offset { get; set; } Property Value uint Paddr public uint Paddr { get; set; } Property Value uint Vaddr public uint Vaddr { get; set; } Property Value uint"
+  },
+  "api/CXEX.Build.Parsers.html": {
+    "href": "api/CXEX.Build.Parsers.html",
+    "title": "Namespace CXEX.Build.Parsers | CX DevKit API",
+    "summary": "Namespace CXEX.Build.Parsers Classes ElfParser ElfSegment"
+  },
+  "api/CXEX.CLI.Commands.BuildCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.BuildCommand.Settings.html",
+    "title": "Class BuildCommand.Settings | CX DevKit API",
+    "summary": "Class BuildCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class BuildCommand.Settings : CommandSettings Inheritance object CommandSettings BuildCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties InputPath [CommandArgument(0, \"<INPUT_ELF>\")] public string InputPath { get; set; } Property Value string OutputPath [CommandArgument(1, \"<OUTPUT_CXEX>\")] public string OutputPath { get; set; } Property Value string Type [CommandOption(\"-t|--type\", false)] public string Type { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Commands.BuildCommand.html": {
+    "href": "api/CXEX.CLI.Commands.BuildCommand.html",
+    "title": "Class BuildCommand | CX DevKit API",
+    "summary": "Class BuildCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class BuildCommand : Command<BuildCommand.Settings>, ICommand<BuildCommand.Settings>, ICommandLimiter<BuildCommand.Settings>, ICommand Inheritance object Command<BuildCommand.Settings> BuildCommand Implements ICommand<BuildCommand.Settings> ICommandLimiter<BuildCommand.Settings> ICommand Inherited Members Command<BuildCommand.Settings>.Validate(CommandContext, BuildCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, BuildCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings BuildCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.CheckCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.CheckCommand.Settings.html",
+    "title": "Class CheckCommand.Settings | CX DevKit API",
+    "summary": "Class CheckCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class CheckCommand.Settings : CommandSettings Inheritance object CommandSettings CheckCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties CmakePath [CommandArgument(0, \"<CMAKE_FILE>\")] public string CmakePath { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Commands.CheckCommand.html": {
+    "href": "api/CXEX.CLI.Commands.CheckCommand.html",
+    "title": "Class CheckCommand | CX DevKit API",
+    "summary": "Class CheckCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class CheckCommand : Command<CheckCommand.Settings>, ICommand<CheckCommand.Settings>, ICommandLimiter<CheckCommand.Settings>, ICommand Inheritance object Command<CheckCommand.Settings> CheckCommand Implements ICommand<CheckCommand.Settings> ICommandLimiter<CheckCommand.Settings> ICommand Inherited Members Command<CheckCommand.Settings>.Validate(CommandContext, CheckCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, CheckCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings CheckCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.CompileCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.CompileCommand.Settings.html",
+    "title": "Class CompileCommand.Settings | CX DevKit API",
+    "summary": "Class CompileCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class CompileCommand.Settings : CommandSettings Inheritance object CommandSettings CompileCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties EmitAsm [CommandOption(\"--emit-asm\", false)] public bool EmitAsm { get; set; } Property Value bool LinkerScript [CommandOption(\"--ld <SCRIPT>\", false)] public string? LinkerScript { get; set; } Property Value string NoPrelude [CommandOption(\"--no-prelude\", false)] public bool NoPrelude { get; set; } Property Value bool Output [CommandArgument(1, \"<OUTPUT_ELF>\")] public string Output { get; set; } Property Value string Source [CommandArgument(0, \"<SOURCE>\")] public string Source { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Commands.CompileCommand.html": {
+    "href": "api/CXEX.CLI.Commands.CompileCommand.html",
+    "title": "Class CompileCommand | CX DevKit API",
+    "summary": "Class CompileCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll Compiles an X source file (.x) to an ELF, ready for cxk build to package as CXEX. Pipeline: [abi.x prelude] + source -> Lexer -> Parser -> Resolver -> TypeChecker -> X86Emitter (-> .s) -> i686-elf-gcc assemble -> link @0x400000. public class CompileCommand : Command<CompileCommand.Settings>, ICommand<CompileCommand.Settings>, ICommandLimiter<CompileCommand.Settings>, ICommand Inheritance object Command<CompileCommand.Settings> CompileCommand Implements ICommand<CompileCommand.Settings> ICommandLimiter<CompileCommand.Settings> ICommand Inherited Members Command<CompileCommand.Settings>.Validate(CommandContext, CompileCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, CompileCommand.Settings s, CancellationToken ct) Parameters context CommandContext The command context. s CompileCommand.Settings ct CancellationToken Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.EmbedCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.EmbedCommand.Settings.html",
+    "title": "Class EmbedCommand.Settings | CX DevKit API",
+    "summary": "Class EmbedCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class EmbedCommand.Settings : CommandSettings Inheritance object CommandSettings EmbedCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties InputPath [CommandArgument(0, \"<INPUT_FILE>\")] public string InputPath { get; set; } Property Value string OutputPath [CommandArgument(1, \"<OUTPUT_HEADER>\")] public string OutputPath { get; set; } Property Value string VarName [CommandArgument(2, \"<VAR_NAME>\")] public string VarName { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Commands.EmbedCommand.html": {
+    "href": "api/CXEX.CLI.Commands.EmbedCommand.html",
+    "title": "Class EmbedCommand | CX DevKit API",
+    "summary": "Class EmbedCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class EmbedCommand : Command<EmbedCommand.Settings>, ICommand<EmbedCommand.Settings>, ICommandLimiter<EmbedCommand.Settings>, ICommand Inheritance object Command<EmbedCommand.Settings> EmbedCommand Implements ICommand<EmbedCommand.Settings> ICommandLimiter<EmbedCommand.Settings> ICommand Inherited Members Command<EmbedCommand.Settings>.Validate(CommandContext, EmbedCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, EmbedCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings EmbedCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.ImageCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.ImageCommand.Settings.html",
+    "title": "Class ImageCommand.Settings | CX DevKit API",
+    "summary": "Class ImageCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class ImageCommand.Settings : CommandSettings Inheritance object CommandSettings ImageCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties BootMb [CommandOption(\"--boot-mb <SIZE>\", false)] public int BootMb { get; set; } Property Value int Kernel [CommandOption(\"--kernel <PATH>\", false)] public string? Kernel { get; set; } Property Value string OutputPath [CommandOption(\"--out <PATH>\", false)] public string OutputPath { get; set; } Property Value string SizeMb [CommandOption(\"--size-mb <SIZE>\", false)] public int SizeMb { get; set; } Property Value int Stage1 [CommandOption(\"--stage1 <PATH>\", false)] public string? Stage1 { get; set; } Property Value string Stage2 [CommandOption(\"--stage2 <PATH>\", false)] public string? Stage2 { get; set; } Property Value string StageFiles [CommandOption(\"--stage <NAME=PATH>\", false)] public string[]? StageFiles { get; set; } Property Value string[]"
+  },
+  "api/CXEX.CLI.Commands.ImageCommand.html": {
+    "href": "api/CXEX.CLI.Commands.ImageCommand.html",
+    "title": "Class ImageCommand | CX DevKit API",
+    "summary": "Class ImageCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class ImageCommand : Command<ImageCommand.Settings>, ICommand<ImageCommand.Settings>, ICommandLimiter<ImageCommand.Settings>, ICommand Inheritance object Command<ImageCommand.Settings> ImageCommand Implements ICommand<ImageCommand.Settings> ICommandLimiter<ImageCommand.Settings> ICommand Inherited Members Command<ImageCommand.Settings>.Validate(CommandContext, ImageCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, ImageCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings ImageCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.InspectCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.InspectCommand.Settings.html",
+    "title": "Class InspectCommand.Settings | CX DevKit API",
+    "summary": "Class InspectCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class InspectCommand.Settings : CommandSettings Inheritance object CommandSettings InspectCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CXEX.CLI.Commands.InspectCommand.html": {
+    "href": "api/CXEX.CLI.Commands.InspectCommand.html",
+    "title": "Class InspectCommand | CX DevKit API",
+    "summary": "Class InspectCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class InspectCommand : Command<InspectCommand.Settings>, ICommand<InspectCommand.Settings>, ICommandLimiter<InspectCommand.Settings>, ICommand Inheritance object Command<InspectCommand.Settings> InspectCommand Implements ICommand<InspectCommand.Settings> ICommandLimiter<InspectCommand.Settings> ICommand Inherited Members Command<InspectCommand.Settings>.Validate(CommandContext, InspectCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, InspectCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings InspectCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.KeygenCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.KeygenCommand.Settings.html",
+    "title": "Class KeygenCommand.Settings | CX DevKit API",
+    "summary": "Class KeygenCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class KeygenCommand.Settings : CommandSettings Inheritance object CommandSettings KeygenCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CXEX.CLI.Commands.KeygenCommand.html": {
+    "href": "api/CXEX.CLI.Commands.KeygenCommand.html",
+    "title": "Class KeygenCommand | CX DevKit API",
+    "summary": "Class KeygenCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class KeygenCommand : Command<KeygenCommand.Settings>, ICommand<KeygenCommand.Settings>, ICommandLimiter<KeygenCommand.Settings>, ICommand Inheritance object Command<KeygenCommand.Settings> KeygenCommand Implements ICommand<KeygenCommand.Settings> ICommandLimiter<KeygenCommand.Settings> ICommand Inherited Members Command<KeygenCommand.Settings>.Validate(CommandContext, KeygenCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, KeygenCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings KeygenCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.RawImageCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.RawImageCommand.Settings.html",
+    "title": "Class RawImageCommand.Settings | CX DevKit API",
+    "summary": "Class RawImageCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class RawImageCommand.Settings : CommandSettings Inheritance object CommandSettings RawImageCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Boot [CommandOption(\"--boot <PATH>\", false)] public string? Boot { get; set; } Property Value string Kernel [CommandOption(\"--kernel <PATH>\", false)] public string? Kernel { get; set; } Property Value string KernelLba [CommandOption(\"--kernel-lba <LBA>\", false)] public int KernelLba { get; set; } Property Value int OutputPath [CommandOption(\"--out <PATH>\", false)] public string OutputPath { get; set; } Property Value string PatchKsnt [CommandOption(\"--patch-ksnt\", false)] public bool PatchKsnt { get; set; } Property Value bool SizeMb [CommandOption(\"--size-mb <SIZE>\", false)] public int SizeMb { get; set; } Property Value int Stage2 [CommandOption(\"--stage2 <PATH>\", false)] public string? Stage2 { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Commands.RawImageCommand.html": {
+    "href": "api/CXEX.CLI.Commands.RawImageCommand.html",
+    "title": "Class RawImageCommand | CX DevKit API",
+    "summary": "Class RawImageCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class RawImageCommand : Command<RawImageCommand.Settings>, ICommand<RawImageCommand.Settings>, ICommandLimiter<RawImageCommand.Settings>, ICommand Inheritance object Command<RawImageCommand.Settings> RawImageCommand Implements ICommand<RawImageCommand.Settings> ICommandLimiter<RawImageCommand.Settings> ICommand Inherited Members Command<RawImageCommand.Settings>.Validate(CommandContext, RawImageCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, RawImageCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings RawImageCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.RunCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.RunCommand.Settings.html",
+    "title": "Class RunCommand.Settings | CX DevKit API",
+    "summary": "Class RunCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class RunCommand.Settings : CommandSettings Inheritance object CommandSettings RunCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Emulator [CommandOption(\"-e|--emu\", false)] public string Emulator { get; set; } Property Value string ImagePath [CommandArgument(0, \"<IMAGE_PATH>\")] public string ImagePath { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Commands.RunCommand.html": {
+    "href": "api/CXEX.CLI.Commands.RunCommand.html",
+    "title": "Class RunCommand | CX DevKit API",
+    "summary": "Class RunCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class RunCommand : Command<RunCommand.Settings>, ICommand<RunCommand.Settings>, ICommandLimiter<RunCommand.Settings>, ICommand Inheritance object Command<RunCommand.Settings> RunCommand Implements ICommand<RunCommand.Settings> ICommandLimiter<RunCommand.Settings> ICommand Inherited Members Command<RunCommand.Settings>.Validate(CommandContext, RunCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, RunCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings RunCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.SignCommand.Settings.html": {
+    "href": "api/CXEX.CLI.Commands.SignCommand.Settings.html",
+    "title": "Class SignCommand.Settings | CX DevKit API",
+    "summary": "Class SignCommand.Settings Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class SignCommand.Settings : CommandSettings Inheritance object CommandSettings SignCommand.Settings Inherited Members CommandSettings.Validate() object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties PrivateKeyPath [CommandArgument(1, \"<PRIVATE_KEY>\")] public string PrivateKeyPath { get; set; } Property Value string PublicKeyPath [CommandArgument(2, \"<PUBLIC_KEY>\")] public string PublicKeyPath { get; set; } Property Value string TargetPath [CommandArgument(0, \"<TARGET_FILE>\")] public string TargetPath { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Commands.SignCommand.html": {
+    "href": "api/CXEX.CLI.Commands.SignCommand.html",
+    "title": "Class SignCommand | CX DevKit API",
+    "summary": "Class SignCommand Namespace CXEX.CLI.Commands Assembly CXEX.CLI.dll public class SignCommand : Command<SignCommand.Settings>, ICommand<SignCommand.Settings>, ICommandLimiter<SignCommand.Settings>, ICommand Inheritance object Command<SignCommand.Settings> SignCommand Implements ICommand<SignCommand.Settings> ICommandLimiter<SignCommand.Settings> ICommand Inherited Members Command<SignCommand.Settings>.Validate(CommandContext, SignCommand.Settings) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Execute(CommandContext, Settings, CancellationToken) Executes the command. protected override int Execute(CommandContext context, SignCommand.Settings settings, CancellationToken cancellationToken) Parameters context CommandContext The command context. settings SignCommand.Settings The settings. cancellationToken CancellationToken A CancellationToken that can be used to abort the command. Returns int An integer indicating whether the command executed successfully."
+  },
+  "api/CXEX.CLI.Commands.html": {
+    "href": "api/CXEX.CLI.Commands.html",
+    "title": "Namespace CXEX.CLI.Commands | CX DevKit API",
+    "summary": "Namespace CXEX.CLI.Commands Classes BuildCommand BuildCommand.Settings CheckCommand CheckCommand.Settings CompileCommand Compiles an X source file (.x) to an ELF, ready for cxk build to package as CXEX. Pipeline: [abi.x prelude] + source -> Lexer -> Parser -> Resolver -> TypeChecker -> X86Emitter (-> .s) -> i686-elf-gcc assemble -> link @0x400000. CompileCommand.Settings EmbedCommand EmbedCommand.Settings ImageCommand ImageCommand.Settings InspectCommand InspectCommand.Settings KeygenCommand KeygenCommand.Settings RawImageCommand RawImageCommand.Settings RunCommand RunCommand.Settings SignCommand SignCommand.Settings"
+  },
+  "api/CXEX.CLI.Infrastructure.ProcessRunner.html": {
+    "href": "api/CXEX.CLI.Infrastructure.ProcessRunner.html",
+    "title": "Class ProcessRunner | CX DevKit API",
+    "summary": "Class ProcessRunner Namespace CXEX.CLI.Infrastructure Assembly CXEX.CLI.dll public static class ProcessRunner Inheritance object ProcessRunner Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Run(string, string, string) public static int Run(string executable, string arguments, string workingDirectory = \"\") Parameters executable string arguments string workingDirectory string Returns int"
+  },
+  "api/CXEX.CLI.Infrastructure.html": {
+    "href": "api/CXEX.CLI.Infrastructure.html",
+    "title": "Namespace CXEX.CLI.Infrastructure | CX DevKit API",
+    "summary": "Namespace CXEX.CLI.Infrastructure Classes ProcessRunner"
+  },
+  "api/CXEX.CLI.Wrappers.BochsConfig.html": {
+    "href": "api/CXEX.CLI.Wrappers.BochsConfig.html",
+    "title": "Class BochsConfig | CX DevKit API",
+    "summary": "Class BochsConfig Namespace CXEX.CLI.Wrappers Assembly CXEX.CLI.dll public class BochsConfig Inheritance object BochsConfig Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties BiosRomPath public string BiosRomPath { get; set; } Property Value string BootDisk public string BootDisk { get; set; } Property Value string FsDisk public string? FsDisk { get; set; } Property Value string MemoryMb public int MemoryMb { get; set; } Property Value int UsbDisk public string? UsbDisk { get; set; } Property Value string VgaRomPath public string VgaRomPath { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Wrappers.BochsTool.html": {
+    "href": "api/CXEX.CLI.Wrappers.BochsTool.html",
+    "title": "Class BochsTool | CX DevKit API",
+    "summary": "Class BochsTool Namespace CXEX.CLI.Wrappers Assembly CXEX.CLI.dll public static class BochsTool Inheritance object BochsTool Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Run(BochsConfig, string) public static void Run(BochsConfig config, string workingDirectory) Parameters config BochsConfig workingDirectory string"
+  },
+  "api/CXEX.CLI.Wrappers.CMakeTool.html": {
+    "href": "api/CXEX.CLI.Wrappers.CMakeTool.html",
+    "title": "Class CMakeTool | CX DevKit API",
+    "summary": "Class CMakeTool Namespace CXEX.CLI.Wrappers Assembly CXEX.CLI.dll public static class CMakeTool Inheritance object CMakeTool Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Build(string) public static bool Build(string buildDir) Parameters buildDir string Returns bool Configure(string, string, bool) public static bool Configure(string sourceDir, string buildDir, bool signArtifacts = false) Parameters sourceDir string buildDir string signArtifacts bool Returns bool"
+  },
+  "api/CXEX.CLI.Wrappers.GccTool.html": {
+    "href": "api/CXEX.CLI.Wrappers.GccTool.html",
+    "title": "Class GccTool | CX DevKit API",
+    "summary": "Class GccTool Namespace CXEX.CLI.Wrappers Assembly CXEX.CLI.dll public static class GccTool Inheritance object GccTool Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Compile(string, string, IEnumerable<string>?, string) public static bool Compile(string sourceFile, string outputFile, IEnumerable<string>? includeDirs = null, string extraFlags = \"\") Parameters sourceFile string outputFile string includeDirs IEnumerable<string> extraFlags string Returns bool Link(IEnumerable<string>, string, string, string) public static bool Link(IEnumerable<string> objectFiles, string outputFile, string linkerScript, string extraFlags = \"\") Parameters objectFiles IEnumerable<string> outputFile string linkerScript string extraFlags string Returns bool"
+  },
+  "api/CXEX.CLI.Wrappers.NasmTool.html": {
+    "href": "api/CXEX.CLI.Wrappers.NasmTool.html",
+    "title": "Class NasmTool | CX DevKit API",
+    "summary": "Class NasmTool Namespace CXEX.CLI.Wrappers Assembly CXEX.CLI.dll public static class NasmTool Inheritance object NasmTool Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Assemble(string, string, string, IEnumerable<string>?) public static bool Assemble(string sourceFile, string outputFile, string format = \"elf32\", IEnumerable<string>? includeDirs = null) Parameters sourceFile string outputFile string format string includeDirs IEnumerable<string> Returns bool"
+  },
+  "api/CXEX.CLI.Wrappers.QemuConfig.html": {
+    "href": "api/CXEX.CLI.Wrappers.QemuConfig.html",
+    "title": "Class QemuConfig | CX DevKit API",
+    "summary": "Class QemuConfig Namespace CXEX.CLI.Wrappers Assembly CXEX.CLI.dll public class QemuConfig Inheritance object QemuConfig Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties BootDisk public string BootDisk { get; set; } Property Value string EnableAudio public bool EnableAudio { get; set; } Property Value bool EnableNetworking public bool EnableNetworking { get; set; } Property Value bool FsDisk public string? FsDisk { get; set; } Property Value string MachineType public string MachineType { get; set; } Property Value string MemoryMb public int MemoryMb { get; set; } Property Value int UsbDisk public string? UsbDisk { get; set; } Property Value string"
+  },
+  "api/CXEX.CLI.Wrappers.QemuTool.html": {
+    "href": "api/CXEX.CLI.Wrappers.QemuTool.html",
+    "title": "Class QemuTool | CX DevKit API",
+    "summary": "Class QemuTool Namespace CXEX.CLI.Wrappers Assembly CXEX.CLI.dll public static class QemuTool Inheritance object QemuTool Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Run(QemuConfig) public static void Run(QemuConfig config) Parameters config QemuConfig"
+  },
+  "api/CXEX.CLI.Wrappers.html": {
+    "href": "api/CXEX.CLI.Wrappers.html",
+    "title": "Namespace CXEX.CLI.Wrappers | CX DevKit API",
+    "summary": "Namespace CXEX.CLI.Wrappers Classes BochsConfig BochsTool CMakeTool GccTool NasmTool QemuConfig QemuTool"
+  },
+  "api/CXEX.Core.Constants.CXFlags.html": {
+    "href": "api/CXEX.Core.Constants.CXFlags.html",
+    "title": "Class CXFlags | CX DevKit API",
+    "summary": "Class CXFlags Namespace CXEX.Core.Constants Assembly CXEX.Core.dll public static class CXFlags Inheritance object CXFlags Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields FLAG_EXECUTABLE public const uint FLAG_EXECUTABLE = 1 Field Value uint FLAG_KERNEL_PRIV public const uint FLAG_KERNEL_PRIV = 8 Field Value uint FLAG_RELOCATABLE public const uint FLAG_RELOCATABLE = 2 Field Value uint FLAG_REQUIRE_ABI_MATCH public const uint FLAG_REQUIRE_ABI_MATCH = 16 Field Value uint FLAG_REQUIRE_ARCH_MATCH public const uint FLAG_REQUIRE_ARCH_MATCH = 32 Field Value uint FLAG_SIGNED public const uint FLAG_SIGNED = 4 Field Value uint PART_CXBOOT public const byte PART_CXBOOT = 203 Field Value byte PART_CXFS public const byte PART_CXFS = 197 Field Value byte PART_CXSTAGE public const byte PART_CXSTAGE = 202 Field Value byte PART_FLAG_BOOTABLE public const byte PART_FLAG_BOOTABLE = 1 Field Value byte SEC_EXEC public const uint SEC_EXEC = 4 Field Value uint SEC_NOBITS public const uint SEC_NOBITS = 8 Field Value uint SEC_READ public const uint SEC_READ = 1 Field Value uint SEC_WRITE public const uint SEC_WRITE = 2 Field Value uint TYPE_BOOT public const ushort TYPE_BOOT = 16965 Field Value ushort TYPE_KERNEL public const ushort TYPE_KERNEL = 19269 Field Value ushort TYPE_OS public const ushort TYPE_OS = 20293 Field Value ushort TYPE_USER public const ushort TYPE_USER = 17221 Field Value ushort"
+  },
+  "api/CXEX.Core.Constants.CXMagic.html": {
+    "href": "api/CXEX.Core.Constants.CXMagic.html",
+    "title": "Class CXMagic | CX DevKit API",
+    "summary": "Class CXMagic Namespace CXEX.Core.Constants Assembly CXEX.Core.dll public static class CXMagic Inheritance object CXMagic Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields CXEX public static readonly uint CXEX Field Value uint CXPK public static readonly uint CXPK Field Value uint CXSG public static readonly uint CXSG Field Value uint XBPT public static readonly uint XBPT Field Value uint XSTG public static readonly uint XSTG Field Value uint"
+  },
+  "api/CXEX.Core.Constants.html": {
+    "href": "api/CXEX.Core.Constants.html",
+    "title": "Namespace CXEX.Core.Constants | CX DevKit API",
+    "summary": "Namespace CXEX.Core.Constants Classes CXFlags CXMagic"
+  },
+  "api/CXEX.Core.Interfaces.ICXFile.html": {
+    "href": "api/CXEX.Core.Interfaces.ICXFile.html",
+    "title": "Interface ICXFile | CX DevKit API",
+    "summary": "Interface ICXFile Namespace CXEX.Core.Interfaces Assembly CXEX.Core.dll public interface ICXFile Methods GetDisplayName() string GetDisplayName() Returns string Load(byte[]) void Load(byte[] data) Parameters data byte[]"
+  },
+  "api/CXEX.Core.Interfaces.ICXFileSystem.html": {
+    "href": "api/CXEX.Core.Interfaces.ICXFileSystem.html",
+    "title": "Interface ICXFileSystem | CX DevKit API",
+    "summary": "Interface ICXFileSystem Namespace CXEX.Core.Interfaces Assembly CXEX.Core.dll public interface ICXFileSystem Properties Name string Name { get; } Property Value string Methods Exists(string) bool Exists(string absolutePath) Parameters absolutePath string Returns bool List(string) IEnumerable<string> List(string absolutePath) Parameters absolutePath string Returns IEnumerable<string> Mount(string) void Mount(string path) Parameters path string OpenFile(string) Stream OpenFile(string absolutePath) Parameters absolutePath string Returns Stream Read(string) byte[] Read(string absolutePath) Parameters absolutePath string Returns byte[] Unmount() void Unmount() Write(string, byte[]) void Write(string absolutePath, byte[] data) Parameters absolutePath string data byte[]"
+  },
+  "api/CXEX.Core.Interfaces.html": {
+    "href": "api/CXEX.Core.Interfaces.html",
+    "title": "Namespace CXEX.Core.Interfaces | CX DevKit API",
+    "summary": "Namespace CXEX.Core.Interfaces Interfaces ICXFile ICXFileSystem"
+  },
+  "api/CXEX.Core.Utilities.MemoryPrimitives.html": {
+    "href": "api/CXEX.Core.Utilities.MemoryPrimitives.html",
+    "title": "Class MemoryPrimitives | CX DevKit API",
+    "summary": "Class MemoryPrimitives Namespace CXEX.Core.Utilities Assembly CXEX.Core.dll public static class MemoryPrimitives Inheritance object MemoryPrimitives Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ReadU16(ReadOnlySpan<byte>, int) public static ushort ReadU16(ReadOnlySpan<byte> data, int offset) Parameters data ReadOnlySpan<byte> offset int Returns ushort ReadU32(ReadOnlySpan<byte>, int) public static uint ReadU32(ReadOnlySpan<byte> data, int offset) Parameters data ReadOnlySpan<byte> offset int Returns uint ReadU64(ReadOnlySpan<byte>, int) public static ulong ReadU64(ReadOnlySpan<byte> data, int offset) Parameters data ReadOnlySpan<byte> offset int Returns ulong WriteU16(Span<byte>, int, ushort) public static void WriteU16(Span<byte> data, int offset, ushort value) Parameters data Span<byte> offset int value ushort WriteU32(Span<byte>, int, uint) public static void WriteU32(Span<byte> data, int offset, uint value) Parameters data Span<byte> offset int value uint WriteU64(Span<byte>, int, ulong) public static void WriteU64(Span<byte> data, int offset, ulong value) Parameters data Span<byte> offset int value ulong"
+  },
+  "api/CXEX.Core.Utilities.html": {
+    "href": "api/CXEX.Core.Utilities.html",
+    "title": "Namespace CXEX.Core.Utilities | CX DevKit API",
+    "summary": "Namespace CXEX.Core.Utilities Classes MemoryPrimitives"
+  },
+  "api/CXEX.Crypto.Signing.CXSigner.html": {
+    "href": "api/CXEX.Crypto.Signing.CXSigner.html",
+    "title": "Class CXSigner | CX DevKit API",
+    "summary": "Class CXSigner Namespace CXEX.Crypto.Signing Assembly CXEX.Crypto.dll public static class CXSigner Inheritance object CXSigner Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods SignArtifact(string, string, string) public static void SignArtifact(string targetPath, string pemPrivateKeyPath, string xkpkPublicKeyPath) Parameters targetPath string pemPrivateKeyPath string xkpkPublicKeyPath string"
+  },
+  "api/CXEX.Crypto.Signing.CXVerifier.VerifyResult.html": {
+    "href": "api/CXEX.Crypto.Signing.CXVerifier.VerifyResult.html",
+    "title": "Enum CXVerifier.VerifyResult | CX DevKit API",
+    "summary": "Enum CXVerifier.VerifyResult Namespace CXEX.Crypto.Signing Assembly CXEX.Crypto.dll public enum CXVerifier.VerifyResult Fields BadSignature = -8 Ok = 0"
+  },
+  "api/CXEX.Crypto.Signing.CXVerifier.html": {
+    "href": "api/CXEX.Crypto.Signing.CXVerifier.html",
+    "title": "Class CXVerifier | CX DevKit API",
+    "summary": "Class CXVerifier Namespace CXEX.Crypto.Signing Assembly CXEX.Crypto.dll public static class CXVerifier Inheritance object CXVerifier Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods VerifyIntegrity(CXEXExecutable, byte[], XKPKFile) public static CXVerifier.VerifyResult VerifyIntegrity(CXEXExecutable exe, byte[] rawImageBytes, XKPKFile trustedKey) Parameters exe CXEXExecutable rawImageBytes byte[] trustedKey XKPKFile Returns CXVerifier.VerifyResult"
+  },
+  "api/CXEX.Crypto.Signing.html": {
+    "href": "api/CXEX.Crypto.Signing.html",
+    "title": "Namespace CXEX.Crypto.Signing | CX DevKit API",
+    "summary": "Namespace CXEX.Crypto.Signing Classes CXSigner CXVerifier Enums CXVerifier.VerifyResult"
+  },
+  "api/CXEX.Crypto.Trust.CXAuthChain.html": {
+    "href": "api/CXEX.Crypto.Trust.CXAuthChain.html",
+    "title": "Class CXAuthChain | CX DevKit API",
+    "summary": "Class CXAuthChain Namespace CXEX.Crypto.Trust Assembly CXEX.Crypto.dll public class CXAuthChain Inheritance object CXAuthChain Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors CXAuthChain(CXKeyStore) public CXAuthChain(CXKeyStore keyStore) Parameters keyStore CXKeyStore Methods AuthorizeLoad(CXEXExecutable, byte[]) public string AuthorizeLoad(CXEXExecutable exe, byte[] rawExecutableBytes) Parameters exe CXEXExecutable rawExecutableBytes byte[] Returns string"
+  },
+  "api/CXEX.Crypto.Trust.CXKeyStore.html": {
+    "href": "api/CXEX.Crypto.Trust.CXKeyStore.html",
+    "title": "Class CXKeyStore | CX DevKit API",
+    "summary": "Class CXKeyStore Namespace CXEX.Crypto.Trust Assembly CXEX.Crypto.dll public class CXKeyStore Inheritance object CXKeyStore Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetKeyByFingerprint(byte[]) public XKPKFile? GetKeyByFingerprint(byte[] fingerprintBytes) Parameters fingerprintBytes byte[] Returns XKPKFile ImportKey(string) public void ImportKey(string xkpkFilePath) Parameters xkpkFilePath string IsTrusted(byte[]) public bool IsTrusted(byte[] fingerprintBytes) Parameters fingerprintBytes byte[] Returns bool"
+  },
+  "api/CXEX.Crypto.Trust.html": {
+    "href": "api/CXEX.Crypto.Trust.html",
+    "title": "Namespace CXEX.Crypto.Trust | CX DevKit API",
+    "summary": "Namespace CXEX.Crypto.Trust Classes CXAuthChain CXKeyStore"
+  },
+  "api/CXEX.Disk.DiskAnalyzer.html": {
+    "href": "api/CXEX.Disk.DiskAnalyzer.html",
+    "title": "Class DiskAnalyzer | CX DevKit API",
+    "summary": "Class DiskAnalyzer Namespace CXEX.Disk Assembly CXEX.Disk.dll Entry point: sniff a disk image's partition table and parse it. Reads only the first sectors (plus the GPT entry array) - never loads the whole image. Detection order: GPT (\"EFI PART\" @ LBA1) -> XBPT (\"XBPT\" @ LBA1) -> MBR (0x55AA @ 0x1FE). public static class DiskAnalyzer Inheritance object DiskAnalyzer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Analyze(Stream, long, int) public static DiskLayout Analyze(Stream s, long diskSize, int sectorSize = 512) Parameters s Stream diskSize long sectorSize int Returns DiskLayout Analyze(string, int) public static DiskLayout Analyze(string path, int sectorSize = 512) Parameters path string sectorSize int Returns DiskLayout"
+  },
+  "api/CXEX.Disk.Models.DiskLayout.html": {
+    "href": "api/CXEX.Disk.Models.DiskLayout.html",
+    "title": "Class DiskLayout | CX DevKit API",
+    "summary": "Class DiskLayout Namespace CXEX.Disk.Models Assembly CXEX.Disk.dll Parsed view of a disk image: which table, and its partitions. public sealed class DiskLayout Inheritance object DiskLayout Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Properties DiskGuid public string? DiskGuid { get; init; } Property Value string DiskSizeBytes public long DiskSizeBytes { get; init; } Property Value long Note public string? Note { get; init; } Property Value string Partitions public IReadOnlyList<PartitionEntry> Partitions { get; init; } Property Value IReadOnlyList<PartitionEntry> SectorSize public int SectorSize { get; init; } Property Value int TableType public PartitionTableType TableType { get; init; } Property Value PartitionTableType"
+  },
+  "api/CXEX.Disk.Models.PartitionEntry.html": {
+    "href": "api/CXEX.Disk.Models.PartitionEntry.html",
+    "title": "Class PartitionEntry | CX DevKit API",
+    "summary": "Class PartitionEntry Namespace CXEX.Disk.Models Assembly CXEX.Disk.dll One partition / region within a disk image. public sealed class PartitionEntry Inheritance object PartitionEntry Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Properties Bootable public bool Bootable { get; init; } Property Value bool Guid public string? Guid { get; init; } Property Value string Index public int Index { get; init; } Property Value int Name public string Name { get; init; } Property Value string SectorCount public long SectorCount { get; init; } Property Value long SizeBytes public long SizeBytes { get; init; } Property Value long SizeDisplay public string SizeDisplay { get; } Property Value string StartLba public long StartLba { get; init; } Property Value long StartOffset public long StartOffset { get; init; } Property Value long TypeId public string? TypeId { get; init; } Property Value string TypeName public string TypeName { get; init; } Property Value string"
+  },
+  "api/CXEX.Disk.Models.PartitionTableType.html": {
+    "href": "api/CXEX.Disk.Models.PartitionTableType.html",
+    "title": "Enum PartitionTableType | CX DevKit API",
+    "summary": "Enum PartitionTableType Namespace CXEX.Disk.Models Assembly CXEX.Disk.dll public enum PartitionTableType Fields GPT = 2 MBR = 1 Unknown = 0 XBPT = 3"
+  },
+  "api/CXEX.Disk.Models.html": {
+    "href": "api/CXEX.Disk.Models.html",
+    "title": "Namespace CXEX.Disk.Models | CX DevKit API",
+    "summary": "Namespace CXEX.Disk.Models Classes DiskLayout Parsed view of a disk image: which table, and its partitions. PartitionEntry One partition / region within a disk image. Enums PartitionTableType"
+  },
+  "api/CXEX.Disk.Parsers.GptParser.html": {
+    "href": "api/CXEX.Disk.Parsers.GptParser.html",
+    "title": "Class GptParser | CX DevKit API",
+    "summary": "Class GptParser Namespace CXEX.Disk.Parsers Assembly CXEX.Disk.dll Parses a GPT header (LBA1) + its partition entry array. public static class GptParser Inheritance object GptParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Parse(Stream, long, int) public static DiskLayout Parse(Stream s, long diskSize, int sectorSize = 512) Parameters s Stream diskSize long sectorSize int Returns DiskLayout"
+  },
+  "api/CXEX.Disk.Parsers.MbrParser.html": {
+    "href": "api/CXEX.Disk.Parsers.MbrParser.html",
+    "title": "Class MbrParser | CX DevKit API",
+    "summary": "Class MbrParser Namespace CXEX.Disk.Parsers Assembly CXEX.Disk.dll Parses a classic MBR partition table (4 primary entries @ 0x1BE). public static class MbrParser Inheritance object MbrParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Parse(byte[], long, int) public static DiskLayout Parse(byte[] sector0, long diskSize, int sectorSize = 512) Parameters sector0 byte[] diskSize long sectorSize int Returns DiskLayout"
+  },
+  "api/CXEX.Disk.Parsers.XbptParser.html": {
+    "href": "api/CXEX.Disk.Parsers.XbptParser.html",
+    "title": "Class XbptParser | CX DevKit API",
+    "summary": "Class XbptParser Namespace CXEX.Disk.Parsers Assembly CXEX.Disk.dll XBPT (X Boot Partition Table) reader. Matches CXEX.Build.XBPTImageWriter. Header @ LBA1: magic \"XBPT\" (u32), version (u16@4), count (u16@6), entrySize (u16@8, =32), totalSectors (u64@12). Entries from @32, 32 bytes: StartLba u64, SectorCount u64, TypeCode u8@16, Flags u8@17, Label ASCII@20[12]. public static class XbptParser Inheritance object XbptParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields Magic public static readonly byte[] Magic Field Value byte[] Methods Parse(byte[], long, int) public static DiskLayout Parse(byte[] lba1, long diskSize, int sectorSize = 512) Parameters lba1 byte[] diskSize long sectorSize int Returns DiskLayout"
+  },
+  "api/CXEX.Disk.Parsers.html": {
+    "href": "api/CXEX.Disk.Parsers.html",
+    "title": "Namespace CXEX.Disk.Parsers | CX DevKit API",
+    "summary": "Namespace CXEX.Disk.Parsers Classes GptParser Parses a GPT header (LBA1) + its partition entry array. MbrParser Parses a classic MBR partition table (4 primary entries @ 0x1BE). XbptParser XBPT (X Boot Partition Table) reader. Matches CXEX.Build.XBPTImageWriter. Header @ LBA1: magic \"XBPT\" (u32), version (u16@4), count (u16@6), entrySize (u16@8, =32), totalSectors (u64@12). Entries from @32, 32 bytes: StartLba u64, SectorCount u64, TypeCode u8@16, Flags u8@17, Label ASCII@20[12]."
+  },
+  "api/CXEX.Disk.html": {
+    "href": "api/CXEX.Disk.html",
+    "title": "Namespace CXEX.Disk | CX DevKit API",
+    "summary": "Namespace CXEX.Disk Classes DiskAnalyzer Entry point: sniff a disk image's partition table and parse it. Reads only the first sectors (plus the GPT entry array) - never loads the whole image. Detection order: GPT (\"EFI PART\" @ LBA1) -> XBPT (\"XBPT\" @ LBA1) -> MBR (0x55AA @ 0x1FE)."
+  },
+  "api/CXEX.FileSystem.Mounts.CXFSFileSystem.html": {
+    "href": "api/CXEX.FileSystem.Mounts.CXFSFileSystem.html",
+    "title": "Class CXFSFileSystem | CX DevKit API",
+    "summary": "Class CXFSFileSystem Namespace CXEX.FileSystem.Mounts Assembly CXEX.FileSystem.dll public class CXFSFileSystem : ICXFileSystem, IDisposable Inheritance object CXFSFileSystem Implements ICXFileSystem IDisposable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Name public string Name { get; } Property Value string Methods Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. public void Dispose() Exists(string) public bool Exists(string absolutePath) Parameters absolutePath string Returns bool List(string) public IEnumerable<string> List(string absolutePath) Parameters absolutePath string Returns IEnumerable<string> Mount(string) public void Mount(string path) Parameters path string OpenFile(string) public Stream OpenFile(string absolutePath) Parameters absolutePath string Returns Stream Read(string) public byte[] Read(string absolutePath) Parameters absolutePath string Returns byte[] Unmount() public void Unmount() Write(string, byte[]) public void Write(string absolutePath, byte[] data) Parameters absolutePath string data byte[]"
+  },
+  "api/CXEX.FileSystem.Mounts.CXFSImage.html": {
+    "href": "api/CXEX.FileSystem.Mounts.CXFSImage.html",
+    "title": "Class CXFSImage | CX DevKit API",
+    "summary": "Class CXFSImage Namespace CXEX.FileSystem.Mounts Assembly CXEX.FileSystem.dll public class CXFSImage : IDisposable Inheritance object CXFSImage Implements IDisposable Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors CXFSImage(Stream, ulong) public CXFSImage(Stream diskStream, ulong partitionBaseLba = 0) Parameters diskStream Stream partitionBaseLba ulong Properties Manifest public Dictionary<uint, CXFSEntry> Manifest { get; } Property Value Dictionary<uint, CXFSEntry> Superblock public CXFSSuperblock Superblock { get; } Property Value CXFSSuperblock Methods Dispose() Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. public void Dispose() ReadFileBytes(CXFSEntry) public byte[] ReadFileBytes(CXFSEntry fileEntry) Parameters fileEntry CXFSEntry Returns byte[]"
+  },
+  "api/CXEX.FileSystem.Mounts.CXMemoryFileSystem.html": {
+    "href": "api/CXEX.FileSystem.Mounts.CXMemoryFileSystem.html",
+    "title": "Class CXMemoryFileSystem | CX DevKit API",
+    "summary": "Class CXMemoryFileSystem Namespace CXEX.FileSystem.Mounts Assembly CXEX.FileSystem.dll public class CXMemoryFileSystem : ICXFileSystem Inheritance object CXMemoryFileSystem Implements ICXFileSystem Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Name public string Name { get; } Property Value string Methods Exists(string) public bool Exists(string absolutePath) Parameters absolutePath string Returns bool List(string) public IEnumerable<string> List(string absolutePath) Parameters absolutePath string Returns IEnumerable<string> Mount(string) public void Mount(string path) Parameters path string OpenFile(string) public Stream OpenFile(string absolutePath) Parameters absolutePath string Returns Stream Read(string) public byte[] Read(string absolutePath) Parameters absolutePath string Returns byte[] Unmount() public void Unmount() Write(string, byte[]) public void Write(string absolutePath, byte[] data) Parameters absolutePath string data byte[]"
+  },
+  "api/CXEX.FileSystem.Mounts.html": {
+    "href": "api/CXEX.FileSystem.Mounts.html",
+    "title": "Namespace CXEX.FileSystem.Mounts | CX DevKit API",
+    "summary": "Namespace CXEX.FileSystem.Mounts Classes CXFSFileSystem CXFSImage CXMemoryFileSystem"
+  },
+  "api/CXEX.FileSystem.Paths.CXPath.html": {
+    "href": "api/CXEX.FileSystem.Paths.CXPath.html",
+    "title": "Class CXPath | CX DevKit API",
+    "summary": "Class CXPath Namespace CXEX.FileSystem.Paths Assembly CXEX.FileSystem.dll public static class CXPath Inheritance object CXPath Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods GetFileName(string) public static string GetFileName(string path) Parameters path string Returns string Split(string) public static string[] Split(string path) Parameters path string Returns string[]"
+  },
+  "api/CXEX.FileSystem.Paths.html": {
+    "href": "api/CXEX.FileSystem.Paths.html",
+    "title": "Namespace CXEX.FileSystem.Paths | CX DevKit API",
+    "summary": "Namespace CXEX.FileSystem.Paths Classes CXPath"
+  },
+  "api/CXEX.FileSystem.Volume.CXFSConstants.html": {
+    "href": "api/CXEX.FileSystem.Volume.CXFSConstants.html",
+    "title": "Class CXFSConstants | CX DevKit API",
+    "summary": "Class CXFSConstants Namespace CXEX.FileSystem.Volume Assembly CXEX.FileSystem.dll public static class CXFSConstants Inheritance object CXFSConstants Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields BlockSize public const int BlockSize = 4096 Field Value int EntrySize public const int EntrySize = 256 Field Value int FeatLargeBlk public const uint FeatLargeBlk = 8 Field Value uint FeatLocking public const uint FeatLocking = 4 Field Value uint FeatPerms public const uint FeatPerms = 2 Field Value uint FeatTimestamps public const uint FeatTimestamps = 1 Field Value uint Magic public const uint Magic = 1129858643 Field Value uint MaxExtents public const int MaxExtents = 8 Field Value int NameLen public const int NameLen = 64 Field Value int TypeDir public const byte TypeDir = 2 Field Value byte TypeFile public const byte TypeFile = 1 Field Value byte TypeFree public const byte TypeFree = 0 Field Value byte"
+  },
+  "api/CXEX.FileSystem.Volume.CXFSEntry.html": {
+    "href": "api/CXEX.FileSystem.Volume.CXFSEntry.html",
+    "title": "Class CXFSEntry | CX DevKit API",
+    "summary": "Class CXFSEntry Namespace CXEX.FileSystem.Volume Assembly CXEX.FileSystem.dll public class CXFSEntry Inheritance object CXFSEntry Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Accessed public ulong Accessed { get; set; } Property Value ulong Created public ulong Created { get; set; } Property Value ulong ExtentLen public uint[] ExtentLen { get; set; } Property Value uint[] ExtentStart public uint[] ExtentStart { get; set; } Property Value uint[] Flags public byte Flags { get; set; } Property Value byte GroupId public uint GroupId { get; set; } Property Value uint Id public uint Id { get; set; } Property Value uint IsDirectory public bool IsDirectory { get; } Property Value bool IsFile public bool IsFile { get; } Property Value bool IsFree public bool IsFree { get; } Property Value bool LockOwnerPid public uint LockOwnerPid { get; set; } Property Value uint LockState public byte LockState { get; set; } Property Value byte Modified public ulong Modified { get; set; } Property Value ulong Name public string Name { get; set; } Property Value string NameLen public byte NameLen { get; set; } Property Value byte OwnerUid public uint OwnerUid { get; set; } Property Value uint ParentId public uint ParentId { get; set; } Property Value uint Permissions public ushort Permissions { get; set; } Property Value ushort Size public ulong Size { get; set; } Property Value ulong Type public byte Type { get; set; } Property Value byte"
+  },
+  "api/CXEX.FileSystem.Volume.CXFSParser.html": {
+    "href": "api/CXEX.FileSystem.Volume.CXFSParser.html",
+    "title": "Class CXFSParser | CX DevKit API",
+    "summary": "Class CXFSParser Namespace CXEX.FileSystem.Volume Assembly CXEX.FileSystem.dll public static class CXFSParser Inheritance object CXFSParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ParseEntry(ReadOnlySpan<byte>, int) public static CXFSEntry ParseEntry(ReadOnlySpan<byte> data, int offset) Parameters data ReadOnlySpan<byte> offset int Returns CXFSEntry ParseSuperblock(ReadOnlySpan<byte>) public static CXFSSuperblock ParseSuperblock(ReadOnlySpan<byte> data) Parameters data ReadOnlySpan<byte> Returns CXFSSuperblock"
+  },
+  "api/CXEX.FileSystem.Volume.CXFSSuperblock.html": {
+    "href": "api/CXEX.FileSystem.Volume.CXFSSuperblock.html",
+    "title": "Class CXFSSuperblock | CX DevKit API",
+    "summary": "Class CXFSSuperblock Namespace CXEX.FileSystem.Volume Assembly CXEX.FileSystem.dll public class CXFSSuperblock Inheritance object CXFSSuperblock Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties BaseLba public ulong BaseLba { get; set; } Property Value ulong BitmapBlocks public uint BitmapBlocks { get; set; } Property Value uint BitmapStart public uint BitmapStart { get; set; } Property Value uint BlockSize public ushort BlockSize { get; set; } Property Value ushort Created public ulong Created { get; set; } Property Value ulong DataStart public uint DataStart { get; set; } Property Value uint EntrySize public uint EntrySize { get; set; } Property Value uint FeatureFlags public uint FeatureFlags { get; set; } Property Value uint Magic public uint Magic { get; set; } Property Value uint ManifestBlocks public uint ManifestBlocks { get; set; } Property Value uint ManifestCount public uint ManifestCount { get; set; } Property Value uint ManifestStart public uint ManifestStart { get; set; } Property Value uint Modified public ulong Modified { get; set; } Property Value ulong ReservedBlocks public uint ReservedBlocks { get; set; } Property Value uint RootId public uint RootId { get; set; } Property Value uint TotalBlocks public uint TotalBlocks { get; set; } Property Value uint Version public ushort Version { get; set; } Property Value ushort"
+  },
+  "api/CXEX.FileSystem.Volume.html": {
+    "href": "api/CXEX.FileSystem.Volume.html",
+    "title": "Namespace CXEX.FileSystem.Volume | CX DevKit API",
+    "summary": "Namespace CXEX.FileSystem.Volume Classes CXFSConstants CXFSEntry CXFSParser CXFSSuperblock"
+  },
+  "api/CXEX.FileType.Parsers.CXEXParser.html": {
+    "href": "api/CXEX.FileType.Parsers.CXEXParser.html",
+    "title": "Class CXEXParser | CX DevKit API",
+    "summary": "Class CXEXParser Namespace CXEX.FileType.Parsers Assembly CXEX.FileType.dll public static class CXEXParser Inheritance object CXEXParser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields HEADER_SIZE public const int HEADER_SIZE = 56 Field Value int SECTION_SIZE public const int SECTION_SIZE = 28 Field Value int SIG_HDR_SIZE public const int SIG_HDR_SIZE = 42 Field Value int Methods ParseHeader(ReadOnlySpan<byte>) public static CXEXHeader ParseHeader(ReadOnlySpan<byte> data) Parameters data ReadOnlySpan<byte> Returns CXEXHeader ParseSection(ReadOnlySpan<byte>, int) public static CXEXSection ParseSection(ReadOnlySpan<byte> data, int offset) Parameters data ReadOnlySpan<byte> offset int Returns CXEXSection ParseSignature(ReadOnlySpan<byte>, uint) public static CXEXSignatureBlock ParseSignature(ReadOnlySpan<byte> data, uint signatureOffset) Parameters data ReadOnlySpan<byte> signatureOffset uint Returns CXEXSignatureBlock"
+  },
+  "api/CXEX.FileType.Parsers.CXOtherParsers.html": {
+    "href": "api/CXEX.FileType.Parsers.CXOtherParsers.html",
+    "title": "Class CXOtherParsers | CX DevKit API",
+    "summary": "Class CXOtherParsers Namespace CXEX.FileType.Parsers Assembly CXEX.FileType.dll public static class CXOtherParsers Inheritance object CXOtherParsers Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods ParseCxpkHeader(ReadOnlySpan<byte>) public static CXPKHeader ParseCxpkHeader(ReadOnlySpan<byte> data) Parameters data ReadOnlySpan<byte> Returns CXPKHeader ParseXbptEntry(ReadOnlySpan<byte>, int) public static XBPTEntry ParseXbptEntry(ReadOnlySpan<byte> data, int offset) Parameters data ReadOnlySpan<byte> offset int Returns XBPTEntry ParseXbptHeader(ReadOnlySpan<byte>) public static XBPTHeader ParseXbptHeader(ReadOnlySpan<byte> data) Parameters data ReadOnlySpan<byte> Returns XBPTHeader"
+  },
+  "api/CXEX.FileType.Parsers.html": {
+    "href": "api/CXEX.FileType.Parsers.html",
+    "title": "Namespace CXEX.FileType.Parsers | CX DevKit API",
+    "summary": "Namespace CXEX.FileType.Parsers Classes CXEXParser CXOtherParsers"
+  },
+  "api/CXEX.FileType.Structures.CXEXHeader.html": {
+    "href": "api/CXEX.FileType.Structures.CXEXHeader.html",
+    "title": "Class CXEXHeader | CX DevKit API",
+    "summary": "Class CXEXHeader Namespace CXEX.FileType.Structures Assembly CXEX.FileType.dll public class CXEXHeader Inheritance object CXEXHeader Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties AbiVersion public ushort AbiVersion { get; set; } Property Value ushort ArchTarget public ushort ArchTarget { get; set; } Property Value ushort DependencyOffset public uint DependencyOffset { get; set; } Property Value uint EntryPoint public uint EntryPoint { get; set; } Property Value uint Flags public uint Flags { get; set; } Property Value uint FormatVersion public ushort FormatVersion { get; set; } Property Value ushort ImageMax public uint ImageMax { get; set; } Property Value uint ImageMin public uint ImageMin { get; set; } Property Value uint IsSigned public bool IsSigned { get; } Property Value bool LoadBase public uint LoadBase { get; set; } Property Value uint Magic public uint Magic { get; set; } Property Value uint RelocOffset public uint RelocOffset { get; set; } Property Value uint SectionCount public ushort SectionCount { get; set; } Property Value ushort SectionOffset public ushort SectionOffset { get; set; } Property Value ushort SignatureOffset public uint SignatureOffset { get; set; } Property Value uint TypeCode public ushort TypeCode { get; set; } Property Value ushort"
+  },
+  "api/CXEX.FileType.Structures.CXEXSection.html": {
+    "href": "api/CXEX.FileType.Structures.CXEXSection.html",
+    "title": "Class CXEXSection | CX DevKit API",
+    "summary": "Class CXEXSection Namespace CXEX.FileType.Structures Assembly CXEX.FileType.dll public class CXEXSection Inheritance object CXEXSection Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties FileOffset public uint FileOffset { get; set; } Property Value uint FileSize public uint FileSize { get; set; } Property Value uint Flags public uint Flags { get; set; } Property Value uint MemSize public uint MemSize { get; set; } Property Value uint Name public string Name { get; set; } Property Value string VirtAddr public uint VirtAddr { get; set; } Property Value uint"
+  },
+  "api/CXEX.FileType.Structures.CXEXSignatureBlock.html": {
+    "href": "api/CXEX.FileType.Structures.CXEXSignatureBlock.html",
+    "title": "Class CXEXSignatureBlock | CX DevKit API",
+    "summary": "Class CXEXSignatureBlock Namespace CXEX.FileType.Structures Assembly CXEX.FileType.dll public class CXEXSignatureBlock Inheritance object CXEXSignatureBlock Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Fingerprint public byte[] Fingerprint { get; set; } Property Value byte[] HashAlgo public ushort HashAlgo { get; set; } Property Value ushort Magic public uint Magic { get; set; } Property Value uint SigAlgo public ushort SigAlgo { get; set; } Property Value ushort SigFileOffset public uint SigFileOffset { get; set; } Property Value uint SigLen public ushort SigLen { get; set; } Property Value ushort Signature public byte[] Signature { get; set; } Property Value byte[]"
+  },
+  "api/CXEX.FileType.Structures.CXPKHeader.html": {
+    "href": "api/CXEX.FileType.Structures.CXPKHeader.html",
+    "title": "Class CXPKHeader | CX DevKit API",
+    "summary": "Class CXPKHeader Namespace CXEX.FileType.Structures Assembly CXEX.FileType.dll public class CXPKHeader Inheritance object CXPKHeader Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Exponent public uint Exponent { get; set; } Property Value uint KeyBits public ushort KeyBits { get; set; } Property Value ushort Magic public uint Magic { get; set; } Property Value uint ModulusLen public ushort ModulusLen { get; set; } Property Value ushort Version public ushort Version { get; set; } Property Value ushort"
+  },
+  "api/CXEX.FileType.Structures.XBPTEntry.html": {
+    "href": "api/CXEX.FileType.Structures.XBPTEntry.html",
+    "title": "Class XBPTEntry | CX DevKit API",
+    "summary": "Class XBPTEntry Namespace CXEX.FileType.Structures Assembly CXEX.FileType.dll public class XBPTEntry Inheritance object XBPTEntry Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Flags public byte Flags { get; set; } Property Value byte Name public string Name { get; set; } Property Value string PartitionType public byte PartitionType { get; set; } Property Value byte SectorCount public ulong SectorCount { get; set; } Property Value ulong StartLba public ulong StartLba { get; set; } Property Value ulong"
+  },
+  "api/CXEX.FileType.Structures.XBPTHeader.html": {
+    "href": "api/CXEX.FileType.Structures.XBPTHeader.html",
+    "title": "Class XBPTHeader | CX DevKit API",
+    "summary": "Class XBPTHeader Namespace CXEX.FileType.Structures Assembly CXEX.FileType.dll public class XBPTHeader Inheritance object XBPTHeader Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties EntryCount public ushort EntryCount { get; set; } Property Value ushort EntrySize public ushort EntrySize { get; set; } Property Value ushort Flags public ushort Flags { get; set; } Property Value ushort Magic public uint Magic { get; set; } Property Value uint TotalSectors public ulong TotalSectors { get; set; } Property Value ulong Version public ushort Version { get; set; } Property Value ushort"
+  },
+  "api/CXEX.FileType.Structures.html": {
+    "href": "api/CXEX.FileType.Structures.html",
+    "title": "Namespace CXEX.FileType.Structures | CX DevKit API",
+    "summary": "Namespace CXEX.FileType.Structures Classes CXEXHeader CXEXSection CXEXSignatureBlock CXPKHeader XBPTEntry XBPTHeader"
+  },
+  "api/CXEX.FileType.Types.CXEXExecutable.html": {
+    "href": "api/CXEX.FileType.Types.CXEXExecutable.html",
+    "title": "Class CXEXExecutable | CX DevKit API",
+    "summary": "Class CXEXExecutable Namespace CXEX.FileType.Types Assembly CXEX.FileType.dll public class CXEXExecutable : ICXFile Inheritance object CXEXExecutable Implements ICXFile Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Header public CXEXHeader Header { get; } Property Value CXEXHeader Sections public List<CXEXSection> Sections { get; } Property Value List<CXEXSection> Signature public CXEXSignatureBlock? Signature { get; } Property Value CXEXSignatureBlock Methods GetDisplayName() public string GetDisplayName() Returns string GetSectionData(string) public byte[] GetSectionData(string sectionName) Parameters sectionName string Returns byte[] Load(byte[]) public void Load(byte[] data) Parameters data byte[]"
+  },
+  "api/CXEX.FileType.Types.XBPTFile.html": {
+    "href": "api/CXEX.FileType.Types.XBPTFile.html",
+    "title": "Class XBPTFile | CX DevKit API",
+    "summary": "Class XBPTFile Namespace CXEX.FileType.Types Assembly CXEX.FileType.dll public class XBPTFile : ICXFile Inheritance object XBPTFile Implements ICXFile Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Header public XBPTHeader Header { get; } Property Value XBPTHeader Partitions public List<XBPTEntry> Partitions { get; } Property Value List<XBPTEntry> Methods GetDisplayName() public string GetDisplayName() Returns string Load(byte[]) public void Load(byte[] data) Parameters data byte[]"
+  },
+  "api/CXEX.FileType.Types.XKPKFile.html": {
+    "href": "api/CXEX.FileType.Types.XKPKFile.html",
+    "title": "Class XKPKFile | CX DevKit API",
+    "summary": "Class XKPKFile Namespace CXEX.FileType.Types Assembly CXEX.FileType.dll public class XKPKFile : ICXFile Inheritance object XKPKFile Implements ICXFile Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Header public CXPKHeader Header { get; } Property Value CXPKHeader Modulus public byte[] Modulus { get; } Property Value byte[] Methods GetDisplayName() public string GetDisplayName() Returns string Load(byte[]) public void Load(byte[] data) Parameters data byte[]"
+  },
+  "api/CXEX.FileType.Types.XKSKFile.html": {
+    "href": "api/CXEX.FileType.Types.XKSKFile.html",
+    "title": "Class XKSKFile | CX DevKit API",
+    "summary": "Class XKSKFile Namespace CXEX.FileType.Types Assembly CXEX.FileType.dll public class XKSKFile : ICXFile Inheritance object XKSKFile Implements ICXFile Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties PemData public string PemData { get; } Property Value string Methods GetDisplayName() public string GetDisplayName() Returns string Load(byte[]) public void Load(byte[] data) Parameters data byte[]"
+  },
+  "api/CXEX.FileType.Types.html": {
+    "href": "api/CXEX.FileType.Types.html",
+    "title": "Namespace CXEX.FileType.Types | CX DevKit API",
+    "summary": "Namespace CXEX.FileType.Types Classes CXEXExecutable XBPTFile XKPKFile XKSKFile"
+  },
+  "api/CXEX.Lang.Abi.AbiPrelude.html": {
+    "href": "api/CXEX.Lang.Abi.AbiPrelude.html",
+    "title": "Class AbiPrelude | CX DevKit API",
+    "summary": "Class AbiPrelude Namespace CXEX.Lang.Abi Assembly CXEX.Lang.dll Generates the X prelude (abi.x) from the frozen CXK ABI (abi/cxk_abi.h): the SYS_* numbers, E_* error codes, the shared arg structs, and typed __syscall wrappers. Compiling against this keeps X programs in lockstep with the kernel - one source of truth across kernel, C, .NET, and X. v0.1 emits the frozen v1 values directly; a later version can parse cxk_abi.h to stay automatic. public static class AbiPrelude Inheritance object AbiPrelude Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields FileName public const string FileName = \"abi.x\" Field Value string Methods Generate() public static string Generate() Returns string"
+  },
+  "api/CXEX.Lang.Abi.html": {
+    "href": "api/CXEX.Lang.Abi.html",
+    "title": "Namespace CXEX.Lang.Abi | CX DevKit API",
+    "summary": "Namespace CXEX.Lang.Abi Classes AbiPrelude Generates the X prelude (abi.x) from the frozen CXK ABI (abi/cxk_abi.h): the SYS_* numbers, E_* error codes, the shared arg structs, and typed __syscall wrappers. Compiling against this keeps X programs in lockstep with the kernel - one source of truth across kernel, C, .NET, and X. v0.1 emits the frozen v1 values directly; a later version can parse cxk_abi.h to stay automatic."
+  },
+  "api/CXEX.Lang.Ast.ArrayType.html": {
+    "href": "api/CXEX.Lang.Ast.ArrayType.html",
+    "title": "Class ArrayType | CX DevKit API",
+    "summary": "Class ArrayType Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record ArrayType : TypeRef, IEquatable<TypeRef>, IEquatable<ArrayType> Inheritance object TypeRef ArrayType Implements IEquatable<TypeRef> IEquatable<ArrayType> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ArrayType(TypeRef, int) public ArrayType(TypeRef Element, int Length) Parameters Element TypeRef Length int Properties Element public TypeRef Element { get; init; } Property Value TypeRef Length public int Length { get; init; } Property Value int"
+  },
+  "api/CXEX.Lang.Ast.AssignStmt.html": {
+    "href": "api/CXEX.Lang.Ast.AssignStmt.html",
+    "title": "Class AssignStmt | CX DevKit API",
+    "summary": "Class AssignStmt Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record AssignStmt : Stmt, IEquatable<Node>, IEquatable<Stmt>, IEquatable<AssignStmt> Inheritance object Node Stmt AssignStmt Implements IEquatable<Node> IEquatable<Stmt> IEquatable<AssignStmt> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors AssignStmt(Expr, Expr) public AssignStmt(Expr Target, Expr Value) Parameters Target Expr Value Expr Properties Target public Expr Target { get; init; } Property Value Expr Value public Expr Value { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.BinOp.html": {
+    "href": "api/CXEX.Lang.Ast.BinOp.html",
+    "title": "Enum BinOp | CX DevKit API",
+    "summary": "Enum BinOp Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public enum BinOp Fields Add = 0 And = 11 Div = 3 Eq = 5 Ge = 10 Gt = 9 Le = 8 Lt = 7 Mod = 4 Mul = 2 Ne = 6 Or = 12 Sub = 1"
+  },
+  "api/CXEX.Lang.Ast.BinaryExpr.html": {
+    "href": "api/CXEX.Lang.Ast.BinaryExpr.html",
+    "title": "Class BinaryExpr | CX DevKit API",
+    "summary": "Class BinaryExpr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record BinaryExpr : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<BinaryExpr> Inheritance object Node Expr BinaryExpr Implements IEquatable<Node> IEquatable<Expr> IEquatable<BinaryExpr> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors BinaryExpr(BinOp, Expr, Expr) public BinaryExpr(BinOp Op, Expr Left, Expr Right) Parameters Op BinOp Left Expr Right Expr Properties Left public Expr Left { get; init; } Property Value Expr Op public BinOp Op { get; init; } Property Value BinOp Right public Expr Right { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.Block.html": {
+    "href": "api/CXEX.Lang.Ast.Block.html",
+    "title": "Class Block | CX DevKit API",
+    "summary": "Class Block Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record Block : Stmt, IEquatable<Node>, IEquatable<Stmt>, IEquatable<Block> Inheritance object Node Stmt Block Implements IEquatable<Node> IEquatable<Stmt> IEquatable<Block> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors Block(List<Stmt>) public Block(List<Stmt> Stmts) Parameters Stmts List<Stmt> Properties Stmts public List<Stmt> Stmts { get; init; } Property Value List<Stmt>"
+  },
+  "api/CXEX.Lang.Ast.BoolLit.html": {
+    "href": "api/CXEX.Lang.Ast.BoolLit.html",
+    "title": "Class BoolLit | CX DevKit API",
+    "summary": "Class BoolLit Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record BoolLit : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<BoolLit> Inheritance object Node Expr BoolLit Implements IEquatable<Node> IEquatable<Expr> IEquatable<BoolLit> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors BoolLit(bool) public BoolLit(bool Value) Parameters Value bool Properties Value public bool Value { get; init; } Property Value bool"
+  },
+  "api/CXEX.Lang.Ast.CallExpr.html": {
+    "href": "api/CXEX.Lang.Ast.CallExpr.html",
+    "title": "Class CallExpr | CX DevKit API",
+    "summary": "Class CallExpr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record CallExpr : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<CallExpr> Inheritance object Node Expr CallExpr Implements IEquatable<Node> IEquatable<Expr> IEquatable<CallExpr> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors CallExpr(Expr, List<Expr>) public CallExpr(Expr Callee, List<Expr> Args) Parameters Callee Expr Args List<Expr> Properties Args public List<Expr> Args { get; init; } Property Value List<Expr> Callee public Expr Callee { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.CastExpr.html": {
+    "href": "api/CXEX.Lang.Ast.CastExpr.html",
+    "title": "Class CastExpr | CX DevKit API",
+    "summary": "Class CastExpr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record CastExpr : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<CastExpr> Inheritance object Node Expr CastExpr Implements IEquatable<Node> IEquatable<Expr> IEquatable<CastExpr> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors CastExpr(Expr, TypeRef) public CastExpr(Expr Operand, TypeRef Target) Parameters Operand Expr Target TypeRef Properties Operand public Expr Operand { get; init; } Property Value Expr Target public TypeRef Target { get; init; } Property Value TypeRef"
+  },
+  "api/CXEX.Lang.Ast.CompilationUnit.html": {
+    "href": "api/CXEX.Lang.Ast.CompilationUnit.html",
+    "title": "Class CompilationUnit | CX DevKit API",
+    "summary": "Class CompilationUnit Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record CompilationUnit : Node, IEquatable<Node>, IEquatable<CompilationUnit> Inheritance object Node CompilationUnit Implements IEquatable<Node> IEquatable<CompilationUnit> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors CompilationUnit(List<Decl>) public CompilationUnit(List<Decl> Decls) Parameters Decls List<Decl> Properties Decls public List<Decl> Decls { get; init; } Property Value List<Decl>"
+  },
+  "api/CXEX.Lang.Ast.ConstDecl.html": {
+    "href": "api/CXEX.Lang.Ast.ConstDecl.html",
+    "title": "Class ConstDecl | CX DevKit API",
+    "summary": "Class ConstDecl Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record ConstDecl : Decl, IEquatable<Node>, IEquatable<Decl>, IEquatable<ConstDecl> Inheritance object Node Decl ConstDecl Implements IEquatable<Node> IEquatable<Decl> IEquatable<ConstDecl> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ConstDecl(string, TypeRef, Expr) public ConstDecl(string Name, TypeRef Type, Expr Value) Parameters Name string Type TypeRef Value Expr Properties Name public string Name { get; init; } Property Value string Type public TypeRef Type { get; init; } Property Value TypeRef Value public Expr Value { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.Decl.html": {
+    "href": "api/CXEX.Lang.Ast.Decl.html",
+    "title": "Class Decl | CX DevKit API",
+    "summary": "Class Decl Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public abstract record Decl : Node, IEquatable<Node>, IEquatable<Decl> Inheritance object Node Decl Implements IEquatable<Node> IEquatable<Decl> Derived ConstDecl FnDecl GlobalDecl StructDecl Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CXEX.Lang.Ast.Expr.html": {
+    "href": "api/CXEX.Lang.Ast.Expr.html",
+    "title": "Class Expr | CX DevKit API",
+    "summary": "Class Expr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public abstract record Expr : Node, IEquatable<Node>, IEquatable<Expr> Inheritance object Node Expr Implements IEquatable<Node> IEquatable<Expr> Derived BinaryExpr BoolLit CallExpr CastExpr IndexExpr IntLit MemberExpr NameExpr UnaryExpr Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CXEX.Lang.Ast.ExprStmt.html": {
+    "href": "api/CXEX.Lang.Ast.ExprStmt.html",
+    "title": "Class ExprStmt | CX DevKit API",
+    "summary": "Class ExprStmt Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record ExprStmt : Stmt, IEquatable<Node>, IEquatable<Stmt>, IEquatable<ExprStmt> Inheritance object Node Stmt ExprStmt Implements IEquatable<Node> IEquatable<Stmt> IEquatable<ExprStmt> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ExprStmt(Expr) public ExprStmt(Expr Expr) Parameters Expr Expr Properties Expr public Expr Expr { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.FnDecl.html": {
+    "href": "api/CXEX.Lang.Ast.FnDecl.html",
+    "title": "Class FnDecl | CX DevKit API",
+    "summary": "Class FnDecl Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record FnDecl : Decl, IEquatable<Node>, IEquatable<Decl>, IEquatable<FnDecl> Inheritance object Node Decl FnDecl Implements IEquatable<Node> IEquatable<Decl> IEquatable<FnDecl> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors FnDecl(string, List<Param>, TypeRef, Block?) public FnDecl(string Name, List<Param> Params, TypeRef Return, Block? Body) Parameters Name string Params List<Param> Return TypeRef Body Block Properties Body public Block? Body { get; init; } Property Value Block Name public string Name { get; init; } Property Value string Params public List<Param> Params { get; init; } Property Value List<Param> Return public TypeRef Return { get; init; } Property Value TypeRef"
+  },
+  "api/CXEX.Lang.Ast.GlobalDecl.html": {
+    "href": "api/CXEX.Lang.Ast.GlobalDecl.html",
+    "title": "Class GlobalDecl | CX DevKit API",
+    "summary": "Class GlobalDecl Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record GlobalDecl : Decl, IEquatable<Node>, IEquatable<Decl>, IEquatable<GlobalDecl> Inheritance object Node Decl GlobalDecl Implements IEquatable<Node> IEquatable<Decl> IEquatable<GlobalDecl> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors GlobalDecl(string, TypeRef, Expr?) public GlobalDecl(string Name, TypeRef Type, Expr? Init) Parameters Name string Type TypeRef Init Expr Properties Init public Expr? Init { get; init; } Property Value Expr Name public string Name { get; init; } Property Value string Type public TypeRef Type { get; init; } Property Value TypeRef"
+  },
+  "api/CXEX.Lang.Ast.IfStmt.html": {
+    "href": "api/CXEX.Lang.Ast.IfStmt.html",
+    "title": "Class IfStmt | CX DevKit API",
+    "summary": "Class IfStmt Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record IfStmt : Stmt, IEquatable<Node>, IEquatable<Stmt>, IEquatable<IfStmt> Inheritance object Node Stmt IfStmt Implements IEquatable<Node> IEquatable<Stmt> IEquatable<IfStmt> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors IfStmt(Expr, Block, Block?) public IfStmt(Expr Cond, Block Then, Block? Else) Parameters Cond Expr Then Block Else Block Properties Cond public Expr Cond { get; init; } Property Value Expr Else public Block? Else { get; init; } Property Value Block Then public Block Then { get; init; } Property Value Block"
+  },
+  "api/CXEX.Lang.Ast.IndexExpr.html": {
+    "href": "api/CXEX.Lang.Ast.IndexExpr.html",
+    "title": "Class IndexExpr | CX DevKit API",
+    "summary": "Class IndexExpr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record IndexExpr : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<IndexExpr> Inheritance object Node Expr IndexExpr Implements IEquatable<Node> IEquatable<Expr> IEquatable<IndexExpr> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors IndexExpr(Expr, Expr) public IndexExpr(Expr Target, Expr Index) Parameters Target Expr Index Expr Properties Index public Expr Index { get; init; } Property Value Expr Target public Expr Target { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.IntLit.html": {
+    "href": "api/CXEX.Lang.Ast.IntLit.html",
+    "title": "Class IntLit | CX DevKit API",
+    "summary": "Class IntLit Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record IntLit : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<IntLit> Inheritance object Node Expr IntLit Implements IEquatable<Node> IEquatable<Expr> IEquatable<IntLit> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors IntLit(ulong) public IntLit(ulong Value) Parameters Value ulong Properties Value public ulong Value { get; init; } Property Value ulong"
+  },
+  "api/CXEX.Lang.Ast.LetStmt.html": {
+    "href": "api/CXEX.Lang.Ast.LetStmt.html",
+    "title": "Class LetStmt | CX DevKit API",
+    "summary": "Class LetStmt Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record LetStmt : Stmt, IEquatable<Node>, IEquatable<Stmt>, IEquatable<LetStmt> Inheritance object Node Stmt LetStmt Implements IEquatable<Node> IEquatable<Stmt> IEquatable<LetStmt> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors LetStmt(string, TypeRef?, Expr) public LetStmt(string Name, TypeRef? Type, Expr Init) Parameters Name string Type TypeRef Init Expr Properties Init public Expr Init { get; init; } Property Value Expr Name public string Name { get; init; } Property Value string Type public TypeRef? Type { get; init; } Property Value TypeRef"
+  },
+  "api/CXEX.Lang.Ast.MemberExpr.html": {
+    "href": "api/CXEX.Lang.Ast.MemberExpr.html",
+    "title": "Class MemberExpr | CX DevKit API",
+    "summary": "Class MemberExpr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record MemberExpr : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<MemberExpr> Inheritance object Node Expr MemberExpr Implements IEquatable<Node> IEquatable<Expr> IEquatable<MemberExpr> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors MemberExpr(Expr, string) public MemberExpr(Expr Target, string Field) Parameters Target Expr Field string Properties Field public string Field { get; init; } Property Value string Target public Expr Target { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.NameExpr.html": {
+    "href": "api/CXEX.Lang.Ast.NameExpr.html",
+    "title": "Class NameExpr | CX DevKit API",
+    "summary": "Class NameExpr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record NameExpr : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<NameExpr> Inheritance object Node Expr NameExpr Implements IEquatable<Node> IEquatable<Expr> IEquatable<NameExpr> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors NameExpr(string) public NameExpr(string Name) Parameters Name string Properties Name public string Name { get; init; } Property Value string"
+  },
+  "api/CXEX.Lang.Ast.NamedType.html": {
+    "href": "api/CXEX.Lang.Ast.NamedType.html",
+    "title": "Class NamedType | CX DevKit API",
+    "summary": "Class NamedType Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record NamedType : TypeRef, IEquatable<TypeRef>, IEquatable<NamedType> Inheritance object TypeRef NamedType Implements IEquatable<TypeRef> IEquatable<NamedType> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors NamedType(string) public NamedType(string Name) Parameters Name string Properties Name public string Name { get; init; } Property Value string"
+  },
+  "api/CXEX.Lang.Ast.Node.html": {
+    "href": "api/CXEX.Lang.Ast.Node.html",
+    "title": "Class Node | CX DevKit API",
+    "summary": "Class Node Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public abstract record Node : IEquatable<Node> Inheritance object Node Implements IEquatable<Node> Derived CompilationUnit Decl Expr Param Stmt Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Span public SourceSpan Span { get; init; } Property Value SourceSpan"
+  },
+  "api/CXEX.Lang.Ast.Param.html": {
+    "href": "api/CXEX.Lang.Ast.Param.html",
+    "title": "Class Param | CX DevKit API",
+    "summary": "Class Param Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record Param : Node, IEquatable<Node>, IEquatable<Param> Inheritance object Node Param Implements IEquatable<Node> IEquatable<Param> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors Param(string, TypeRef) public Param(string Name, TypeRef Type) Parameters Name string Type TypeRef Properties Name public string Name { get; init; } Property Value string Type public TypeRef Type { get; init; } Property Value TypeRef"
+  },
+  "api/CXEX.Lang.Ast.PointerType.html": {
+    "href": "api/CXEX.Lang.Ast.PointerType.html",
+    "title": "Class PointerType | CX DevKit API",
+    "summary": "Class PointerType Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record PointerType : TypeRef, IEquatable<TypeRef>, IEquatable<PointerType> Inheritance object TypeRef PointerType Implements IEquatable<TypeRef> IEquatable<PointerType> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors PointerType(TypeRef) public PointerType(TypeRef Pointee) Parameters Pointee TypeRef Properties Pointee public TypeRef Pointee { get; init; } Property Value TypeRef"
+  },
+  "api/CXEX.Lang.Ast.PrimKind.html": {
+    "href": "api/CXEX.Lang.Ast.PrimKind.html",
+    "title": "Enum PrimKind | CX DevKit API",
+    "summary": "Enum PrimKind Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public enum PrimKind Fields Bool = 6 I16 = 1 I32 = 2 I8 = 0 U16 = 4 U32 = 5 U8 = 3 Void = 7"
+  },
+  "api/CXEX.Lang.Ast.PrimType.html": {
+    "href": "api/CXEX.Lang.Ast.PrimType.html",
+    "title": "Class PrimType | CX DevKit API",
+    "summary": "Class PrimType Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record PrimType : TypeRef, IEquatable<TypeRef>, IEquatable<PrimType> Inheritance object TypeRef PrimType Implements IEquatable<TypeRef> IEquatable<PrimType> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors PrimType(PrimKind) public PrimType(PrimKind Kind) Parameters Kind PrimKind Properties Kind public PrimKind Kind { get; init; } Property Value PrimKind"
+  },
+  "api/CXEX.Lang.Ast.ReturnStmt.html": {
+    "href": "api/CXEX.Lang.Ast.ReturnStmt.html",
+    "title": "Class ReturnStmt | CX DevKit API",
+    "summary": "Class ReturnStmt Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record ReturnStmt : Stmt, IEquatable<Node>, IEquatable<Stmt>, IEquatable<ReturnStmt> Inheritance object Node Stmt ReturnStmt Implements IEquatable<Node> IEquatable<Stmt> IEquatable<ReturnStmt> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ReturnStmt(Expr?) public ReturnStmt(Expr? Value) Parameters Value Expr Properties Value public Expr? Value { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.Stmt.html": {
+    "href": "api/CXEX.Lang.Ast.Stmt.html",
+    "title": "Class Stmt | CX DevKit API",
+    "summary": "Class Stmt Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public abstract record Stmt : Node, IEquatable<Node>, IEquatable<Stmt> Inheritance object Node Stmt Implements IEquatable<Node> IEquatable<Stmt> Derived AssignStmt Block ExprStmt IfStmt LetStmt ReturnStmt WhileStmt Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CXEX.Lang.Ast.StructDecl.html": {
+    "href": "api/CXEX.Lang.Ast.StructDecl.html",
+    "title": "Class StructDecl | CX DevKit API",
+    "summary": "Class StructDecl Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record StructDecl : Decl, IEquatable<Node>, IEquatable<Decl>, IEquatable<StructDecl> Inheritance object Node Decl StructDecl Implements IEquatable<Node> IEquatable<Decl> IEquatable<StructDecl> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors StructDecl(string, List<Param>) public StructDecl(string Name, List<Param> Fields) Parameters Name string Fields List<Param> Properties Fields public List<Param> Fields { get; init; } Property Value List<Param> Name public string Name { get; init; } Property Value string"
+  },
+  "api/CXEX.Lang.Ast.TypeRef.html": {
+    "href": "api/CXEX.Lang.Ast.TypeRef.html",
+    "title": "Class TypeRef | CX DevKit API",
+    "summary": "Class TypeRef Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll Static type references as written in source (resolved/checked in Sema). public abstract record TypeRef : IEquatable<TypeRef> Inheritance object TypeRef Implements IEquatable<TypeRef> Derived ArrayType NamedType PointerType PrimType Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CXEX.Lang.Ast.UnOp.html": {
+    "href": "api/CXEX.Lang.Ast.UnOp.html",
+    "title": "Enum UnOp | CX DevKit API",
+    "summary": "Enum UnOp Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public enum UnOp Fields AddrOf = 3 Deref = 2 Neg = 0 Not = 1"
+  },
+  "api/CXEX.Lang.Ast.UnaryExpr.html": {
+    "href": "api/CXEX.Lang.Ast.UnaryExpr.html",
+    "title": "Class UnaryExpr | CX DevKit API",
+    "summary": "Class UnaryExpr Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record UnaryExpr : Expr, IEquatable<Node>, IEquatable<Expr>, IEquatable<UnaryExpr> Inheritance object Node Expr UnaryExpr Implements IEquatable<Node> IEquatable<Expr> IEquatable<UnaryExpr> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors UnaryExpr(UnOp, Expr) public UnaryExpr(UnOp Op, Expr Operand) Parameters Op UnOp Operand Expr Properties Op public UnOp Op { get; init; } Property Value UnOp Operand public Expr Operand { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.WhileStmt.html": {
+    "href": "api/CXEX.Lang.Ast.WhileStmt.html",
+    "title": "Class WhileStmt | CX DevKit API",
+    "summary": "Class WhileStmt Namespace CXEX.Lang.Ast Assembly CXEX.Lang.dll public sealed record WhileStmt : Stmt, IEquatable<Node>, IEquatable<Stmt>, IEquatable<WhileStmt> Inheritance object Node Stmt WhileStmt Implements IEquatable<Node> IEquatable<Stmt> IEquatable<WhileStmt> Inherited Members Node.Span object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors WhileStmt(Expr, Block) public WhileStmt(Expr Cond, Block Body) Parameters Cond Expr Body Block Properties Body public Block Body { get; init; } Property Value Block Cond public Expr Cond { get; init; } Property Value Expr"
+  },
+  "api/CXEX.Lang.Ast.html": {
+    "href": "api/CXEX.Lang.Ast.html",
+    "title": "Namespace CXEX.Lang.Ast | CX DevKit API",
+    "summary": "Namespace CXEX.Lang.Ast Classes ArrayType AssignStmt BinaryExpr Block BoolLit CallExpr CastExpr CompilationUnit ConstDecl Decl Expr ExprStmt FnDecl GlobalDecl IfStmt IndexExpr IntLit LetStmt MemberExpr NameExpr NamedType Node Param PointerType PrimType ReturnStmt Stmt StructDecl TypeRef Static type references as written in source (resolved/checked in Sema). UnaryExpr WhileStmt Enums BinOp PrimKind UnOp"
+  },
+  "api/CXEX.Lang.CodeGen.X86Emitter.html": {
+    "href": "api/CXEX.Lang.CodeGen.X86Emitter.html",
+    "title": "Class X86Emitter | CX DevKit API",
+    "summary": "Class X86Emitter Namespace CXEX.Lang.CodeGen Assembly CXEX.Lang.dll public sealed class X86Emitter Inheritance object X86Emitter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors X86Emitter(SemaContext, IReadOnlyDictionary<LetStmt, TypeRef>, DiagnosticBag) public X86Emitter(SemaContext ctx, IReadOnlyDictionary<LetStmt, TypeRef> localTypes, DiagnosticBag diag) Parameters ctx SemaContext localTypes IReadOnlyDictionary<LetStmt, TypeRef> diag DiagnosticBag Methods Emit(CompilationUnit) public string Emit(CompilationUnit unit) Parameters unit CompilationUnit Returns string"
+  },
+  "api/CXEX.Lang.CodeGen.html": {
+    "href": "api/CXEX.Lang.CodeGen.html",
+    "title": "Namespace CXEX.Lang.CodeGen | CX DevKit API",
+    "summary": "Namespace CXEX.Lang.CodeGen Classes X86Emitter"
+  },
+  "api/CXEX.Lang.Diagnostics.Diagnostic.html": {
+    "href": "api/CXEX.Lang.Diagnostics.Diagnostic.html",
+    "title": "Class Diagnostic | CX DevKit API",
+    "summary": "Class Diagnostic Namespace CXEX.Lang.Diagnostics Assembly CXEX.Lang.dll public sealed record Diagnostic : IEquatable<Diagnostic> Inheritance object Diagnostic Implements IEquatable<Diagnostic> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) Constructors Diagnostic(Severity, string, SourceSpan) public Diagnostic(Severity Severity, string Message, SourceSpan Span) Parameters Severity Severity Message string Span SourceSpan Properties Message public string Message { get; init; } Property Value string Severity public Severity Severity { get; init; } Property Value Severity Span public SourceSpan Span { get; init; } Property Value SourceSpan Methods ToString() Returns a string that represents the current object. public override string ToString() Returns string A string that represents the current object."
+  },
+  "api/CXEX.Lang.Diagnostics.DiagnosticBag.html": {
+    "href": "api/CXEX.Lang.Diagnostics.DiagnosticBag.html",
+    "title": "Class DiagnosticBag | CX DevKit API",
+    "summary": "Class DiagnosticBag Namespace CXEX.Lang.Diagnostics Assembly CXEX.Lang.dll Collects diagnostics across a compile. HasErrors gates later phases. public sealed class DiagnosticBag Inheritance object DiagnosticBag Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Properties HasErrors public bool HasErrors { get; } Property Value bool Items public IReadOnlyList<Diagnostic> Items { get; } Property Value IReadOnlyList<Diagnostic> Methods Error(string, SourceSpan) public void Error(string msg, SourceSpan span) Parameters msg string span SourceSpan Warning(string, SourceSpan) public void Warning(string msg, SourceSpan span) Parameters msg string span SourceSpan"
+  },
+  "api/CXEX.Lang.Diagnostics.Severity.html": {
+    "href": "api/CXEX.Lang.Diagnostics.Severity.html",
+    "title": "Enum Severity | CX DevKit API",
+    "summary": "Enum Severity Namespace CXEX.Lang.Diagnostics Assembly CXEX.Lang.dll public enum Severity Fields Error = 0 Note = 2 Warning = 1"
+  },
+  "api/CXEX.Lang.Diagnostics.SourceSpan.html": {
+    "href": "api/CXEX.Lang.Diagnostics.SourceSpan.html",
+    "title": "Struct SourceSpan | CX DevKit API",
+    "summary": "Struct SourceSpan Namespace CXEX.Lang.Diagnostics Assembly CXEX.Lang.dll A half-open [Start,End) byte range in a source file, with line/col for messages. public readonly record struct SourceSpan : IEquatable<SourceSpan> Implements IEquatable<SourceSpan> Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors SourceSpan(string, int, int, int, int) A half-open [Start,End) byte range in a source file, with line/col for messages. public SourceSpan(string File, int Start, int End, int Line, int Col) Parameters File string Start int End int Line int Col int Properties Col public int Col { get; init; } Property Value int End public int End { get; init; } Property Value int File public string File { get; init; } Property Value string Line public int Line { get; init; } Property Value int Start public int Start { get; init; } Property Value int Methods ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name."
+  },
+  "api/CXEX.Lang.Diagnostics.html": {
+    "href": "api/CXEX.Lang.Diagnostics.html",
+    "title": "Namespace CXEX.Lang.Diagnostics | CX DevKit API",
+    "summary": "Namespace CXEX.Lang.Diagnostics Classes Diagnostic DiagnosticBag Collects diagnostics across a compile. HasErrors gates later phases. Structs SourceSpan A half-open [Start,End) byte range in a source file, with line/col for messages. Enums Severity"
+  },
+  "api/CXEX.Lang.Lexer.Lexer.html": {
+    "href": "api/CXEX.Lang.Lexer.Lexer.html",
+    "title": "Class Lexer | CX DevKit API",
+    "summary": "Class Lexer Namespace CXEX.Lang.Lexer Assembly CXEX.Lang.dll X core v0.1 lexer. Single forward pass over UTF-8 source text, tracking line/col for spans. Skips whitespace and // line + /* block */ comments. Reports lexical errors into the bag but keeps going (emits an Error token and advances) so the parser can recover and surface multiple diagnostics. public sealed class Lexer Inheritance object Lexer Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors Lexer(string, string, DiagnosticBag) public Lexer(string source, string file, DiagnosticBag diag) Parameters source string file string diag DiagnosticBag Methods Tokenize() public List<Token> Tokenize() Returns List<Token>"
+  },
+  "api/CXEX.Lang.Lexer.Token.html": {
+    "href": "api/CXEX.Lang.Lexer.Token.html",
+    "title": "Struct Token | CX DevKit API",
+    "summary": "Struct Token Namespace CXEX.Lang.Lexer Assembly CXEX.Lang.dll A lexed token. Text is the exact source slice; for IntLiteral, Value holds the parsed number. public readonly record struct Token : IEquatable<Token> Implements IEquatable<Token> Inherited Members ValueType.Equals(object) ValueType.GetHashCode() object.Equals(object, object) object.GetType() object.ReferenceEquals(object, object) Constructors Token(TokenKind, string, SourceSpan, ulong) A lexed token. Text is the exact source slice; for IntLiteral, Value holds the parsed number. public Token(TokenKind Kind, string Text, SourceSpan Span, ulong Value = 0) Parameters Kind TokenKind Text string Span SourceSpan Value ulong Properties Kind public TokenKind Kind { get; init; } Property Value TokenKind Span public SourceSpan Span { get; init; } Property Value SourceSpan Text public string Text { get; init; } Property Value string Value public ulong Value { get; init; } Property Value ulong Methods ToString() Returns the fully qualified type name of this instance. public override string ToString() Returns string The fully qualified type name."
+  },
+  "api/CXEX.Lang.Lexer.TokenKind.html": {
+    "href": "api/CXEX.Lang.Lexer.TokenKind.html",
+    "title": "Enum TokenKind | CX DevKit API",
+    "summary": "Enum TokenKind Namespace CXEX.Lang.Lexer Assembly CXEX.Lang.dll public enum TokenKind Fields Amp = 31 AndAnd = 38 Arrow = 24 As = 14 Assign = 25 Colon = 23 Comma = 21 Const = 7 Dot = 41 Else = 11 Eof = 42 Eq = 32 Error = 43 Extern = 8 False = 3 Fn = 4 Ge = 37 Global = 6 Gt = 36 Identifier = 0 If = 10 IntLiteral = 1 LBrace = 17 LBracket = 19 LParen = 15 Le = 35 Let = 9 Lt = 34 Minus = 27 Ne = 33 Not = 40 OrOr = 39 Percent = 30 Plus = 26 RBrace = 18 RBracket = 20 RParen = 16 Return = 13 Semicolon = 22 Slash = 29 Star = 28 Struct = 5 True = 2 While = 12"
+  },
+  "api/CXEX.Lang.Lexer.html": {
+    "href": "api/CXEX.Lang.Lexer.html",
+    "title": "Namespace CXEX.Lang.Lexer | CX DevKit API",
+    "summary": "Namespace CXEX.Lang.Lexer Classes Lexer X core v0.1 lexer. Single forward pass over UTF-8 source text, tracking line/col for spans. Skips whitespace and // line + /* block */ comments. Reports lexical errors into the bag but keeps going (emits an Error token and advances) so the parser can recover and surface multiple diagnostics. Structs Token A lexed token. Text is the exact source slice; for IntLiteral, Value holds the parsed number. Enums TokenKind"
+  },
+  "api/CXEX.Lang.Parsing.Parser.html": {
+    "href": "api/CXEX.Lang.Parsing.Parser.html",
+    "title": "Class Parser | CX DevKit API",
+    "summary": "Class Parser Namespace CXEX.Lang.Parsing Assembly CXEX.Lang.dll Recursive-descent parser for X core v0.1. Expressions use precedence climbing. On error it reports a diagnostic and synchronizes to the next ';' or '}' / top- level keyword, so one bad construct doesn't cascade. Returns a CompilationUnit regardless; callers check diag.HasErrors before proceeding to Sema. public sealed class Parser Inheritance object Parser Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors Parser(List<Token>, DiagnosticBag) public Parser(List<Token> tokens, DiagnosticBag diag) Parameters tokens List<Token> diag DiagnosticBag Methods Parse() public CompilationUnit Parse() Returns CompilationUnit"
+  },
+  "api/CXEX.Lang.Parsing.html": {
+    "href": "api/CXEX.Lang.Parsing.html",
+    "title": "Namespace CXEX.Lang.Parsing | CX DevKit API",
+    "summary": "Namespace CXEX.Lang.Parsing Classes Parser Recursive-descent parser for X core v0.1. Expressions use precedence climbing. On error it reports a diagnostic and synchronizes to the next ';' or '}' / top- level keyword, so one bad construct doesn't cascade. Returns a CompilationUnit regardless; callers check diag.HasErrors before proceeding to Sema."
+  },
+  "api/CXEX.Lang.Sema.ConstFold.html": {
+    "href": "api/CXEX.Lang.Sema.ConstFold.html",
+    "title": "Class ConstFold | CX DevKit API",
+    "summary": "Class ConstFold Namespace CXEX.Lang.Sema Assembly CXEX.Lang.dll Compile-time constant evaluation for X core v0.1: integer/bool literals, the arithmetic/comparison/logical operators, unary neg/not, casts (value-preserving), and references to other consts. Used for const initializers, global initializers, and array lengths. Returns false (with a diagnostic) for anything not constant. public sealed class ConstFold Inheritance object ConstFold Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors ConstFold(SemaContext, DiagnosticBag) public ConstFold(SemaContext ctx, DiagnosticBag diag) Parameters ctx SemaContext diag DiagnosticBag Methods TryEval(Expr, out ulong) public bool TryEval(Expr e, out ulong value) Parameters e Expr value ulong Returns bool"
+  },
+  "api/CXEX.Lang.Sema.Resolver.html": {
+    "href": "api/CXEX.Lang.Sema.Resolver.html",
+    "title": "Class Resolver | CX DevKit API",
+    "summary": "Class Resolver Namespace CXEX.Lang.Sema Assembly CXEX.Lang.dll Pass 1: collect top-level declarations, then resolve every name to a symbol, tracking lexical scopes for params/locals. Reports duplicates + undefined names. public sealed class Resolver Inheritance object Resolver Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors Resolver(DiagnosticBag) public Resolver(DiagnosticBag diag) Parameters diag DiagnosticBag Methods Resolve(CompilationUnit) public SemaContext Resolve(CompilationUnit unit) Parameters unit CompilationUnit Returns SemaContext"
+  },
+  "api/CXEX.Lang.Sema.Scope.html": {
+    "href": "api/CXEX.Lang.Sema.Scope.html",
+    "title": "Class Scope | CX DevKit API",
+    "summary": "Class Scope Namespace CXEX.Lang.Sema Assembly CXEX.Lang.dll Lexical scope chain. Globals live at the root; functions push a child. public sealed class Scope Inheritance object Scope Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors Scope(Scope?) public Scope(Scope? parent = null) Parameters parent Scope Fields Parent public readonly Scope? Parent Field Value Scope Methods Declare(Symbol) public bool Declare(Symbol s) Parameters s Symbol Returns bool Lookup(string) public Symbol? Lookup(string n) Parameters n string Returns Symbol"
+  },
+  "api/CXEX.Lang.Sema.SemaContext.html": {
+    "href": "api/CXEX.Lang.Sema.SemaContext.html",
+    "title": "Class SemaContext | CX DevKit API",
+    "summary": "Class SemaContext Namespace CXEX.Lang.Sema Assembly CXEX.Lang.dll Shared semantic state produced by the Resolver and consumed by the TypeChecker: top-level symbols, struct decls by name, and per-NameExpr resolution. public sealed class SemaContext Inheritance object SemaContext Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Fields Globals public readonly Scope Globals Field Value Scope Resolved public readonly Dictionary<Expr, Symbol> Resolved Field Value Dictionary<Expr, Symbol> Structs public readonly Dictionary<string, StructDecl> Structs Field Value Dictionary<string, StructDecl> Types public readonly Dictionary<Expr, TypeRef> Types Field Value Dictionary<Expr, TypeRef>"
+  },
+  "api/CXEX.Lang.Sema.SymKind.html": {
+    "href": "api/CXEX.Lang.Sema.SymKind.html",
+    "title": "Enum SymKind | CX DevKit API",
+    "summary": "Enum SymKind Namespace CXEX.Lang.Sema Assembly CXEX.Lang.dll public enum SymKind Fields Const = 3 Function = 0 Global = 2 Local = 5 Param = 4 Struct = 1"
+  },
+  "api/CXEX.Lang.Sema.Symbol.html": {
+    "href": "api/CXEX.Lang.Sema.Symbol.html",
+    "title": "Class Symbol | CX DevKit API",
+    "summary": "Class Symbol Namespace CXEX.Lang.Sema Assembly CXEX.Lang.dll public sealed class Symbol Inheritance object Symbol Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Fields Decl public Decl? Decl Field Value Decl FrameOffset public int FrameOffset Field Value int Kind public SymKind Kind Field Value SymKind Name public string Name Field Value string Type public TypeRef Type Field Value TypeRef"
+  },
+  "api/CXEX.Lang.Sema.TypeChecker.html": {
+    "href": "api/CXEX.Lang.Sema.TypeChecker.html",
+    "title": "Class TypeChecker | CX DevKit API",
+    "summary": "Class TypeChecker Namespace CXEX.Lang.Sema Assembly CXEX.Lang.dll Pass 2: assign a type to every expression and check statements. v0.1 is deliberately lenient on integer width (any int coerces to any int) so the language is usable before a full numeric-conversion policy exists; pointers, bools, structs, and arrays are checked strictly. Records each expr's type in ctx.Types for CodeGen. The __syscall intrinsic is the one effect primitive. public sealed class TypeChecker Inheritance object TypeChecker Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.ReferenceEquals(object, object) object.ToString() Constructors TypeChecker(SemaContext, DiagnosticBag) public TypeChecker(SemaContext ctx, DiagnosticBag diag) Parameters ctx SemaContext diag DiagnosticBag Properties LocalTypes public IReadOnlyDictionary<LetStmt, TypeRef> LocalTypes { get; } Property Value IReadOnlyDictionary<LetStmt, TypeRef> Methods Check(CompilationUnit) public void Check(CompilationUnit unit) Parameters unit CompilationUnit"
+  },
+  "api/CXEX.Lang.Sema.html": {
+    "href": "api/CXEX.Lang.Sema.html",
+    "title": "Namespace CXEX.Lang.Sema | CX DevKit API",
+    "summary": "Namespace CXEX.Lang.Sema Classes ConstFold Compile-time constant evaluation for X core v0.1: integer/bool literals, the arithmetic/comparison/logical operators, unary neg/not, casts (value-preserving), and references to other consts. Used for const initializers, global initializers, and array lengths. Returns false (with a diagnostic) for anything not constant. Resolver Pass 1: collect top-level declarations, then resolve every name to a symbol, tracking lexical scopes for params/locals. Reports duplicates + undefined names. Scope Lexical scope chain. Globals live at the root; functions push a child. SemaContext Shared semantic state produced by the Resolver and consumed by the TypeChecker: top-level symbols, struct decls by name, and per-NameExpr resolution. Symbol TypeChecker Pass 2: assign a type to every expression and check statements. v0.1 is deliberately lenient on integer width (any int coerces to any int) so the language is usable before a full numeric-conversion policy exists; pointers, bools, structs, and arrays are checked strictly. Records each expr's type in ctx.Types for CodeGen. The __syscall intrinsic is the one effect primitive. Enums SymKind"
+  },
+  "api/CXEX.SDK.App.html": {
+    "href": "api/CXEX.SDK.App.html",
+    "title": "Class App | CX DevKit API",
+    "summary": "Class App Namespace CXEX.SDK Assembly CXEX.SDK.dll public class App : Application, INotifyPropertyChanged, IDataContextProvider, IGlobalDataTemplates, IDataTemplateHost, IGlobalStyles, IStyleHost, IThemeVariantHost, IResourceHost, IResourceNode, IOptionalFeatureProvider Inheritance object AvaloniaObject Application App Implements INotifyPropertyChanged IDataContextProvider IGlobalDataTemplates IDataTemplateHost IGlobalStyles IStyleHost IThemeVariantHost IResourceHost IResourceNode IOptionalFeatureProvider Inherited Members Application.DataContextProperty Application.ActualThemeVariantProperty Application.RequestedThemeVariantProperty Application.NameProperty Application.TryGetResource(object, ThemeVariant, out object) Application.RegisterServices() Application.TryGetFeature(Type) Application.OnPropertyChanged(AvaloniaPropertyChangedEventArgs) Application.DataContext Application.RequestedThemeVariant Application.ActualThemeVariant Application.Current Application.DataTemplates Application.Resources Application.Styles Application.ApplicationLifetime Application.PlatformSettings Application.Name Application.ResourcesChanged Application.ActualThemeVariantChanged AvaloniaObject.CheckAccess() AvaloniaObject.VerifyAccess() AvaloniaObject.ClearValue(AvaloniaProperty) AvaloniaObject.ClearValue<T>(AvaloniaProperty<T>) AvaloniaObject.ClearValue<T>(StyledProperty<T>) AvaloniaObject.ClearValue<T>(DirectPropertyBase<T>) AvaloniaObject.Equals(object) AvaloniaObject.GetHashCode() AvaloniaObject.GetValue(AvaloniaProperty) AvaloniaObject.GetValue<T>(StyledProperty<T>) AvaloniaObject.GetValue<T>(DirectPropertyBase<T>) AvaloniaObject.GetBaseValue<T>(StyledProperty<T>) AvaloniaObject.IsAnimating(AvaloniaProperty) AvaloniaObject.IsSet(AvaloniaProperty) AvaloniaObject.SetValue(AvaloniaProperty, object, BindingPriority) AvaloniaObject.SetValue<T>(StyledProperty<T>, T, BindingPriority) AvaloniaObject.SetValue<T>(DirectPropertyBase<T>, T) AvaloniaObject.SetCurrentValue(AvaloniaProperty, object) AvaloniaObject.SetCurrentValue<T>(StyledProperty<T>, T) AvaloniaObject.Bind(AvaloniaProperty, BindingBase) AvaloniaObject.Bind(AvaloniaProperty, IObservable<object>, BindingPriority) AvaloniaObject.Bind<T>(StyledProperty<T>, IObservable<object>, BindingPriority) AvaloniaObject.Bind<T>(StyledProperty<T>, IObservable<T>, BindingPriority) AvaloniaObject.Bind<T>(StyledProperty<T>, IObservable<BindingValue<T>>, BindingPriority) AvaloniaObject.Bind<T>(DirectPropertyBase<T>, IObservable<object>) AvaloniaObject.Bind<T>(DirectPropertyBase<T>, IObservable<T>) AvaloniaObject.Bind<T>(DirectPropertyBase<T>, IObservable<BindingValue<T>>) AvaloniaObject.CoerceValue(AvaloniaProperty) AvaloniaObject.UpdateDataValidation(AvaloniaProperty, BindingValueType, Exception) AvaloniaObject.OnPropertyChangedCore(AvaloniaPropertyChangedEventArgs) AvaloniaObject.RaisePropertyChanged<T>(DirectPropertyBase<T>, T, T) AvaloniaObject.SetAndRaise<T>(DirectPropertyBase<T>, ref T, T) AvaloniaObject.InheritanceParent AvaloniaObject.this[AvaloniaProperty] AvaloniaObject.this[IndexerDescriptor] AvaloniaObject.Dispatcher AvaloniaObject.PropertyChanged object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Initialize() Initializes the application by loading XAML etc. public override void Initialize() OnFrameworkInitializationCompleted() public override void OnFrameworkInitializationCompleted()"
+  },
+  "api/CXEX.SDK.ViewLocator.html": {
+    "href": "api/CXEX.SDK.ViewLocator.html",
+    "title": "Class ViewLocator | CX DevKit API",
+    "summary": "Class ViewLocator Namespace CXEX.SDK Assembly CXEX.SDK.dll Given a view model, returns the corresponding view if possible. public class ViewLocator : IDataTemplate, ITemplate<object?, Control?> Inheritance object ViewLocator Implements IDataTemplate ITemplate<object, Control> Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Methods Build(object?) Creates the control. public Control? Build(object? param) Parameters param object The parameter. Returns Control The created control. Match(object?) Checks to see if this data template matches the specified data. public bool Match(object? data) Parameters data object The data. Returns bool True if the data template can build a control for the data, otherwise false."
+  },
+  "api/CXEX.SDK.ViewModels.MainWindowViewModel.html": {
+    "href": "api/CXEX.SDK.ViewModels.MainWindowViewModel.html",
+    "title": "Class MainWindowViewModel | CX DevKit API",
+    "summary": "Class MainWindowViewModel Namespace CXEX.SDK.ViewModels Assembly CXEX.SDK.dll public class MainWindowViewModel : ViewModelBase, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ViewModelBase MainWindowViewModel Implements INotifyPropertyChanged INotifyPropertyChanging Inherited Members ObservableObject.OnPropertyChanged(PropertyChangedEventArgs) ObservableObject.OnPropertyChanging(PropertyChangingEventArgs) ObservableObject.OnPropertyChanged(string) ObservableObject.OnPropertyChanging(string) ObservableObject.SetProperty<T>(ref T, T, string) ObservableObject.SetProperty<T>(ref T, T, IEqualityComparer<T>, string) ObservableObject.SetProperty<T>(T, T, Action<T>, string) ObservableObject.SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string) ObservableObject.SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string) ObservableObject.SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string) ObservableObject.SetPropertyAndNotifyOnCompletion(ref ObservableObject.TaskNotifier, Task, string) ObservableObject.SetPropertyAndNotifyOnCompletion(ref ObservableObject.TaskNotifier, Task, Action<Task>, string) ObservableObject.SetPropertyAndNotifyOnCompletion<T>(ref ObservableObject.TaskNotifier<T>, Task<T>, string) ObservableObject.SetPropertyAndNotifyOnCompletion<T>(ref ObservableObject.TaskNotifier<T>, Task<T>, Action<Task<T>>, string) ObservableObject.PropertyChanged ObservableObject.PropertyChanging object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Greeting public string Greeting { get; } Property Value string"
+  },
+  "api/CXEX.SDK.ViewModels.ViewModelBase.html": {
+    "href": "api/CXEX.SDK.ViewModels.ViewModelBase.html",
+    "title": "Class ViewModelBase | CX DevKit API",
+    "summary": "Class ViewModelBase Namespace CXEX.SDK.ViewModels Assembly CXEX.SDK.dll public abstract class ViewModelBase : ObservableObject, INotifyPropertyChanged, INotifyPropertyChanging Inheritance object ObservableObject ViewModelBase Implements INotifyPropertyChanged INotifyPropertyChanging Derived MainWindowViewModel Inherited Members ObservableObject.OnPropertyChanged(PropertyChangedEventArgs) ObservableObject.OnPropertyChanging(PropertyChangingEventArgs) ObservableObject.OnPropertyChanged(string) ObservableObject.OnPropertyChanging(string) ObservableObject.SetProperty<T>(ref T, T, string) ObservableObject.SetProperty<T>(ref T, T, IEqualityComparer<T>, string) ObservableObject.SetProperty<T>(T, T, Action<T>, string) ObservableObject.SetProperty<T>(T, T, IEqualityComparer<T>, Action<T>, string) ObservableObject.SetProperty<TModel, T>(T, T, TModel, Action<TModel, T>, string) ObservableObject.SetProperty<TModel, T>(T, T, IEqualityComparer<T>, TModel, Action<TModel, T>, string) ObservableObject.SetPropertyAndNotifyOnCompletion(ref ObservableObject.TaskNotifier, Task, string) ObservableObject.SetPropertyAndNotifyOnCompletion(ref ObservableObject.TaskNotifier, Task, Action<Task>, string) ObservableObject.SetPropertyAndNotifyOnCompletion<T>(ref ObservableObject.TaskNotifier<T>, Task<T>, string) ObservableObject.SetPropertyAndNotifyOnCompletion<T>(ref ObservableObject.TaskNotifier<T>, Task<T>, Action<Task<T>>, string) ObservableObject.PropertyChanged ObservableObject.PropertyChanging object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString()"
+  },
+  "api/CXEX.SDK.ViewModels.html": {
+    "href": "api/CXEX.SDK.ViewModels.html",
+    "title": "Namespace CXEX.SDK.ViewModels | CX DevKit API",
+    "summary": "Namespace CXEX.SDK.ViewModels Classes MainWindowViewModel ViewModelBase"
+  },
+  "api/CXEX.SDK.Views.MainWindow.html": {
+    "href": "api/CXEX.SDK.Views.MainWindow.html",
+    "title": "Class MainWindow | CX DevKit API",
+    "summary": "Class MainWindow Namespace CXEX.SDK.Views Assembly CXEX.SDK.dll public class MainWindow : Window, INotifyPropertyChanged, IDataContextProvider, IThemeVariantHost, IResourceHost, IResourceNode, ISetLogicalParent, ISetInheritanceParent, ISupportInitialize, INamed, IInputElement, IDataTemplateHost, ISetterValue, ICloseable, IStyleHost, ILogicalRoot, ILogical, IFocusScope Inheritance object AvaloniaObject Animatable StyledElement Visual Layoutable Interactive InputElement Control TemplatedControl ContentControl TopLevel WindowBase Window MainWindow Implements INotifyPropertyChanged IDataContextProvider IThemeVariantHost IResourceHost IResourceNode ISetLogicalParent ISetInheritanceParent ISupportInitialize INamed IInputElement IDataTemplateHost ISetterValue ICloseable IStyleHost ILogicalRoot ILogical IFocusScope Inherited Members Window.SizeToContentProperty Window.ExtendClientAreaToDecorationsHintProperty Window.ExtendClientAreaTitleBarHeightHintProperty Window.IsExtendedIntoWindowDecorationsProperty Window.WindowDecorationMarginProperty Window.OffScreenMarginProperty Window.WindowDecorationsProperty Window.WindowDecorationsThemeProperty Window.ShowActivatedProperty Window.ShowInTaskbarProperty Window.ClosingBehaviorProperty Window.WindowStateProperty Window.TitleProperty Window.IconProperty Window.WindowStartupLocationProperty Window.CanResizeProperty Window.CanMinimizeProperty Window.CanMaximizeProperty Window.WindowClosedEvent Window.WindowOpenedEvent Window.BeginMoveDrag(PointerPressedEventArgs) Window.BeginResizeDrag(WindowEdge, PointerPressedEventArgs) Window.Close() Window.Close(object) Window.Hide() Window.Show() Window.OnApplyTemplate(TemplateAppliedEventArgs) Window.IsVisibleChanged(AvaloniaPropertyChangedEventArgs) Window.Show(Window) Window.ShowDialog(Window) Window.ShowDialog<TResult>(Window) Window.SortWindowsByZOrder(Span<Window>) Window.MeasureOverride(Size) Window.OnClosing(WindowClosingEventArgs) Window.OnPropertyChanged(AvaloniaPropertyChangedEventArgs) Window.OnCreateAutomationPeer() Window.PlatformImpl Window.OwnedWindows Window.SizeToContent Window.Title Window.ExtendClientAreaToDecorationsHint Window.ExtendClientAreaTitleBarHeightHint Window.IsExtendedIntoWindowDecorations Window.WindowDecorationMargin Window.OffScreenMargin Window.WindowDecorations Window.WindowDecorationsTheme Window.SystemDecorations Window.ShowActivated Window.ShowInTaskbar Window.ClosingBehavior Window.WindowState Window.CanResize Window.CanMinimize Window.CanMaximize Window.Icon Window.WindowStartupLocation Window.Position Window.IsDialog Window.StyleKeyOverride Window.Closing WindowBase.IsActiveProperty WindowBase.OwnerProperty WindowBase.TopmostProperty WindowBase.Activate() WindowBase.EnsureInitialized() WindowBase.OnClosed(EventArgs) WindowBase.OnOpened(EventArgs) WindowBase.OnResized(WindowResizedEventArgs) WindowBase.MeasureCore(Size) WindowBase.ArrangeCore(Rect) WindowBase.IgnoreVisibilityChanges WindowBase.IsActive WindowBase.Screens WindowBase.Owner WindowBase.Topmost WindowBase.DesktopScaling WindowBase.Activated WindowBase.Deactivated WindowBase.PositionChanged WindowBase.Resized TopLevel.ClientSizeProperty TopLevel.FrameSizeProperty TopLevel.TransparencyLevelHintProperty TopLevel.ActualTransparencyLevelProperty TopLevel.TransparencyBackgroundFallbackProperty TopLevel.ActualThemeVariantProperty TopLevel.RequestedThemeVariantProperty TopLevel.SystemBarColorProperty TopLevel.AutoSafeAreaPaddingProperty TopLevel.BackRequestedEvent TopLevel.TryGetPlatformHandle() TopLevel.SetSystemBarColor(Control, SolidColorBrush) TopLevel.GetSystemBarColor(Control) TopLevel.SetAutoSafeAreaPadding(Control, bool) TopLevel.GetAutoSafeAreaPadding(Control) TopLevel.GetTopLevel(Visual) TopLevel.RequestPlatformInhibition(PlatformInhibitionType, string) TopLevel.RequestAnimationFrame(Action<TimeSpan>) TopLevel.InvalidateMirrorTransform() TopLevel.ClientSize TopLevel.FrameSize TopLevel.TransparencyLevelHint TopLevel.ActualTransparencyLevel TopLevel.TransparencyBackgroundFallback TopLevel.RequestedThemeVariant TopLevel.RendererDiagnostics TopLevel.RenderScaling TopLevel.StorageProvider TopLevel.InsetsManager TopLevel.InputPane TopLevel.Launcher TopLevel.Clipboard TopLevel.FocusManager TopLevel.BypassFlowDirectionPolicies TopLevel.Opened TopLevel.Closed TopLevel.ScalingChanged TopLevel.BackRequested ContentControl.ContentProperty ContentControl.ContentTemplateProperty ContentControl.HorizontalContentAlignmentProperty ContentControl.VerticalContentAlignmentProperty ContentControl.RegisterContentPresenter(ContentPresenter) ContentControl.Content ContentControl.ContentTemplate ContentControl.Presenter ContentControl.HorizontalContentAlignment ContentControl.VerticalContentAlignment TemplatedControl.BackgroundProperty TemplatedControl.BackgroundSizingProperty TemplatedControl.BorderBrushProperty TemplatedControl.BorderThicknessProperty TemplatedControl.CornerRadiusProperty TemplatedControl.FontFamilyProperty TemplatedControl.FontFeaturesProperty TemplatedControl.FontSizeProperty TemplatedControl.FontStyleProperty TemplatedControl.FontWeightProperty TemplatedControl.FontStretchProperty TemplatedControl.ForegroundProperty TemplatedControl.LetterSpacingProperty TemplatedControl.PaddingProperty TemplatedControl.TemplateProperty TemplatedControl.IsTemplateFocusTargetProperty TemplatedControl.TemplateAppliedEvent TemplatedControl.GetIsTemplateFocusTarget(Control) TemplatedControl.SetIsTemplateFocusTarget(Control, bool) TemplatedControl.ApplyTemplate() TemplatedControl.GetTemplateFocusTarget() TemplatedControl.OnAttachedToLogicalTree(LogicalTreeAttachmentEventArgs) TemplatedControl.OnDetachedFromLogicalTree(LogicalTreeAttachmentEventArgs) TemplatedControl.OnTemplateChanged(AvaloniaPropertyChangedEventArgs) TemplatedControl.Background TemplatedControl.BackgroundSizing TemplatedControl.BorderBrush TemplatedControl.BorderThickness TemplatedControl.CornerRadius TemplatedControl.FontFamily TemplatedControl.FontFeatures TemplatedControl.FontSize TemplatedControl.FontStyle TemplatedControl.FontWeight TemplatedControl.FontStretch TemplatedControl.Foreground TemplatedControl.LetterSpacing TemplatedControl.Padding TemplatedControl.Template TemplatedControl.TemplateApplied Control.FocusAdornerProperty Control.TagProperty Control.ContextMenuProperty Control.ContextFlyoutProperty Control.RequestBringIntoViewEvent Control.LoadedEvent Control.UnloadedEvent Control.SizeChangedEvent Control.OnLoaded(RoutedEventArgs) Control.OnUnloaded(RoutedEventArgs) Control.OnSizeChanged(SizeChangedEventArgs) Control.OnAttachedToVisualTreeCore(VisualTreeAttachmentEventArgs) Control.OnDetachedFromVisualTreeCore(VisualTreeAttachmentEventArgs) Control.OnGotFocus(FocusChangedEventArgs) Control.OnLostFocus(FocusChangedEventArgs) Control.OnPointerReleased(PointerReleasedEventArgs) Control.OnKeyUp(KeyEventArgs) Control.UpdateDataValidation(AvaloniaProperty, BindingValueType, Exception) Control.FocusAdorner Control.DataTemplates Control.ContextMenu Control.ContextFlyout Control.IsLoaded Control.Tag Control.Loaded Control.Unloaded Control.SizeChanged InputElement.FocusableProperty InputElement.IsEnabledProperty InputElement.IsEffectivelyEnabledProperty InputElement.CursorProperty InputElement.IsKeyboardFocusWithinProperty InputElement.IsFocusedProperty InputElement.IsHitTestVisibleProperty InputElement.IsPointerOverProperty InputElement.IsTabStopProperty InputElement.GotFocusEvent InputElement.GettingFocusEvent InputElement.LostFocusEvent InputElement.LosingFocusEvent InputElement.KeyDownEvent InputElement.KeyUpEvent InputElement.TabIndexProperty InputElement.TextInputEvent InputElement.TextInputMethodClientRequestedEvent InputElement.PointerEnteredEvent InputElement.PointerExitedEvent InputElement.PointerMovedEvent InputElement.PointerPressedEvent InputElement.PointerReleasedEvent InputElement.PointerCaptureLostEvent InputElement.PointerWheelChangedEvent InputElement.ContextRequestedEvent InputElement.ContextCanceledEvent InputElement.IsHoldingEnabledProperty InputElement.IsHoldWithMouseEnabledProperty InputElement.PinchEvent InputElement.PinchEndedEvent InputElement.PullGestureEvent InputElement.PullGestureEndedEvent InputElement.SwipeGestureEvent InputElement.SwipeGestureEndedEvent InputElement.ScrollGestureEvent InputElement.ScrollGestureInertiaStartingEvent InputElement.ScrollGestureEndedEvent InputElement.PointerTouchPadGestureMagnifyEvent InputElement.PointerTouchPadGestureRotateEvent InputElement.PointerTouchPadGestureSwipeEvent InputElement.TappedEvent InputElement.RightTappedEvent InputElement.HoldingEvent InputElement.DoubleTappedEvent InputElement.Focus(NavigationMethod, KeyModifiers) InputElement.OnAccessKey(RoutedEventArgs) InputElement.OnGettingFocus(FocusChangingEventArgs) InputElement.OnLosingFocus(FocusChangingEventArgs) InputElement.OnKeyDown(KeyEventArgs) InputElement.OnTextInput(TextInputEventArgs) InputElement.OnPointerEntered(PointerEventArgs) InputElement.OnPointerExited(PointerEventArgs) InputElement.OnPointerMoved(PointerEventArgs) InputElement.OnPointerPressed(PointerPressedEventArgs) InputElement.GetNextTabStopOverride() InputElement.GetPreviousTabStopOverride() InputElement.GetFirstFocusableElementOverride() InputElement.GetLastFocusableElementOverride() InputElement.OnPointerCaptureLost(PointerCaptureLostEventArgs) InputElement.ProcessTabStopOverride(IInputElement, IInputElement, bool, bool, ref IInputElement) InputElement.ProcessCandidateTabStopOverride(IInputElement, IInputElement, IInputElement, bool, ref IInputElement) InputElement.OnPointerWheelChanged(PointerWheelEventArgs) InputElement.OnTapped(TappedEventArgs) InputElement.OnRightTapped(TappedEventArgs) InputElement.OnDoubleTapped(TappedEventArgs) InputElement.OnHolding(HoldingRoutedEventArgs) InputElement.UpdateIsEffectivelyEnabled() InputElement.GetIsHoldingEnabled(StyledElement) InputElement.SetIsHoldingEnabled(StyledElement, bool) InputElement.GetIsHoldWithMouseEnabled(StyledElement) InputElement.SetIsHoldWithMouseEnabled(StyledElement, bool) InputElement.Focusable InputElement.IsEnabled InputElement.Cursor InputElement.IsKeyboardFocusWithin InputElement.IsFocused InputElement.IsHitTestVisible InputElement.IsPointerOver InputElement.IsTabStop InputElement.IsEffectivelyEnabled InputElement.TabIndex InputElement.KeyBindings InputElement.IsEnabledCore InputElement.GestureRecognizers InputElement.GotFocus InputElement.GettingFocus InputElement.LostFocus InputElement.LosingFocus InputElement.KeyDown InputElement.KeyUp InputElement.TextInput InputElement.TextInputMethodClientRequested InputElement.PointerEntered InputElement.PointerExited InputElement.PointerMoved InputElement.PointerPressed InputElement.PointerReleased InputElement.PointerCaptureLost InputElement.PointerWheelChanged InputElement.ContextRequested InputElement.ContextCanceled InputElement.Pinch InputElement.PinchEnded InputElement.PullGesture InputElement.PullGestureEnded InputElement.ScrollGesture InputElement.ScrollGestureInertiaStarting InputElement.ScrollGestureEnded InputElement.PointerTouchPadGestureMagnify InputElement.PointerTouchPadGestureRotate InputElement.SwipeGesture InputElement.SwipeGestureEnded InputElement.PointerTouchPadGestureSwipe InputElement.Tapped InputElement.RightTapped InputElement.Holding InputElement.DoubleTapped Interactive.AddHandler(RoutedEvent, Delegate, RoutingStrategies, bool) Interactive.AddHandler<TEventArgs>(RoutedEvent<TEventArgs>, EventHandler<TEventArgs>, RoutingStrategies, bool) Interactive.RemoveHandler(RoutedEvent, Delegate) Interactive.RemoveHandler<TEventArgs>(RoutedEvent<TEventArgs>, EventHandler<TEventArgs>) Interactive.RaiseEvent(RoutedEventArgs) Interactive.BuildEventRoute(RoutedEvent) Layoutable.DesiredSizeProperty Layoutable.WidthProperty Layoutable.HeightProperty Layoutable.MinWidthProperty Layoutable.MaxWidthProperty Layoutable.MinHeightProperty Layoutable.MaxHeightProperty Layoutable.MarginProperty Layoutable.HorizontalAlignmentProperty Layoutable.VerticalAlignmentProperty Layoutable.UseLayoutRoundingProperty Layoutable.UpdateLayout() Layoutable.Measure(Size) Layoutable.Arrange(Rect) Layoutable.InvalidateMeasure() Layoutable.InvalidateArrange() Layoutable.AffectsMeasure<T>(params AvaloniaProperty[]) Layoutable.AffectsArrange<T>(params AvaloniaProperty[]) Layoutable.ArrangeOverride(Size) Layoutable.OnMeasureInvalidated() Layoutable.OnVisualParentChanged(Visual, Visual) Layoutable.Width Layoutable.Height Layoutable.MinWidth Layoutable.MaxWidth Layoutable.MinHeight Layoutable.MaxHeight Layoutable.Margin Layoutable.HorizontalAlignment Layoutable.VerticalAlignment Layoutable.DesiredSize Layoutable.IsMeasureValid Layoutable.IsArrangeValid Layoutable.UseLayoutRounding Layoutable.EffectiveViewportChanged Layoutable.LayoutUpdated Visual.BoundsProperty Visual.ClipToBoundsProperty Visual.ClipProperty Visual.IsVisibleProperty Visual.OpacityProperty Visual.OpacityMaskProperty Visual.CacheModeProperty Visual.EffectProperty Visual.HasMirrorTransformProperty Visual.RenderTransformProperty Visual.RenderTransformOriginProperty Visual.FlowDirectionProperty Visual.VisualParentProperty Visual.ZIndexProperty Visual.GetFlowDirection(Visual) Visual.SetFlowDirection(Visual, FlowDirection) Visual.InvalidateVisual() Visual.Render(DrawingContext) Visual.AffectsRender<T>(params AvaloniaProperty[]) Visual.LogicalChildrenCollectionChanged(object, NotifyCollectionChangedEventArgs) Visual.OnAttachedToVisualTree(VisualTreeAttachmentEventArgs) Visual.OnDetachedFromVisualTree(VisualTreeAttachmentEventArgs) Visual.Bounds Visual.ClipToBounds Visual.Clip Visual.IsEffectivelyVisible Visual.IsVisible Visual.Opacity Visual.OpacityMask Visual.CacheMode Visual.Effect Visual.HasMirrorTransform Visual.RenderTransform Visual.RenderTransformOrigin Visual.FlowDirection Visual.ZIndex Visual.VisualChildren Visual.VisualRoot Visual.AttachedToVisualTree Visual.DetachedFromVisualTree StyledElement.DataContextProperty StyledElement.NameProperty StyledElement.ParentProperty StyledElement.TemplatedParentProperty StyledElement.ThemeProperty StyledElement.BeginInit() StyledElement.EndInit() StyledElement.ApplyStyling() StyledElement.InitializeIfNeeded() StyledElement.TryGetResource(object, ThemeVariant, out object) StyledElement.OnDataContextChanged(EventArgs) StyledElement.OnDataContextBeginUpdate() StyledElement.OnDataContextEndUpdate() StyledElement.OnInitialized() StyledElement.Name StyledElement.Classes StyledElement.DataContext StyledElement.IsInitialized StyledElement.Styles StyledElement.StyleKey StyledElement.Resources StyledElement.TemplatedParent StyledElement.Theme StyledElement.LogicalChildren StyledElement.PseudoClasses StyledElement.Parent StyledElement.ActualThemeVariant StyledElement.AttachedToLogicalTree StyledElement.DetachedFromLogicalTree StyledElement.DataContextChanged StyledElement.Initialized StyledElement.ResourcesChanged StyledElement.ActualThemeVariantChanged Animatable.TransitionsProperty Animatable.OnPropertyChangedCore(AvaloniaPropertyChangedEventArgs) Animatable.Transitions AvaloniaObject.CheckAccess() AvaloniaObject.VerifyAccess() AvaloniaObject.ClearValue(AvaloniaProperty) AvaloniaObject.ClearValue<T>(AvaloniaProperty<T>) AvaloniaObject.ClearValue<T>(StyledProperty<T>) AvaloniaObject.ClearValue<T>(DirectPropertyBase<T>) AvaloniaObject.Equals(object) AvaloniaObject.GetHashCode() AvaloniaObject.GetValue(AvaloniaProperty) AvaloniaObject.GetValue<T>(StyledProperty<T>) AvaloniaObject.GetValue<T>(DirectPropertyBase<T>) AvaloniaObject.GetBaseValue<T>(StyledProperty<T>) AvaloniaObject.IsAnimating(AvaloniaProperty) AvaloniaObject.IsSet(AvaloniaProperty) AvaloniaObject.SetValue(AvaloniaProperty, object, BindingPriority) AvaloniaObject.SetValue<T>(StyledProperty<T>, T, BindingPriority) AvaloniaObject.SetValue<T>(DirectPropertyBase<T>, T) AvaloniaObject.SetCurrentValue(AvaloniaProperty, object) AvaloniaObject.SetCurrentValue<T>(StyledProperty<T>, T) AvaloniaObject.Bind(AvaloniaProperty, BindingBase) AvaloniaObject.Bind(AvaloniaProperty, IObservable<object>, BindingPriority) AvaloniaObject.Bind<T>(StyledProperty<T>, IObservable<object>, BindingPriority) AvaloniaObject.Bind<T>(StyledProperty<T>, IObservable<T>, BindingPriority) AvaloniaObject.Bind<T>(StyledProperty<T>, IObservable<BindingValue<T>>, BindingPriority) AvaloniaObject.Bind<T>(DirectPropertyBase<T>, IObservable<object>) AvaloniaObject.Bind<T>(DirectPropertyBase<T>, IObservable<T>) AvaloniaObject.Bind<T>(DirectPropertyBase<T>, IObservable<BindingValue<T>>) AvaloniaObject.CoerceValue(AvaloniaProperty) AvaloniaObject.RaisePropertyChanged<T>(DirectPropertyBase<T>, T, T) AvaloniaObject.SetAndRaise<T>(DirectPropertyBase<T>, ref T, T) AvaloniaObject.InheritanceParent AvaloniaObject.this[AvaloniaProperty] AvaloniaObject.this[IndexerDescriptor] AvaloniaObject.Dispatcher AvaloniaObject.PropertyChanged object.Equals(object, object) object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors MainWindow() public MainWindow() Methods InitializeComponent(bool) Wires up the controls and optionally loads XAML markup and attaches dev tools (if Avalonia.Diagnostics package is referenced). public void InitializeComponent(bool loadXaml = true) Parameters loadXaml bool Should the XAML be loaded into the component."
+  },
+  "api/CXEX.SDK.Views.html": {
+    "href": "api/CXEX.SDK.Views.html",
+    "title": "Namespace CXEX.SDK.Views | CX DevKit API",
+    "summary": "Namespace CXEX.SDK.Views Classes MainWindow"
+  },
+  "api/CXEX.SDK.html": {
+    "href": "api/CXEX.SDK.html",
+    "title": "Namespace CXEX.SDK | CX DevKit API",
+    "summary": "Namespace CXEX.SDK Classes App ViewLocator Given a view model, returns the corresponding view if possible."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "CX DevKit | CX DevKit API",
+    "summary": "CX DevKit API reference for the CX ecosystem libraries (CXEX.Build, CXEX.Disk, CXEX.FileSystem, CXEX.Lang, CXEX.Core, and the rest of the toolchain). Browse the API tab for the auto-generated reference. Anything you write as a /// XML doc comment in source shows up here automatically on the next build."
+  }
+}

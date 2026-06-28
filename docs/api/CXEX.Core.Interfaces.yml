@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Core.Interfaces
+  commentId: N:CXEX.Core.Interfaces
+  id: CXEX.Core.Interfaces
+  children:
+  - CXEX.Core.Interfaces.ICXFile
+  - CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Core.Interfaces
+  nameWithType: CXEX.Core.Interfaces
+  fullName: CXEX.Core.Interfaces
+  type: Namespace
+  assemblies:
+  - CXEX.Core
+references:
+- uid: CXEX.Core.Interfaces.ICXFile
+  commentId: T:CXEX.Core.Interfaces.ICXFile
+  parent: CXEX.Core.Interfaces
+  href: CXEX.Core.Interfaces.ICXFile.html
+  name: ICXFile
+  nameWithType: ICXFile
+  fullName: CXEX.Core.Interfaces.ICXFile
+- uid: CXEX.Core.Interfaces.ICXFileSystem
+  commentId: T:CXEX.Core.Interfaces.ICXFileSystem
+  parent: CXEX.Core.Interfaces
+  href: CXEX.Core.Interfaces.ICXFileSystem.html
+  name: ICXFileSystem
+  nameWithType: ICXFileSystem
+  fullName: CXEX.Core.Interfaces.ICXFileSystem
+- uid: CXEX.Core.Interfaces
+  commentId: N:CXEX.Core.Interfaces
+  href: CXEX.html
+  name: CXEX.Core.Interfaces
+  nameWithType: CXEX.Core.Interfaces
+  fullName: CXEX.Core.Interfaces
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Interfaces
+    name: Interfaces
+    href: CXEX.Core.Interfaces.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Interfaces
+    name: Interfaces
+    href: CXEX.Core.Interfaces.html

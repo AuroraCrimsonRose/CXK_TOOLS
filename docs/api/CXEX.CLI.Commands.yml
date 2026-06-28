@@ -1,0 +1,356 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Commands
+  commentId: N:CXEX.CLI.Commands
+  id: CXEX.CLI.Commands
+  children:
+  - CXEX.CLI.Commands.BuildCommand
+  - CXEX.CLI.Commands.BuildCommand.Settings
+  - CXEX.CLI.Commands.CheckCommand
+  - CXEX.CLI.Commands.CheckCommand.Settings
+  - CXEX.CLI.Commands.CompileCommand
+  - CXEX.CLI.Commands.CompileCommand.Settings
+  - CXEX.CLI.Commands.EmbedCommand
+  - CXEX.CLI.Commands.EmbedCommand.Settings
+  - CXEX.CLI.Commands.ImageCommand
+  - CXEX.CLI.Commands.ImageCommand.Settings
+  - CXEX.CLI.Commands.InspectCommand
+  - CXEX.CLI.Commands.InspectCommand.Settings
+  - CXEX.CLI.Commands.KeygenCommand
+  - CXEX.CLI.Commands.KeygenCommand.Settings
+  - CXEX.CLI.Commands.RawImageCommand
+  - CXEX.CLI.Commands.RawImageCommand.Settings
+  - CXEX.CLI.Commands.RunCommand
+  - CXEX.CLI.Commands.RunCommand.Settings
+  - CXEX.CLI.Commands.SignCommand
+  - CXEX.CLI.Commands.SignCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: CXEX.CLI.Commands
+  nameWithType: CXEX.CLI.Commands
+  fullName: CXEX.CLI.Commands
+  type: Namespace
+  assemblies:
+  - CXEX.CLI
+references:
+- uid: CXEX.CLI.Commands.BuildCommand
+  commentId: T:CXEX.CLI.Commands.BuildCommand
+  href: CXEX.CLI.Commands.BuildCommand.html
+  name: BuildCommand
+  nameWithType: BuildCommand
+  fullName: CXEX.CLI.Commands.BuildCommand
+- uid: CXEX.CLI.Commands.BuildCommand.Settings
+  commentId: T:CXEX.CLI.Commands.BuildCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.BuildCommand.html
+  name: BuildCommand.Settings
+  nameWithType: BuildCommand.Settings
+  fullName: CXEX.CLI.Commands.BuildCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.BuildCommand
+    name: BuildCommand
+    href: CXEX.CLI.Commands.BuildCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.BuildCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.BuildCommand.Settings.html
+- uid: CXEX.CLI.Commands.CheckCommand
+  commentId: T:CXEX.CLI.Commands.CheckCommand
+  href: CXEX.CLI.Commands.CheckCommand.html
+  name: CheckCommand
+  nameWithType: CheckCommand
+  fullName: CXEX.CLI.Commands.CheckCommand
+- uid: CXEX.CLI.Commands.CheckCommand.Settings
+  commentId: T:CXEX.CLI.Commands.CheckCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.CheckCommand.html
+  name: CheckCommand.Settings
+  nameWithType: CheckCommand.Settings
+  fullName: CXEX.CLI.Commands.CheckCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.CheckCommand
+    name: CheckCommand
+    href: CXEX.CLI.Commands.CheckCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.CheckCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.CheckCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.CheckCommand
+    name: CheckCommand
+    href: CXEX.CLI.Commands.CheckCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.CheckCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.CheckCommand.Settings.html
+- uid: CXEX.CLI.Commands.CompileCommand
+  commentId: T:CXEX.CLI.Commands.CompileCommand
+  href: CXEX.CLI.Commands.CompileCommand.html
+  name: CompileCommand
+  nameWithType: CompileCommand
+  fullName: CXEX.CLI.Commands.CompileCommand
+- uid: CXEX.CLI.Commands.CompileCommand.Settings
+  commentId: T:CXEX.CLI.Commands.CompileCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.CompileCommand.html
+  name: CompileCommand.Settings
+  nameWithType: CompileCommand.Settings
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.CompileCommand
+    name: CompileCommand
+    href: CXEX.CLI.Commands.CompileCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.CompileCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.CompileCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.CompileCommand
+    name: CompileCommand
+    href: CXEX.CLI.Commands.CompileCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.CompileCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.CompileCommand.Settings.html
+- uid: CXEX.CLI.Commands.EmbedCommand
+  commentId: T:CXEX.CLI.Commands.EmbedCommand
+  href: CXEX.CLI.Commands.EmbedCommand.html
+  name: EmbedCommand
+  nameWithType: EmbedCommand
+  fullName: CXEX.CLI.Commands.EmbedCommand
+- uid: CXEX.CLI.Commands.EmbedCommand.Settings
+  commentId: T:CXEX.CLI.Commands.EmbedCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.EmbedCommand.html
+  name: EmbedCommand.Settings
+  nameWithType: EmbedCommand.Settings
+  fullName: CXEX.CLI.Commands.EmbedCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.EmbedCommand
+    name: EmbedCommand
+    href: CXEX.CLI.Commands.EmbedCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.EmbedCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.EmbedCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.EmbedCommand
+    name: EmbedCommand
+    href: CXEX.CLI.Commands.EmbedCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.EmbedCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.EmbedCommand.Settings.html
+- uid: CXEX.CLI.Commands.ImageCommand
+  commentId: T:CXEX.CLI.Commands.ImageCommand
+  href: CXEX.CLI.Commands.ImageCommand.html
+  name: ImageCommand
+  nameWithType: ImageCommand
+  fullName: CXEX.CLI.Commands.ImageCommand
+- uid: CXEX.CLI.Commands.ImageCommand.Settings
+  commentId: T:CXEX.CLI.Commands.ImageCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.ImageCommand.html
+  name: ImageCommand.Settings
+  nameWithType: ImageCommand.Settings
+  fullName: CXEX.CLI.Commands.ImageCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.ImageCommand
+    name: ImageCommand
+    href: CXEX.CLI.Commands.ImageCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.ImageCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.ImageCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.ImageCommand
+    name: ImageCommand
+    href: CXEX.CLI.Commands.ImageCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.ImageCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.ImageCommand.Settings.html
+- uid: CXEX.CLI.Commands.InspectCommand
+  commentId: T:CXEX.CLI.Commands.InspectCommand
+  href: CXEX.CLI.Commands.InspectCommand.html
+  name: InspectCommand
+  nameWithType: InspectCommand
+  fullName: CXEX.CLI.Commands.InspectCommand
+- uid: CXEX.CLI.Commands.InspectCommand.Settings
+  commentId: T:CXEX.CLI.Commands.InspectCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.InspectCommand.html
+  name: InspectCommand.Settings
+  nameWithType: InspectCommand.Settings
+  fullName: CXEX.CLI.Commands.InspectCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.InspectCommand
+    name: InspectCommand
+    href: CXEX.CLI.Commands.InspectCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.InspectCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.InspectCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.InspectCommand
+    name: InspectCommand
+    href: CXEX.CLI.Commands.InspectCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.InspectCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.InspectCommand.Settings.html
+- uid: CXEX.CLI.Commands.KeygenCommand
+  commentId: T:CXEX.CLI.Commands.KeygenCommand
+  href: CXEX.CLI.Commands.KeygenCommand.html
+  name: KeygenCommand
+  nameWithType: KeygenCommand
+  fullName: CXEX.CLI.Commands.KeygenCommand
+- uid: CXEX.CLI.Commands.KeygenCommand.Settings
+  commentId: T:CXEX.CLI.Commands.KeygenCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.KeygenCommand.html
+  name: KeygenCommand.Settings
+  nameWithType: KeygenCommand.Settings
+  fullName: CXEX.CLI.Commands.KeygenCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.KeygenCommand
+    name: KeygenCommand
+    href: CXEX.CLI.Commands.KeygenCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.KeygenCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.KeygenCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.KeygenCommand
+    name: KeygenCommand
+    href: CXEX.CLI.Commands.KeygenCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.KeygenCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.KeygenCommand.Settings.html
+- uid: CXEX.CLI.Commands.RawImageCommand
+  commentId: T:CXEX.CLI.Commands.RawImageCommand
+  href: CXEX.CLI.Commands.RawImageCommand.html
+  name: RawImageCommand
+  nameWithType: RawImageCommand
+  fullName: CXEX.CLI.Commands.RawImageCommand
+- uid: CXEX.CLI.Commands.RawImageCommand.Settings
+  commentId: T:CXEX.CLI.Commands.RawImageCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.RawImageCommand.html
+  name: RawImageCommand.Settings
+  nameWithType: RawImageCommand.Settings
+  fullName: CXEX.CLI.Commands.RawImageCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.RawImageCommand
+    name: RawImageCommand
+    href: CXEX.CLI.Commands.RawImageCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.RawImageCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.RawImageCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.RawImageCommand
+    name: RawImageCommand
+    href: CXEX.CLI.Commands.RawImageCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.RawImageCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.RawImageCommand.Settings.html
+- uid: CXEX.CLI.Commands.RunCommand
+  commentId: T:CXEX.CLI.Commands.RunCommand
+  href: CXEX.CLI.Commands.RunCommand.html
+  name: RunCommand
+  nameWithType: RunCommand
+  fullName: CXEX.CLI.Commands.RunCommand
+- uid: CXEX.CLI.Commands.RunCommand.Settings
+  commentId: T:CXEX.CLI.Commands.RunCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.RunCommand.html
+  name: RunCommand.Settings
+  nameWithType: RunCommand.Settings
+  fullName: CXEX.CLI.Commands.RunCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.RunCommand
+    name: RunCommand
+    href: CXEX.CLI.Commands.RunCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.RunCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.RunCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.RunCommand
+    name: RunCommand
+    href: CXEX.CLI.Commands.RunCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.RunCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.RunCommand.Settings.html
+- uid: CXEX.CLI.Commands.SignCommand
+  commentId: T:CXEX.CLI.Commands.SignCommand
+  href: CXEX.CLI.Commands.SignCommand.html
+  name: SignCommand
+  nameWithType: SignCommand
+  fullName: CXEX.CLI.Commands.SignCommand
+- uid: CXEX.CLI.Commands.SignCommand.Settings
+  commentId: T:CXEX.CLI.Commands.SignCommand.Settings
+  parent: CXEX.CLI.Commands
+  href: CXEX.CLI.Commands.SignCommand.html
+  name: SignCommand.Settings
+  nameWithType: SignCommand.Settings
+  fullName: CXEX.CLI.Commands.SignCommand.Settings
+  spec.csharp:
+  - uid: CXEX.CLI.Commands.SignCommand
+    name: SignCommand
+    href: CXEX.CLI.Commands.SignCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.SignCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.SignCommand.Settings.html
+  spec.vb:
+  - uid: CXEX.CLI.Commands.SignCommand
+    name: SignCommand
+    href: CXEX.CLI.Commands.SignCommand.html
+  - name: .
+  - uid: CXEX.CLI.Commands.SignCommand.Settings
+    name: Settings
+    href: CXEX.CLI.Commands.SignCommand.Settings.html
+- uid: CXEX.CLI.Commands
+  commentId: N:CXEX.CLI.Commands
+  href: CXEX.html
+  name: CXEX.CLI.Commands
+  nameWithType: CXEX.CLI.Commands
+  fullName: CXEX.CLI.Commands
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html

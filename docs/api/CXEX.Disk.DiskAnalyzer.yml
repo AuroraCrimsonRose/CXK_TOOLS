@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Disk.DiskAnalyzer
+  commentId: T:CXEX.Disk.DiskAnalyzer
+  id: DiskAnalyzer
+  parent: CXEX.Disk
+  children:
+  - CXEX.Disk.DiskAnalyzer.Analyze(System.IO.Stream,System.Int64,System.Int32)
+  - CXEX.Disk.DiskAnalyzer.Analyze(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DiskAnalyzer
+  nameWithType: DiskAnalyzer
+  fullName: CXEX.Disk.DiskAnalyzer
+  type: Class
+  source:
+    remote:
+      path: CXEX.Disk/DiskAnalyzer.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: DiskAnalyzer
+    path: ../CXEX.Disk/DiskAnalyzer.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk
+  summary: >-
+    Entry point: sniff a disk image's partition table and parse it. Reads only the
+
+    first sectors (plus the GPT entry array) - never loads the whole image.
+
+    Detection order: GPT ("EFI PART" @ LBA1) -&gt; XBPT ("XBPT" @ LBA1) -&gt; MBR (0x55AA @ 0x1FE).
+  example: []
+  syntax:
+    content: public static class DiskAnalyzer
+    content.vb: Public Module DiskAnalyzer
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Disk.DiskAnalyzer.Analyze(System.String,System.Int32)
+  commentId: M:CXEX.Disk.DiskAnalyzer.Analyze(System.String,System.Int32)
+  id: Analyze(System.String,System.Int32)
+  parent: CXEX.Disk.DiskAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: Analyze(string, int)
+  nameWithType: DiskAnalyzer.Analyze(string, int)
+  fullName: CXEX.Disk.DiskAnalyzer.Analyze(string, int)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Disk/DiskAnalyzer.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Analyze
+    path: ../CXEX.Disk/DiskAnalyzer.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk
+  syntax:
+    content: public static DiskLayout Analyze(string path, int sectorSize = 512)
+    parameters:
+    - id: path
+      type: System.String
+    - id: sectorSize
+      type: System.Int32
+    return:
+      type: CXEX.Disk.Models.DiskLayout
+    content.vb: Public Shared Function Analyze(path As String, sectorSize As Integer = 512) As DiskLayout
+  overload: CXEX.Disk.DiskAnalyzer.Analyze*
+  nameWithType.vb: DiskAnalyzer.Analyze(String, Integer)
+  fullName.vb: CXEX.Disk.DiskAnalyzer.Analyze(String, Integer)
+  name.vb: Analyze(String, Integer)
+- uid: CXEX.Disk.DiskAnalyzer.Analyze(System.IO.Stream,System.Int64,System.Int32)
+  commentId: M:CXEX.Disk.DiskAnalyzer.Analyze(System.IO.Stream,System.Int64,System.Int32)
+  id: Analyze(System.IO.Stream,System.Int64,System.Int32)
+  parent: CXEX.Disk.DiskAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: Analyze(Stream, long, int)
+  nameWithType: DiskAnalyzer.Analyze(Stream, long, int)
+  fullName: CXEX.Disk.DiskAnalyzer.Analyze(System.IO.Stream, long, int)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Disk/DiskAnalyzer.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Analyze
+    path: ../CXEX.Disk/DiskAnalyzer.cs
+    startLine: 21
+  assemblies:
+  - CXEX.Disk
+  namespace: CXEX.Disk
+  syntax:
+    content: public static DiskLayout Analyze(Stream s, long diskSize, int sectorSize = 512)
+    parameters:
+    - id: s
+      type: System.IO.Stream
+    - id: diskSize
+      type: System.Int64
+    - id: sectorSize
+      type: System.Int32
+    return:
+      type: CXEX.Disk.Models.DiskLayout
+    content.vb: Public Shared Function Analyze(s As Stream, diskSize As Long, sectorSize As Integer = 512) As DiskLayout
+  overload: CXEX.Disk.DiskAnalyzer.Analyze*
+  nameWithType.vb: DiskAnalyzer.Analyze(Stream, Long, Integer)
+  fullName.vb: CXEX.Disk.DiskAnalyzer.Analyze(System.IO.Stream, Long, Integer)
+  name.vb: Analyze(Stream, Long, Integer)
+references:
+- uid: CXEX.Disk
+  commentId: N:CXEX.Disk
+  href: CXEX.html
+  name: CXEX.Disk
+  nameWithType: CXEX.Disk
+  fullName: CXEX.Disk
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Disk.DiskAnalyzer.Analyze*
+  commentId: Overload:CXEX.Disk.DiskAnalyzer.Analyze
+  href: CXEX.Disk.DiskAnalyzer.html#CXEX_Disk_DiskAnalyzer_Analyze_System_String_System_Int32_
+  name: Analyze
+  nameWithType: DiskAnalyzer.Analyze
+  fullName: CXEX.Disk.DiskAnalyzer.Analyze
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CXEX.Disk.Models.DiskLayout
+  commentId: T:CXEX.Disk.Models.DiskLayout
+  parent: CXEX.Disk.Models
+  href: CXEX.Disk.Models.DiskLayout.html
+  name: DiskLayout
+  nameWithType: DiskLayout
+  fullName: CXEX.Disk.Models.DiskLayout
+- uid: CXEX.Disk.Models
+  commentId: N:CXEX.Disk.Models
+  href: CXEX.html
+  name: CXEX.Disk.Models
+  nameWithType: CXEX.Disk.Models
+  fullName: CXEX.Disk.Models
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+  - name: .
+  - uid: CXEX.Disk.Models
+    name: Models
+    href: CXEX.Disk.Models.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Disk
+    name: Disk
+    href: CXEX.Disk.html
+  - name: .
+  - uid: CXEX.Disk.Models
+    name: Models
+    href: CXEX.Disk.Models.html
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int64
+  name: long
+  nameWithType: long
+  fullName: long
+  nameWithType.vb: Long
+  fullName.vb: Long
+  name.vb: Long
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io

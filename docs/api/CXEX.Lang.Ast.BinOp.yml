@@ -1,0 +1,417 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Ast.BinOp
+  commentId: T:CXEX.Lang.Ast.BinOp
+  id: BinOp
+  parent: CXEX.Lang.Ast
+  children:
+  - CXEX.Lang.Ast.BinOp.Add
+  - CXEX.Lang.Ast.BinOp.And
+  - CXEX.Lang.Ast.BinOp.Div
+  - CXEX.Lang.Ast.BinOp.Eq
+  - CXEX.Lang.Ast.BinOp.Ge
+  - CXEX.Lang.Ast.BinOp.Gt
+  - CXEX.Lang.Ast.BinOp.Le
+  - CXEX.Lang.Ast.BinOp.Lt
+  - CXEX.Lang.Ast.BinOp.Mod
+  - CXEX.Lang.Ast.BinOp.Mul
+  - CXEX.Lang.Ast.BinOp.Ne
+  - CXEX.Lang.Ast.BinOp.Or
+  - CXEX.Lang.Ast.BinOp.Sub
+  langs:
+  - csharp
+  - vb
+  name: BinOp
+  nameWithType: BinOp
+  fullName: CXEX.Lang.Ast.BinOp
+  type: Enum
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BinOp
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 43
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public enum BinOp
+    content.vb: Public Enum BinOp
+- uid: CXEX.Lang.Ast.BinOp.Add
+  commentId: F:CXEX.Lang.Ast.BinOp.Add
+  id: Add
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Add
+  nameWithType: BinOp.Add
+  fullName: CXEX.Lang.Ast.BinOp.Add
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Add
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 45
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Add = 0
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Sub
+  commentId: F:CXEX.Lang.Ast.BinOp.Sub
+  id: Sub
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Sub
+  nameWithType: BinOp.Sub
+  fullName: CXEX.Lang.Ast.BinOp.Sub
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Sub
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 45
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Sub = 1
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Mul
+  commentId: F:CXEX.Lang.Ast.BinOp.Mul
+  id: Mul
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Mul
+  nameWithType: BinOp.Mul
+  fullName: CXEX.Lang.Ast.BinOp.Mul
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Mul
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 45
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Mul = 2
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Div
+  commentId: F:CXEX.Lang.Ast.BinOp.Div
+  id: Div
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Div
+  nameWithType: BinOp.Div
+  fullName: CXEX.Lang.Ast.BinOp.Div
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Div
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 45
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Div = 3
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Mod
+  commentId: F:CXEX.Lang.Ast.BinOp.Mod
+  id: Mod
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Mod
+  nameWithType: BinOp.Mod
+  fullName: CXEX.Lang.Ast.BinOp.Mod
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Mod
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 45
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Mod = 4
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Eq
+  commentId: F:CXEX.Lang.Ast.BinOp.Eq
+  id: Eq
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Eq
+  nameWithType: BinOp.Eq
+  fullName: CXEX.Lang.Ast.BinOp.Eq
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Eq
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 46
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Eq = 5
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Ne
+  commentId: F:CXEX.Lang.Ast.BinOp.Ne
+  id: Ne
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Ne
+  nameWithType: BinOp.Ne
+  fullName: CXEX.Lang.Ast.BinOp.Ne
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Ne
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 46
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Ne = 6
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Lt
+  commentId: F:CXEX.Lang.Ast.BinOp.Lt
+  id: Lt
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Lt
+  nameWithType: BinOp.Lt
+  fullName: CXEX.Lang.Ast.BinOp.Lt
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Lt
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 46
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Lt = 7
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Le
+  commentId: F:CXEX.Lang.Ast.BinOp.Le
+  id: Le
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Le
+  nameWithType: BinOp.Le
+  fullName: CXEX.Lang.Ast.BinOp.Le
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Le
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 46
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Le = 8
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Gt
+  commentId: F:CXEX.Lang.Ast.BinOp.Gt
+  id: Gt
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Gt
+  nameWithType: BinOp.Gt
+  fullName: CXEX.Lang.Ast.BinOp.Gt
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Gt
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 46
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Gt = 9
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Ge
+  commentId: F:CXEX.Lang.Ast.BinOp.Ge
+  id: Ge
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Ge
+  nameWithType: BinOp.Ge
+  fullName: CXEX.Lang.Ast.BinOp.Ge
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Ge
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 46
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Ge = 10
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.And
+  commentId: F:CXEX.Lang.Ast.BinOp.And
+  id: And
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: And
+  nameWithType: BinOp.And
+  fullName: CXEX.Lang.Ast.BinOp.And
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: And
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 47
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: And = 11
+    return:
+      type: CXEX.Lang.Ast.BinOp
+- uid: CXEX.Lang.Ast.BinOp.Or
+  commentId: F:CXEX.Lang.Ast.BinOp.Or
+  id: Or
+  parent: CXEX.Lang.Ast.BinOp
+  langs:
+  - csharp
+  - vb
+  name: Or
+  nameWithType: BinOp.Or
+  fullName: CXEX.Lang.Ast.BinOp.Or
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Or
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 47
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: Or = 12
+    return:
+      type: CXEX.Lang.Ast.BinOp
+references:
+- uid: CXEX.Lang.Ast
+  commentId: N:CXEX.Lang.Ast
+  href: CXEX.html
+  name: CXEX.Lang.Ast
+  nameWithType: CXEX.Lang.Ast
+  fullName: CXEX.Lang.Ast
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+- uid: CXEX.Lang.Ast.BinOp
+  commentId: T:CXEX.Lang.Ast.BinOp
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.BinOp.html
+  name: BinOp
+  nameWithType: BinOp
+  fullName: CXEX.Lang.Ast.BinOp

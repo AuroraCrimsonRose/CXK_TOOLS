@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Core.Utilities
+  commentId: N:CXEX.Core.Utilities
+  id: CXEX.Core.Utilities
+  children:
+  - CXEX.Core.Utilities.MemoryPrimitives
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Core.Utilities
+  nameWithType: CXEX.Core.Utilities
+  fullName: CXEX.Core.Utilities
+  type: Namespace
+  assemblies:
+  - CXEX.Core
+references:
+- uid: CXEX.Core.Utilities.MemoryPrimitives
+  commentId: T:CXEX.Core.Utilities.MemoryPrimitives
+  href: CXEX.Core.Utilities.MemoryPrimitives.html
+  name: MemoryPrimitives
+  nameWithType: MemoryPrimitives
+  fullName: CXEX.Core.Utilities.MemoryPrimitives

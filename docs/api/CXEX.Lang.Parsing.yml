@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Parsing
+  commentId: N:CXEX.Lang.Parsing
+  id: CXEX.Lang.Parsing
+  children:
+  - CXEX.Lang.Parsing.Parser
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Lang.Parsing
+  nameWithType: CXEX.Lang.Parsing
+  fullName: CXEX.Lang.Parsing
+  type: Namespace
+  assemblies:
+  - CXEX.Lang
+references:
+- uid: CXEX.Lang.Parsing.Parser
+  commentId: T:CXEX.Lang.Parsing.Parser
+  href: CXEX.Lang.Parsing.Parser.html
+  name: Parser
+  nameWithType: Parser
+  fullName: CXEX.Lang.Parsing.Parser

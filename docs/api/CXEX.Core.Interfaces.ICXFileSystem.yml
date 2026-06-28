@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Core.Interfaces.ICXFileSystem
+  commentId: T:CXEX.Core.Interfaces.ICXFileSystem
+  id: ICXFileSystem
+  parent: CXEX.Core.Interfaces
+  children:
+  - CXEX.Core.Interfaces.ICXFileSystem.Exists(System.String)
+  - CXEX.Core.Interfaces.ICXFileSystem.List(System.String)
+  - CXEX.Core.Interfaces.ICXFileSystem.Mount(System.String)
+  - CXEX.Core.Interfaces.ICXFileSystem.Name
+  - CXEX.Core.Interfaces.ICXFileSystem.OpenFile(System.String)
+  - CXEX.Core.Interfaces.ICXFileSystem.Read(System.String)
+  - CXEX.Core.Interfaces.ICXFileSystem.Unmount
+  - CXEX.Core.Interfaces.ICXFileSystem.Write(System.String,System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: ICXFileSystem
+  nameWithType: ICXFileSystem
+  fullName: CXEX.Core.Interfaces.ICXFileSystem
+  type: Interface
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ICXFileSystem
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: public interface ICXFileSystem
+    content.vb: Public Interface ICXFileSystem
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Name
+  commentId: P:CXEX.Core.Interfaces.ICXFileSystem.Name
+  id: Name
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ICXFileSystem.Name
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Name
+  type: Property
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Name
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: CXEX.Core.Interfaces.ICXFileSystem.Name*
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Mount(System.String)
+  commentId: M:CXEX.Core.Interfaces.ICXFileSystem.Mount(System.String)
+  id: Mount(System.String)
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: Mount(string)
+  nameWithType: ICXFileSystem.Mount(string)
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Mount(string)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Mount
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 8
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: void Mount(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Sub Mount(path As String)
+  overload: CXEX.Core.Interfaces.ICXFileSystem.Mount*
+  nameWithType.vb: ICXFileSystem.Mount(String)
+  fullName.vb: CXEX.Core.Interfaces.ICXFileSystem.Mount(String)
+  name.vb: Mount(String)
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Unmount
+  commentId: M:CXEX.Core.Interfaces.ICXFileSystem.Unmount
+  id: Unmount
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: Unmount()
+  nameWithType: ICXFileSystem.Unmount()
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Unmount()
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Unmount
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: void Unmount()
+    content.vb: Sub Unmount()
+  overload: CXEX.Core.Interfaces.ICXFileSystem.Unmount*
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Exists(System.String)
+  commentId: M:CXEX.Core.Interfaces.ICXFileSystem.Exists(System.String)
+  id: Exists(System.String)
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: Exists(string)
+  nameWithType: ICXFileSystem.Exists(string)
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Exists(string)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Exists
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: bool Exists(string absolutePath)
+    parameters:
+    - id: absolutePath
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function Exists(absolutePath As String) As Boolean
+  overload: CXEX.Core.Interfaces.ICXFileSystem.Exists*
+  nameWithType.vb: ICXFileSystem.Exists(String)
+  fullName.vb: CXEX.Core.Interfaces.ICXFileSystem.Exists(String)
+  name.vb: Exists(String)
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Read(System.String)
+  commentId: M:CXEX.Core.Interfaces.ICXFileSystem.Read(System.String)
+  id: Read(System.String)
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: Read(string)
+  nameWithType: ICXFileSystem.Read(string)
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Read(string)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Read
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 11
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: byte[] Read(string absolutePath)
+    parameters:
+    - id: absolutePath
+      type: System.String
+    return:
+      type: System.Byte[]
+    content.vb: Function Read(absolutePath As String) As Byte()
+  overload: CXEX.Core.Interfaces.ICXFileSystem.Read*
+  nameWithType.vb: ICXFileSystem.Read(String)
+  fullName.vb: CXEX.Core.Interfaces.ICXFileSystem.Read(String)
+  name.vb: Read(String)
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Write(System.String,System.Byte[])
+  commentId: M:CXEX.Core.Interfaces.ICXFileSystem.Write(System.String,System.Byte[])
+  id: Write(System.String,System.Byte[])
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: Write(string, byte[])
+  nameWithType: ICXFileSystem.Write(string, byte[])
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Write(string, byte[])
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Write
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: void Write(string absolutePath, byte[] data)
+    parameters:
+    - id: absolutePath
+      type: System.String
+    - id: data
+      type: System.Byte[]
+    content.vb: Sub Write(absolutePath As String, data As Byte())
+  overload: CXEX.Core.Interfaces.ICXFileSystem.Write*
+  nameWithType.vb: ICXFileSystem.Write(String, Byte())
+  fullName.vb: CXEX.Core.Interfaces.ICXFileSystem.Write(String, Byte())
+  name.vb: Write(String, Byte())
+- uid: CXEX.Core.Interfaces.ICXFileSystem.List(System.String)
+  commentId: M:CXEX.Core.Interfaces.ICXFileSystem.List(System.String)
+  id: List(System.String)
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: List(string)
+  nameWithType: ICXFileSystem.List(string)
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.List(string)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: List
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: IEnumerable<string> List(string absolutePath)
+    parameters:
+    - id: absolutePath
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Function List(absolutePath As String) As IEnumerable(Of String)
+  overload: CXEX.Core.Interfaces.ICXFileSystem.List*
+  nameWithType.vb: ICXFileSystem.List(String)
+  fullName.vb: CXEX.Core.Interfaces.ICXFileSystem.List(String)
+  name.vb: List(String)
+- uid: CXEX.Core.Interfaces.ICXFileSystem.OpenFile(System.String)
+  commentId: M:CXEX.Core.Interfaces.ICXFileSystem.OpenFile(System.String)
+  id: OpenFile(System.String)
+  parent: CXEX.Core.Interfaces.ICXFileSystem
+  langs:
+  - csharp
+  - vb
+  name: OpenFile(string)
+  nameWithType: ICXFileSystem.OpenFile(string)
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.OpenFile(string)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFileSystem.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: OpenFile
+    path: ../CXEX.Core/Interfaces/ICXFileSystem.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: Stream OpenFile(string absolutePath)
+    parameters:
+    - id: absolutePath
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Function OpenFile(absolutePath As String) As Stream
+  overload: CXEX.Core.Interfaces.ICXFileSystem.OpenFile*
+  nameWithType.vb: ICXFileSystem.OpenFile(String)
+  fullName.vb: CXEX.Core.Interfaces.ICXFileSystem.OpenFile(String)
+  name.vb: OpenFile(String)
+references:
+- uid: CXEX.Core.Interfaces
+  commentId: N:CXEX.Core.Interfaces
+  href: CXEX.html
+  name: CXEX.Core.Interfaces
+  nameWithType: CXEX.Core.Interfaces
+  fullName: CXEX.Core.Interfaces
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Interfaces
+    name: Interfaces
+    href: CXEX.Core.Interfaces.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Interfaces
+    name: Interfaces
+    href: CXEX.Core.Interfaces.html
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Name*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.Name
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_Name
+  name: Name
+  nameWithType: ICXFileSystem.Name
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Mount*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.Mount
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_Mount_System_String_
+  name: Mount
+  nameWithType: ICXFileSystem.Mount
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Mount
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Unmount*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.Unmount
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_Unmount
+  name: Unmount
+  nameWithType: ICXFileSystem.Unmount
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Unmount
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Exists*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.Exists
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_Exists_System_String_
+  name: Exists
+  nameWithType: ICXFileSystem.Exists
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Exists
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Read*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.Read
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_Read_System_String_
+  name: Read
+  nameWithType: ICXFileSystem.Read
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Read
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: CXEX.Core.Interfaces.ICXFileSystem.Write*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.Write
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_Write_System_String_System_Byte___
+  name: Write
+  nameWithType: ICXFileSystem.Write
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.Write
+- uid: CXEX.Core.Interfaces.ICXFileSystem.List*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.List
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_List_System_String_
+  name: List
+  nameWithType: ICXFileSystem.List
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.List
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: CXEX.Core.Interfaces.ICXFileSystem.OpenFile*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFileSystem.OpenFile
+  href: CXEX.Core.Interfaces.ICXFileSystem.html#CXEX_Core_Interfaces_ICXFileSystem_OpenFile_System_String_
+  name: OpenFile
+  nameWithType: ICXFileSystem.OpenFile
+  fullName: CXEX.Core.Interfaces.ICXFileSystem.OpenFile
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io

@@ -1,0 +1,494 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Sema.Symbol
+  commentId: T:CXEX.Lang.Sema.Symbol
+  id: Symbol
+  parent: CXEX.Lang.Sema
+  children:
+  - CXEX.Lang.Sema.Symbol.Decl
+  - CXEX.Lang.Sema.Symbol.FrameOffset
+  - CXEX.Lang.Sema.Symbol.Kind
+  - CXEX.Lang.Sema.Symbol.Name
+  - CXEX.Lang.Sema.Symbol.Type
+  langs:
+  - csharp
+  - vb
+  name: Symbol
+  nameWithType: Symbol
+  fullName: CXEX.Lang.Sema.Symbol
+  type: Class
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Symbol
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 8
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public sealed class Symbol
+    content.vb: Public NotInheritable Class Symbol
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Lang.Sema.Symbol.Name
+  commentId: F:CXEX.Lang.Sema.Symbol.Name
+  id: Name
+  parent: CXEX.Lang.Sema.Symbol
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Symbol.Name
+  fullName: CXEX.Lang.Sema.Symbol.Name
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Name
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+- uid: CXEX.Lang.Sema.Symbol.Kind
+  commentId: F:CXEX.Lang.Sema.Symbol.Kind
+  id: Kind
+  parent: CXEX.Lang.Sema.Symbol
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: Symbol.Kind
+  fullName: CXEX.Lang.Sema.Symbol.Kind
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Kind
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 11
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public SymKind Kind
+    return:
+      type: CXEX.Lang.Sema.SymKind
+    content.vb: Public Kind As SymKind
+- uid: CXEX.Lang.Sema.Symbol.Type
+  commentId: F:CXEX.Lang.Sema.Symbol.Type
+  id: Type
+  parent: CXEX.Lang.Sema.Symbol
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: Symbol.Type
+  fullName: CXEX.Lang.Sema.Symbol.Type
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Type
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public TypeRef Type
+    return:
+      type: CXEX.Lang.Ast.TypeRef
+    content.vb: Public Type As TypeRef
+- uid: CXEX.Lang.Sema.Symbol.Decl
+  commentId: F:CXEX.Lang.Sema.Symbol.Decl
+  id: Decl
+  parent: CXEX.Lang.Sema.Symbol
+  langs:
+  - csharp
+  - vb
+  name: Decl
+  nameWithType: Symbol.Decl
+  fullName: CXEX.Lang.Sema.Symbol.Decl
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Decl
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public Decl? Decl
+    return:
+      type: CXEX.Lang.Ast.Decl
+    content.vb: Public Decl As Decl
+- uid: CXEX.Lang.Sema.Symbol.FrameOffset
+  commentId: F:CXEX.Lang.Sema.Symbol.FrameOffset
+  id: FrameOffset
+  parent: CXEX.Lang.Sema.Symbol
+  langs:
+  - csharp
+  - vb
+  name: FrameOffset
+  nameWithType: Symbol.FrameOffset
+  fullName: CXEX.Lang.Sema.Symbol.FrameOffset
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FrameOffset
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public int FrameOffset
+    return:
+      type: System.Int32
+    content.vb: Public FrameOffset As Integer
+references:
+- uid: CXEX.Lang.Sema
+  commentId: N:CXEX.Lang.Sema
+  href: CXEX.html
+  name: CXEX.Lang.Sema
+  nameWithType: CXEX.Lang.Sema
+  fullName: CXEX.Lang.Sema
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.Lang.Sema.SymKind
+  commentId: T:CXEX.Lang.Sema.SymKind
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.SymKind.html
+  name: SymKind
+  nameWithType: SymKind
+  fullName: CXEX.Lang.Sema.SymKind
+- uid: CXEX.Lang.Ast.TypeRef
+  commentId: T:CXEX.Lang.Ast.TypeRef
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.TypeRef.html
+  name: TypeRef
+  nameWithType: TypeRef
+  fullName: CXEX.Lang.Ast.TypeRef
+- uid: CXEX.Lang.Ast
+  commentId: N:CXEX.Lang.Ast
+  href: CXEX.html
+  name: CXEX.Lang.Ast
+  nameWithType: CXEX.Lang.Ast
+  fullName: CXEX.Lang.Ast
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+- uid: CXEX.Lang.Ast.Decl
+  commentId: T:CXEX.Lang.Ast.Decl
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.Decl.html
+  name: Decl
+  nameWithType: Decl
+  fullName: CXEX.Lang.Ast.Decl
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

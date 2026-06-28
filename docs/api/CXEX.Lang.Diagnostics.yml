@@ -1,0 +1,77 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Diagnostics
+  commentId: N:CXEX.Lang.Diagnostics
+  id: CXEX.Lang.Diagnostics
+  children:
+  - CXEX.Lang.Diagnostics.Diagnostic
+  - CXEX.Lang.Diagnostics.DiagnosticBag
+  - CXEX.Lang.Diagnostics.Severity
+  - CXEX.Lang.Diagnostics.SourceSpan
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Lang.Diagnostics
+  nameWithType: CXEX.Lang.Diagnostics
+  fullName: CXEX.Lang.Diagnostics
+  type: Namespace
+  assemblies:
+  - CXEX.Lang
+references:
+- uid: CXEX.Lang.Diagnostics.Severity
+  commentId: T:CXEX.Lang.Diagnostics.Severity
+  parent: CXEX.Lang.Diagnostics
+  href: CXEX.Lang.Diagnostics.Severity.html
+  name: Severity
+  nameWithType: Severity
+  fullName: CXEX.Lang.Diagnostics.Severity
+- uid: CXEX.Lang.Diagnostics.Diagnostic
+  commentId: T:CXEX.Lang.Diagnostics.Diagnostic
+  href: CXEX.Lang.Diagnostics.Diagnostic.html
+  name: Diagnostic
+  nameWithType: Diagnostic
+  fullName: CXEX.Lang.Diagnostics.Diagnostic
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag
+  commentId: T:CXEX.Lang.Diagnostics.DiagnosticBag
+  parent: CXEX.Lang.Diagnostics
+  href: CXEX.Lang.Diagnostics.DiagnosticBag.html
+  name: DiagnosticBag
+  nameWithType: DiagnosticBag
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag
+- uid: CXEX.Lang.Diagnostics.SourceSpan
+  commentId: T:CXEX.Lang.Diagnostics.SourceSpan
+  parent: CXEX.Lang.Diagnostics
+  href: CXEX.Lang.Diagnostics.SourceSpan.html
+  name: SourceSpan
+  nameWithType: SourceSpan
+  fullName: CXEX.Lang.Diagnostics.SourceSpan
+- uid: CXEX.Lang.Diagnostics
+  commentId: N:CXEX.Lang.Diagnostics
+  href: CXEX.html
+  name: CXEX.Lang.Diagnostics
+  nameWithType: CXEX.Lang.Diagnostics
+  fullName: CXEX.Lang.Diagnostics
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html

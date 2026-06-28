@@ -1,0 +1,951 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock
+  commentId: T:CXEX.FileSystem.Volume.CXFSSuperblock
+  id: CXFSSuperblock
+  parent: CXEX.FileSystem.Volume
+  children:
+  - CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba
+  - CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks
+  - CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart
+  - CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize
+  - CXEX.FileSystem.Volume.CXFSSuperblock.Created
+  - CXEX.FileSystem.Volume.CXFSSuperblock.DataStart
+  - CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize
+  - CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags
+  - CXEX.FileSystem.Volume.CXFSSuperblock.Magic
+  - CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks
+  - CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount
+  - CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart
+  - CXEX.FileSystem.Volume.CXFSSuperblock.Modified
+  - CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks
+  - CXEX.FileSystem.Volume.CXFSSuperblock.RootId
+  - CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks
+  - CXEX.FileSystem.Volume.CXFSSuperblock.Version
+  langs:
+  - csharp
+  - vb
+  name: CXFSSuperblock
+  nameWithType: CXFSSuperblock
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock
+  type: Class
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: CXFSSuperblock
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 4
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public class CXFSSuperblock
+    content.vb: Public Class CXFSSuperblock
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Magic
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.Magic
+  id: Magic
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: Magic
+  nameWithType: CXFSSuperblock.Magic
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Magic
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Magic
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 6
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint Magic { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Magic As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.Magic*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Version
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.Version
+  id: Version
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: CXFSSuperblock.Version
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Version
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Version
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 7
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ushort Version { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property Version As UShort
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.Version*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize
+  id: BlockSize
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: BlockSize
+  nameWithType: CXFSSuperblock.BlockSize
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BlockSize
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 8
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ushort BlockSize { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property BlockSize As UShort
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba
+  id: BaseLba
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: BaseLba
+  nameWithType: CXFSSuperblock.BaseLba
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BaseLba
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 9
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ulong BaseLba { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property BaseLba As ULong
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks
+  id: TotalBlocks
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: TotalBlocks
+  nameWithType: CXFSSuperblock.TotalBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: TotalBlocks
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 10
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint TotalBlocks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property TotalBlocks As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart
+  id: BitmapStart
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: BitmapStart
+  nameWithType: CXFSSuperblock.BitmapStart
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BitmapStart
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 11
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint BitmapStart { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property BitmapStart As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks
+  id: BitmapBlocks
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: BitmapBlocks
+  nameWithType: CXFSSuperblock.BitmapBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: BitmapBlocks
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 12
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint BitmapBlocks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property BitmapBlocks As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart
+  id: ManifestStart
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: ManifestStart
+  nameWithType: CXFSSuperblock.ManifestStart
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ManifestStart
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 13
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint ManifestStart { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ManifestStart As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks
+  id: ManifestBlocks
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: ManifestBlocks
+  nameWithType: CXFSSuperblock.ManifestBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ManifestBlocks
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 14
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint ManifestBlocks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ManifestBlocks As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount
+  id: ManifestCount
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: ManifestCount
+  nameWithType: CXFSSuperblock.ManifestCount
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ManifestCount
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 15
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint ManifestCount { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ManifestCount As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.DataStart
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.DataStart
+  id: DataStart
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: DataStart
+  nameWithType: CXFSSuperblock.DataStart
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.DataStart
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: DataStart
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 16
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint DataStart { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property DataStart As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.DataStart*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks
+  id: ReservedBlocks
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: ReservedBlocks
+  nameWithType: CXFSSuperblock.ReservedBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ReservedBlocks
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 17
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint ReservedBlocks { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ReservedBlocks As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.RootId
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.RootId
+  id: RootId
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: RootId
+  nameWithType: CXFSSuperblock.RootId
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.RootId
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: RootId
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 18
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint RootId { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property RootId As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.RootId*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags
+  id: FeatureFlags
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: FeatureFlags
+  nameWithType: CXFSSuperblock.FeatureFlags
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FeatureFlags
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 19
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint FeatureFlags { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property FeatureFlags As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Created
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.Created
+  id: Created
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: CXFSSuperblock.Created
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Created
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Created
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 20
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ulong Created { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property Created As ULong
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.Created*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Modified
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.Modified
+  id: Modified
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: Modified
+  nameWithType: CXFSSuperblock.Modified
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Modified
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Modified
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 21
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ulong Modified { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property Modified As ULong
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.Modified*
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize
+  commentId: P:CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize
+  id: EntrySize
+  parent: CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: EntrySize
+  nameWithType: CXFSSuperblock.EntrySize
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: EntrySize
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 22
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint EntrySize { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property EntrySize As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize*
+references:
+- uid: CXEX.FileSystem.Volume
+  commentId: N:CXEX.FileSystem.Volume
+  href: CXEX.html
+  name: CXEX.FileSystem.Volume
+  nameWithType: CXEX.FileSystem.Volume
+  fullName: CXEX.FileSystem.Volume
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileSystem
+    name: FileSystem
+    href: CXEX.FileSystem.html
+  - name: .
+  - uid: CXEX.FileSystem.Volume
+    name: Volume
+    href: CXEX.FileSystem.Volume.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileSystem
+    name: FileSystem
+    href: CXEX.FileSystem.html
+  - name: .
+  - uid: CXEX.FileSystem.Volume
+    name: Volume
+    href: CXEX.FileSystem.Volume.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Magic*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.Magic
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_Magic
+  name: Magic
+  nameWithType: CXFSSuperblock.Magic
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Magic
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Version*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.Version
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_Version
+  name: Version
+  nameWithType: CXFSSuperblock.Version
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Version
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_BlockSize
+  name: BlockSize
+  nameWithType: CXFSSuperblock.BlockSize
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BlockSize
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_BaseLba
+  name: BaseLba
+  nameWithType: CXFSSuperblock.BaseLba
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BaseLba
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_TotalBlocks
+  name: TotalBlocks
+  nameWithType: CXFSSuperblock.TotalBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.TotalBlocks
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_BitmapStart
+  name: BitmapStart
+  nameWithType: CXFSSuperblock.BitmapStart
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapStart
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_BitmapBlocks
+  name: BitmapBlocks
+  nameWithType: CXFSSuperblock.BitmapBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.BitmapBlocks
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_ManifestStart
+  name: ManifestStart
+  nameWithType: CXFSSuperblock.ManifestStart
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestStart
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_ManifestBlocks
+  name: ManifestBlocks
+  nameWithType: CXFSSuperblock.ManifestBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestBlocks
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_ManifestCount
+  name: ManifestCount
+  nameWithType: CXFSSuperblock.ManifestCount
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ManifestCount
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.DataStart*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.DataStart
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_DataStart
+  name: DataStart
+  nameWithType: CXFSSuperblock.DataStart
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.DataStart
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_ReservedBlocks
+  name: ReservedBlocks
+  nameWithType: CXFSSuperblock.ReservedBlocks
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.ReservedBlocks
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.RootId*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.RootId
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_RootId
+  name: RootId
+  nameWithType: CXFSSuperblock.RootId
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.RootId
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_FeatureFlags
+  name: FeatureFlags
+  nameWithType: CXFSSuperblock.FeatureFlags
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.FeatureFlags
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Created*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.Created
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_Created
+  name: Created
+  nameWithType: CXFSSuperblock.Created
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Created
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.Modified*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.Modified
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_Modified
+  name: Modified
+  nameWithType: CXFSSuperblock.Modified
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.Modified
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html#CXEX_FileSystem_Volume_CXFSSuperblock_EntrySize
+  name: EntrySize
+  nameWithType: CXFSSuperblock.EntrySize
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock.EntrySize

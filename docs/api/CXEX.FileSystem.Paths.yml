@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileSystem.Paths
+  commentId: N:CXEX.FileSystem.Paths
+  id: CXEX.FileSystem.Paths
+  children:
+  - CXEX.FileSystem.Paths.CXPath
+  langs:
+  - csharp
+  - vb
+  name: CXEX.FileSystem.Paths
+  nameWithType: CXEX.FileSystem.Paths
+  fullName: CXEX.FileSystem.Paths
+  type: Namespace
+  assemblies:
+  - CXEX.FileSystem
+references:
+- uid: CXEX.FileSystem.Paths.CXPath
+  commentId: T:CXEX.FileSystem.Paths.CXPath
+  href: CXEX.FileSystem.Paths.CXPath.html
+  name: CXPath
+  nameWithType: CXPath
+  fullName: CXEX.FileSystem.Paths.CXPath

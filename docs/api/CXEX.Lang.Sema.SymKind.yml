@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Sema.SymKind
+  commentId: T:CXEX.Lang.Sema.SymKind
+  id: SymKind
+  parent: CXEX.Lang.Sema
+  children:
+  - CXEX.Lang.Sema.SymKind.Const
+  - CXEX.Lang.Sema.SymKind.Function
+  - CXEX.Lang.Sema.SymKind.Global
+  - CXEX.Lang.Sema.SymKind.Local
+  - CXEX.Lang.Sema.SymKind.Param
+  - CXEX.Lang.Sema.SymKind.Struct
+  langs:
+  - csharp
+  - vb
+  name: SymKind
+  nameWithType: SymKind
+  fullName: CXEX.Lang.Sema.SymKind
+  type: Enum
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SymKind
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: public enum SymKind
+    content.vb: Public Enum SymKind
+- uid: CXEX.Lang.Sema.SymKind.Function
+  commentId: F:CXEX.Lang.Sema.SymKind.Function
+  id: Function
+  parent: CXEX.Lang.Sema.SymKind
+  langs:
+  - csharp
+  - vb
+  name: Function
+  nameWithType: SymKind.Function
+  fullName: CXEX.Lang.Sema.SymKind.Function
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Function
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: Function = 0
+    return:
+      type: CXEX.Lang.Sema.SymKind
+- uid: CXEX.Lang.Sema.SymKind.Struct
+  commentId: F:CXEX.Lang.Sema.SymKind.Struct
+  id: Struct
+  parent: CXEX.Lang.Sema.SymKind
+  langs:
+  - csharp
+  - vb
+  name: Struct
+  nameWithType: SymKind.Struct
+  fullName: CXEX.Lang.Sema.SymKind.Struct
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Struct
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: Struct = 1
+    return:
+      type: CXEX.Lang.Sema.SymKind
+- uid: CXEX.Lang.Sema.SymKind.Global
+  commentId: F:CXEX.Lang.Sema.SymKind.Global
+  id: Global
+  parent: CXEX.Lang.Sema.SymKind
+  langs:
+  - csharp
+  - vb
+  name: Global
+  nameWithType: SymKind.Global
+  fullName: CXEX.Lang.Sema.SymKind.Global
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Global
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: Global = 2
+    return:
+      type: CXEX.Lang.Sema.SymKind
+- uid: CXEX.Lang.Sema.SymKind.Const
+  commentId: F:CXEX.Lang.Sema.SymKind.Const
+  id: Const
+  parent: CXEX.Lang.Sema.SymKind
+  langs:
+  - csharp
+  - vb
+  name: Const
+  nameWithType: SymKind.Const
+  fullName: CXEX.Lang.Sema.SymKind.Const
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Const
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: Const = 3
+    return:
+      type: CXEX.Lang.Sema.SymKind
+- uid: CXEX.Lang.Sema.SymKind.Param
+  commentId: F:CXEX.Lang.Sema.SymKind.Param
+  id: Param
+  parent: CXEX.Lang.Sema.SymKind
+  langs:
+  - csharp
+  - vb
+  name: Param
+  nameWithType: SymKind.Param
+  fullName: CXEX.Lang.Sema.SymKind.Param
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Param
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: Param = 4
+    return:
+      type: CXEX.Lang.Sema.SymKind
+- uid: CXEX.Lang.Sema.SymKind.Local
+  commentId: F:CXEX.Lang.Sema.SymKind.Local
+  id: Local
+  parent: CXEX.Lang.Sema.SymKind
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: SymKind.Local
+  fullName: CXEX.Lang.Sema.SymKind.Local
+  type: Field
+  source:
+    remote:
+      path: CXEX.Lang/Sema/Resolver.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Local
+    path: ../CXEX.Lang/Sema/Resolver.cs
+    startLine: 6
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Sema
+  syntax:
+    content: Local = 5
+    return:
+      type: CXEX.Lang.Sema.SymKind
+references:
+- uid: CXEX.Lang.Sema
+  commentId: N:CXEX.Lang.Sema
+  href: CXEX.html
+  name: CXEX.Lang.Sema
+  nameWithType: CXEX.Lang.Sema
+  fullName: CXEX.Lang.Sema
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+- uid: CXEX.Lang.Sema.SymKind
+  commentId: T:CXEX.Lang.Sema.SymKind
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.SymKind.html
+  name: SymKind
+  nameWithType: SymKind
+  fullName: CXEX.Lang.Sema.SymKind

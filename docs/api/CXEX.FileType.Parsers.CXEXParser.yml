@@ -1,0 +1,653 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileType.Parsers.CXEXParser
+  commentId: T:CXEX.FileType.Parsers.CXEXParser
+  id: CXEXParser
+  parent: CXEX.FileType.Parsers
+  children:
+  - CXEX.FileType.Parsers.CXEXParser.HEADER_SIZE
+  - CXEX.FileType.Parsers.CXEXParser.ParseHeader(System.ReadOnlySpan{System.Byte})
+  - CXEX.FileType.Parsers.CXEXParser.ParseSection(System.ReadOnlySpan{System.Byte},System.Int32)
+  - CXEX.FileType.Parsers.CXEXParser.ParseSignature(System.ReadOnlySpan{System.Byte},System.UInt32)
+  - CXEX.FileType.Parsers.CXEXParser.SECTION_SIZE
+  - CXEX.FileType.Parsers.CXEXParser.SIG_HDR_SIZE
+  langs:
+  - csharp
+  - vb
+  name: CXEXParser
+  nameWithType: CXEXParser
+  fullName: CXEX.FileType.Parsers.CXEXParser
+  type: Class
+  source:
+    remote:
+      path: CXEX.FileType/Parsers/CXEXParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: CXEXParser
+    path: ../CXEX.FileType/Parsers/CXEXParser.cs
+    startLine: 8
+  assemblies:
+  - CXEX.FileType
+  namespace: CXEX.FileType.Parsers
+  syntax:
+    content: public static class CXEXParser
+    content.vb: Public Module CXEXParser
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.FileType.Parsers.CXEXParser.HEADER_SIZE
+  commentId: F:CXEX.FileType.Parsers.CXEXParser.HEADER_SIZE
+  id: HEADER_SIZE
+  parent: CXEX.FileType.Parsers.CXEXParser
+  langs:
+  - csharp
+  - vb
+  name: HEADER_SIZE
+  nameWithType: CXEXParser.HEADER_SIZE
+  fullName: CXEX.FileType.Parsers.CXEXParser.HEADER_SIZE
+  type: Field
+  source:
+    remote:
+      path: CXEX.FileType/Parsers/CXEXParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: HEADER_SIZE
+    path: ../CXEX.FileType/Parsers/CXEXParser.cs
+    startLine: 10
+  assemblies:
+  - CXEX.FileType
+  namespace: CXEX.FileType.Parsers
+  syntax:
+    content: public const int HEADER_SIZE = 56
+    return:
+      type: System.Int32
+    content.vb: Public Const HEADER_SIZE As Integer = 56
+- uid: CXEX.FileType.Parsers.CXEXParser.SECTION_SIZE
+  commentId: F:CXEX.FileType.Parsers.CXEXParser.SECTION_SIZE
+  id: SECTION_SIZE
+  parent: CXEX.FileType.Parsers.CXEXParser
+  langs:
+  - csharp
+  - vb
+  name: SECTION_SIZE
+  nameWithType: CXEXParser.SECTION_SIZE
+  fullName: CXEX.FileType.Parsers.CXEXParser.SECTION_SIZE
+  type: Field
+  source:
+    remote:
+      path: CXEX.FileType/Parsers/CXEXParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SECTION_SIZE
+    path: ../CXEX.FileType/Parsers/CXEXParser.cs
+    startLine: 11
+  assemblies:
+  - CXEX.FileType
+  namespace: CXEX.FileType.Parsers
+  syntax:
+    content: public const int SECTION_SIZE = 28
+    return:
+      type: System.Int32
+    content.vb: Public Const SECTION_SIZE As Integer = 28
+- uid: CXEX.FileType.Parsers.CXEXParser.SIG_HDR_SIZE
+  commentId: F:CXEX.FileType.Parsers.CXEXParser.SIG_HDR_SIZE
+  id: SIG_HDR_SIZE
+  parent: CXEX.FileType.Parsers.CXEXParser
+  langs:
+  - csharp
+  - vb
+  name: SIG_HDR_SIZE
+  nameWithType: CXEXParser.SIG_HDR_SIZE
+  fullName: CXEX.FileType.Parsers.CXEXParser.SIG_HDR_SIZE
+  type: Field
+  source:
+    remote:
+      path: CXEX.FileType/Parsers/CXEXParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: SIG_HDR_SIZE
+    path: ../CXEX.FileType/Parsers/CXEXParser.cs
+    startLine: 12
+  assemblies:
+  - CXEX.FileType
+  namespace: CXEX.FileType.Parsers
+  syntax:
+    content: public const int SIG_HDR_SIZE = 42
+    return:
+      type: System.Int32
+    content.vb: Public Const SIG_HDR_SIZE As Integer = 42
+- uid: CXEX.FileType.Parsers.CXEXParser.ParseHeader(System.ReadOnlySpan{System.Byte})
+  commentId: M:CXEX.FileType.Parsers.CXEXParser.ParseHeader(System.ReadOnlySpan{System.Byte})
+  id: ParseHeader(System.ReadOnlySpan{System.Byte})
+  parent: CXEX.FileType.Parsers.CXEXParser
+  langs:
+  - csharp
+  - vb
+  name: ParseHeader(ReadOnlySpan<byte>)
+  nameWithType: CXEXParser.ParseHeader(ReadOnlySpan<byte>)
+  fullName: CXEX.FileType.Parsers.CXEXParser.ParseHeader(System.ReadOnlySpan<byte>)
+  type: Method
+  source:
+    remote:
+      path: CXEX.FileType/Parsers/CXEXParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ParseHeader
+    path: ../CXEX.FileType/Parsers/CXEXParser.cs
+    startLine: 14
+  assemblies:
+  - CXEX.FileType
+  namespace: CXEX.FileType.Parsers
+  syntax:
+    content: public static CXEXHeader ParseHeader(ReadOnlySpan<byte> data)
+    parameters:
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    return:
+      type: CXEX.FileType.Structures.CXEXHeader
+    content.vb: Public Shared Function ParseHeader(data As ReadOnlySpan(Of Byte)) As CXEXHeader
+  overload: CXEX.FileType.Parsers.CXEXParser.ParseHeader*
+  nameWithType.vb: CXEXParser.ParseHeader(ReadOnlySpan(Of Byte))
+  fullName.vb: CXEX.FileType.Parsers.CXEXParser.ParseHeader(System.ReadOnlySpan(Of Byte))
+  name.vb: ParseHeader(ReadOnlySpan(Of Byte))
+- uid: CXEX.FileType.Parsers.CXEXParser.ParseSection(System.ReadOnlySpan{System.Byte},System.Int32)
+  commentId: M:CXEX.FileType.Parsers.CXEXParser.ParseSection(System.ReadOnlySpan{System.Byte},System.Int32)
+  id: ParseSection(System.ReadOnlySpan{System.Byte},System.Int32)
+  parent: CXEX.FileType.Parsers.CXEXParser
+  langs:
+  - csharp
+  - vb
+  name: ParseSection(ReadOnlySpan<byte>, int)
+  nameWithType: CXEXParser.ParseSection(ReadOnlySpan<byte>, int)
+  fullName: CXEX.FileType.Parsers.CXEXParser.ParseSection(System.ReadOnlySpan<byte>, int)
+  type: Method
+  source:
+    remote:
+      path: CXEX.FileType/Parsers/CXEXParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ParseSection
+    path: ../CXEX.FileType/Parsers/CXEXParser.cs
+    startLine: 43
+  assemblies:
+  - CXEX.FileType
+  namespace: CXEX.FileType.Parsers
+  syntax:
+    content: public static CXEXSection ParseSection(ReadOnlySpan<byte> data, int offset)
+    parameters:
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    - id: offset
+      type: System.Int32
+    return:
+      type: CXEX.FileType.Structures.CXEXSection
+    content.vb: Public Shared Function ParseSection(data As ReadOnlySpan(Of Byte), offset As Integer) As CXEXSection
+  overload: CXEX.FileType.Parsers.CXEXParser.ParseSection*
+  nameWithType.vb: CXEXParser.ParseSection(ReadOnlySpan(Of Byte), Integer)
+  fullName.vb: CXEX.FileType.Parsers.CXEXParser.ParseSection(System.ReadOnlySpan(Of Byte), Integer)
+  name.vb: ParseSection(ReadOnlySpan(Of Byte), Integer)
+- uid: CXEX.FileType.Parsers.CXEXParser.ParseSignature(System.ReadOnlySpan{System.Byte},System.UInt32)
+  commentId: M:CXEX.FileType.Parsers.CXEXParser.ParseSignature(System.ReadOnlySpan{System.Byte},System.UInt32)
+  id: ParseSignature(System.ReadOnlySpan{System.Byte},System.UInt32)
+  parent: CXEX.FileType.Parsers.CXEXParser
+  langs:
+  - csharp
+  - vb
+  name: ParseSignature(ReadOnlySpan<byte>, uint)
+  nameWithType: CXEXParser.ParseSignature(ReadOnlySpan<byte>, uint)
+  fullName: CXEX.FileType.Parsers.CXEXParser.ParseSignature(System.ReadOnlySpan<byte>, uint)
+  type: Method
+  source:
+    remote:
+      path: CXEX.FileType/Parsers/CXEXParser.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ParseSignature
+    path: ../CXEX.FileType/Parsers/CXEXParser.cs
+    startLine: 65
+  assemblies:
+  - CXEX.FileType
+  namespace: CXEX.FileType.Parsers
+  syntax:
+    content: public static CXEXSignatureBlock ParseSignature(ReadOnlySpan<byte> data, uint signatureOffset)
+    parameters:
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    - id: signatureOffset
+      type: System.UInt32
+    return:
+      type: CXEX.FileType.Structures.CXEXSignatureBlock
+    content.vb: Public Shared Function ParseSignature(data As ReadOnlySpan(Of Byte), signatureOffset As UInteger) As CXEXSignatureBlock
+  overload: CXEX.FileType.Parsers.CXEXParser.ParseSignature*
+  nameWithType.vb: CXEXParser.ParseSignature(ReadOnlySpan(Of Byte), UInteger)
+  fullName.vb: CXEX.FileType.Parsers.CXEXParser.ParseSignature(System.ReadOnlySpan(Of Byte), UInteger)
+  name.vb: ParseSignature(ReadOnlySpan(Of Byte), UInteger)
+references:
+- uid: CXEX.FileType.Parsers
+  commentId: N:CXEX.FileType.Parsers
+  href: CXEX.html
+  name: CXEX.FileType.Parsers
+  nameWithType: CXEX.FileType.Parsers
+  fullName: CXEX.FileType.Parsers
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Parsers
+    name: Parsers
+    href: CXEX.FileType.Parsers.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Parsers
+    name: Parsers
+    href: CXEX.FileType.Parsers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CXEX.FileType.Parsers.CXEXParser.ParseHeader*
+  commentId: Overload:CXEX.FileType.Parsers.CXEXParser.ParseHeader
+  href: CXEX.FileType.Parsers.CXEXParser.html#CXEX_FileType_Parsers_CXEXParser_ParseHeader_System_ReadOnlySpan_System_Byte__
+  name: ParseHeader
+  nameWithType: CXEXParser.ParseHeader
+  fullName: CXEX.FileType.Parsers.CXEXParser.ParseHeader
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: CXEX.FileType.Structures.CXEXHeader
+  commentId: T:CXEX.FileType.Structures.CXEXHeader
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.CXEXHeader.html
+  name: CXEXHeader
+  nameWithType: CXEXHeader
+  fullName: CXEX.FileType.Structures.CXEXHeader
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CXEX.FileType.Structures
+  commentId: N:CXEX.FileType.Structures
+  href: CXEX.html
+  name: CXEX.FileType.Structures
+  nameWithType: CXEX.FileType.Structures
+  fullName: CXEX.FileType.Structures
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Structures
+    name: Structures
+    href: CXEX.FileType.Structures.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Structures
+    name: Structures
+    href: CXEX.FileType.Structures.html
+- uid: CXEX.FileType.Parsers.CXEXParser.ParseSection*
+  commentId: Overload:CXEX.FileType.Parsers.CXEXParser.ParseSection
+  href: CXEX.FileType.Parsers.CXEXParser.html#CXEX_FileType_Parsers_CXEXParser_ParseSection_System_ReadOnlySpan_System_Byte__System_Int32_
+  name: ParseSection
+  nameWithType: CXEXParser.ParseSection
+  fullName: CXEX.FileType.Parsers.CXEXParser.ParseSection
+- uid: CXEX.FileType.Structures.CXEXSection
+  commentId: T:CXEX.FileType.Structures.CXEXSection
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.CXEXSection.html
+  name: CXEXSection
+  nameWithType: CXEXSection
+  fullName: CXEX.FileType.Structures.CXEXSection
+- uid: CXEX.FileType.Parsers.CXEXParser.ParseSignature*
+  commentId: Overload:CXEX.FileType.Parsers.CXEXParser.ParseSignature
+  href: CXEX.FileType.Parsers.CXEXParser.html#CXEX_FileType_Parsers_CXEXParser_ParseSignature_System_ReadOnlySpan_System_Byte__System_UInt32_
+  name: ParseSignature
+  nameWithType: CXEXParser.ParseSignature
+  fullName: CXEX.FileType.Parsers.CXEXParser.ParseSignature
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: CXEX.FileType.Structures.CXEXSignatureBlock
+  commentId: T:CXEX.FileType.Structures.CXEXSignatureBlock
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.CXEXSignatureBlock.html
+  name: CXEXSignatureBlock
+  nameWithType: CXEXSignatureBlock
+  fullName: CXEX.FileType.Structures.CXEXSignatureBlock

@@ -1,0 +1,2337 @@
+{
+  "source_base_path": "C:/Users/Aurora/source/repos/CXK_TOOLS/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Emitters.CXEXWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Emitters.CXEXWriter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Emitters.CXEXWriter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Emitters.StagedFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Emitters.StagedFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Emitters.StagedFile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Emitters.XBPTImageWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Emitters.XBPTImageWriter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Emitters.XBPTImageWriter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Emitters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Emitters.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Emitters",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Engines.CXEXLayoutEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Engines.CXEXLayoutEngine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Engines.CXEXLayoutEngine",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Engines.DiskGeometryEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Engines.DiskGeometryEngine.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Engines.DiskGeometryEngine",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Engines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Engines.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Engines",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Layout.CxexMemoryLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Layout.CxexMemoryLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Layout.CxexMemoryLayout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Layout.DiskGeometryMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Layout.DiskGeometryMap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Layout.DiskGeometryMap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Layout.PartitionLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Layout.PartitionLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Layout.PartitionLayout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Layout.SectionLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Layout.SectionLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Layout.SectionLayout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Layout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Layout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Layout",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Parsers.ElfParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Parsers.ElfParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Parsers.ElfParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Parsers.ElfSegment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Parsers.ElfSegment.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Parsers.ElfSegment",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Build.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Build.Parsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Build.Parsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.BuildCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.BuildCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.BuildCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.BuildCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.BuildCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.BuildCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.CheckCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.CheckCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.CheckCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.CheckCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.CheckCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.CheckCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.CompileCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.CompileCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.CompileCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.CompileCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.CompileCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.CompileCommand",
+      "Summary": "<p sourcefile=\"api/CXEX.CLI.Commands.CompileCommand.yml\" sourcestartlinenumber=\"1\">Compiles an X source file (.x) to an ELF, ready for <code sourcefile=\"api/CXEX.CLI.Commands.CompileCommand.yml\" sourcestartlinenumber=\"1\">cxk build</code> to package as\nCXEX. Pipeline: [abi.x prelude] + source -&gt; Lexer -&gt; Parser -&gt; Resolver -&gt;\nTypeChecker -&gt; X86Emitter (-&gt; .s) -&gt; i686-elf-gcc assemble -&gt; link @0x400000.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.EmbedCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.EmbedCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.EmbedCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.EmbedCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.EmbedCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.EmbedCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.ImageCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.ImageCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.ImageCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.ImageCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.ImageCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.ImageCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.InspectCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.InspectCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.InspectCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.InspectCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.InspectCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.InspectCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.KeygenCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.KeygenCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.KeygenCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.KeygenCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.KeygenCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.KeygenCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.RawImageCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.RawImageCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.RawImageCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.RawImageCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.RawImageCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.RawImageCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.RunCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.RunCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.RunCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.RunCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.RunCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.RunCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.SignCommand.Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.SignCommand.Settings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.SignCommand.Settings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.SignCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.SignCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands.SignCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Commands.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Commands",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Infrastructure.ProcessRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Infrastructure.ProcessRunner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Infrastructure.ProcessRunner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Infrastructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Infrastructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.BochsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.BochsConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers.BochsConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.BochsTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.BochsTool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers.BochsTool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.CMakeTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.CMakeTool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers.CMakeTool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.GccTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.GccTool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers.GccTool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.NasmTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.NasmTool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers.NasmTool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.QemuConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.QemuConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers.QemuConfig",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.QemuTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.QemuTool.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers.QemuTool",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.CLI.Wrappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.CLI.Wrappers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.CLI.Wrappers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Constants.CXFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Constants.CXFlags.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Constants.CXFlags",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Constants.CXMagic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Constants.CXMagic.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Constants.CXMagic",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Constants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Constants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Interfaces.ICXFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Interfaces.ICXFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Interfaces.ICXFile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Interfaces.ICXFileSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Interfaces.ICXFileSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Interfaces.ICXFileSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Interfaces.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Interfaces",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Utilities.MemoryPrimitives.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Utilities.MemoryPrimitives.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Utilities.MemoryPrimitives",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Core.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Core.Utilities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Core.Utilities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Crypto.Signing.CXSigner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Crypto.Signing.CXSigner.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Crypto.Signing.CXSigner",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Crypto.Signing.CXVerifier.VerifyResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Crypto.Signing.CXVerifier.VerifyResult.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Crypto.Signing.CXVerifier.VerifyResult",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Crypto.Signing.CXVerifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Crypto.Signing.CXVerifier.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Crypto.Signing.CXVerifier",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Crypto.Signing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Crypto.Signing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Crypto.Signing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Crypto.Trust.CXAuthChain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Crypto.Trust.CXAuthChain.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Crypto.Trust.CXAuthChain",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Crypto.Trust.CXKeyStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Crypto.Trust.CXKeyStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Crypto.Trust.CXKeyStore",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Crypto.Trust.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Crypto.Trust.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Crypto.Trust",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.DiskAnalyzer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.DiskAnalyzer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.DiskAnalyzer",
+      "Summary": "<p sourcefile=\"api/CXEX.Disk.DiskAnalyzer.yml\" sourcestartlinenumber=\"1\">Entry point: sniff a disk image's partition table and parse it. Reads only the\nfirst sectors (plus the GPT entry array) - never loads the whole image.\nDetection order: GPT (&quot;EFI PART&quot; @ LBA1) -&gt; XBPT (&quot;XBPT&quot; @ LBA1) -&gt; MBR (0x55AA @ 0x1FE).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Models.DiskLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Models.DiskLayout.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Models.DiskLayout",
+      "Summary": "<p sourcefile=\"api/CXEX.Disk.Models.DiskLayout.yml\" sourcestartlinenumber=\"1\">Parsed view of a disk image: which table, and its partitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Models.PartitionEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Models.PartitionEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Models.PartitionEntry",
+      "Summary": "<p sourcefile=\"api/CXEX.Disk.Models.PartitionEntry.yml\" sourcestartlinenumber=\"1\">One partition / region within a disk image.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Models.PartitionTableType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Models.PartitionTableType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Models.PartitionTableType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Parsers.GptParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Parsers.GptParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Parsers.GptParser",
+      "Summary": "<p sourcefile=\"api/CXEX.Disk.Parsers.GptParser.yml\" sourcestartlinenumber=\"1\">Parses a GPT header (LBA1) + its partition entry array.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Parsers.MbrParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Parsers.MbrParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Parsers.MbrParser",
+      "Summary": "<p sourcefile=\"api/CXEX.Disk.Parsers.MbrParser.yml\" sourcestartlinenumber=\"1\">Parses a classic MBR partition table (4 primary entries @ 0x1BE).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Parsers.XbptParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Parsers.XbptParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Parsers.XbptParser",
+      "Summary": "<p sourcefile=\"api/CXEX.Disk.Parsers.XbptParser.yml\" sourcestartlinenumber=\"1\">XBPT (X Boot Partition Table) reader. Matches CXEX.Build.XBPTImageWriter.\nHeader @ LBA1: magic &quot;XBPT&quot; (u32), version (u16@4), count (u16@6),\nentrySize (u16@8, =32), totalSectors (u64@12). Entries from @32, 32 bytes:\nStartLba u64, SectorCount u64, TypeCode u8@16, Flags u8@17, Label ASCII@20[12].</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.Parsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk.Parsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Disk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Disk.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Disk",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Mounts.CXFSFileSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Mounts.CXFSFileSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Mounts.CXFSFileSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Mounts.CXFSImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Mounts.CXFSImage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Mounts.CXFSImage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Mounts.CXMemoryFileSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Mounts.CXMemoryFileSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Mounts.CXMemoryFileSystem",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Mounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Mounts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Mounts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Paths.CXPath.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Paths.CXPath.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Paths.CXPath",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Paths.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Paths.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Paths",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Volume.CXFSConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Volume.CXFSConstants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Volume.CXFSConstants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Volume.CXFSEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Volume.CXFSEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Volume.CXFSEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Volume.CXFSParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Volume.CXFSParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Volume.CXFSParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Volume.CXFSSuperblock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Volume.CXFSSuperblock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Volume.CXFSSuperblock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileSystem.Volume.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileSystem.Volume.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileSystem.Volume",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Parsers.CXEXParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Parsers.CXEXParser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Parsers.CXEXParser",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Parsers.CXOtherParsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Parsers.CXOtherParsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Parsers.CXOtherParsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Parsers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Parsers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Parsers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Structures.CXEXHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Structures.CXEXHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Structures.CXEXHeader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Structures.CXEXSection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Structures.CXEXSection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Structures.CXEXSection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Structures.CXEXSignatureBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Structures.CXEXSignatureBlock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Structures.CXEXSignatureBlock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Structures.CXPKHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Structures.CXPKHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Structures.CXPKHeader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Structures.XBPTEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Structures.XBPTEntry.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Structures.XBPTEntry",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Structures.XBPTHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Structures.XBPTHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Structures.XBPTHeader",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Structures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Structures.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Structures",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Types.CXEXExecutable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Types.CXEXExecutable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Types.CXEXExecutable",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Types.XBPTFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Types.XBPTFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Types.XBPTFile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Types.XKPKFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Types.XKPKFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Types.XKPKFile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Types.XKSKFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Types.XKSKFile.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Types.XKSKFile",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.FileType.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.FileType.Types.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.FileType.Types",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Abi.AbiPrelude.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Abi.AbiPrelude.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Abi.AbiPrelude",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Abi.AbiPrelude.yml\" sourcestartlinenumber=\"1\">Generates the X prelude (abi.x) from the frozen CXK ABI (abi/cxk_abi.h): the\nSYS_* numbers, E_* error codes, the shared arg structs, and typed __syscall\nwrappers. Compiling against this keeps X programs in lockstep with the kernel -\none source of truth across kernel, C, .NET, and X. v0.1 emits the frozen v1\nvalues directly; a later version can parse cxk_abi.h to stay automatic.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Abi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Abi.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Abi",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.ArrayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.ArrayType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.ArrayType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.AssignStmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.AssignStmt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.AssignStmt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.BinOp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.BinOp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.BinOp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.BinaryExpr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.BinaryExpr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.BinaryExpr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.Block.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.Block",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.BoolLit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.BoolLit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.BoolLit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.CallExpr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.CallExpr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.CallExpr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.CastExpr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.CastExpr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.CastExpr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.CompilationUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.CompilationUnit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.CompilationUnit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.ConstDecl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.ConstDecl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.ConstDecl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.Decl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.Decl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.Decl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.Expr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.Expr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.Expr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.ExprStmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.ExprStmt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.ExprStmt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.FnDecl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.FnDecl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.FnDecl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.GlobalDecl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.GlobalDecl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.GlobalDecl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.IfStmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.IfStmt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.IfStmt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.IndexExpr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.IndexExpr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.IndexExpr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.IntLit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.IntLit.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.IntLit",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.LetStmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.LetStmt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.LetStmt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.MemberExpr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.MemberExpr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.MemberExpr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.NameExpr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.NameExpr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.NameExpr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.NamedType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.NamedType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.NamedType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.Node.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.Node",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.Param.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.Param.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.Param",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.PointerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.PointerType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.PointerType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.PrimKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.PrimKind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.PrimKind",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.PrimType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.PrimType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.PrimType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.ReturnStmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.ReturnStmt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.ReturnStmt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.Stmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.Stmt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.Stmt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.StructDecl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.StructDecl.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.StructDecl",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.TypeRef.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.TypeRef.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.TypeRef",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Ast.TypeRef.yml\" sourcestartlinenumber=\"1\">Static type references as written in source (resolved/checked in Sema).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.UnOp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.UnOp.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.UnOp",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.UnaryExpr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.UnaryExpr.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.UnaryExpr",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.WhileStmt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.WhileStmt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast.WhileStmt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Ast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Ast.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Ast",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.CodeGen.X86Emitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.CodeGen.X86Emitter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.CodeGen.X86Emitter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.CodeGen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.CodeGen.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.CodeGen",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Diagnostics.Diagnostic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Diagnostics.Diagnostic.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Diagnostics.Diagnostic",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Diagnostics.DiagnosticBag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Diagnostics.DiagnosticBag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Diagnostics.DiagnosticBag",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Diagnostics.DiagnosticBag.yml\" sourcestartlinenumber=\"1\">Collects diagnostics across a compile. HasErrors gates later phases.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Diagnostics.Severity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Diagnostics.Severity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Diagnostics.Severity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Diagnostics.SourceSpan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Diagnostics.SourceSpan.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Diagnostics.SourceSpan",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Diagnostics.SourceSpan.yml\" sourcestartlinenumber=\"1\">A half-open [Start,End) byte range in a source file, with line/col for messages.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Diagnostics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Diagnostics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Diagnostics",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Lexer.Lexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Lexer.Lexer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Lexer.Lexer",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Lexer.Lexer.yml\" sourcestartlinenumber=\"1\">X core v0.1 lexer. Single forward pass over UTF-8 source text, tracking line/col\nfor spans. Skips whitespace and // line + /* block */ comments. Reports lexical\nerrors into the bag but keeps going (emits an Error token and advances) so the\nparser can recover and surface multiple diagnostics.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Lexer.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Lexer.Token.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Lexer.Token",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Lexer.Token.yml\" sourcestartlinenumber=\"1\">A lexed token. Text is the exact source slice; for IntLiteral, Value holds the parsed number.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Lexer.TokenKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Lexer.TokenKind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Lexer.TokenKind",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Lexer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Lexer.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Lexer",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Parsing.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Parsing.Parser.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Parsing.Parser",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Parsing.Parser.yml\" sourcestartlinenumber=\"1\">Recursive-descent parser for X core v0.1. Expressions use precedence climbing.\nOn error it reports a diagnostic and synchronizes to the next ';' or '}' / top-\nlevel keyword, so one bad construct doesn't cascade. Returns a CompilationUnit\nregardless; callers check diag.HasErrors before proceeding to Sema.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Parsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Parsing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Parsing",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.ConstFold.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.ConstFold.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema.ConstFold",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Sema.ConstFold.yml\" sourcestartlinenumber=\"1\">Compile-time constant evaluation for X core v0.1: integer/bool literals, the\narithmetic/comparison/logical operators, unary neg/not, casts (value-preserving),\nand references to other consts. Used for const initializers, global initializers,\nand array lengths. Returns false (with a diagnostic) for anything not constant.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.Resolver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.Resolver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema.Resolver",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Sema.Resolver.yml\" sourcestartlinenumber=\"1\">Pass 1: collect top-level declarations, then resolve every name to a symbol,\ntracking lexical scopes for params/locals. Reports duplicates + undefined names.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.Scope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.Scope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema.Scope",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Sema.Scope.yml\" sourcestartlinenumber=\"1\">Lexical scope chain. Globals live at the root; functions push a child.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.SemaContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.SemaContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema.SemaContext",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Sema.SemaContext.yml\" sourcestartlinenumber=\"1\">Shared semantic state produced by the Resolver and consumed by the TypeChecker:\ntop-level symbols, struct decls by name, and per-NameExpr resolution.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.SymKind.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.SymKind.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema.SymKind",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.Symbol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.Symbol.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema.Symbol",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.TypeChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.TypeChecker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema.TypeChecker",
+      "Summary": "<p sourcefile=\"api/CXEX.Lang.Sema.TypeChecker.yml\" sourcestartlinenumber=\"1\">Pass 2: assign a type to every expression and check statements. v0.1 is\ndeliberately lenient on integer width (any int coerces to any int) so the\nlanguage is usable before a full numeric-conversion policy exists; pointers,\nbools, structs, and arrays are checked strictly. Records each expr's type in\nctx.Types for CodeGen. The __syscall intrinsic is the one effect primitive.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.Lang.Sema.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.Lang.Sema.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.Lang.Sema",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK.App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.ViewLocator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.ViewLocator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK.ViewLocator",
+      "Summary": "<p sourcefile=\"api/CXEX.SDK.ViewLocator.yml\" sourcestartlinenumber=\"1\">Given a view model, returns the corresponding view if possible.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.ViewModels.MainWindowViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.ViewModels.MainWindowViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK.ViewModels.MainWindowViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.ViewModels.ViewModelBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.ViewModels.ViewModelBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK.ViewModels.ViewModelBase",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.ViewModels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.ViewModels.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK.ViewModels",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.Views.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.Views.MainWindow.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK.Views.MainWindow",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.Views.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.Views.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK.Views",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CXEX.SDK.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CXEX.SDK.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CXEX.SDK",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

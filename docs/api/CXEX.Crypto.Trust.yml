@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Crypto.Trust
+  commentId: N:CXEX.Crypto.Trust
+  id: CXEX.Crypto.Trust
+  children:
+  - CXEX.Crypto.Trust.CXAuthChain
+  - CXEX.Crypto.Trust.CXKeyStore
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Crypto.Trust
+  nameWithType: CXEX.Crypto.Trust
+  fullName: CXEX.Crypto.Trust
+  type: Namespace
+  assemblies:
+  - CXEX.Crypto
+references:
+- uid: CXEX.Crypto.Trust.CXAuthChain
+  commentId: T:CXEX.Crypto.Trust.CXAuthChain
+  href: CXEX.Crypto.Trust.CXAuthChain.html
+  name: CXAuthChain
+  nameWithType: CXAuthChain
+  fullName: CXEX.Crypto.Trust.CXAuthChain
+- uid: CXEX.Crypto.Trust.CXKeyStore
+  commentId: T:CXEX.Crypto.Trust.CXKeyStore
+  parent: CXEX.Crypto.Trust
+  href: CXEX.Crypto.Trust.CXKeyStore.html
+  name: CXKeyStore
+  nameWithType: CXKeyStore
+  fullName: CXEX.Crypto.Trust.CXKeyStore
+- uid: CXEX.Crypto.Trust
+  commentId: N:CXEX.Crypto.Trust
+  href: CXEX.html
+  name: CXEX.Crypto.Trust
+  nameWithType: CXEX.Crypto.Trust
+  fullName: CXEX.Crypto.Trust
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Crypto
+    name: Crypto
+    href: CXEX.Crypto.html
+  - name: .
+  - uid: CXEX.Crypto.Trust
+    name: Trust
+    href: CXEX.Crypto.Trust.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Crypto
+    name: Crypto
+    href: CXEX.Crypto.html
+  - name: .
+  - uid: CXEX.Crypto.Trust
+    name: Trust
+    href: CXEX.Crypto.Trust.html

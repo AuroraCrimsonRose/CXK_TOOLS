@@ -1,0 +1,1115 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileSystem.Volume.CXFSEntry
+  commentId: T:CXEX.FileSystem.Volume.CXFSEntry
+  id: CXFSEntry
+  parent: CXEX.FileSystem.Volume
+  children:
+  - CXEX.FileSystem.Volume.CXFSEntry.Accessed
+  - CXEX.FileSystem.Volume.CXFSEntry.Created
+  - CXEX.FileSystem.Volume.CXFSEntry.ExtentLen
+  - CXEX.FileSystem.Volume.CXFSEntry.ExtentStart
+  - CXEX.FileSystem.Volume.CXFSEntry.Flags
+  - CXEX.FileSystem.Volume.CXFSEntry.GroupId
+  - CXEX.FileSystem.Volume.CXFSEntry.Id
+  - CXEX.FileSystem.Volume.CXFSEntry.IsDirectory
+  - CXEX.FileSystem.Volume.CXFSEntry.IsFile
+  - CXEX.FileSystem.Volume.CXFSEntry.IsFree
+  - CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid
+  - CXEX.FileSystem.Volume.CXFSEntry.LockState
+  - CXEX.FileSystem.Volume.CXFSEntry.Modified
+  - CXEX.FileSystem.Volume.CXFSEntry.Name
+  - CXEX.FileSystem.Volume.CXFSEntry.NameLen
+  - CXEX.FileSystem.Volume.CXFSEntry.OwnerUid
+  - CXEX.FileSystem.Volume.CXFSEntry.ParentId
+  - CXEX.FileSystem.Volume.CXFSEntry.Permissions
+  - CXEX.FileSystem.Volume.CXFSEntry.Size
+  - CXEX.FileSystem.Volume.CXFSEntry.Type
+  langs:
+  - csharp
+  - vb
+  name: CXFSEntry
+  nameWithType: CXFSEntry
+  fullName: CXEX.FileSystem.Volume.CXFSEntry
+  type: Class
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: CXFSEntry
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 25
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public class CXFSEntry
+    content.vb: Public Class CXFSEntry
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Id
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Id
+  id: Id
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CXFSEntry.Id
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Id
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Id
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 27
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint Id { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Id As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Id*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.ParentId
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.ParentId
+  id: ParentId
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: CXFSEntry.ParentId
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.ParentId
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ParentId
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 28
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ParentId As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSEntry.ParentId*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Type
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Type
+  id: Type
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: CXFSEntry.Type
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Type
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Type
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 29
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public byte Type { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property Type As Byte
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Type*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Flags
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Flags
+  id: Flags
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: CXFSEntry.Flags
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Flags
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Flags
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 30
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public byte Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property Flags As Byte
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Flags*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.NameLen
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.NameLen
+  id: NameLen
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: NameLen
+  nameWithType: CXFSEntry.NameLen
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.NameLen
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: NameLen
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 31
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public byte NameLen { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property NameLen As Byte
+  overload: CXEX.FileSystem.Volume.CXFSEntry.NameLen*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Name
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Name
+  id: Name
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CXFSEntry.Name
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Name
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Name
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 32
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Name*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Size
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Size
+  id: Size
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: CXFSEntry.Size
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Size
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Size
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 33
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ulong Size { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property Size As ULong
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Size*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.ExtentStart
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.ExtentStart
+  id: ExtentStart
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: ExtentStart
+  nameWithType: CXFSEntry.ExtentStart
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.ExtentStart
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ExtentStart
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 34
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint[] ExtentStart { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32[]
+    content.vb: Public Property ExtentStart As UInteger()
+  overload: CXEX.FileSystem.Volume.CXFSEntry.ExtentStart*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.ExtentLen
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.ExtentLen
+  id: ExtentLen
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: ExtentLen
+  nameWithType: CXFSEntry.ExtentLen
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.ExtentLen
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ExtentLen
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 35
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint[] ExtentLen { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32[]
+    content.vb: Public Property ExtentLen As UInteger()
+  overload: CXEX.FileSystem.Volume.CXFSEntry.ExtentLen*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.OwnerUid
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.OwnerUid
+  id: OwnerUid
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: OwnerUid
+  nameWithType: CXFSEntry.OwnerUid
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.OwnerUid
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: OwnerUid
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 36
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint OwnerUid { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property OwnerUid As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSEntry.OwnerUid*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.GroupId
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.GroupId
+  id: GroupId
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: CXFSEntry.GroupId
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.GroupId
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: GroupId
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 37
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint GroupId { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property GroupId As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSEntry.GroupId*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Permissions
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Permissions
+  id: Permissions
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Permissions
+  nameWithType: CXFSEntry.Permissions
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Permissions
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Permissions
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 38
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ushort Permissions { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property Permissions As UShort
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Permissions*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.LockState
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.LockState
+  id: LockState
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: LockState
+  nameWithType: CXFSEntry.LockState
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.LockState
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: LockState
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 39
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public byte LockState { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property LockState As Byte
+  overload: CXEX.FileSystem.Volume.CXFSEntry.LockState*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid
+  id: LockOwnerPid
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: LockOwnerPid
+  nameWithType: CXFSEntry.LockOwnerPid
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: LockOwnerPid
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 40
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public uint LockOwnerPid { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property LockOwnerPid As UInteger
+  overload: CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Created
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Created
+  id: Created
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: CXFSEntry.Created
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Created
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Created
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 41
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ulong Created { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property Created As ULong
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Created*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Modified
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Modified
+  id: Modified
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Modified
+  nameWithType: CXFSEntry.Modified
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Modified
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Modified
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 42
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ulong Modified { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property Modified As ULong
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Modified*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Accessed
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.Accessed
+  id: Accessed
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: Accessed
+  nameWithType: CXFSEntry.Accessed
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Accessed
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Accessed
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 43
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public ulong Accessed { get; set; }
+    parameters: []
+    return:
+      type: System.UInt64
+    content.vb: Public Property Accessed As ULong
+  overload: CXEX.FileSystem.Volume.CXFSEntry.Accessed*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.IsDirectory
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.IsDirectory
+  id: IsDirectory
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: IsDirectory
+  nameWithType: CXFSEntry.IsDirectory
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.IsDirectory
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: IsDirectory
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 45
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public bool IsDirectory { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDirectory As Boolean
+  overload: CXEX.FileSystem.Volume.CXFSEntry.IsDirectory*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.IsFile
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.IsFile
+  id: IsFile
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: IsFile
+  nameWithType: CXFSEntry.IsFile
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.IsFile
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: IsFile
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 46
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public bool IsFile { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFile As Boolean
+  overload: CXEX.FileSystem.Volume.CXFSEntry.IsFile*
+- uid: CXEX.FileSystem.Volume.CXFSEntry.IsFree
+  commentId: P:CXEX.FileSystem.Volume.CXFSEntry.IsFree
+  id: IsFree
+  parent: CXEX.FileSystem.Volume.CXFSEntry
+  langs:
+  - csharp
+  - vb
+  name: IsFree
+  nameWithType: CXFSEntry.IsFree
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.IsFree
+  type: Property
+  source:
+    remote:
+      path: CXEX.FileSystem/Volume/CXFSModels.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: IsFree
+    path: ../CXEX.FileSystem/Volume/CXFSModels.cs
+    startLine: 47
+  assemblies:
+  - CXEX.FileSystem
+  namespace: CXEX.FileSystem.Volume
+  syntax:
+    content: public bool IsFree { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsFree As Boolean
+  overload: CXEX.FileSystem.Volume.CXFSEntry.IsFree*
+references:
+- uid: CXEX.FileSystem.Volume
+  commentId: N:CXEX.FileSystem.Volume
+  href: CXEX.html
+  name: CXEX.FileSystem.Volume
+  nameWithType: CXEX.FileSystem.Volume
+  fullName: CXEX.FileSystem.Volume
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileSystem
+    name: FileSystem
+    href: CXEX.FileSystem.html
+  - name: .
+  - uid: CXEX.FileSystem.Volume
+    name: Volume
+    href: CXEX.FileSystem.Volume.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileSystem
+    name: FileSystem
+    href: CXEX.FileSystem.html
+  - name: .
+  - uid: CXEX.FileSystem.Volume
+    name: Volume
+    href: CXEX.FileSystem.Volume.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Id*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Id
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Id
+  name: Id
+  nameWithType: CXFSEntry.Id
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Id
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: CXEX.FileSystem.Volume.CXFSEntry.ParentId*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.ParentId
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_ParentId
+  name: ParentId
+  nameWithType: CXFSEntry.ParentId
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.ParentId
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Type*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Type
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Type
+  name: Type
+  nameWithType: CXFSEntry.Type
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Type
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte
+  nameWithType: byte
+  fullName: byte
+  nameWithType.vb: Byte
+  fullName.vb: Byte
+  name.vb: Byte
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Flags*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Flags
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Flags
+  name: Flags
+  nameWithType: CXFSEntry.Flags
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Flags
+- uid: CXEX.FileSystem.Volume.CXFSEntry.NameLen*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.NameLen
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_NameLen
+  name: NameLen
+  nameWithType: CXFSEntry.NameLen
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.NameLen
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Name*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Name
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Name
+  name: Name
+  nameWithType: CXFSEntry.Name
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Size*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Size
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Size
+  name: Size
+  nameWithType: CXFSEntry.Size
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Size
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: CXEX.FileSystem.Volume.CXFSEntry.ExtentStart*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.ExtentStart
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_ExtentStart
+  name: ExtentStart
+  nameWithType: CXFSEntry.ExtentStart
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.ExtentStart
+- uid: System.UInt32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint[]
+  nameWithType: uint[]
+  fullName: uint[]
+  nameWithType.vb: UInteger()
+  fullName.vb: UInteger()
+  name.vb: UInteger()
+  spec.csharp:
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: (
+  - name: )
+- uid: CXEX.FileSystem.Volume.CXFSEntry.ExtentLen*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.ExtentLen
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_ExtentLen
+  name: ExtentLen
+  nameWithType: CXFSEntry.ExtentLen
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.ExtentLen
+- uid: CXEX.FileSystem.Volume.CXFSEntry.OwnerUid*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.OwnerUid
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_OwnerUid
+  name: OwnerUid
+  nameWithType: CXFSEntry.OwnerUid
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.OwnerUid
+- uid: CXEX.FileSystem.Volume.CXFSEntry.GroupId*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.GroupId
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_GroupId
+  name: GroupId
+  nameWithType: CXFSEntry.GroupId
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.GroupId
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Permissions*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Permissions
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Permissions
+  name: Permissions
+  nameWithType: CXFSEntry.Permissions
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Permissions
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: CXEX.FileSystem.Volume.CXFSEntry.LockState*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.LockState
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_LockState
+  name: LockState
+  nameWithType: CXFSEntry.LockState
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.LockState
+- uid: CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_LockOwnerPid
+  name: LockOwnerPid
+  nameWithType: CXFSEntry.LockOwnerPid
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.LockOwnerPid
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Created*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Created
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Created
+  name: Created
+  nameWithType: CXFSEntry.Created
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Created
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Modified*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Modified
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Modified
+  name: Modified
+  nameWithType: CXFSEntry.Modified
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Modified
+- uid: CXEX.FileSystem.Volume.CXFSEntry.Accessed*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.Accessed
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_Accessed
+  name: Accessed
+  nameWithType: CXFSEntry.Accessed
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.Accessed
+- uid: CXEX.FileSystem.Volume.CXFSEntry.IsDirectory*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.IsDirectory
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_IsDirectory
+  name: IsDirectory
+  nameWithType: CXFSEntry.IsDirectory
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.IsDirectory
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CXEX.FileSystem.Volume.CXFSEntry.IsFile*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.IsFile
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_IsFile
+  name: IsFile
+  nameWithType: CXFSEntry.IsFile
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.IsFile
+- uid: CXEX.FileSystem.Volume.CXFSEntry.IsFree*
+  commentId: Overload:CXEX.FileSystem.Volume.CXFSEntry.IsFree
+  href: CXEX.FileSystem.Volume.CXFSEntry.html#CXEX_FileSystem_Volume_CXFSEntry_IsFree
+  name: IsFree
+  nameWithType: CXFSEntry.IsFree
+  fullName: CXEX.FileSystem.Volume.CXFSEntry.IsFree

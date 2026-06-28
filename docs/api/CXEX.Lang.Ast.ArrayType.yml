@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Ast.ArrayType
+  commentId: T:CXEX.Lang.Ast.ArrayType
+  id: ArrayType
+  parent: CXEX.Lang.Ast
+  children:
+  - CXEX.Lang.Ast.ArrayType.#ctor(CXEX.Lang.Ast.TypeRef,System.Int32)
+  - CXEX.Lang.Ast.ArrayType.Element
+  - CXEX.Lang.Ast.ArrayType.Length
+  langs:
+  - csharp
+  - vb
+  name: ArrayType
+  nameWithType: ArrayType
+  fullName: CXEX.Lang.Ast.ArrayType
+  type: Class
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ArrayType
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: 'public sealed record ArrayType : TypeRef, IEquatable<TypeRef>, IEquatable<ArrayType>'
+    content.vb: Public NotInheritable Class ArrayType Inherits TypeRef Implements IEquatable(Of TypeRef), IEquatable(Of ArrayType)
+  inheritance:
+  - System.Object
+  - CXEX.Lang.Ast.TypeRef
+  implements:
+  - System.IEquatable{CXEX.Lang.Ast.TypeRef}
+  - System.IEquatable{CXEX.Lang.Ast.ArrayType}
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Lang.Ast.ArrayType.#ctor(CXEX.Lang.Ast.TypeRef,System.Int32)
+  commentId: M:CXEX.Lang.Ast.ArrayType.#ctor(CXEX.Lang.Ast.TypeRef,System.Int32)
+  id: '#ctor(CXEX.Lang.Ast.TypeRef,System.Int32)'
+  parent: CXEX.Lang.Ast.ArrayType
+  langs:
+  - csharp
+  - vb
+  name: ArrayType(TypeRef, int)
+  nameWithType: ArrayType.ArrayType(TypeRef, int)
+  fullName: CXEX.Lang.Ast.ArrayType.ArrayType(CXEX.Lang.Ast.TypeRef, int)
+  type: Constructor
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: .ctor
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public ArrayType(TypeRef Element, int Length)
+    parameters:
+    - id: Element
+      type: CXEX.Lang.Ast.TypeRef
+    - id: Length
+      type: System.Int32
+    content.vb: Public Sub New(Element As TypeRef, Length As Integer)
+  overload: CXEX.Lang.Ast.ArrayType.#ctor*
+  nameWithType.vb: ArrayType.New(TypeRef, Integer)
+  fullName.vb: CXEX.Lang.Ast.ArrayType.New(CXEX.Lang.Ast.TypeRef, Integer)
+  name.vb: New(TypeRef, Integer)
+- uid: CXEX.Lang.Ast.ArrayType.Element
+  commentId: P:CXEX.Lang.Ast.ArrayType.Element
+  id: Element
+  parent: CXEX.Lang.Ast.ArrayType
+  langs:
+  - csharp
+  - vb
+  name: Element
+  nameWithType: ArrayType.Element
+  fullName: CXEX.Lang.Ast.ArrayType.Element
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Element
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public TypeRef Element { get; init; }
+    parameters: []
+    return:
+      type: CXEX.Lang.Ast.TypeRef
+    content.vb: Public Property Element As TypeRef
+  overload: CXEX.Lang.Ast.ArrayType.Element*
+- uid: CXEX.Lang.Ast.ArrayType.Length
+  commentId: P:CXEX.Lang.Ast.ArrayType.Length
+  id: Length
+  parent: CXEX.Lang.Ast.ArrayType
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: ArrayType.Length
+  fullName: CXEX.Lang.Ast.ArrayType.Length
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Types.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Length
+    path: ../CXEX.Lang/Ast/Types.cs
+    startLine: 9
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public int Length { get; init; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Length As Integer
+  overload: CXEX.Lang.Ast.ArrayType.Length*
+references:
+- uid: CXEX.Lang.Ast
+  commentId: N:CXEX.Lang.Ast
+  href: CXEX.html
+  name: CXEX.Lang.Ast
+  nameWithType: CXEX.Lang.Ast
+  fullName: CXEX.Lang.Ast
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CXEX.Lang.Ast.TypeRef
+  commentId: T:CXEX.Lang.Ast.TypeRef
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.TypeRef.html
+  name: TypeRef
+  nameWithType: TypeRef
+  fullName: CXEX.Lang.Ast.TypeRef
+- uid: System.IEquatable{CXEX.Lang.Ast.TypeRef}
+  commentId: T:System.IEquatable{CXEX.Lang.Ast.TypeRef}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<TypeRef>
+  nameWithType: IEquatable<TypeRef>
+  fullName: System.IEquatable<CXEX.Lang.Ast.TypeRef>
+  nameWithType.vb: IEquatable(Of TypeRef)
+  fullName.vb: System.IEquatable(Of CXEX.Lang.Ast.TypeRef)
+  name.vb: IEquatable(Of TypeRef)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: CXEX.Lang.Ast.TypeRef
+    name: TypeRef
+    href: CXEX.Lang.Ast.TypeRef.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.TypeRef
+    name: TypeRef
+    href: CXEX.Lang.Ast.TypeRef.html
+  - name: )
+- uid: System.IEquatable{CXEX.Lang.Ast.ArrayType}
+  commentId: T:System.IEquatable{CXEX.Lang.Ast.ArrayType}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<ArrayType>
+  nameWithType: IEquatable<ArrayType>
+  fullName: System.IEquatable<CXEX.Lang.Ast.ArrayType>
+  nameWithType.vb: IEquatable(Of ArrayType)
+  fullName.vb: System.IEquatable(Of CXEX.Lang.Ast.ArrayType)
+  name.vb: IEquatable(Of ArrayType)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: CXEX.Lang.Ast.ArrayType
+    name: ArrayType
+    href: CXEX.Lang.Ast.ArrayType.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.ArrayType
+    name: ArrayType
+    href: CXEX.Lang.Ast.ArrayType.html
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CXEX.Lang.Ast.ArrayType.#ctor*
+  commentId: Overload:CXEX.Lang.Ast.ArrayType.#ctor
+  href: CXEX.Lang.Ast.ArrayType.html#CXEX_Lang_Ast_ArrayType__ctor_CXEX_Lang_Ast_TypeRef_System_Int32_
+  name: ArrayType
+  nameWithType: ArrayType.ArrayType
+  fullName: CXEX.Lang.Ast.ArrayType.ArrayType
+  nameWithType.vb: ArrayType.New
+  fullName.vb: CXEX.Lang.Ast.ArrayType.New
+  name.vb: New
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: CXEX.Lang.Ast.ArrayType.Element*
+  commentId: Overload:CXEX.Lang.Ast.ArrayType.Element
+  href: CXEX.Lang.Ast.ArrayType.html#CXEX_Lang_Ast_ArrayType_Element
+  name: Element
+  nameWithType: ArrayType.Element
+  fullName: CXEX.Lang.Ast.ArrayType.Element
+- uid: CXEX.Lang.Ast.ArrayType.Length*
+  commentId: Overload:CXEX.Lang.Ast.ArrayType.Length
+  href: CXEX.Lang.Ast.ArrayType.html#CXEX_Lang_Ast_ArrayType_Length
+  name: Length
+  nameWithType: ArrayType.Length
+  fullName: CXEX.Lang.Ast.ArrayType.Length

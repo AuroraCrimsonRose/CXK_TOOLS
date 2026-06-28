@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Crypto.Signing
+  commentId: N:CXEX.Crypto.Signing
+  id: CXEX.Crypto.Signing
+  children:
+  - CXEX.Crypto.Signing.CXSigner
+  - CXEX.Crypto.Signing.CXVerifier
+  - CXEX.Crypto.Signing.CXVerifier.VerifyResult
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Crypto.Signing
+  nameWithType: CXEX.Crypto.Signing
+  fullName: CXEX.Crypto.Signing
+  type: Namespace
+  assemblies:
+  - CXEX.Crypto
+references:
+- uid: CXEX.Crypto.Signing.CXSigner
+  commentId: T:CXEX.Crypto.Signing.CXSigner
+  href: CXEX.Crypto.Signing.CXSigner.html
+  name: CXSigner
+  nameWithType: CXSigner
+  fullName: CXEX.Crypto.Signing.CXSigner
+- uid: CXEX.Crypto.Signing.CXVerifier
+  commentId: T:CXEX.Crypto.Signing.CXVerifier
+  href: CXEX.Crypto.Signing.CXVerifier.html
+  name: CXVerifier
+  nameWithType: CXVerifier
+  fullName: CXEX.Crypto.Signing.CXVerifier
+- uid: CXEX.Crypto.Signing.CXVerifier.VerifyResult
+  commentId: T:CXEX.Crypto.Signing.CXVerifier.VerifyResult
+  parent: CXEX.Crypto.Signing
+  href: CXEX.Crypto.Signing.CXVerifier.html
+  name: CXVerifier.VerifyResult
+  nameWithType: CXVerifier.VerifyResult
+  fullName: CXEX.Crypto.Signing.CXVerifier.VerifyResult
+  spec.csharp:
+  - uid: CXEX.Crypto.Signing.CXVerifier
+    name: CXVerifier
+    href: CXEX.Crypto.Signing.CXVerifier.html
+  - name: .
+  - uid: CXEX.Crypto.Signing.CXVerifier.VerifyResult
+    name: VerifyResult
+    href: CXEX.Crypto.Signing.CXVerifier.VerifyResult.html
+  spec.vb:
+  - uid: CXEX.Crypto.Signing.CXVerifier
+    name: CXVerifier
+    href: CXEX.Crypto.Signing.CXVerifier.html
+  - name: .
+  - uid: CXEX.Crypto.Signing.CXVerifier.VerifyResult
+    name: VerifyResult
+    href: CXEX.Crypto.Signing.CXVerifier.VerifyResult.html
+- uid: CXEX.Crypto.Signing
+  commentId: N:CXEX.Crypto.Signing
+  href: CXEX.html
+  name: CXEX.Crypto.Signing
+  nameWithType: CXEX.Crypto.Signing
+  fullName: CXEX.Crypto.Signing
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Crypto
+    name: Crypto
+    href: CXEX.Crypto.html
+  - name: .
+  - uid: CXEX.Crypto.Signing
+    name: Signing
+    href: CXEX.Crypto.Signing.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Crypto
+    name: Crypto
+    href: CXEX.Crypto.html
+  - name: .
+  - uid: CXEX.Crypto.Signing
+    name: Signing
+    href: CXEX.Crypto.Signing.html

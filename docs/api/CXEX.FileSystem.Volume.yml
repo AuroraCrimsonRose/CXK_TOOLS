@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileSystem.Volume
+  commentId: N:CXEX.FileSystem.Volume
+  id: CXEX.FileSystem.Volume
+  children:
+  - CXEX.FileSystem.Volume.CXFSConstants
+  - CXEX.FileSystem.Volume.CXFSEntry
+  - CXEX.FileSystem.Volume.CXFSParser
+  - CXEX.FileSystem.Volume.CXFSSuperblock
+  langs:
+  - csharp
+  - vb
+  name: CXEX.FileSystem.Volume
+  nameWithType: CXEX.FileSystem.Volume
+  fullName: CXEX.FileSystem.Volume
+  type: Namespace
+  assemblies:
+  - CXEX.FileSystem
+references:
+- uid: CXEX.FileSystem.Volume.CXFSConstants
+  commentId: T:CXEX.FileSystem.Volume.CXFSConstants
+  href: CXEX.FileSystem.Volume.CXFSConstants.html
+  name: CXFSConstants
+  nameWithType: CXFSConstants
+  fullName: CXEX.FileSystem.Volume.CXFSConstants
+- uid: CXEX.FileSystem.Volume.CXFSSuperblock
+  commentId: T:CXEX.FileSystem.Volume.CXFSSuperblock
+  parent: CXEX.FileSystem.Volume
+  href: CXEX.FileSystem.Volume.CXFSSuperblock.html
+  name: CXFSSuperblock
+  nameWithType: CXFSSuperblock
+  fullName: CXEX.FileSystem.Volume.CXFSSuperblock
+- uid: CXEX.FileSystem.Volume.CXFSEntry
+  commentId: T:CXEX.FileSystem.Volume.CXFSEntry
+  parent: CXEX.FileSystem.Volume
+  href: CXEX.FileSystem.Volume.CXFSEntry.html
+  name: CXFSEntry
+  nameWithType: CXFSEntry
+  fullName: CXEX.FileSystem.Volume.CXFSEntry
+- uid: CXEX.FileSystem.Volume.CXFSParser
+  commentId: T:CXEX.FileSystem.Volume.CXFSParser
+  href: CXEX.FileSystem.Volume.CXFSParser.html
+  name: CXFSParser
+  nameWithType: CXFSParser
+  fullName: CXEX.FileSystem.Volume.CXFSParser
+- uid: CXEX.FileSystem.Volume
+  commentId: N:CXEX.FileSystem.Volume
+  href: CXEX.html
+  name: CXEX.FileSystem.Volume
+  nameWithType: CXEX.FileSystem.Volume
+  fullName: CXEX.FileSystem.Volume
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileSystem
+    name: FileSystem
+    href: CXEX.FileSystem.html
+  - name: .
+  - uid: CXEX.FileSystem.Volume
+    name: Volume
+    href: CXEX.FileSystem.Volume.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileSystem
+    name: FileSystem
+    href: CXEX.FileSystem.html
+  - name: .
+  - uid: CXEX.FileSystem.Volume
+    name: Volume
+    href: CXEX.FileSystem.Volume.html

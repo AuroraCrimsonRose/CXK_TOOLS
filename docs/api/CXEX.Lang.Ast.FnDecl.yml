@@ -1,0 +1,751 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Ast.FnDecl
+  commentId: T:CXEX.Lang.Ast.FnDecl
+  id: FnDecl
+  parent: CXEX.Lang.Ast
+  children:
+  - CXEX.Lang.Ast.FnDecl.#ctor(System.String,System.Collections.Generic.List{CXEX.Lang.Ast.Param},CXEX.Lang.Ast.TypeRef,CXEX.Lang.Ast.Block)
+  - CXEX.Lang.Ast.FnDecl.Body
+  - CXEX.Lang.Ast.FnDecl.Name
+  - CXEX.Lang.Ast.FnDecl.Params
+  - CXEX.Lang.Ast.FnDecl.Return
+  langs:
+  - csharp
+  - vb
+  name: FnDecl
+  nameWithType: FnDecl
+  fullName: CXEX.Lang.Ast.FnDecl
+  type: Class
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: FnDecl
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: 'public sealed record FnDecl : Decl, IEquatable<Node>, IEquatable<Decl>, IEquatable<FnDecl>'
+    content.vb: Public NotInheritable Class FnDecl Inherits Decl Implements IEquatable(Of Node), IEquatable(Of Decl), IEquatable(Of FnDecl)
+  inheritance:
+  - System.Object
+  - CXEX.Lang.Ast.Node
+  - CXEX.Lang.Ast.Decl
+  implements:
+  - System.IEquatable{CXEX.Lang.Ast.Node}
+  - System.IEquatable{CXEX.Lang.Ast.Decl}
+  - System.IEquatable{CXEX.Lang.Ast.FnDecl}
+  inheritedMembers:
+  - CXEX.Lang.Ast.Node.Span
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Lang.Ast.FnDecl.#ctor(System.String,System.Collections.Generic.List{CXEX.Lang.Ast.Param},CXEX.Lang.Ast.TypeRef,CXEX.Lang.Ast.Block)
+  commentId: M:CXEX.Lang.Ast.FnDecl.#ctor(System.String,System.Collections.Generic.List{CXEX.Lang.Ast.Param},CXEX.Lang.Ast.TypeRef,CXEX.Lang.Ast.Block)
+  id: '#ctor(System.String,System.Collections.Generic.List{CXEX.Lang.Ast.Param},CXEX.Lang.Ast.TypeRef,CXEX.Lang.Ast.Block)'
+  parent: CXEX.Lang.Ast.FnDecl
+  langs:
+  - csharp
+  - vb
+  name: FnDecl(string, List<Param>, TypeRef, Block?)
+  nameWithType: FnDecl.FnDecl(string, List<Param>, TypeRef, Block?)
+  fullName: CXEX.Lang.Ast.FnDecl.FnDecl(string, System.Collections.Generic.List<CXEX.Lang.Ast.Param>, CXEX.Lang.Ast.TypeRef, CXEX.Lang.Ast.Block?)
+  type: Constructor
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: .ctor
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public FnDecl(string Name, List<Param> Params, TypeRef Return, Block? Body)
+    parameters:
+    - id: Name
+      type: System.String
+    - id: Params
+      type: System.Collections.Generic.List{CXEX.Lang.Ast.Param}
+    - id: Return
+      type: CXEX.Lang.Ast.TypeRef
+    - id: Body
+      type: CXEX.Lang.Ast.Block
+    content.vb: Public Sub New(Name As String, Params As List(Of Param), [Return] As TypeRef, Body As Block)
+  overload: CXEX.Lang.Ast.FnDecl.#ctor*
+  nameWithType.vb: FnDecl.New(String, List(Of Param), TypeRef, Block)
+  fullName.vb: CXEX.Lang.Ast.FnDecl.New(String, System.Collections.Generic.List(Of CXEX.Lang.Ast.Param), CXEX.Lang.Ast.TypeRef, CXEX.Lang.Ast.Block)
+  name.vb: New(String, List(Of Param), TypeRef, Block)
+- uid: CXEX.Lang.Ast.FnDecl.Name
+  commentId: P:CXEX.Lang.Ast.FnDecl.Name
+  id: Name
+  parent: CXEX.Lang.Ast.FnDecl
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FnDecl.Name
+  fullName: CXEX.Lang.Ast.FnDecl.Name
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Name
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public string Name { get; init; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: CXEX.Lang.Ast.FnDecl.Name*
+- uid: CXEX.Lang.Ast.FnDecl.Params
+  commentId: P:CXEX.Lang.Ast.FnDecl.Params
+  id: Params
+  parent: CXEX.Lang.Ast.FnDecl
+  langs:
+  - csharp
+  - vb
+  name: Params
+  nameWithType: FnDecl.Params
+  fullName: CXEX.Lang.Ast.FnDecl.Params
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Params
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public List<Param> Params { get; init; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{CXEX.Lang.Ast.Param}
+    content.vb: Public Property Params As List(Of Param)
+  overload: CXEX.Lang.Ast.FnDecl.Params*
+- uid: CXEX.Lang.Ast.FnDecl.Return
+  commentId: P:CXEX.Lang.Ast.FnDecl.Return
+  id: Return
+  parent: CXEX.Lang.Ast.FnDecl
+  langs:
+  - csharp
+  - vb
+  name: Return
+  nameWithType: FnDecl.Return
+  fullName: CXEX.Lang.Ast.FnDecl.Return
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Return
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public TypeRef Return { get; init; }
+    parameters: []
+    return:
+      type: CXEX.Lang.Ast.TypeRef
+    content.vb: Public Property [Return] As TypeRef
+  overload: CXEX.Lang.Ast.FnDecl.Return*
+- uid: CXEX.Lang.Ast.FnDecl.Body
+  commentId: P:CXEX.Lang.Ast.FnDecl.Body
+  id: Body
+  parent: CXEX.Lang.Ast.FnDecl
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: FnDecl.Body
+  fullName: CXEX.Lang.Ast.FnDecl.Body
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Ast/Nodes.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Body
+    path: ../CXEX.Lang/Ast/Nodes.cs
+    startLine: 14
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Ast
+  syntax:
+    content: public Block? Body { get; init; }
+    parameters: []
+    return:
+      type: CXEX.Lang.Ast.Block
+    content.vb: Public Property Body As Block
+  overload: CXEX.Lang.Ast.FnDecl.Body*
+references:
+- uid: CXEX.Lang.Ast
+  commentId: N:CXEX.Lang.Ast
+  href: CXEX.html
+  name: CXEX.Lang.Ast
+  nameWithType: CXEX.Lang.Ast
+  fullName: CXEX.Lang.Ast
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Ast
+    name: Ast
+    href: CXEX.Lang.Ast.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: CXEX.Lang.Ast.Node
+  commentId: T:CXEX.Lang.Ast.Node
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.Node.html
+  name: Node
+  nameWithType: Node
+  fullName: CXEX.Lang.Ast.Node
+- uid: CXEX.Lang.Ast.Decl
+  commentId: T:CXEX.Lang.Ast.Decl
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.Decl.html
+  name: Decl
+  nameWithType: Decl
+  fullName: CXEX.Lang.Ast.Decl
+- uid: System.IEquatable{CXEX.Lang.Ast.Node}
+  commentId: T:System.IEquatable{CXEX.Lang.Ast.Node}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Node>
+  nameWithType: IEquatable<Node>
+  fullName: System.IEquatable<CXEX.Lang.Ast.Node>
+  nameWithType.vb: IEquatable(Of Node)
+  fullName.vb: System.IEquatable(Of CXEX.Lang.Ast.Node)
+  name.vb: IEquatable(Of Node)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: CXEX.Lang.Ast.Node
+    name: Node
+    href: CXEX.Lang.Ast.Node.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.Node
+    name: Node
+    href: CXEX.Lang.Ast.Node.html
+  - name: )
+- uid: System.IEquatable{CXEX.Lang.Ast.Decl}
+  commentId: T:System.IEquatable{CXEX.Lang.Ast.Decl}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<Decl>
+  nameWithType: IEquatable<Decl>
+  fullName: System.IEquatable<CXEX.Lang.Ast.Decl>
+  nameWithType.vb: IEquatable(Of Decl)
+  fullName.vb: System.IEquatable(Of CXEX.Lang.Ast.Decl)
+  name.vb: IEquatable(Of Decl)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: CXEX.Lang.Ast.Decl
+    name: Decl
+    href: CXEX.Lang.Ast.Decl.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.Decl
+    name: Decl
+    href: CXEX.Lang.Ast.Decl.html
+  - name: )
+- uid: System.IEquatable{CXEX.Lang.Ast.FnDecl}
+  commentId: T:System.IEquatable{CXEX.Lang.Ast.FnDecl}
+  parent: System
+  definition: System.IEquatable`1
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<FnDecl>
+  nameWithType: IEquatable<FnDecl>
+  fullName: System.IEquatable<CXEX.Lang.Ast.FnDecl>
+  nameWithType.vb: IEquatable(Of FnDecl)
+  fullName.vb: System.IEquatable(Of CXEX.Lang.Ast.FnDecl)
+  name.vb: IEquatable(Of FnDecl)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - uid: CXEX.Lang.Ast.FnDecl
+    name: FnDecl
+    href: CXEX.Lang.Ast.FnDecl.html
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.FnDecl
+    name: FnDecl
+    href: CXEX.Lang.Ast.FnDecl.html
+  - name: )
+- uid: CXEX.Lang.Ast.Node.Span
+  commentId: P:CXEX.Lang.Ast.Node.Span
+  parent: CXEX.Lang.Ast.Node
+  href: CXEX.Lang.Ast.Node.html#CXEX_Lang_Ast_Node_Span
+  name: Span
+  nameWithType: Node.Span
+  fullName: CXEX.Lang.Ast.Node.Span
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IEquatable`1
+  commentId: T:System.IEquatable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  name: IEquatable<T>
+  nameWithType: IEquatable<T>
+  fullName: System.IEquatable<T>
+  nameWithType.vb: IEquatable(Of T)
+  fullName.vb: System.IEquatable(Of T)
+  name.vb: IEquatable(Of T)
+  spec.csharp:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.IEquatable`1
+    name: IEquatable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.iequatable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CXEX.Lang.Ast.FnDecl.#ctor*
+  commentId: Overload:CXEX.Lang.Ast.FnDecl.#ctor
+  href: CXEX.Lang.Ast.FnDecl.html#CXEX_Lang_Ast_FnDecl__ctor_System_String_System_Collections_Generic_List_CXEX_Lang_Ast_Param__CXEX_Lang_Ast_TypeRef_CXEX_Lang_Ast_Block_
+  name: FnDecl
+  nameWithType: FnDecl.FnDecl
+  fullName: CXEX.Lang.Ast.FnDecl.FnDecl
+  nameWithType.vb: FnDecl.New
+  fullName.vb: CXEX.Lang.Ast.FnDecl.New
+  name.vb: New
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.List{CXEX.Lang.Ast.Param}
+  commentId: T:System.Collections.Generic.List{CXEX.Lang.Ast.Param}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Param>
+  nameWithType: List<Param>
+  fullName: System.Collections.Generic.List<CXEX.Lang.Ast.Param>
+  nameWithType.vb: List(Of Param)
+  fullName.vb: System.Collections.Generic.List(Of CXEX.Lang.Ast.Param)
+  name.vb: List(Of Param)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: CXEX.Lang.Ast.Param
+    name: Param
+    href: CXEX.Lang.Ast.Param.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Ast.Param
+    name: Param
+    href: CXEX.Lang.Ast.Param.html
+  - name: )
+- uid: CXEX.Lang.Ast.TypeRef
+  commentId: T:CXEX.Lang.Ast.TypeRef
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.TypeRef.html
+  name: TypeRef
+  nameWithType: TypeRef
+  fullName: CXEX.Lang.Ast.TypeRef
+- uid: CXEX.Lang.Ast.Block
+  commentId: T:CXEX.Lang.Ast.Block
+  parent: CXEX.Lang.Ast
+  href: CXEX.Lang.Ast.Block.html
+  name: Block
+  nameWithType: Block
+  fullName: CXEX.Lang.Ast.Block
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: CXEX.Lang.Ast.FnDecl.Name*
+  commentId: Overload:CXEX.Lang.Ast.FnDecl.Name
+  href: CXEX.Lang.Ast.FnDecl.html#CXEX_Lang_Ast_FnDecl_Name
+  name: Name
+  nameWithType: FnDecl.Name
+  fullName: CXEX.Lang.Ast.FnDecl.Name
+- uid: CXEX.Lang.Ast.FnDecl.Params*
+  commentId: Overload:CXEX.Lang.Ast.FnDecl.Params
+  href: CXEX.Lang.Ast.FnDecl.html#CXEX_Lang_Ast_FnDecl_Params
+  name: Params
+  nameWithType: FnDecl.Params
+  fullName: CXEX.Lang.Ast.FnDecl.Params
+- uid: CXEX.Lang.Ast.FnDecl.Return*
+  commentId: Overload:CXEX.Lang.Ast.FnDecl.Return
+  href: CXEX.Lang.Ast.FnDecl.html#CXEX_Lang_Ast_FnDecl_Return
+  name: Return
+  nameWithType: FnDecl.Return
+  fullName: CXEX.Lang.Ast.FnDecl.Return
+- uid: CXEX.Lang.Ast.FnDecl.Body*
+  commentId: Overload:CXEX.Lang.Ast.FnDecl.Body
+  href: CXEX.Lang.Ast.FnDecl.html#CXEX_Lang_Ast_FnDecl_Body
+  name: Body
+  nameWithType: FnDecl.Body
+  fullName: CXEX.Lang.Ast.FnDecl.Body

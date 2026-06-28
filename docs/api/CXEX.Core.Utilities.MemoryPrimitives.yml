@@ -1,0 +1,734 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Core.Utilities.MemoryPrimitives
+  commentId: T:CXEX.Core.Utilities.MemoryPrimitives
+  id: MemoryPrimitives
+  parent: CXEX.Core.Utilities
+  children:
+  - CXEX.Core.Utilities.MemoryPrimitives.ReadU16(System.ReadOnlySpan{System.Byte},System.Int32)
+  - CXEX.Core.Utilities.MemoryPrimitives.ReadU32(System.ReadOnlySpan{System.Byte},System.Int32)
+  - CXEX.Core.Utilities.MemoryPrimitives.ReadU64(System.ReadOnlySpan{System.Byte},System.Int32)
+  - CXEX.Core.Utilities.MemoryPrimitives.WriteU16(System.Span{System.Byte},System.Int32,System.UInt16)
+  - CXEX.Core.Utilities.MemoryPrimitives.WriteU32(System.Span{System.Byte},System.Int32,System.UInt32)
+  - CXEX.Core.Utilities.MemoryPrimitives.WriteU64(System.Span{System.Byte},System.Int32,System.UInt64)
+  langs:
+  - csharp
+  - vb
+  name: MemoryPrimitives
+  nameWithType: MemoryPrimitives
+  fullName: CXEX.Core.Utilities.MemoryPrimitives
+  type: Class
+  source:
+    remote:
+      path: CXEX.Core/Utilities/MemoryPrimitives.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: MemoryPrimitives
+    path: ../CXEX.Core/Utilities/MemoryPrimitives.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Utilities
+  syntax:
+    content: public static class MemoryPrimitives
+    content.vb: Public Module MemoryPrimitives
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Core.Utilities.MemoryPrimitives.ReadU16(System.ReadOnlySpan{System.Byte},System.Int32)
+  commentId: M:CXEX.Core.Utilities.MemoryPrimitives.ReadU16(System.ReadOnlySpan{System.Byte},System.Int32)
+  id: ReadU16(System.ReadOnlySpan{System.Byte},System.Int32)
+  parent: CXEX.Core.Utilities.MemoryPrimitives
+  langs:
+  - csharp
+  - vb
+  name: ReadU16(ReadOnlySpan<byte>, int)
+  nameWithType: MemoryPrimitives.ReadU16(ReadOnlySpan<byte>, int)
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.ReadU16(System.ReadOnlySpan<byte>, int)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Utilities/MemoryPrimitives.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ReadU16
+    path: ../CXEX.Core/Utilities/MemoryPrimitives.cs
+    startLine: 7
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Utilities
+  syntax:
+    content: public static ushort ReadU16(ReadOnlySpan<byte> data, int offset)
+    parameters:
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.UInt16
+    content.vb: Public Shared Function ReadU16(data As ReadOnlySpan(Of Byte), offset As Integer) As UShort
+  overload: CXEX.Core.Utilities.MemoryPrimitives.ReadU16*
+  nameWithType.vb: MemoryPrimitives.ReadU16(ReadOnlySpan(Of Byte), Integer)
+  fullName.vb: CXEX.Core.Utilities.MemoryPrimitives.ReadU16(System.ReadOnlySpan(Of Byte), Integer)
+  name.vb: ReadU16(ReadOnlySpan(Of Byte), Integer)
+- uid: CXEX.Core.Utilities.MemoryPrimitives.ReadU32(System.ReadOnlySpan{System.Byte},System.Int32)
+  commentId: M:CXEX.Core.Utilities.MemoryPrimitives.ReadU32(System.ReadOnlySpan{System.Byte},System.Int32)
+  id: ReadU32(System.ReadOnlySpan{System.Byte},System.Int32)
+  parent: CXEX.Core.Utilities.MemoryPrimitives
+  langs:
+  - csharp
+  - vb
+  name: ReadU32(ReadOnlySpan<byte>, int)
+  nameWithType: MemoryPrimitives.ReadU32(ReadOnlySpan<byte>, int)
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.ReadU32(System.ReadOnlySpan<byte>, int)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Utilities/MemoryPrimitives.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ReadU32
+    path: ../CXEX.Core/Utilities/MemoryPrimitives.cs
+    startLine: 10
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Utilities
+  syntax:
+    content: public static uint ReadU32(ReadOnlySpan<byte> data, int offset)
+    parameters:
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.UInt32
+    content.vb: Public Shared Function ReadU32(data As ReadOnlySpan(Of Byte), offset As Integer) As UInteger
+  overload: CXEX.Core.Utilities.MemoryPrimitives.ReadU32*
+  nameWithType.vb: MemoryPrimitives.ReadU32(ReadOnlySpan(Of Byte), Integer)
+  fullName.vb: CXEX.Core.Utilities.MemoryPrimitives.ReadU32(System.ReadOnlySpan(Of Byte), Integer)
+  name.vb: ReadU32(ReadOnlySpan(Of Byte), Integer)
+- uid: CXEX.Core.Utilities.MemoryPrimitives.ReadU64(System.ReadOnlySpan{System.Byte},System.Int32)
+  commentId: M:CXEX.Core.Utilities.MemoryPrimitives.ReadU64(System.ReadOnlySpan{System.Byte},System.Int32)
+  id: ReadU64(System.ReadOnlySpan{System.Byte},System.Int32)
+  parent: CXEX.Core.Utilities.MemoryPrimitives
+  langs:
+  - csharp
+  - vb
+  name: ReadU64(ReadOnlySpan<byte>, int)
+  nameWithType: MemoryPrimitives.ReadU64(ReadOnlySpan<byte>, int)
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.ReadU64(System.ReadOnlySpan<byte>, int)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Utilities/MemoryPrimitives.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ReadU64
+    path: ../CXEX.Core/Utilities/MemoryPrimitives.cs
+    startLine: 13
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Utilities
+  syntax:
+    content: public static ulong ReadU64(ReadOnlySpan<byte> data, int offset)
+    parameters:
+    - id: data
+      type: System.ReadOnlySpan{System.Byte}
+    - id: offset
+      type: System.Int32
+    return:
+      type: System.UInt64
+    content.vb: Public Shared Function ReadU64(data As ReadOnlySpan(Of Byte), offset As Integer) As ULong
+  overload: CXEX.Core.Utilities.MemoryPrimitives.ReadU64*
+  nameWithType.vb: MemoryPrimitives.ReadU64(ReadOnlySpan(Of Byte), Integer)
+  fullName.vb: CXEX.Core.Utilities.MemoryPrimitives.ReadU64(System.ReadOnlySpan(Of Byte), Integer)
+  name.vb: ReadU64(ReadOnlySpan(Of Byte), Integer)
+- uid: CXEX.Core.Utilities.MemoryPrimitives.WriteU16(System.Span{System.Byte},System.Int32,System.UInt16)
+  commentId: M:CXEX.Core.Utilities.MemoryPrimitives.WriteU16(System.Span{System.Byte},System.Int32,System.UInt16)
+  id: WriteU16(System.Span{System.Byte},System.Int32,System.UInt16)
+  parent: CXEX.Core.Utilities.MemoryPrimitives
+  langs:
+  - csharp
+  - vb
+  name: WriteU16(Span<byte>, int, ushort)
+  nameWithType: MemoryPrimitives.WriteU16(Span<byte>, int, ushort)
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.WriteU16(System.Span<byte>, int, ushort)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Utilities/MemoryPrimitives.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: WriteU16
+    path: ../CXEX.Core/Utilities/MemoryPrimitives.cs
+    startLine: 16
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Utilities
+  syntax:
+    content: public static void WriteU16(Span<byte> data, int offset, ushort value)
+    parameters:
+    - id: data
+      type: System.Span{System.Byte}
+    - id: offset
+      type: System.Int32
+    - id: value
+      type: System.UInt16
+    content.vb: Public Shared Sub WriteU16(data As Span(Of Byte), offset As Integer, value As UShort)
+  overload: CXEX.Core.Utilities.MemoryPrimitives.WriteU16*
+  nameWithType.vb: MemoryPrimitives.WriteU16(Span(Of Byte), Integer, UShort)
+  fullName.vb: CXEX.Core.Utilities.MemoryPrimitives.WriteU16(System.Span(Of Byte), Integer, UShort)
+  name.vb: WriteU16(Span(Of Byte), Integer, UShort)
+- uid: CXEX.Core.Utilities.MemoryPrimitives.WriteU32(System.Span{System.Byte},System.Int32,System.UInt32)
+  commentId: M:CXEX.Core.Utilities.MemoryPrimitives.WriteU32(System.Span{System.Byte},System.Int32,System.UInt32)
+  id: WriteU32(System.Span{System.Byte},System.Int32,System.UInt32)
+  parent: CXEX.Core.Utilities.MemoryPrimitives
+  langs:
+  - csharp
+  - vb
+  name: WriteU32(Span<byte>, int, uint)
+  nameWithType: MemoryPrimitives.WriteU32(Span<byte>, int, uint)
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.WriteU32(System.Span<byte>, int, uint)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Utilities/MemoryPrimitives.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: WriteU32
+    path: ../CXEX.Core/Utilities/MemoryPrimitives.cs
+    startLine: 19
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Utilities
+  syntax:
+    content: public static void WriteU32(Span<byte> data, int offset, uint value)
+    parameters:
+    - id: data
+      type: System.Span{System.Byte}
+    - id: offset
+      type: System.Int32
+    - id: value
+      type: System.UInt32
+    content.vb: Public Shared Sub WriteU32(data As Span(Of Byte), offset As Integer, value As UInteger)
+  overload: CXEX.Core.Utilities.MemoryPrimitives.WriteU32*
+  nameWithType.vb: MemoryPrimitives.WriteU32(Span(Of Byte), Integer, UInteger)
+  fullName.vb: CXEX.Core.Utilities.MemoryPrimitives.WriteU32(System.Span(Of Byte), Integer, UInteger)
+  name.vb: WriteU32(Span(Of Byte), Integer, UInteger)
+- uid: CXEX.Core.Utilities.MemoryPrimitives.WriteU64(System.Span{System.Byte},System.Int32,System.UInt64)
+  commentId: M:CXEX.Core.Utilities.MemoryPrimitives.WriteU64(System.Span{System.Byte},System.Int32,System.UInt64)
+  id: WriteU64(System.Span{System.Byte},System.Int32,System.UInt64)
+  parent: CXEX.Core.Utilities.MemoryPrimitives
+  langs:
+  - csharp
+  - vb
+  name: WriteU64(Span<byte>, int, ulong)
+  nameWithType: MemoryPrimitives.WriteU64(Span<byte>, int, ulong)
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.WriteU64(System.Span<byte>, int, ulong)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Utilities/MemoryPrimitives.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: WriteU64
+    path: ../CXEX.Core/Utilities/MemoryPrimitives.cs
+    startLine: 22
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Utilities
+  syntax:
+    content: public static void WriteU64(Span<byte> data, int offset, ulong value)
+    parameters:
+    - id: data
+      type: System.Span{System.Byte}
+    - id: offset
+      type: System.Int32
+    - id: value
+      type: System.UInt64
+    content.vb: Public Shared Sub WriteU64(data As Span(Of Byte), offset As Integer, value As ULong)
+  overload: CXEX.Core.Utilities.MemoryPrimitives.WriteU64*
+  nameWithType.vb: MemoryPrimitives.WriteU64(Span(Of Byte), Integer, ULong)
+  fullName.vb: CXEX.Core.Utilities.MemoryPrimitives.WriteU64(System.Span(Of Byte), Integer, ULong)
+  name.vb: WriteU64(Span(Of Byte), Integer, ULong)
+references:
+- uid: CXEX.Core.Utilities
+  commentId: N:CXEX.Core.Utilities
+  href: CXEX.html
+  name: CXEX.Core.Utilities
+  nameWithType: CXEX.Core.Utilities
+  fullName: CXEX.Core.Utilities
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Utilities
+    name: Utilities
+    href: CXEX.Core.Utilities.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Utilities
+    name: Utilities
+    href: CXEX.Core.Utilities.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Core.Utilities.MemoryPrimitives.ReadU16*
+  commentId: Overload:CXEX.Core.Utilities.MemoryPrimitives.ReadU16
+  href: CXEX.Core.Utilities.MemoryPrimitives.html#CXEX_Core_Utilities_MemoryPrimitives_ReadU16_System_ReadOnlySpan_System_Byte__System_Int32_
+  name: ReadU16
+  nameWithType: MemoryPrimitives.ReadU16
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.ReadU16
+- uid: System.ReadOnlySpan{System.Byte}
+  commentId: T:System.ReadOnlySpan{System.Byte}
+  parent: System
+  definition: System.ReadOnlySpan`1
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<byte>
+  nameWithType: ReadOnlySpan<byte>
+  fullName: System.ReadOnlySpan<byte>
+  nameWithType.vb: ReadOnlySpan(Of Byte)
+  fullName.vb: System.ReadOnlySpan(Of Byte)
+  name.vb: ReadOnlySpan(Of Byte)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint16
+  name: ushort
+  nameWithType: ushort
+  fullName: ushort
+  nameWithType.vb: UShort
+  fullName.vb: UShort
+  name.vb: UShort
+- uid: System.ReadOnlySpan`1
+  commentId: T:System.ReadOnlySpan`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  name: ReadOnlySpan<T>
+  nameWithType: ReadOnlySpan<T>
+  fullName: System.ReadOnlySpan<T>
+  nameWithType.vb: ReadOnlySpan(Of T)
+  fullName.vb: System.ReadOnlySpan(Of T)
+  name.vb: ReadOnlySpan(Of T)
+  spec.csharp:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.ReadOnlySpan`1
+    name: ReadOnlySpan
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.readonlyspan-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CXEX.Core.Utilities.MemoryPrimitives.ReadU32*
+  commentId: Overload:CXEX.Core.Utilities.MemoryPrimitives.ReadU32
+  href: CXEX.Core.Utilities.MemoryPrimitives.html#CXEX_Core_Utilities_MemoryPrimitives_ReadU32_System_ReadOnlySpan_System_Byte__System_Int32_
+  name: ReadU32
+  nameWithType: MemoryPrimitives.ReadU32
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.ReadU32
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: CXEX.Core.Utilities.MemoryPrimitives.ReadU64*
+  commentId: Overload:CXEX.Core.Utilities.MemoryPrimitives.ReadU64
+  href: CXEX.Core.Utilities.MemoryPrimitives.html#CXEX_Core_Utilities_MemoryPrimitives_ReadU64_System_ReadOnlySpan_System_Byte__System_Int32_
+  name: ReadU64
+  nameWithType: MemoryPrimitives.ReadU64
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.ReadU64
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint64
+  name: ulong
+  nameWithType: ulong
+  fullName: ulong
+  nameWithType.vb: ULong
+  fullName.vb: ULong
+  name.vb: ULong
+- uid: CXEX.Core.Utilities.MemoryPrimitives.WriteU16*
+  commentId: Overload:CXEX.Core.Utilities.MemoryPrimitives.WriteU16
+  href: CXEX.Core.Utilities.MemoryPrimitives.html#CXEX_Core_Utilities_MemoryPrimitives_WriteU16_System_Span_System_Byte__System_Int32_System_UInt16_
+  name: WriteU16
+  nameWithType: MemoryPrimitives.WriteU16
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.WriteU16
+- uid: System.Span{System.Byte}
+  commentId: T:System.Span{System.Byte}
+  parent: System
+  definition: System.Span`1
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<byte>
+  nameWithType: Span<byte>
+  fullName: System.Span<byte>
+  nameWithType.vb: Span(Of Byte)
+  fullName.vb: System.Span(Of Byte)
+  name.vb: Span(Of Byte)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: )
+- uid: System.Span`1
+  commentId: T:System.Span`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.span-1
+  name: Span<T>
+  nameWithType: Span<T>
+  fullName: System.Span<T>
+  nameWithType.vb: Span(Of T)
+  fullName.vb: System.Span(Of T)
+  name.vb: Span(Of T)
+  spec.csharp:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Span`1
+    name: Span
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.span-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CXEX.Core.Utilities.MemoryPrimitives.WriteU32*
+  commentId: Overload:CXEX.Core.Utilities.MemoryPrimitives.WriteU32
+  href: CXEX.Core.Utilities.MemoryPrimitives.html#CXEX_Core_Utilities_MemoryPrimitives_WriteU32_System_Span_System_Byte__System_Int32_System_UInt32_
+  name: WriteU32
+  nameWithType: MemoryPrimitives.WriteU32
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.WriteU32
+- uid: CXEX.Core.Utilities.MemoryPrimitives.WriteU64*
+  commentId: Overload:CXEX.Core.Utilities.MemoryPrimitives.WriteU64
+  href: CXEX.Core.Utilities.MemoryPrimitives.html#CXEX_Core_Utilities_MemoryPrimitives_WriteU64_System_Span_System_Byte__System_Int32_System_UInt64_
+  name: WriteU64
+  nameWithType: MemoryPrimitives.WriteU64
+  fullName: CXEX.Core.Utilities.MemoryPrimitives.WriteU64

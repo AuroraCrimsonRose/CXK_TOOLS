@@ -1,0 +1,564 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag
+  commentId: T:CXEX.Lang.Diagnostics.DiagnosticBag
+  id: DiagnosticBag
+  parent: CXEX.Lang.Diagnostics
+  children:
+  - CXEX.Lang.Diagnostics.DiagnosticBag.Error(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  - CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors
+  - CXEX.Lang.Diagnostics.DiagnosticBag.Items
+  - CXEX.Lang.Diagnostics.DiagnosticBag.Warning(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  langs:
+  - csharp
+  - vb
+  name: DiagnosticBag
+  nameWithType: DiagnosticBag
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag
+  type: Class
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: DiagnosticBag
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 12
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  summary: Collects diagnostics across a compile. HasErrors gates later phases.
+  example: []
+  syntax:
+    content: public sealed class DiagnosticBag
+    content.vb: Public NotInheritable Class DiagnosticBag
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.Items
+  commentId: P:CXEX.Lang.Diagnostics.DiagnosticBag.Items
+  id: Items
+  parent: CXEX.Lang.Diagnostics.DiagnosticBag
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: DiagnosticBag.Items
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.Items
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Items
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 15
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public IReadOnlyList<Diagnostic> Items { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IReadOnlyList{CXEX.Lang.Diagnostics.Diagnostic}
+    content.vb: Public ReadOnly Property Items As IReadOnlyList(Of Diagnostic)
+  overload: CXEX.Lang.Diagnostics.DiagnosticBag.Items*
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors
+  commentId: P:CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors
+  id: HasErrors
+  parent: CXEX.Lang.Diagnostics.DiagnosticBag
+  langs:
+  - csharp
+  - vb
+  name: HasErrors
+  nameWithType: DiagnosticBag.HasErrors
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors
+  type: Property
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: HasErrors
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 16
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public bool HasErrors { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasErrors As Boolean
+  overload: CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors*
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.Error(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  commentId: M:CXEX.Lang.Diagnostics.DiagnosticBag.Error(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  id: Error(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  parent: CXEX.Lang.Diagnostics.DiagnosticBag
+  langs:
+  - csharp
+  - vb
+  name: Error(string, SourceSpan)
+  nameWithType: DiagnosticBag.Error(string, SourceSpan)
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.Error(string, CXEX.Lang.Diagnostics.SourceSpan)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Error
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 18
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public void Error(string msg, SourceSpan span)
+    parameters:
+    - id: msg
+      type: System.String
+    - id: span
+      type: CXEX.Lang.Diagnostics.SourceSpan
+    content.vb: Public Sub [Error](msg As String, span As SourceSpan)
+  overload: CXEX.Lang.Diagnostics.DiagnosticBag.Error*
+  nameWithType.vb: DiagnosticBag.Error(String, SourceSpan)
+  fullName.vb: CXEX.Lang.Diagnostics.DiagnosticBag.Error(String, CXEX.Lang.Diagnostics.SourceSpan)
+  name.vb: Error(String, SourceSpan)
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.Warning(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  commentId: M:CXEX.Lang.Diagnostics.DiagnosticBag.Warning(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  id: Warning(System.String,CXEX.Lang.Diagnostics.SourceSpan)
+  parent: CXEX.Lang.Diagnostics.DiagnosticBag
+  langs:
+  - csharp
+  - vb
+  name: Warning(string, SourceSpan)
+  nameWithType: DiagnosticBag.Warning(string, SourceSpan)
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.Warning(string, CXEX.Lang.Diagnostics.SourceSpan)
+  type: Method
+  source:
+    remote:
+      path: CXEX.Lang/Diagnostics/Diagnostics.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Warning
+    path: ../CXEX.Lang/Diagnostics/Diagnostics.cs
+    startLine: 19
+  assemblies:
+  - CXEX.Lang
+  namespace: CXEX.Lang.Diagnostics
+  syntax:
+    content: public void Warning(string msg, SourceSpan span)
+    parameters:
+    - id: msg
+      type: System.String
+    - id: span
+      type: CXEX.Lang.Diagnostics.SourceSpan
+    content.vb: Public Sub Warning(msg As String, span As SourceSpan)
+  overload: CXEX.Lang.Diagnostics.DiagnosticBag.Warning*
+  nameWithType.vb: DiagnosticBag.Warning(String, SourceSpan)
+  fullName.vb: CXEX.Lang.Diagnostics.DiagnosticBag.Warning(String, CXEX.Lang.Diagnostics.SourceSpan)
+  name.vb: Warning(String, SourceSpan)
+references:
+- uid: CXEX.Lang.Diagnostics
+  commentId: N:CXEX.Lang.Diagnostics
+  href: CXEX.html
+  name: CXEX.Lang.Diagnostics
+  nameWithType: CXEX.Lang.Diagnostics
+  fullName: CXEX.Lang.Diagnostics
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Diagnostics
+    name: Diagnostics
+    href: CXEX.Lang.Diagnostics.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.Items*
+  commentId: Overload:CXEX.Lang.Diagnostics.DiagnosticBag.Items
+  href: CXEX.Lang.Diagnostics.DiagnosticBag.html#CXEX_Lang_Diagnostics_DiagnosticBag_Items
+  name: Items
+  nameWithType: DiagnosticBag.Items
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.Items
+- uid: System.Collections.Generic.IReadOnlyList{CXEX.Lang.Diagnostics.Diagnostic}
+  commentId: T:System.Collections.Generic.IReadOnlyList{CXEX.Lang.Diagnostics.Diagnostic}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<Diagnostic>
+  nameWithType: IReadOnlyList<Diagnostic>
+  fullName: System.Collections.Generic.IReadOnlyList<CXEX.Lang.Diagnostics.Diagnostic>
+  nameWithType.vb: IReadOnlyList(Of Diagnostic)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of CXEX.Lang.Diagnostics.Diagnostic)
+  name.vb: IReadOnlyList(Of Diagnostic)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: CXEX.Lang.Diagnostics.Diagnostic
+    name: Diagnostic
+    href: CXEX.Lang.Diagnostics.Diagnostic.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: CXEX.Lang.Diagnostics.Diagnostic
+    name: Diagnostic
+    href: CXEX.Lang.Diagnostics.Diagnostic.html
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors*
+  commentId: Overload:CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors
+  href: CXEX.Lang.Diagnostics.DiagnosticBag.html#CXEX_Lang_Diagnostics_DiagnosticBag_HasErrors
+  name: HasErrors
+  nameWithType: DiagnosticBag.HasErrors
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.HasErrors
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.Error*
+  commentId: Overload:CXEX.Lang.Diagnostics.DiagnosticBag.Error
+  href: CXEX.Lang.Diagnostics.DiagnosticBag.html#CXEX_Lang_Diagnostics_DiagnosticBag_Error_System_String_CXEX_Lang_Diagnostics_SourceSpan_
+  name: Error
+  nameWithType: DiagnosticBag.Error
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.Error
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.Lang.Diagnostics.SourceSpan
+  commentId: T:CXEX.Lang.Diagnostics.SourceSpan
+  parent: CXEX.Lang.Diagnostics
+  href: CXEX.Lang.Diagnostics.SourceSpan.html
+  name: SourceSpan
+  nameWithType: SourceSpan
+  fullName: CXEX.Lang.Diagnostics.SourceSpan
+- uid: CXEX.Lang.Diagnostics.DiagnosticBag.Warning*
+  commentId: Overload:CXEX.Lang.Diagnostics.DiagnosticBag.Warning
+  href: CXEX.Lang.Diagnostics.DiagnosticBag.html#CXEX_Lang_Diagnostics_DiagnosticBag_Warning_System_String_CXEX_Lang_Diagnostics_SourceSpan_
+  name: Warning
+  nameWithType: DiagnosticBag.Warning
+  fullName: CXEX.Lang.Diagnostics.DiagnosticBag.Warning

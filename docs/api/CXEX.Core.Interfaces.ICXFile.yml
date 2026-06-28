@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Core.Interfaces.ICXFile
+  commentId: T:CXEX.Core.Interfaces.ICXFile
+  id: ICXFile
+  parent: CXEX.Core.Interfaces
+  children:
+  - CXEX.Core.Interfaces.ICXFile.GetDisplayName
+  - CXEX.Core.Interfaces.ICXFile.Load(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: ICXFile
+  nameWithType: ICXFile
+  fullName: CXEX.Core.Interfaces.ICXFile
+  type: Interface
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFile.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: ICXFile
+    path: ../CXEX.Core/Interfaces/ICXFile.cs
+    startLine: 2
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: public interface ICXFile
+    content.vb: Public Interface ICXFile
+- uid: CXEX.Core.Interfaces.ICXFile.GetDisplayName
+  commentId: M:CXEX.Core.Interfaces.ICXFile.GetDisplayName
+  id: GetDisplayName
+  parent: CXEX.Core.Interfaces.ICXFile
+  langs:
+  - csharp
+  - vb
+  name: GetDisplayName()
+  nameWithType: ICXFile.GetDisplayName()
+  fullName: CXEX.Core.Interfaces.ICXFile.GetDisplayName()
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFile.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: GetDisplayName
+    path: ../CXEX.Core/Interfaces/ICXFile.cs
+    startLine: 4
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: string GetDisplayName()
+    return:
+      type: System.String
+    content.vb: Function GetDisplayName() As String
+  overload: CXEX.Core.Interfaces.ICXFile.GetDisplayName*
+- uid: CXEX.Core.Interfaces.ICXFile.Load(System.Byte[])
+  commentId: M:CXEX.Core.Interfaces.ICXFile.Load(System.Byte[])
+  id: Load(System.Byte[])
+  parent: CXEX.Core.Interfaces.ICXFile
+  langs:
+  - csharp
+  - vb
+  name: Load(byte[])
+  nameWithType: ICXFile.Load(byte[])
+  fullName: CXEX.Core.Interfaces.ICXFile.Load(byte[])
+  type: Method
+  source:
+    remote:
+      path: CXEX.Core/Interfaces/ICXFile.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Load
+    path: ../CXEX.Core/Interfaces/ICXFile.cs
+    startLine: 5
+  assemblies:
+  - CXEX.Core
+  namespace: CXEX.Core.Interfaces
+  syntax:
+    content: void Load(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    content.vb: Sub Load(data As Byte())
+  overload: CXEX.Core.Interfaces.ICXFile.Load*
+  nameWithType.vb: ICXFile.Load(Byte())
+  fullName.vb: CXEX.Core.Interfaces.ICXFile.Load(Byte())
+  name.vb: Load(Byte())
+references:
+- uid: CXEX.Core.Interfaces
+  commentId: N:CXEX.Core.Interfaces
+  href: CXEX.html
+  name: CXEX.Core.Interfaces
+  nameWithType: CXEX.Core.Interfaces
+  fullName: CXEX.Core.Interfaces
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Interfaces
+    name: Interfaces
+    href: CXEX.Core.Interfaces.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Core
+    name: Core
+    href: CXEX.Core.html
+  - name: .
+  - uid: CXEX.Core.Interfaces
+    name: Interfaces
+    href: CXEX.Core.Interfaces.html
+- uid: CXEX.Core.Interfaces.ICXFile.GetDisplayName*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFile.GetDisplayName
+  href: CXEX.Core.Interfaces.ICXFile.html#CXEX_Core_Interfaces_ICXFile_GetDisplayName
+  name: GetDisplayName
+  nameWithType: ICXFile.GetDisplayName
+  fullName: CXEX.Core.Interfaces.ICXFile.GetDisplayName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CXEX.Core.Interfaces.ICXFile.Load*
+  commentId: Overload:CXEX.Core.Interfaces.ICXFile.Load
+  href: CXEX.Core.Interfaces.ICXFile.html#CXEX_Core_Interfaces_ICXFile_Load_System_Byte___
+  name: Load
+  nameWithType: ICXFile.Load
+  fullName: CXEX.Core.Interfaces.ICXFile.Load
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )

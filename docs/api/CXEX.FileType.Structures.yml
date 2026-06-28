@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileType.Structures
+  commentId: N:CXEX.FileType.Structures
+  id: CXEX.FileType.Structures
+  children:
+  - CXEX.FileType.Structures.CXEXHeader
+  - CXEX.FileType.Structures.CXEXSection
+  - CXEX.FileType.Structures.CXEXSignatureBlock
+  - CXEX.FileType.Structures.CXPKHeader
+  - CXEX.FileType.Structures.XBPTEntry
+  - CXEX.FileType.Structures.XBPTHeader
+  langs:
+  - csharp
+  - vb
+  name: CXEX.FileType.Structures
+  nameWithType: CXEX.FileType.Structures
+  fullName: CXEX.FileType.Structures
+  type: Namespace
+  assemblies:
+  - CXEX.FileType
+references:
+- uid: CXEX.FileType.Structures.CXEXHeader
+  commentId: T:CXEX.FileType.Structures.CXEXHeader
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.CXEXHeader.html
+  name: CXEXHeader
+  nameWithType: CXEXHeader
+  fullName: CXEX.FileType.Structures.CXEXHeader
+- uid: CXEX.FileType.Structures.CXEXSection
+  commentId: T:CXEX.FileType.Structures.CXEXSection
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.CXEXSection.html
+  name: CXEXSection
+  nameWithType: CXEXSection
+  fullName: CXEX.FileType.Structures.CXEXSection
+- uid: CXEX.FileType.Structures.CXEXSignatureBlock
+  commentId: T:CXEX.FileType.Structures.CXEXSignatureBlock
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.CXEXSignatureBlock.html
+  name: CXEXSignatureBlock
+  nameWithType: CXEXSignatureBlock
+  fullName: CXEX.FileType.Structures.CXEXSignatureBlock
+- uid: CXEX.FileType.Structures.XBPTHeader
+  commentId: T:CXEX.FileType.Structures.XBPTHeader
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.XBPTHeader.html
+  name: XBPTHeader
+  nameWithType: XBPTHeader
+  fullName: CXEX.FileType.Structures.XBPTHeader
+- uid: CXEX.FileType.Structures.XBPTEntry
+  commentId: T:CXEX.FileType.Structures.XBPTEntry
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.XBPTEntry.html
+  name: XBPTEntry
+  nameWithType: XBPTEntry
+  fullName: CXEX.FileType.Structures.XBPTEntry
+- uid: CXEX.FileType.Structures.CXPKHeader
+  commentId: T:CXEX.FileType.Structures.CXPKHeader
+  parent: CXEX.FileType.Structures
+  href: CXEX.FileType.Structures.CXPKHeader.html
+  name: CXPKHeader
+  nameWithType: CXPKHeader
+  fullName: CXEX.FileType.Structures.CXPKHeader
+- uid: CXEX.FileType.Structures
+  commentId: N:CXEX.FileType.Structures
+  href: CXEX.html
+  name: CXEX.FileType.Structures
+  nameWithType: CXEX.FileType.Structures
+  fullName: CXEX.FileType.Structures
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Structures
+    name: Structures
+    href: CXEX.FileType.Structures.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.FileType
+    name: FileType
+    href: CXEX.FileType.html
+  - name: .
+  - uid: CXEX.FileType.Structures
+    name: Structures
+    href: CXEX.FileType.Structures.html

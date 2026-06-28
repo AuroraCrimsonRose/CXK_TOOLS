@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Lang.Sema
+  commentId: N:CXEX.Lang.Sema
+  id: CXEX.Lang.Sema
+  children:
+  - CXEX.Lang.Sema.ConstFold
+  - CXEX.Lang.Sema.Resolver
+  - CXEX.Lang.Sema.Scope
+  - CXEX.Lang.Sema.SemaContext
+  - CXEX.Lang.Sema.SymKind
+  - CXEX.Lang.Sema.Symbol
+  - CXEX.Lang.Sema.TypeChecker
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Lang.Sema
+  nameWithType: CXEX.Lang.Sema
+  fullName: CXEX.Lang.Sema
+  type: Namespace
+  assemblies:
+  - CXEX.Lang
+references:
+- uid: CXEX.Lang.Sema.ConstFold
+  commentId: T:CXEX.Lang.Sema.ConstFold
+  href: CXEX.Lang.Sema.ConstFold.html
+  name: ConstFold
+  nameWithType: ConstFold
+  fullName: CXEX.Lang.Sema.ConstFold
+- uid: CXEX.Lang.Sema.SymKind
+  commentId: T:CXEX.Lang.Sema.SymKind
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.SymKind.html
+  name: SymKind
+  nameWithType: SymKind
+  fullName: CXEX.Lang.Sema.SymKind
+- uid: CXEX.Lang.Sema.Symbol
+  commentId: T:CXEX.Lang.Sema.Symbol
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.Symbol.html
+  name: Symbol
+  nameWithType: Symbol
+  fullName: CXEX.Lang.Sema.Symbol
+- uid: CXEX.Lang.Sema.Scope
+  commentId: T:CXEX.Lang.Sema.Scope
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.Scope.html
+  name: Scope
+  nameWithType: Scope
+  fullName: CXEX.Lang.Sema.Scope
+- uid: CXEX.Lang.Sema.SemaContext
+  commentId: T:CXEX.Lang.Sema.SemaContext
+  parent: CXEX.Lang.Sema
+  href: CXEX.Lang.Sema.SemaContext.html
+  name: SemaContext
+  nameWithType: SemaContext
+  fullName: CXEX.Lang.Sema.SemaContext
+- uid: CXEX.Lang.Sema.Resolver
+  commentId: T:CXEX.Lang.Sema.Resolver
+  href: CXEX.Lang.Sema.Resolver.html
+  name: Resolver
+  nameWithType: Resolver
+  fullName: CXEX.Lang.Sema.Resolver
+- uid: CXEX.Lang.Sema.TypeChecker
+  commentId: T:CXEX.Lang.Sema.TypeChecker
+  href: CXEX.Lang.Sema.TypeChecker.html
+  name: TypeChecker
+  nameWithType: TypeChecker
+  fullName: CXEX.Lang.Sema.TypeChecker
+- uid: CXEX.Lang.Sema
+  commentId: N:CXEX.Lang.Sema
+  href: CXEX.html
+  name: CXEX.Lang.Sema
+  nameWithType: CXEX.Lang.Sema
+  fullName: CXEX.Lang.Sema
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.Lang
+    name: Lang
+    href: CXEX.Lang.html
+  - name: .
+  - uid: CXEX.Lang.Sema
+    name: Sema
+    href: CXEX.Lang.Sema.html

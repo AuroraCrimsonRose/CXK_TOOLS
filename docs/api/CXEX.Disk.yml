@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.Disk
+  commentId: N:CXEX.Disk
+  id: CXEX.Disk
+  children:
+  - CXEX.Disk.DiskAnalyzer
+  langs:
+  - csharp
+  - vb
+  name: CXEX.Disk
+  nameWithType: CXEX.Disk
+  fullName: CXEX.Disk
+  type: Namespace
+  assemblies:
+  - CXEX.Disk
+references:
+- uid: CXEX.Disk.DiskAnalyzer
+  commentId: T:CXEX.Disk.DiskAnalyzer
+  href: CXEX.Disk.DiskAnalyzer.html
+  name: DiskAnalyzer
+  nameWithType: DiskAnalyzer
+  fullName: CXEX.Disk.DiskAnalyzer

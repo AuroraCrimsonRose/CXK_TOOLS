@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.FileType.Parsers
+  commentId: N:CXEX.FileType.Parsers
+  id: CXEX.FileType.Parsers
+  children:
+  - CXEX.FileType.Parsers.CXEXParser
+  - CXEX.FileType.Parsers.CXOtherParsers
+  langs:
+  - csharp
+  - vb
+  name: CXEX.FileType.Parsers
+  nameWithType: CXEX.FileType.Parsers
+  fullName: CXEX.FileType.Parsers
+  type: Namespace
+  assemblies:
+  - CXEX.FileType
+references:
+- uid: CXEX.FileType.Parsers.CXEXParser
+  commentId: T:CXEX.FileType.Parsers.CXEXParser
+  href: CXEX.FileType.Parsers.CXEXParser.html
+  name: CXEXParser
+  nameWithType: CXEXParser
+  fullName: CXEX.FileType.Parsers.CXEXParser
+- uid: CXEX.FileType.Parsers.CXOtherParsers
+  commentId: T:CXEX.FileType.Parsers.CXOtherParsers
+  href: CXEX.FileType.Parsers.CXOtherParsers.html
+  name: CXOtherParsers
+  nameWithType: CXOtherParsers
+  fullName: CXEX.FileType.Parsers.CXOtherParsers

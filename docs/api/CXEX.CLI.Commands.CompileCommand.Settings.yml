@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: CXEX.CLI.Commands.CompileCommand.Settings
+  commentId: T:CXEX.CLI.Commands.CompileCommand.Settings
+  id: CompileCommand.Settings
+  parent: CXEX.CLI.Commands
+  children:
+  - CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm
+  - CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript
+  - CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude
+  - CXEX.CLI.Commands.CompileCommand.Settings.Output
+  - CXEX.CLI.Commands.CompileCommand.Settings.Source
+  langs:
+  - csharp
+  - vb
+  name: CompileCommand.Settings
+  nameWithType: CompileCommand.Settings
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings
+  type: Class
+  source:
+    remote:
+      path: CXEX.CLI/Commands/CompileCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Settings
+    path: ../CXEX.CLI/Commands/CompileCommand.cs
+    startLine: 23
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: 'public class CompileCommand.Settings : CommandSettings'
+    content.vb: Public Class CompileCommand.Settings Inherits CommandSettings
+  inheritance:
+  - System.Object
+  - Spectre.Console.Cli.CommandSettings
+  inheritedMembers:
+  - Spectre.Console.Cli.CommandSettings.Validate
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.Source
+  commentId: P:CXEX.CLI.Commands.CompileCommand.Settings.Source
+  id: Source
+  parent: CXEX.CLI.Commands.CompileCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: CompileCommand.Settings.Source
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.Source
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/CompileCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Source
+    path: ../CXEX.CLI/Commands/CompileCommand.cs
+    startLine: 25
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandArgument(0, "<SOURCE>")]
+
+      public string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CommandArgument(0, "<SOURCE>")>
+
+      Public Property Source As String
+  overload: CXEX.CLI.Commands.CompileCommand.Settings.Source*
+  attributes:
+  - type: Spectre.Console.Cli.CommandArgumentAttribute
+    ctor: Spectre.Console.Cli.CommandArgumentAttribute.#ctor(System.Int32,System.String)
+    arguments:
+    - type: System.Int32
+      value: 0
+    - type: System.String
+      value: <SOURCE>
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.Output
+  commentId: P:CXEX.CLI.Commands.CompileCommand.Settings.Output
+  id: Output
+  parent: CXEX.CLI.Commands.CompileCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: Output
+  nameWithType: CompileCommand.Settings.Output
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.Output
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/CompileCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: Output
+    path: ../CXEX.CLI/Commands/CompileCommand.cs
+    startLine: 29
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandArgument(1, "<OUTPUT_ELF>")]
+
+      public string Output { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CommandArgument(1, "<OUTPUT_ELF>")>
+
+      Public Property Output As String
+  overload: CXEX.CLI.Commands.CompileCommand.Settings.Output*
+  attributes:
+  - type: Spectre.Console.Cli.CommandArgumentAttribute
+    ctor: Spectre.Console.Cli.CommandArgumentAttribute.#ctor(System.Int32,System.String)
+    arguments:
+    - type: System.Int32
+      value: 1
+    - type: System.String
+      value: <OUTPUT_ELF>
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript
+  commentId: P:CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript
+  id: LinkerScript
+  parent: CXEX.CLI.Commands.CompileCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: LinkerScript
+  nameWithType: CompileCommand.Settings.LinkerScript
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/CompileCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: LinkerScript
+    path: ../CXEX.CLI/Commands/CompileCommand.cs
+    startLine: 33
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--ld <SCRIPT>", false)]
+
+      public string? LinkerScript { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <CommandOption("--ld <SCRIPT>", False)>
+
+      Public Property LinkerScript As String
+  overload: CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --ld <SCRIPT>
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude
+  commentId: P:CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude
+  id: NoPrelude
+  parent: CXEX.CLI.Commands.CompileCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: NoPrelude
+  nameWithType: CompileCommand.Settings.NoPrelude
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/CompileCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: NoPrelude
+    path: ../CXEX.CLI/Commands/CompileCommand.cs
+    startLine: 37
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--no-prelude", false)]
+
+      public bool NoPrelude { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <CommandOption("--no-prelude", False)>
+
+      Public Property NoPrelude As Boolean
+  overload: CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --no-prelude
+    - type: System.Boolean
+      value: false
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm
+  commentId: P:CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm
+  id: EmitAsm
+  parent: CXEX.CLI.Commands.CompileCommand.Settings
+  langs:
+  - csharp
+  - vb
+  name: EmitAsm
+  nameWithType: CompileCommand.Settings.EmitAsm
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm
+  type: Property
+  source:
+    remote:
+      path: CXEX.CLI/Commands/CompileCommand.cs
+      branch: main
+      repo: https://github.com/AuroraCrimsonRose/CXK_TOOLS.git
+    id: EmitAsm
+    path: ../CXEX.CLI/Commands/CompileCommand.cs
+    startLine: 41
+  assemblies:
+  - CXEX.CLI
+  namespace: CXEX.CLI.Commands
+  syntax:
+    content: >-
+      [CommandOption("--emit-asm", false)]
+
+      public bool EmitAsm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <CommandOption("--emit-asm", False)>
+
+      Public Property EmitAsm As Boolean
+  overload: CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm*
+  attributes:
+  - type: Spectre.Console.Cli.CommandOptionAttribute
+    ctor: Spectre.Console.Cli.CommandOptionAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: --emit-asm
+    - type: System.Boolean
+      value: false
+references:
+- uid: CXEX.CLI.Commands
+  commentId: N:CXEX.CLI.Commands
+  href: CXEX.html
+  name: CXEX.CLI.Commands
+  nameWithType: CXEX.CLI.Commands
+  fullName: CXEX.CLI.Commands
+  spec.csharp:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html
+  spec.vb:
+  - uid: CXEX
+    name: CXEX
+    href: CXEX.html
+  - name: .
+  - uid: CXEX.CLI
+    name: CLI
+    href: CXEX.CLI.html
+  - name: .
+  - uid: CXEX.CLI.Commands
+    name: Commands
+    href: CXEX.CLI.Commands.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Spectre.Console.Cli.CommandSettings
+  commentId: T:Spectre.Console.Cli.CommandSettings
+  parent: Spectre.Console.Cli
+  isExternal: true
+  name: CommandSettings
+  nameWithType: CommandSettings
+  fullName: Spectre.Console.Cli.CommandSettings
+- uid: Spectre.Console.Cli.CommandSettings.Validate
+  commentId: M:Spectre.Console.Cli.CommandSettings.Validate
+  parent: Spectre.Console.Cli.CommandSettings
+  isExternal: true
+  name: Validate()
+  nameWithType: CommandSettings.Validate()
+  fullName: Spectre.Console.Cli.CommandSettings.Validate()
+  spec.csharp:
+  - uid: Spectre.Console.Cli.CommandSettings.Validate
+    name: Validate
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Spectre.Console.Cli.CommandSettings.Validate
+    name: Validate
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Spectre.Console.Cli
+  commentId: N:Spectre.Console.Cli
+  isExternal: true
+  name: Spectre.Console.Cli
+  nameWithType: Spectre.Console.Cli
+  fullName: Spectre.Console.Cli
+  spec.csharp:
+  - uid: Spectre
+    name: Spectre
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console
+    name: Console
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console.Cli
+    name: Cli
+    isExternal: true
+  spec.vb:
+  - uid: Spectre
+    name: Spectre
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console
+    name: Console
+    isExternal: true
+  - name: .
+  - uid: Spectre.Console.Cli
+    name: Cli
+    isExternal: true
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.Source*
+  commentId: Overload:CXEX.CLI.Commands.CompileCommand.Settings.Source
+  href: CXEX.CLI.Commands.CompileCommand.Settings.html#CXEX_CLI_Commands_CompileCommand_Settings_Source
+  name: Source
+  nameWithType: CompileCommand.Settings.Source
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.Source
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.Output*
+  commentId: Overload:CXEX.CLI.Commands.CompileCommand.Settings.Output
+  href: CXEX.CLI.Commands.CompileCommand.Settings.html#CXEX_CLI_Commands_CompileCommand_Settings_Output
+  name: Output
+  nameWithType: CompileCommand.Settings.Output
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.Output
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript*
+  commentId: Overload:CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript
+  href: CXEX.CLI.Commands.CompileCommand.Settings.html#CXEX_CLI_Commands_CompileCommand_Settings_LinkerScript
+  name: LinkerScript
+  nameWithType: CompileCommand.Settings.LinkerScript
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.LinkerScript
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude*
+  commentId: Overload:CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude
+  href: CXEX.CLI.Commands.CompileCommand.Settings.html#CXEX_CLI_Commands_CompileCommand_Settings_NoPrelude
+  name: NoPrelude
+  nameWithType: CompileCommand.Settings.NoPrelude
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.NoPrelude
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm*
+  commentId: Overload:CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm
+  href: CXEX.CLI.Commands.CompileCommand.Settings.html#CXEX_CLI_Commands_CompileCommand_Settings_EmitAsm
+  name: EmitAsm
+  nameWithType: CompileCommand.Settings.EmitAsm
+  fullName: CXEX.CLI.Commands.CompileCommand.Settings.EmitAsm
